@@ -3,10 +3,12 @@ position: fixed;
 top: 0px;
 left: 0px;
 width: 100%;
-padding: 10px 10px;
+padding: 10px 100px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+z-index: 1111;
+background-color: white;
 }
 
 .navlogo img{
@@ -14,26 +16,54 @@ width: 150px;
 height: auto;
 }
 
-.nav-item-links ul{
 
+.nav-item-links .link-item{
+    display: flex;
+list-style-type: none;
+padding: 0px;
+margin: 0px;
 }
 
-.nav-item-links ul li{
-
+.nav-item-links .link-item li{
+margin: 0px 5px;
+padding: 0px 10px;
+font-weight: 500;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+color: black;
 }
+
+.nav-item-links .link-item li:hover{
+color: gray;
+}
+
 
 .item-dropdown-hov{
-
+position: relative;
 }
-.item-dropdown-hov ul{
-
+.item-dropdown-hov .drop-hov{
+position: absolute;
+opacity: 0;
+padding: 0px;
 }
 
-.item-dropdown-hov ul li{
+.item-dropdown-hov .drop-hov .drop-link{
+display: block;
+}
+
+
+.item-dropdown-hov:hover .drop-hov{
+    opacity: 1;
 
 }
 
 .nolink-dec{
-    color: black !important;
+    color: black;
+    text-decoration: none !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.nolink-dec:hover{
+    color: gray;
     text-decoration: none !important;
 }

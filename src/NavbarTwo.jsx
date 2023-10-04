@@ -349,12 +349,12 @@ const NavbarTwo = () => {
 </div>
 
 <div className='nav-item-links'>
-    <ul>
+    <ul className='link-item'>
         <li className='item-dropdown-hov'> Home
-        {/* <ul>
-            <li>pro1</li>
-            <li>pro2</li>
-        </ul> */}
+        <ul className='drop-hov'>
+            <li className='drop-link'>pro1</li>
+            <li className='drop-link'>pro2</li>
+        </ul>
         </li>
 
         <li><Link to="/" className='nolink-dec'>Services</Link></li>
