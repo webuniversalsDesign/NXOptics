@@ -1,0 +1,39 @@
+.nav-strap{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+padding: 10px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navlogo img{
+width: 150px;
+height: auto;
+}
+
+.nav-item-links ul{
+
+}
+
+.nav-item-links ul li{
+
+}
+
+.item-dropdown-hov{
+
+}
+.item-dropdown-hov ul{
+
+}
+
+.item-dropdown-hov ul li{
+
+}
+
+.nolink-dec{
+    color: black !important;
+    text-decoration: none !important;
+}

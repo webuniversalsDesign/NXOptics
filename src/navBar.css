@@ -461,3 +461,14 @@ color: black;
 position: relative;
 z-index: 0;
 }
+
+
+.hover-item-single .inner-menu-single{
+    position: absolute;
+opacity: 0;
+}
+
+.hover-item-single:hover.inner-menu-single{
+    opacity: 1;
+
+}

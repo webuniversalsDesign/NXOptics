@@ -51,12 +51,13 @@ import { MdOutlineEngineering, MdOutlineAssuredWorkload, MdOutlineSwitchAccessSh
 import { BiPurchaseTag } from 'react-icons/bi';
 import { GrUserExpert } from 'react-icons/gr';
 import { TbTruckDelivery, TbMessageChatbot, TbMessage2 } from 'react-icons/tb';
+import NavbarTwo from '../NavbarTwo';
 
 
  const Index =()=> {
   return (
     <>
-<Navbar/>
+<NavbarTwo/>
 
 
 {/*Carousel Banner Start*/}
