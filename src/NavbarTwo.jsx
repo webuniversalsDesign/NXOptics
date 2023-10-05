@@ -418,24 +418,146 @@ const NavbarTwo = () => {
                 </li>
 
                 <li className='inner-linkers'>40G QSFP+
+                <ul className='lastdrop'>
+                    <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> QSFP+ 40G-SR4</li></Link>   
+                    <Link to="/Product_40G_eSR4" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> QSFP+ 40G-eSR4</li></Link>   
+                    <Link to="/Product_40G_SRBD" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP+ 40G-SRBD</li></Link>   
+                    <Link to="/IR4_40G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP+ 40G-IR4</li></Link>   
+                    <Link to="/Products_40G_LR4" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> QSFP+ 40G-LR4</li></Link>   
+                    <Link to="/Product_40G_ER4" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP+ 40G-ER4</li></Link>   
+                    <Link to="/SWDM4_40G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> QSFP+ 40G-SWDM4</li></Link>   
+                    <Link to="/Product_40G_ZR4" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP+ 40G-ZR4</li></Link>   
+                    <Link to="/PSM4_IR_40G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP+ 40G-PSM4-IR</li></Link>   
+                    <Link to="/PSM4_LR_40G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP+ 40G-PSM4-LR</li></Link>   
+                </ul>
+
+                </li>
+                <li className='inner-linkers'>100G CFP CFP2 CFP4
+                <ul className='lastdrop'>
+                <Link to="/Product_CFP1" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>100G CFP</li></Link>  
+                <Link to="/CFP2_Products_100G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>100G CFP2</li></Link>   
+                <Link to="/Product_CFP4" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>100G CFP4</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>100G QSFP28
+                <ul className='lastdrop'>
+
+                <Link to="/Product_QSFP28_100G_SR4" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-SR4</li></Link>   
+                    <Link to="/Product_QSFP28_100G_SRBD" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> QSFP28-100G-SRBD</li></Link>   
+                    <Link to="/ESR4_100G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-eSR4</li></Link>   
+                    <Link to="/PSM4_Ethernet_100G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-PSM4</li></Link>   
+                    <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-DR1/FR1/LR1</li></Link>   
+                    <Link to="/LR4_100G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-LR4</li></Link>   
+                    <Link to="/ER4_100G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-ER4</li></Link>   
+                    <Link to="/ZR4_100G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-ZR4</li></Link>   
+                    <Link to="/CWDM4_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-CWDM4</li></Link>   
+                    <Link to="/BIDI_4WDM_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-BIDI-4WDM-20</li></Link>   
+                    <Link to="/BIDI_10_to_40_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28-100G-BIDI-10/20/30/40</li></Link>   
+                    <Link to="/QSPF28_adaptor" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28 to SFP28 Adapter</li></Link>   
+              </ul>
+                </li>
+                <li className='inner-linkers'>200G QSFP56 QSFP-DD
+                <ul className='lastdrop'>
+                <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>200G QSFP-DD SR8</li></Link>  
+                <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>200G QSFP56 SR4</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>400G QSFP-DD OSFP
+                <ul className='lastdrop'>
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>400G OSFP SR8</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>400G QSFP-DD SR8 PAM4</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>400G QSFP-DD DR4</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>400G QSFP-DD FR4</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>400G QSFP-DD LR4</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>400G QSFP-DD ER4</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>RJ45 Copper Series
+                <ul className='lastdrop'>
+                <Link to="/SFP_100Tx_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>SFP-100TX</li></Link>  
+                <Link to="/SFP_1000T_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>SFP-1000T</li></Link>   
+                <Link to="/Projects_SFP_10G" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>SFP+ 10G-T</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>Loop Back Series
+                <ul className='lastdrop'>
+                 <Link to="/10G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>SFP+ 10G Loopback</li></Link>   
+                 <Link to="/25G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>SFP28 25G Loopback</li></Link>   
+                 <Link to="/100G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP28 100G Loopback</li></Link>   
+                 <Link to="/200G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP56 200G Loopback</li></Link>   
+                 <Link to="/400G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP-DD 400G Loopback</li></Link>   
+                 <Link to="/40G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>QSFP+ 40G Loopback</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>PON SFP SFP+
+                <ul className='lastdrop'>
+                <Link to="/Products_10G_XG_XGS_PON" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>10G XG/XGS PON</li></Link>  
+                <Link to="/EPON_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>10G EPON</li></Link>   
+                <Link to="/GPON_SFP_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>2.5G GPON SFP</li></Link>   
+                <Link to="/EPON_SFP_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>1.25G EPON SFP</li></Link>   
+                <Link to="/SFF_2X5_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>125M/1.25G 2X5 SFF</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>4G SFP
+                <ul className='lastdrop'>
+                <Link to="/Products_4G_SFP" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>4.25G SFP DUAL</li></Link>   
+                </ul>
                 
                 </li>
-                <li className='inner-linkers'>100G CFP CFP2 CFP4</li>
-                <li className='inner-linkers'>100G QSFP28</li>
-                <li className='inner-linkers'>200G QSFP56 QSFP-DD</li>
-                <li className='inner-linkers'>400G QSFP-DD OSFP</li>
-                <li className='inner-linkers'>RJ45 Copper Series</li>
-                <li className='inner-linkers'>Loop Back Series</li>
-                <li className='inner-linkers'>PON SFP SFP+</li>
-                <li className='inner-linkers'>4G SFP</li>
-                <li className='inner-linkers'>6G SFP+</li>
-                <li className='inner-linkers'>8GFC SFP+</li>
-                <li className='inner-linkers'>10G Xenpak</li>
-                <li className='inner-linkers'>16GFC SFP+( 14.025G )</li>
-                <li className='inner-linkers'>2X5 SFF</li>
-                <li className='inner-linkers'>1X9</li>
-                <li className='inner-linkers'>125M 155M SFP</li>
-                <li className='inner-linkers'>622M SFP</li>
+                <li className='inner-linkers'>6G SFP+
+                <ul className='lastdrop'>
+                <Link to="/Products_6G_SFP" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>6G SFP+ DUAL</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>8GFC SFP+
+                <ul className='lastdrop'>
+                <Link to="/SFP_PLUS_DUAL_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>8GFC SFP+ DUAL</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>10G Xenpak
+                <ul className='lastdrop'>
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>10G XENPAK DUAL</li></Link>   
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>10G XENPAK CWDM</li></Link>   
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>10G XENPAK DWDM</li></Link>   
+                </ul></li>
+                <li className='inner-linkers'>16GFC SFP+( 14.025G )
+                <ul className='lastdrop'>
+                <Link to="/Product_16GFC_SFP" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>16GFC SFP+ SW</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>2X5 SFF
+                <ul className='lastdrop'>
+                <Link to="/SFF_2X5_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>125M/1.25G 2X5 SFF</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>1X9
+                <ul className='lastdrop'>
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>1.25G 1X9 BIDI</li></Link>   
+                <Link to="/Dual_1X9_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>1.25G 1X9 DUAL</li></Link>   
+                <Link to="/CWDM_1X9_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>125/155M 1X9 CWDM</li></Link>   
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>125/155M 1X9 BIDI</li></Link>   
+                <Link to="/Ultra_row_1X9_DC" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>Ultra-Low Data-Rate 1X9 DC~10Mbps </li></Link>   
+                <Link to="/Dual_125_155M_1X9" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>Dual_125_155M_1X9</li></Link>   
+               
+                </ul>
+                </li>
+                <li className='inner-linkers'>125M 155M SFP
+                <ul className='lastdrop'>
+                <Link to="/DWDM_SFP_115M_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>125M/155M SFP DWDM</li></Link>   
+                <Link to="/CWDW_SFP_155M_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>125M/155M SFP CWDM</li></Link>   
+                <Link to="/BIDI_155M_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>125M/155M SFP BIDI</li></Link>   
+                <Link to="/Products_Dual_SFP_155M" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>125M/155M SFP DUAL</li></Link>   
+                <Link to="/Products_622M_SFP_BIDI" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>622M SFP BIDI</li></Link>   
+                <Link to="/Products_622M_SFP_Dual" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>622M SFP DUAL</li></Link>   
+               
+                </ul>
+                </li>
+                <li className='inner-linkers'>622M SF
+                <ul className='lastdrop'>
+                <Link to="/Products_622M_SFP_BIDI" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>622M SFP BIDI</li></Link>   
+                <Link to="/Products_622M_SFP_Dual" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>622M SFP DUAL</li></Link>   
+               </ul>
+               </li>
             </ul>
             </li>
 
