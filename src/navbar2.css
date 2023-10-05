@@ -130,7 +130,7 @@ font-size: 13px;
 .hover-inner-links{
     position: absolute;
     list-style-type: none;
-    right: -160px;
+    right: -190px;
     top: 0px;
     background-color: white;
     box-shadow: 5px 0px 14px 0px #0000002b;
@@ -200,7 +200,7 @@ visibility: hidden;
 }
 
 .inner-linkers{
-    padding: 10px;
+    padding: 8px;
     font-size: 13px;
     position: relative;
 }
@@ -210,9 +210,11 @@ opacity: 0;
 visibility: hidden;
 height: 0px;
 transition: all 0.3s ease-in-out;
-overflow: scroll;
+overflow-x: unset; 
+overflow-y: scroll;
 list-style-type:none;
 padding: 0px;
+margin: 0px;
 }
 
 .lastdrop::-webkit-scrollbar {
@@ -232,6 +234,7 @@ visibility: visible;
     height:65px;
     
 }
+
 
 .lastdrop-items{
 padding:5px;

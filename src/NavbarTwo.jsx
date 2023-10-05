@@ -364,22 +364,62 @@ const NavbarTwo = () => {
                 </ul>
                 </li>
 
+                <li className='inner-linkers'>2.5G SFP
+                <ul className='lastdrop'>
+                 <Link to="/Products_SFP_CWDM" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 2.5G SFP CWDM</li></Link>   
+                 <Link to="/SFP_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 2.5G SFP BIDI</li></Link>   
+                 <Link to="/Products_2point5_Dual" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 2.5G SFP DUAL</li></Link>   
+                 <Link to="/SFP_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 2.5G SFP DWDM</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'>10G SFP+
+                <ul className='lastdrop'>
+                 <Link to="/Tunable_10G_SFP_DWDM" className='nolink-dec'><li className='lastdrop-items'> <IoMdArrowDropright/> SFP+ DWDM Tunable</li></Link>   
+                 <Link to="/Products_DWDM_10G_SFP" className='nolink-dec'><li className='lastdrop-items'> <IoMdArrowDropright/> 10G SFP+ DWDM</li></Link>   
+                 <Link to="/Products_CWDM_10G_SFP" className='nolink-dec'><li className='lastdrop-items'> <IoMdArrowDropright/> 2.5G SFP DUAL</li></Link>   
+                 <Link to="/SFP_PLUS_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'> <IoMdArrowDropright/> 10G SFP+ BIDI</li></Link>   
+                 <Link to="/Products_Dual_10G_SFP " className='nolink-dec'><li className='lastdrop-items'> <IoMdArrowDropright/> 10G SFP+ DUAL</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'>10G XFP
+                <ul className='lastdrop'>
+                 <Link to="/XFP_DWDM_Tunable" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 10G XFP DWDM Tunable</li></Link>   
+                 <Link to="/XFP_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 10G XFP DWDM</li></Link>   
+                 <Link to="/XFP_CWDM_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>10G XFP CWDM</li></Link>   
+                 <Link to="/XFP_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>10G XFP BIDI</li></Link>   
+                 <Link to="/XFP_DUAL_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/>10G XFP DUAL</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'>25G SFP28
+                <ul className='lastdrop'>
+                 <Link to="/SFP28_SR_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 25G SFP28 SR</li></Link>   
+                 <Link to="/SFP28_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 25G SFP28 BIDI</li></Link>   
+                 <Link to="/SFP28_25G_CWDM_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 25G SFP28 CWDM</li></Link>   
+                 <Link to="/SFP28_LR_25G_Projects" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 25G SFP28 LR</li></Link>   
+                 <Link to="/SFP28_25G__LWDM_products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 25G SFP28 LWDM</li></Link>   
+                 <Link to="/SFP28_25G_DWDM" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 25G SFP28 DWDM</li></Link>   
+                 <Link to="/SFP28_25G_SW" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 32GFC SFP28 SW</li></Link>   
+                </ul>
+                </li>
+
                 <li className='inner-linkers'>1.25G CSFP
                 <ul className='lastdrop'>
-                 <Link to="/Dual_Bidi_LC_Products" className='nolink-dec'><li className='lastdrop-items'>1.25G CSFP Dual Bidi LC</li></Link>   
+                 <Link to="/Dual_Bidi_LC_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 1.25G CSFP Dual Bidi LC</li></Link>   
                 </ul>
                 </li>
 
                 <li className='inner-linkers'>1.25G GBIC
                 <ul className='lastdrop'>
-                 <Link to="/Dual_Bidi_LC_Products" className='nolink-dec'><li className='lastdrop-items'>1.25G CSFP Dual Bidi LC</li></Link>   
+                 <Link to="/SFP_1_25G_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 1.25G GBIC SC</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'>2.5G SFP</li>
-                <li className='inner-linkers'>10G SFP+</li>
-                <li className='inner-linkers'>10G XFP</li>
-                <li className='inner-linkers'>25G SFP28</li>
-                <li className='inner-linkers'>40G QSFP+</li>
+
+                <li className='inner-linkers'>40G QSFP+
+                
+                </li>
                 <li className='inner-linkers'>100G CFP CFP2 CFP4</li>
                 <li className='inner-linkers'>100G QSFP28</li>
                 <li className='inner-linkers'>200G QSFP56 QSFP-DD</li>
