@@ -351,11 +351,12 @@ const NavbarTwo = () => {
 
 <div className='nav-item-links'>
     <ul className='link-item'>
-        <li className='item-dropdown-hov'> Home
+    <li className='item-dropdown-hov'><Link to="/" className='nolink-dec'>Home</Link></li>
+        <li className='item-dropdown-hov'> Products
         <ul className='drop-hov'>
-            <li className='drop-link'>Transceiver
+            <li className='drop-link'><IoMdArrowDropright className="arrow-icon"/> Transceiver
             <ul className='hover-inner-links'>
-                <li className='inner-linkers'><IoMdArrowDropright/> 1.25G SFP
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 1.25G SFP
                 <ul className='lastdrop'>
                 <Link to="/SFP_1_25G_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G SFP DWDM</li></Link>
                 <Link to="/SFP_CWDM_1_25G_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G SFP CWDM</li></Link> 
@@ -364,7 +365,7 @@ const NavbarTwo = () => {
                 </ul>
                 </li>
 
-                <li className='inner-linkers'><IoMdArrowDropright/> 2.5G SFP
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 2.5G SFP
                 <ul className='lastdrop'>
                  <Link to="/Products_SFP_CWDM" className='nolink-dec'><li className='lastdrop-items'> 2.5G SFP CWDM</li></Link>   
                  <Link to="/SFP_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'> 2.5G SFP BIDI</li></Link>   
@@ -373,7 +374,7 @@ const NavbarTwo = () => {
                 </ul>
                 </li>
 
-                <li className='inner-linkers'><IoMdArrowDropright/> 10G SFP+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 10G SFP+
                 <ul className='lastdrop'>
                  <Link to="/Tunable_10G_SFP_DWDM" className='nolink-dec'><li className='lastdrop-items'>  SFP+ DWDM Tunable</li></Link>   
                  <Link to="/Products_DWDM_10G_SFP" className='nolink-dec'><li className='lastdrop-items'>  10G SFP+ DWDM</li></Link>   
@@ -383,7 +384,7 @@ const NavbarTwo = () => {
                 </ul>
                 </li>
 
-                <li className='inner-linkers'><IoMdArrowDropright/> 10G XFP
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 10G XFP
                 <ul className='lastdrop'>
                  <Link to="/XFP_DWDM_Tunable" className='nolink-dec'><li className='lastdrop-items'> 10G XFP DWDM Tunable</li></Link>   
                  <Link to="/XFP_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 10G XFP DWDM</li></Link>   
@@ -393,7 +394,7 @@ const NavbarTwo = () => {
                 </ul>
                 </li>
 
-                <li className='inner-linkers'><IoMdArrowDropright/> 25G SFP28
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 25G SFP28
                 <ul className='lastdrop'>
                  <Link to="/SFP28_SR_Products" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 SR</li></Link>   
                  <Link to="/SFP28_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 BIDI</li></Link>   
@@ -405,19 +406,19 @@ const NavbarTwo = () => {
                 </ul>
                 </li>
 
-                <li className='inner-linkers'><IoMdArrowDropright/> 1.25G CSFP
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 1.25G CSFP
                 <ul className='lastdrop'>
                  <Link to="/Dual_Bidi_LC_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G CSFP Dual Bidi LC</li></Link>   
                 </ul>
                 </li>
 
-                <li className='inner-linkers'><IoMdArrowDropright/> 1.25G GBIC
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 1.25G GBIC
                 <ul className='lastdrop'>
                  <Link to="/SFP_1_25G_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G GBIC SC</li></Link>   
                 </ul>
                 </li>
 
-                <li className='inner-linkers'><IoMdArrowDropright/> 40G QSFP+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 40G QSFP+
                 <ul className='lastdrop'>
                     <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'> QSFP+ 40G-SR4</li></Link>   
                     <Link to="/Product_40G_eSR4" className='nolink-dec'><li className='lastdrop-items'> QSFP+ 40G-eSR4</li></Link>   
@@ -432,14 +433,14 @@ const NavbarTwo = () => {
                 </ul>
 
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 100G CFP CFP2 CFP4
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 100G CFP CFP2 CFP4
                 <ul className='lastdrop'>
                 <Link to="/Product_CFP1" className='nolink-dec'><li className='lastdrop-items'>100G CFP</li></Link>  
                 <Link to="/CFP2_Products_100G" className='nolink-dec'><li className='lastdrop-items'>100G CFP2</li></Link>   
                 <Link to="/Product_CFP4" className='nolink-dec'><li className='lastdrop-items'>100G CFP4</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 100G QSFP28
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 100G QSFP28
                 <ul className='lastdrop'>
 
                 <Link to="/Product_QSFP28_100G_SR4" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-SR4</li></Link>   
@@ -456,13 +457,13 @@ const NavbarTwo = () => {
                     <Link to="/QSPF28_adaptor" className='nolink-dec'><li className='lastdrop-items'>QSFP28 to SFP28 Adapter</li></Link>   
               </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 200G QSFP56 QSFP-DD
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 200G QSFP56 QSFP-DD
                 <ul className='lastdrop'>
                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>200G QSFP-DD SR8</li></Link>  
                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>200G QSFP56 SR4</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 400G QSFP-DD OSFP
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 400G QSFP-DD OSFP
                 <ul className='lastdrop'>
                  <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G OSFP SR8</li></Link>   
                  <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G QSFP-DD SR8 PAM4</li></Link>   
@@ -472,14 +473,14 @@ const NavbarTwo = () => {
                  <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G QSFP-DD ER4</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> RJ45 Copper Series
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> RJ45 Copper Series
                 <ul className='lastdrop'>
                 <Link to="/SFP_100Tx_Products" className='nolink-dec'><li className='lastdrop-items'>SFP-100TX</li></Link>  
                 <Link to="/SFP_1000T_Products" className='nolink-dec'><li className='lastdrop-items'>SFP-1000T</li></Link>   
                 <Link to="/Projects_SFP_10G" className='nolink-dec'><li className='lastdrop-items'>SFP+ 10G-T</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> Loop Back Series
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> Loop Back Series
                 <ul className='lastdrop'>
                  <Link to="/10G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>SFP+ 10G Loopback</li></Link>   
                  <Link to="/25G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>SFP28 25G Loopback</li></Link>   
@@ -489,7 +490,7 @@ const NavbarTwo = () => {
                  <Link to="/40G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>QSFP+ 40G Loopback</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> PON SFP SFP+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> PON SFP SFP+
                 <ul className='lastdrop'>
                 <Link to="/Products_10G_XG_XGS_PON" className='nolink-dec'><li className='lastdrop-items'>10G XG/XGS PON</li></Link>  
                 <Link to="/EPON_Products" className='nolink-dec'><li className='lastdrop-items'>10G EPON</li></Link>   
@@ -498,39 +499,39 @@ const NavbarTwo = () => {
                 <Link to="/SFF_2X5_Products" className='nolink-dec'><li className='lastdrop-items'>125M/1.25G 2X5 SFF</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 4G SFP
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 4G SFP
                 <ul className='lastdrop'>
                 <Link to="/Products_4G_SFP" className='nolink-dec'><li className='lastdrop-items'>4.25G SFP DUAL</li></Link>   
                 </ul>
                 
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 6G SFP+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 6G SFP+
                 <ul className='lastdrop'>
                 <Link to="/Products_6G_SFP" className='nolink-dec'><li className='lastdrop-items'>6G SFP+ DUAL</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 8GFC SFP+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 8GFC SFP+
                 <ul className='lastdrop'>
                 <Link to="/SFP_PLUS_DUAL_Products" className='nolink-dec'><li className='lastdrop-items'>8GFC SFP+ DUAL</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 10G Xenpak
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 10G Xenpak
                 <ul className='lastdrop'>
                 <Link to="/" className='nolink-dec'><li className='lastdrop-items'>10G XENPAK DUAL</li></Link>   
                 <Link to="/" className='nolink-dec'><li className='lastdrop-items'>10G XENPAK CWDM</li></Link>   
                 <Link to="/" className='nolink-dec'><li className='lastdrop-items'>10G XENPAK DWDM</li></Link>   
                 </ul></li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 16GFC SFP+( 14.025G )
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 16GFC SFP+( 14.025G )
                 <ul className='lastdrop'>
                 <Link to="/Product_16GFC_SFP" className='nolink-dec'><li className='lastdrop-items'>16GFC SFP+ SW</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 2X5 SFF
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 2X5 SFF
                 <ul className='lastdrop'>
                 <Link to="/SFF_2X5_Products" className='nolink-dec'><li className='lastdrop-items'>125M/1.25G 2X5 SFF</li></Link>   
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 1X9
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 1X9
                 <ul className='lastdrop'>
                 <Link to="/" className='nolink-dec'><li className='lastdrop-items'>1.25G 1X9 BIDI</li></Link>   
                 <Link to="/Dual_1X9_Products" className='nolink-dec'><li className='lastdrop-items'>1.25G 1X9 DUAL</li></Link>   
@@ -541,7 +542,7 @@ const NavbarTwo = () => {
                
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 125M 155M SFP
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 125M 155M SFP
                 <ul className='lastdrop'>
                 <Link to="/DWDM_SFP_115M_Products" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP DWDM</li></Link>   
                 <Link to="/CWDW_SFP_155M_Products" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP CWDM</li></Link>   
@@ -552,7 +553,7 @@ const NavbarTwo = () => {
                
                 </ul>
                 </li>
-                <li className='inner-linkers'><IoMdArrowDropright/> 622M SF
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 622M SF
                 <ul className='lastdrop'>
                 <Link to="/Products_622M_SFP_BIDI" className='nolink-dec'><li className='lastdrop-items'>622M SFP BIDI</li></Link>   
                 <Link to="/Products_622M_SFP_Dual" className='nolink-dec'><li className='lastdrop-items'>622M SFP DUAL</li></Link>   
@@ -561,9 +562,9 @@ const NavbarTwo = () => {
             </ul>
             </li>
 
-            <li className='drop-link2'>Optical Cables / Patch Cords
+            <li className='drop-link2'><IoMdArrowDropright className="arrow-icon"/> Optical Cables / Patch Cords
        <ul className='hover-inner-links2'>
-       <li className='inner-linkers1'><IoMdArrowDropright/> AOC (Active Optical Cable)
+       <li className='inner-linkers1'><IoMdArrowDropright className="arrow-icon"/> AOC (Active Optical Cable)
        <ul className='drop-linkers-items1'>
        <Link to="/AOC_SPSP" className='nolink-dec'><li className='lastdrop-items'> 10G SFP+ AOC</li></Link>
        <Link to="/AOC_SFP28_25G" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 AOC</li></Link>
@@ -572,7 +573,7 @@ const NavbarTwo = () => {
        <Link to="/Products_200G_QSFP56" className='nolink-dec'><li className='lastdrop-items'> 200G QSFP56 AOC</li></Link>
        </ul>
        </li>
-                <li className='inner-linkers2'><IoMdArrowDropright/> DAC (Direct-Attach Cable)
+                <li className='inner-linkers2'><IoMdArrowDropright className="arrow-icon"/> DAC (Direct-Attach Cable)
                 <ul className='drop-linkers-items2'>
        <Link to="/DAC_10G_SFPS" className='nolink-dec'><li className='lastdrop-items'> 10G SFP+ DAC</li></Link>
        <Link to="/DAC_25G_SFP28" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 DAC</li></Link>
@@ -581,7 +582,7 @@ const NavbarTwo = () => {
        </ul>
                 </li>
 
-                <li className='inner-linkers3'><IoMdArrowDropright/> Indoor Patch-cord Cable
+                <li className='inner-linkers3'><IoMdArrowDropright className="arrow-icon"/> Indoor Patch-cord Cable
                 <ul className='drop-linkers-items3'>
        <Link to="/Armored_Breakout_Cable" className='nolink-dec'><li className='lastdrop-items'> Armored Breakout Cable</li></Link>
        <Link to="/Breakout_Cable" className='nolink-dec'><li className='lastdrop-items'> Breakout Cable</li></Link>
@@ -592,7 +593,7 @@ const NavbarTwo = () => {
        </ul>
                 </li>
 
-                <li className='inner-linkers4'><IoMdArrowDropright/> Outdoor Patch-cord Cable
+                <li className='inner-linkers4'><IoMdArrowDropright className="arrow-icon"/> Outdoor Patch-cord Cable
                 <ul className='drop-linkers-items4'>
        <Link to="/" className='nolink-dec'><li className='lastdrop-items'> Armored Patch-cord / Armored Breakout Cable</li></Link>
        <Link to="/" className='nolink-dec'><li className='lastdrop-items'> FTTA Waterproof Cable for Mobile Base Station</li></Link>
@@ -601,7 +602,7 @@ const NavbarTwo = () => {
                 </li>
 
 
-                <li className='inner-linkers5'><IoMdArrowDropright/> MPO Patch-cord Cassette
+                <li className='inner-linkers5'><IoMdArrowDropright className="arrow-icon"/> MPO Patch-cord Cassette
                 
                 <ul className='drop-linkers-items5'>
        <Link to="/MPO_PatchCord" className='nolink-dec'><li className='lastdrop-items'> MPO PatchCord</li></Link>
@@ -610,10 +611,22 @@ const NavbarTwo = () => {
        </ul>
             </li>
 
-            <li className='drop-link3'>Switches
+            <li className='drop-link3'><IoMdArrowDropright className="arrow-icon"/> Switches
             <ul className='hover-inner-links3'>
-       <li className='inner-linkers'>Telecom </li>
-                <li className='inner-linkers'>Industrial</li>
+       <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> Telecom 
+       <ul className='drop-inner-link3-item1'>
+        <li className=''><IoMdArrowDropright className="arrow-icon"/> L2 Ethernet Switches
+        {/* <ul>
+<li><IoMdArrowDropright className="arrow-icon"/> Under L2 Ethernet Switches </li>
+        </ul> */}
+        </li>
+       </ul>
+       </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> Industrial
+                <ul  className='drop-inner-link3-item2'>
+                    <li><IoMdArrowDropright className="arrow-icon"/> POE Switches</li>
+                </ul>
+                </li>
        </ul>
             </li>
         </ul>
