@@ -3,9 +3,9 @@ position: fixed;
 top: 0px;
 left: 0px;
 width: 100%;
-padding: 10px 100px;
+padding: 0px 100px;
 display: flex;
-justify-content: space-between;
+justify-content: start;
 align-items: center;
 z-index: 1111;
 background-color: white;
@@ -14,6 +14,7 @@ background-color: white;
 .navlogo img{
 width: 150px;
 height: auto;
+margin: 0px 100px 0px 0px;
 }
 
 
@@ -24,16 +25,16 @@ padding: 0px;
 margin: 0px;
 }
 
-.nav-item-links .link-item li{
+.nav-item-links .link-item .item-dropdown-hov{
 margin: 0px 5px;
-padding: 0px 10px;
+padding: 25px 10px;
 font-weight: 500;
 cursor: pointer;
 transition: all 0.3s ease-in-out;
 color: black;
 }
 
-.nav-item-links .link-item li:hover{
+.nav-item-links .link-item .item-dropdown-hov:hover{
 color: gray;
 }
 
@@ -42,20 +43,63 @@ color: gray;
 position: relative;
 }
 .item-dropdown-hov .drop-hov{
-position: absolute;
-opacity: 0;
-padding: 0px;
+    position: absolute;
+    /* opacity: 1;
+    visibility: visible; */
+    visibility: hidden; 
+    opacity: 0;
+    padding: 0px;
+    background-color: white;
+    box-shadow: 3px 4px 12px 0px #0000004d;
+    width: max-content;
+    list-style-type:none;
+    top: 70px;
+    transition: all 0.3s ease-in-out;
 }
-
-.item-dropdown-hov .drop-hov .drop-link{
-display: block;
-}
-
 
 .item-dropdown-hov:hover .drop-hov{
     opacity: 1;
+    visibility: visible;
 
 }
+
+.item-dropdown-hov .drop-hov .drop-link{
+    display: block;
+    padding: 10px 5px;
+transition: all 0.3s ease-in-out;
+   
+}
+
+.item-dropdown-hov .drop-hov .drop-link:hover{
+    background-color: rgb(226, 226, 226);
+   
+}
+
+.item-dropdown-hov .drop-hov .drop-link2{
+    display: block;
+    padding: 10px 5px;
+transition: all 0.3s ease-in-out;
+   
+}
+
+.item-dropdown-hov .drop-hov .drop-link2:hover{
+    background-color: rgb(226, 226, 226);
+   
+}
+
+.item-dropdown-hov .drop-hov .drop-link3{
+    display: block;
+    padding: 10px 5px;
+transition: all 0.3s ease-in-out;
+   
+}
+
+.item-dropdown-hov .drop-hov .drop-link3:hover{
+    background-color: rgb(226, 226, 226);
+   
+}
+
+
 
 .nolink-dec{
     color: black;
@@ -66,4 +110,129 @@ display: block;
 .nolink-dec:hover{
     color: gray;
     text-decoration: none !important;
+}
+
+.drop-link{
+    position: relative;
+font-size: 13px;
+}
+
+.drop-link2{
+    position: relative;
+font-size: 13px;
+}
+
+.drop-link3{
+    position: relative;
+font-size: 13px;
+}
+
+.hover-inner-links{
+    position: absolute;
+    list-style-type: none;
+    right: -160px;
+    top: 0px;
+    background-color: white;
+    box-shadow: 5px 0px 14px 0px #0000002b;
+    padding: 0px;
+width: max-content;
+/* opacity: 0; */
+visibility: hidden;
+height: 0px;
+overflow-x: unset; 
+overflow-y: scroll;
+border-radius: 5px;
+transition: all 0.3s ease-in-out;
+}
+
+.hover-inner-links::-webkit-scrollbar {
+    display: block;
+    width: 4px;
+}
+
+.hover-inner-links::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius:2px ;
+
+
+  }
+
+.drop-link:hover .hover-inner-links{
+    /* opacity: 1; */
+    visibility: visible;
+    height: 300px;
+}
+
+.hover-inner-links2{
+    position: absolute;
+    list-style-type: none;
+    right: -109px;
+    top: 1px;
+    background-color: white;
+    box-shadow: 5px 0px 14px 0px #0000002b;
+    padding: 0px;
+width: max-content;
+opacity: 0;
+visibility: hidden;
+}
+
+.drop-link2:hover .hover-inner-links2{
+    opacity: 1;
+    visibility: visible;
+}
+
+.hover-inner-links3{
+    position: absolute;
+    list-style-type: none;
+    right: -105px;
+    top: 20px;
+    background-color: white;
+    box-shadow: 5px 0px 14px 0px #0000002b;
+    padding: 0px;
+width: max-content;
+opacity: 0;
+visibility: hidden;
+}
+
+.drop-link3:hover .hover-inner-links3{
+    opacity: 1;
+    visibility: visible;
+}
+
+.inner-linkers{
+    padding: 10px;
+    font-size: 13px;
+    position: relative;
+}
+
+.lastdrop{
+opacity: 0;
+visibility: hidden;
+height: 0px;
+transition: all 0.3s ease-in-out;
+overflow: scroll;
+list-style-type:none;
+padding: 0px;
+}
+
+.lastdrop::-webkit-scrollbar {
+    display: block;
+    width: 4px;
+}
+
+.lastdrop::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius:2px ;
+
+  }
+
+.inner-linkers:hover .lastdrop{
+visibility: visible;
+    opacity:1;
+    height:65px;
+    
+}
+
+.lastdrop-items{
+padding:5px;
 }

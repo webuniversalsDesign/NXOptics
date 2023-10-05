@@ -1,6 +1,7 @@
 import React from 'react';
 import logoIcon from './img/logo/navlogo.png'; 
 import { Link } from 'react-router-dom';
+import {IoMdArrowDropright} from 'react-icons/io';
 
 
 const NavbarTwo = () => {
@@ -352,12 +353,69 @@ const NavbarTwo = () => {
     <ul className='link-item'>
         <li className='item-dropdown-hov'> Home
         <ul className='drop-hov'>
-            <li className='drop-link'>pro1</li>
-            <li className='drop-link'>pro2</li>
+            <li className='drop-link'>Transceiver
+            <ul className='hover-inner-links'>
+                <li className='inner-linkers'>1.25G SFP
+                <ul className='lastdrop'>
+                <Link to="/SFP_1_25G_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 1.25G SFP DWDM</li></Link>
+                <Link to="/SFP_CWDM_1_25G_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 1.25G SFP CWDM</li></Link> 
+                <Link to="/Products_SFP_1_25G_BIDI" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 1.25G SFP BIDI</li></Link>   
+                <Link to="/SFP_Dual_1_25_Products" className='nolink-dec'><li className='lastdrop-items'><IoMdArrowDropright/> 1.25G SFP DUAL</li></Link> 
+                </ul>
+                </li>
+
+                <li className='inner-linkers'>1.25G CSFP
+                <ul className='lastdrop'>
+                 <Link to="/Dual_Bidi_LC_Products" className='nolink-dec'><li className='lastdrop-items'>1.25G CSFP Dual Bidi LC</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'>1.25G GBIC
+                <ul className='lastdrop'>
+                 <Link to="/Dual_Bidi_LC_Products" className='nolink-dec'><li className='lastdrop-items'>1.25G CSFP Dual Bidi LC</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'>2.5G SFP</li>
+                <li className='inner-linkers'>10G SFP+</li>
+                <li className='inner-linkers'>10G XFP</li>
+                <li className='inner-linkers'>25G SFP28</li>
+                <li className='inner-linkers'>40G QSFP+</li>
+                <li className='inner-linkers'>100G CFP CFP2 CFP4</li>
+                <li className='inner-linkers'>100G QSFP28</li>
+                <li className='inner-linkers'>200G QSFP56 QSFP-DD</li>
+                <li className='inner-linkers'>400G QSFP-DD OSFP</li>
+                <li className='inner-linkers'>RJ45 Copper Series</li>
+                <li className='inner-linkers'>Loop Back Series</li>
+                <li className='inner-linkers'>PON SFP SFP+</li>
+                <li className='inner-linkers'>4G SFP</li>
+                <li className='inner-linkers'>6G SFP+</li>
+                <li className='inner-linkers'>8GFC SFP+</li>
+                <li className='inner-linkers'>10G Xenpak</li>
+                <li className='inner-linkers'>16GFC SFP+( 14.025G )</li>
+                <li className='inner-linkers'>2X5 SFF</li>
+                <li className='inner-linkers'>1X9</li>
+                <li className='inner-linkers'>125M 155M SFP</li>
+                <li className='inner-linkers'>622M SFP</li>
+            </ul>
+            </li>
+
+            <li className='drop-link2'>Optical Cables / Patch Cords
+       <ul className='hover-inner-links2'>
+       <li className='inner-linkers'>1.25G SFP2</li>
+                <li className='inner-linkers'>1.25G CSFP2</li>
+       </ul>
+            </li>
+
+            <li className='drop-link3'>Switches
+            <ul className='hover-inner-links3'>
+       <li className='inner-linkers'>1.25G SFP3</li>
+                <li className='inner-linkers'>1.25G CSFP3</li>
+       </ul>
+            </li>
         </ul>
         </li>
 
-        <li><Link to="/" className='nolink-dec'>Services</Link></li>
+        <li className='item-dropdown-hov'><Link to="/" className='nolink-dec'>Services</Link></li>
     </ul>
 </div>
 </nav>
