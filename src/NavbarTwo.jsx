@@ -441,15 +441,57 @@ const NavbarTwo = () => {
 
             <li className='drop-link2'>Optical Cables / Patch Cords
        <ul className='hover-inner-links2'>
-       <li className='inner-linkers'>1.25G SFP2</li>
-                <li className='inner-linkers'>1.25G CSFP2</li>
+       <li className='inner-linkers1'><IoMdArrowDropright/> AOC (Active Optical Cable)
+       <ul className='drop-linkers-items1'>
+       <Link to="/AOC_SPSP" className='nolink-dec'><li className='lastdrop-items'> 10G SFP+ AOC</li></Link>
+       <Link to="/AOC_SFP28_25G" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 AOC</li></Link>
+       <Link to="/Products_40G_QSFP" className='nolink-dec'><li className='lastdrop-items'> 40G QSFP+ AOC</li></Link>
+       <Link to="/Products_100G_QSFP28" className='nolink-dec'><li className='lastdrop-items'>100G QSFP28 AOC</li></Link>
+       <Link to="/Products_200G_QSFP56" className='nolink-dec'><li className='lastdrop-items'> 200G QSFP56 AOC</li></Link>
+       </ul>
+       </li>
+                <li className='inner-linkers2'><IoMdArrowDropright/> DAC (Direct-Attach Cable)
+                <ul className='drop-linkers-items2'>
+       <Link to="/DAC_10G_SFPS" className='nolink-dec'><li className='lastdrop-items'> 10G SFP+ DAC</li></Link>
+       <Link to="/DAC_25G_SFP28" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 DAC</li></Link>
+       <Link to="/DAC_40G_QSFP_Products" className='nolink-dec'><li className='lastdrop-items'> 40G QSFP+ DAC</li></Link>
+       <Link to="/DAC_100G_QSFP_Products" className='nolink-dec'><li className='lastdrop-items'>100G QSFP28 DAC</li></Link>
+       </ul>
+                </li>
+
+                <li className='inner-linkers3'><IoMdArrowDropright/> Indoor Patch-cord Cable
+                <ul className='drop-linkers-items3'>
+       <Link to="/Armored_Breakout_Cable" className='nolink-dec'><li className='lastdrop-items'> Armored Breakout Cable</li></Link>
+       <Link to="/Breakout_Cable" className='nolink-dec'><li className='lastdrop-items'> Breakout Cable</li></Link>
+       <Link to="/Mini_Distribution_Cable" className='nolink-dec'><li className='lastdrop-items'> Mini Distribution Cable</li></Link>
+       <Link to="/General_Patch_Cord" className='nolink-dec'><li className='lastdrop-items'>General Patch-cord</li></Link>
+       <Link to="/Energy_Chain_Cable" className='nolink-dec'><li className='lastdrop-items'>Energy Chain Cable</li></Link>
+       <Link to="/High_Strength_And_Suppleness" className='nolink-dec'><li className='lastdrop-items'>High Strength and <br/>Suppleness Patch-cord</li></Link>
+       </ul>
+                </li>
+
+                <li className='inner-linkers4'><IoMdArrowDropright/> Outdoor Patch-cord Cable
+                <ul className='drop-linkers-items4'>
+       <Link to="/" className='nolink-dec'><li className='lastdrop-items'> Armored Patch-cord / Armored Breakout Cable</li></Link>
+       <Link to="/" className='nolink-dec'><li className='lastdrop-items'> FTTA Waterproof Cable for Mobile Base Station</li></Link>
+       <Link to="/" className='nolink-dec'><li className='lastdrop-items'> Military Tactical Waterproof Cable</li></Link>
+       </ul>
+                </li>
+
+
+                <li className='inner-linkers5'><IoMdArrowDropright/> MPO Patch-cord Cassette
+                
+                <ul className='drop-linkers-items5'>
+       <Link to="/MPO_PatchCord" className='nolink-dec'><li className='lastdrop-items'> MPO PatchCord</li></Link>
+       </ul>
+       </li>
        </ul>
             </li>
 
             <li className='drop-link3'>Switches
             <ul className='hover-inner-links3'>
-       <li className='inner-linkers'>1.25G SFP3</li>
-                <li className='inner-linkers'>1.25G CSFP3</li>
+       <li className='inner-linkers'>Telecom </li>
+                <li className='inner-linkers'>Industrial</li>
        </ul>
             </li>
         </ul>

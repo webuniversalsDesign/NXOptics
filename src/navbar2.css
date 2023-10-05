@@ -142,6 +142,7 @@ height: 0px;
 overflow-x: unset; 
 overflow-y: scroll;
 border-radius: 5px;
+z-index: 111;
 transition: all 0.3s ease-in-out;
 }
 
@@ -166,37 +167,47 @@ transition: all 0.3s ease-in-out;
 .hover-inner-links2{
     position: absolute;
     list-style-type: none;
-    right: -109px;
+    right: -190px;
     top: 1px;
     background-color: white;
     box-shadow: 5px 0px 14px 0px #0000002b;
     padding: 0px;
 width: max-content;
-opacity: 0;
+height: 0px;
+/* opacity: 0; */
 visibility: hidden;
+transition: all 0.3s ease-in-out;
+border-radius: 5px;
+/* overflow: hidden; */
+
 }
 
 .drop-link2:hover .hover-inner-links2{
-    opacity: 1;
+    /* opacity: 1; */
     visibility: visible;
+    height: 180px;
 }
 
 .hover-inner-links3{
     position: absolute;
     list-style-type: none;
-    right: -105px;
+    right: -70px;
     top: 20px;
     background-color: white;
     box-shadow: 5px 0px 14px 0px #0000002b;
     padding: 0px;
-width: max-content;
+width:max-content;
 opacity: 0;
+border-radius: 5px;
 visibility: hidden;
+height: 0px;
+transition: all 0.3s ease-in-out;
 }
 
 .drop-link3:hover .hover-inner-links3{
     opacity: 1;
     visibility: visible;
+    height: 70px;
 }
 
 .inner-linkers{
@@ -237,5 +248,145 @@ visibility: visible;
 
 
 .lastdrop-items{
-padding:5px;
+padding:10px;
 }
+
+.drop-linkers-items1{
+    list-style-type: none;
+    position: absolute;
+    top: 0px;
+    right: -129px;
+    padding: 0px;
+    height: 0px;
+    background-color: white;
+    box-shadow: 5px 0px 14px 0px #0000002b;
+visibility: hidden;
+transition: all 0.3s ease-in-out;
+opacity: 0;
+overflow: hidden;
+border-radius: 5px;
+}
+
+.inner-linkers1{
+    padding: 8px;
+    font-size: 13px;
+    position: relative;
+}
+
+.inner-linkers1:hover .drop-linkers-items1{
+    visibility: visible;
+        opacity:1;
+        height:200px;
+    }
+
+    .drop-linkers-items2{
+        list-style-type: none;
+        position: absolute;
+        top: 0px;
+        right: -127px;
+        padding: 0px;
+        height: 0px;
+        background-color: white;
+        box-shadow: 5px 0px 14px 0px #0000002b;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    }
+    
+    .inner-linkers2{
+        padding: 8px;
+        font-size: 13px;
+        position: relative;
+    }
+    
+    .inner-linkers2:hover .drop-linkers-items2{
+        visibility: visible;
+            opacity:1;
+            height:160px;
+        }
+
+        .drop-linkers-items3{
+            list-style-type: none;
+            position: absolute;
+            top: 0px;
+    border-radius: 5px;
+            right: -165px;
+            padding: 0px;
+            height: 0px;
+            background-color: white;
+            box-shadow: 5px 0px 14px 0px #0000002b;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+        overflow: hidden;
+        }
+        
+        .inner-linkers3{
+            padding: 8px;
+            font-size: 13px;
+            position: relative;
+        }
+        
+        .inner-linkers3:hover .drop-linkers-items3{
+            visibility: visible;
+                opacity:1;
+                height:260px;
+            }
+
+            .drop-linkers-items4{
+                list-style-type: none;
+                position: absolute;
+                top: 0px;
+                right: -298px;
+    border-radius: 5px;
+                padding: 0px;
+                height: 0px;
+                background-color: white;
+                box-shadow: 5px 0px 14px 0px #0000002b;
+            visibility: hidden;
+            transition: all 0.3s ease-in-out;
+            opacity: 0;
+            overflow: hidden;
+            }
+            
+            .inner-linkers4{
+                padding: 8px;
+                font-size: 13px;
+                position: relative;
+            }
+            
+            .inner-linkers4:hover .drop-linkers-items4{
+                visibility: visible;
+                    opacity:1;
+                    height:120px;
+                }
+
+                .drop-linkers-items5{
+                    list-style-type: none;
+                    position: absolute;
+                    top: 0px;
+                    right: -113px;
+                    padding: 0px;
+                    height: 0px;
+                    border-radius: 5px;
+                    background-color: white;
+                    box-shadow: 5px 0px 14px 0px #0000002b;
+                visibility: hidden;
+                transition: all 0.3s ease-in-out;
+                opacity: 0;
+                overflow: hidden;
+                }
+                
+                .inner-linkers5{
+                    padding: 8px;
+                    font-size: 13px;
+                    position: relative;
+                }
+                
+                .inner-linkers5:hover .drop-linkers-items5{
+                    visibility: visible;
+                        opacity:1;
+                        height:40px;
+   }
