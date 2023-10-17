@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { React } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,9 +18,9 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/1.25G SFP/SFP_DWDM_Img.jpg'
 // import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
-import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
-import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
-import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
+// import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
+// import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
+// import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -48,12 +48,12 @@ const SFP_1_25G_DWDM_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -68,7 +68,7 @@ const SFP_1_25G_DWDM_Products = () => {
         <Link to="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -96,7 +96,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
         <Link to="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_80Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -123,7 +123,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
         <Link to="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_A2D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -151,7 +151,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
         <Link to="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_A2Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>

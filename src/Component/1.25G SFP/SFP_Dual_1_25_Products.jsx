@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { React } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -20,7 +20,7 @@ import productImg1 from '../../img/products/2.5_SFP/Dual_02D.jpg';
 
 import productImg2 from '../../img/products/1.25G SFP/SFP_Dual_X5DImg.jpg'
 import productImg3 from '../../img/products/1.25G SFP/SFP_Dual_50D.jpg'
-import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
+// import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -48,12 +48,12 @@ const SFP_Dual_1_25_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -68,7 +68,7 @@ const SFP_Dual_1_25_Products = () => {
         <Link to="/SFP_Dual_1_25_Products/Dual_02D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -94,7 +94,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_02D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -120,7 +120,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_X5D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -145,7 +145,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_X5D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -171,7 +171,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_10D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -198,7 +198,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_10D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -225,7 +225,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_10DR_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -253,7 +253,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_10DR_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -281,7 +281,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_20D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -308,7 +308,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_20D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -335,7 +335,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_20DM_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -362,7 +362,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_20DM_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -389,7 +389,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_20DR_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -417,7 +417,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_20DR_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -445,7 +445,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_40D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -473,7 +473,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_40D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -501,7 +501,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_60D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -527,7 +527,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_60D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -553,7 +553,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_50D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -580,7 +580,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 50KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_50D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -607,7 +607,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 50KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_80D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -633,7 +633,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_80D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -659,7 +659,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_A0D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -686,7 +686,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_A0D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -713,7 +713,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_A2D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -739,7 +739,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
         <Link to="/SFP_Dual_1_25_Products/Dual_A2D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>

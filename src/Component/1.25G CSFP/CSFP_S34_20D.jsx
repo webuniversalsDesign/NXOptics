@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/1.25G CSFP/S34_20D.jpg'
 
-import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+// import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/1.25G CSFP/pinAssisment.jpg';
 import machdimenssion from '../../img/products/1.25G CSFP/mchDimenssion.jpg';
 import Memorymap from '../../img/products/1.25G CSFP/memoryMap1.png';

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -48,12 +48,12 @@ const Dual_125_155M_1X9 = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -68,7 +68,7 @@ const Dual_125_155M_1X9 = () => {
         <Link to="/Dual_125_155M_1X9/Dual_155M_M13_02P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100FX Transceiver
@@ -95,7 +95,7 @@ Duplex SC, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_155M_M13_02Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100FX Transceiver
@@ -177,7 +177,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_155M_AM_M13" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100FX Transceiver
@@ -209,7 +209,7 @@ Duplex Metal ST, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_155M_AM_M13i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100FX Transceiver
@@ -543,7 +543,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A1_S13_20P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100LX20 Transceiver
@@ -567,7 +567,7 @@ Duplex SC, 1310nm FP, SMF 20KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A1_S13_20Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100LX20 Transceiver
@@ -591,7 +591,7 @@ Duplex SC, 1310nm FP, SMF 20KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A1_S13_30P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -615,7 +615,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
         <Link to="/Dual_125_155M_1X9/Dual_A1_S13_30Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -639,7 +639,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
         <Link to="/Dual_125_155M_1X9/Dual_A1_S13_60P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -663,7 +663,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         <Link to="/Dual_125_155M_1X9/Dual_A1_S13_60Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -687,7 +687,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         <Link to="/Dual_125_155M_1X9/Dual_A5_S15_80P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9 100BASE-ZX Transceiver
@@ -711,7 +711,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_S15_80Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9 100BASE-ZX Transceiver
@@ -735,7 +735,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A1_S15_A0P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100ZX100 Transceiver
@@ -760,7 +760,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A1_S15_A0Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100ZX100 Transceiver
@@ -785,7 +785,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A1_S15_A2P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100EZX Transceiver
@@ -810,7 +810,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A1_S15_A2Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100EZX Transceiver
@@ -835,7 +835,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A3_S13_30P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -864,7 +864,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
         <Link to="/Dual_125_155M_1X9/Dual_A3_S13_30Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -893,7 +893,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
         <Link to="/Dual_125_155M_1X9/Dual_A3_S13_60P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -919,7 +919,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         <Link to="/Dual_125_155M_1X9/Dual_A3_S13_60Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -945,7 +945,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         <Link to="/Dual_125_155M_1X9/Dual_A3_S15_A0P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100ZX100 Transceiver
@@ -971,7 +971,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A3_S15_A0Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100ZX100 Transceiver
@@ -997,7 +997,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A3_S15_A2P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100EZX Transceiver
@@ -1023,7 +1023,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A3_S15_A2Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100EZX Transceiver
@@ -1050,7 +1050,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_M13_02P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100FX Transceiver
@@ -1077,7 +1077,7 @@ Duplex SC/ST/FC, 1310nm FP, Multi Mode, 2KM
         <Link to="/Dual_125_155M_1X9/Dual_A5_M13_02Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100FX Transceiver
@@ -1104,7 +1104,7 @@ Duplex SC/ST/FC, 1310nm FP, Multi Mode, 2KM
         <Link to="/Dual_125_155M_1X9/Dual_A5_M85_02P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100SX Transceiver
@@ -1131,7 +1131,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_M85_02Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100SX Transceiver
@@ -1158,7 +1158,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_S13_30P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -1186,7 +1186,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
         <Link to="/Dual_125_155M_1X9/Dual_A5_S13_30Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -1214,7 +1214,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
         <Link to="/Dual_125_155M_1X9/Dual_A5_S13_60P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -1242,7 +1242,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         <Link to="/Dual_125_155M_1X9/Dual_A5_S13_60Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -1270,7 +1270,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         <Link to="/Dual_125_155M_1X9/Dual_A5_80P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9 100BASE-ZX Transceiver
@@ -1301,7 +1301,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_80Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9 100BASE-ZX Transceiver
@@ -1331,7 +1331,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_S15_A0P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100ZX100 Transceiver
@@ -1364,7 +1364,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_S15_A0Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100ZX100 Transceiver
@@ -1397,7 +1397,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_S15_A2P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100EZX Transceiver
@@ -1430,7 +1430,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_A5_S15_A2Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100EZX Transceiver
@@ -1463,7 +1463,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_AM_M85_02P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_6} className='productImg3'/>
+<img src={productImg1_6} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100SX Transceiver
@@ -1486,7 +1486,7 @@ Duplex Metal ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection </h5>
         <Link to="/Dual_125_155M_1X9/Dual_AM_M85_02Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_6} className='productImg3'/>
+<img src={productImg1_6} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100SX Transceiver
@@ -1509,7 +1509,7 @@ Duplex Metal ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection </h5>
         <Link to="/Dual_125_155M_1X9/Dual_AM_S13_30P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -1537,7 +1537,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
         <Link to="/Dual_125_155M_1X9/Dual_AM_S13_30Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -1566,7 +1566,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
         <Link to="/Dual_125_155M_1X9/Dual_AM_S13_60P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -1594,7 +1594,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         <Link to="/Dual_125_155M_1X9/Dual_AM_S13_60Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_4} className='productImg3'/>
+<img src={productImg1_4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125/155Mbps 1x9-100LX Transceiver
@@ -1622,7 +1622,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         <Link to="/Dual_125_155M_1X9/Dual_AM_S15_A0P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100ZX100 Transceiver
@@ -1650,7 +1650,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_AM_S15_A0Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100ZX100 Transceiver
@@ -1678,7 +1678,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_AM_S15_A2P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100EZX Transceiver
@@ -1706,7 +1706,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
         <Link to="/Dual_125_155M_1X9/Dual_AM_S15_A2Pi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_5} className='productImg3'/>
+<img src={productImg1_5} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>125M / 155M 1X9-100EZX Transceiver

@@ -8,7 +8,8 @@ import { AiOutlineGlobal, AiOutlineMenu } from 'react-icons/ai';
 import { IoNotificationsOutline } from 'react-icons/io5';
 import { BsPersonGear,  BsCart3 } from 'react-icons/bs';
 import { TiBackspaceOutline } from 'react-icons/ti';
-
+import {IoMdArrowDropright} from 'react-icons/io';
+import {MdOutlineArrowDropDown, MdOutlineSupportAgent} from 'react-icons/md';
 import logoIcon from './img/logo/navlogo.png'; 
 
 const Navbar = () => {
@@ -22,9 +23,39 @@ const allProduct =()=>{
     document.getElementById('mobile_Setting_all_product').style.left="0%";
 }
 
+const product =()=>{
+    document.getElementById('mobile_Setting_products').style.left="0%";
+    document.getElementById('mobile_Setting_products').style.zIndex="1111";
+}
+
+const cablesCord =()=>{
+    document.getElementById('mobile_Setting_Cables').style.left="0%";
+    document.getElementById('mobile_Setting_Cables').style.zIndex="1111";
+}
+
 
 const switchsProduct =()=>{
+    document.getElementById('mobile_Setting_Switchs-1').style.left="0%";
+}
+
+const OpenSwirch_1_1 = ()=>{
+    document.getElementById('mobile_Setting_Switchs-1_1').style.left="0%";
+
+}
+
+const OpenSwitchL2 =()=>{
+    document.getElementById('mobile_Setting_Switchs-1_1_1').style.left="0%";
+
+}
+
+const OpenSwirch_1_2 =()=>{
+    document.getElementById('mobile_Setting_Switchs-1_2').style.left="0%";
+
+}
+
+const OpenPOESwitch = ()=>{
     document.getElementById('mobile_Setting_Switchs').style.left="0%";
+
 }
 
 const series1btn =()=>{
@@ -151,7 +182,13 @@ const close_menu =()=>{
     document.getElementById('mobile_Setting_all_product').style.left="-100%";
 }
 
+const close_menuProducts =()=>{
+    document.getElementById('mobile_Setting_products').style.left="-100%";
+}
 
+const close_menuCables =()=>{
+    document.getElementById('mobile_Setting_Cables').style.left="-100%";
+}
 
 const close_menu1 =()=>{
     document.getElementById('series1').style.left="-100%";
@@ -315,6 +352,25 @@ const Switchclose =()=>{
     document.getElementById('mobile_Setting_Switchs').style.left="-100%";
 }
 
+const Switchclose1 =()=>{
+    document.getElementById('mobile_Setting_Switchs-1').style.left="-100%";
+}
+
+const Switchclose1_1 = ()=>{
+    document.getElementById('mobile_Setting_Switchs-1_1').style.left="-100%";
+
+}
+
+const Switchclose1_1_1 = ()=>{
+    document.getElementById('mobile_Setting_Switchs-1_1_1').style.left="-100%";
+
+}
+
+const Switchclose1_2 = ()=>{
+    document.getElementById('mobile_Setting_Switchs-1_2').style.left="-100%";
+
+}
+
 const Switchclose_menu1=()=>{
     document.getElementById('Switchseries1').style.left="-100%";
 }
@@ -352,539 +408,350 @@ const Switchclose_menu8=()=>{
 
   return (
     <>
-    <div className='navbar-position-fixed'>
-            <div className='bg-gray'>
-        <div className='container'>
-<div className='d-flex justify-content-between' style={{flexWrap:"wrap"}}>
-    <p className='margin-0-lineHeight text-center'>Fast Shipping Worldwide</p>
-
-    <div className='d-flex'>
-<p className='margin-0-lineHeight mobile-screen-noneed'> India (English/ $ USD)</p>
-&nbsp;
-&nbsp;
-&nbsp;
-<a href='tel:+91 80-41622171' style={{textDecoration:"none"}}>
-<p className='margin-0-lineHeight'><PiPhoneCall style={{marginBottom:"5px", fontSize:"18px"}}/> Contact Us</p>
-</a>
-    </div>
-
-</div>
-</div>
-    </div>
-
-
-<div className='navbar-top'>
-
-<div className='nav-icon-tab'>
-<Link to="/">
-
-    <img src={logoIcon} className='logo_icon' alt='logo'/>
-    </Link>
-</div>
-
-<ul className='n mobile-screen-noneed'>
-<Link to="/" style={{color:"black", textDecoration:"none"}}><li className='n-items'>Home</li></Link> 
-
-    <li className='n-items hover-item'>All Products
-
-    <div className='inner-menu'>
-<h4>Fiber Optical Transceiver</h4>
-<Swiper
-      modules={[Navigation, Scrollbar]}
-      navigation={true}
-      scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-      className="mySwiper"
- >
-<SwiperSlide>
-
-    <div className='container'>
-<div className='row'>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Loop Back Series</p>
-<Link to="/10G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ 10G Loopback</p></Link>
-<Link to="/25G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP28 25G Loopback</p></Link>
-<Link to="/100G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP28 100G Loopback</p></Link>
-<Link to="/200G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP56 200G Loopback</p></Link>
-<Link  to="/400G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP-DD 400G Loopback</p></Link>
-<Link to="/40G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP+ 40G Loopback</p></Link>
-
-
-</div>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>400G QSFP-DD OSFP</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>400G OSFP SR8</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>400G QSFP-DD SR8 PAM4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>400G QSFP-DD DR4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>400G QSFP-DD FR4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>400G QSFP-DD LR4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>400G QSFP-DD ER4</p></Link>
-
-</div>
-
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>100G CFP CFP2 CFP4</p>
-<Link to="/Product_CFP1" style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP</p></Link>
-<Link to="/CFP2_Products_100G" style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP2</p></Link>
-<Link to="/Product_CFP4" style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP4</p></Link>
-
-</div>
-
-<div className='col-lg-2'>
-    <p className='menu-title '>10G Xenpak</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK DUAL</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK CWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK DWDM</p></Link>
-
-<p className='menu-title pt-2'>8GFC SFP+</p>
-<Link to="/SFP_PLUS_DUAL_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>8GFC SFP+ DUAL</p></Link>
-
-</div>
-
-
-<div className='col-lg-3 col-md-4'>
-<p className='menu-title '>200G QSFP56 QSFP-DD</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP-DD SR8</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP56 SR4</p></Link>
-
-<p className='menu-title pt-3'>16GFC SFP+( 14.025G )</p>
-<Link to="/Product_16GFC_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>16GFC SFP+ SW</p></Link>
-
-</div>
-
-<div className='col-lg-3 col-md-4'>
-<p className='menu-title text-center'>40G QSFP+</p>
-<div className='row'>
-    <div className='col-lg-6'>
-    <Link to="/SR4_40G_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SR4</p></Link>
-<Link to="/Product_40G_eSR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-eSR4</p></Link>
-<Link to="/Product_40G_SRBD" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SRBD</p></Link>
-<Link to="/IR4_40G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-IR4</p></Link>
-<Link to="/Products_40G_LR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-LR4</p></Link>
-    </div>
-    <div className='col-lg-6'>
-    <Link to="/Product_40G_ER4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-ER4</p></Link>
-<Link to="/SWDM4_40G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SWDM4</p></Link>
-<Link to="/Product_40G_ZR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-ZR4</p></Link>
-<Link to="/PSM4_IR_40G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-PSM4-IR</p></Link>
-<Link to="/PSM4_LR_40G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-PSM4-LR</p></Link>
-    </div>
-</div>
-
-
-
-</div>
-
-<div className='col-lg-4 col-md-4'>
-<p className='menu-title text-center'>100G QSFP28</p>
-<div className="row">
-    <div className='col-lg-6 '>
-    <Link to="/Product_QSFP28_100G_SR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-SR4</p></Link>
-<Link to="/Product_QSFP28_100G_SRBD" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-SRBD</p></Link>
-<Link to="/ESR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-eSR4</p></Link>
-<Link to="/PSM4_Ethernet_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-PSM4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-DR1/FR1/LR1</p></Link>
-<Link to="/LR4_100G_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-LR4</p></Link>
-    </div>
-    <div className='col-lg-6 '>
-    <Link to="/ER4_100G_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ER4</p></Link>
-<Link to="/ZR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ZR4</p></Link>
-<Link to="/CWDM4_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-CWDM4</p></Link>
-<Link to="/BIDI_4WDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-4WDM-20</p></Link>
-<Link to="/BIDI_10_to_40_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-10/20/30/40</p></Link>
-<Link to="/QSPF28_adaptor" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28 to SFP28 Adapter</p></Link>
-    </div>
-</div>
-
-
-
-</div>
-
-<div className='col-lg-2'>
-<p className='menu-title '>25G SFP28</p>
-
-<Link to="/SFP28_SR_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 SR</p></Link>
-<Link to="/SFP28_BIDI_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 BIDI</p></Link>
-<Link to="/SFP28_25G_CWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 CWDM</p></Link>
-<Link to="/SFP28_LR_25G_Projects" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 LR</p></Link>
-<Link to="/SFP28_25G__LWDM_products" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 LWDM</p></Link>
-<Link to="/SFP28_25G_DWDM" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 DWDM</p></Link>
-<Link to="/SFP28_25G_SW" style={{textDecoration:"none"}}><p className='menu-inner-items'>32GFC SFP28 SW</p></Link>
-
-</div>
-
-<div className='col-lg-2'>
-<p className='menu-title '>RJ45 Copper Series</p>
-<Link to="/SFP_100Tx_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-100TX</p></Link>
-<Link to="/SFP_1000T_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-1000T</p></Link>
-
-<Link to="/Projects_SFP_10G" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ 10G-T</p></Link>
-
-
-<p className='menu-title pt-2'>10G X2</p>
-<Link to='/X2_DUAL_Products' style={{textDecoration:"none"}}><p className='menu-inner-items'>10G X2 DUAL</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G X2 CWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G X2 DWDM</p></Link>
-
-</div>
-
-
-
-</div>
-</div>
-</SwiperSlide>
-
-<SwiperSlide>
-
-    <div className='container'>
-<div className='row'>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>2.5G SFP</p>
-<Link to="/Products_SFP_CWDM" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP CWDM</p></Link>
-<Link to="/SFP_BIDI_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link>
-<Link to="/Products_2point5_Dual" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DUAL</p></Link>
-<Link to="/SFP_DWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DWDM</p></Link>
-{/* <Link to="/SFP_BIDI_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link> */}
-
-<p className='menu-title pt-2'>1.25G CSFP</p>
-<Link to="/Dual_Bidi_LC_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G CSFP Dual Bidi LC</p></Link>
-
-</div>
-
-<div className='col-lg-2 col-md-4'>
-
-<p className='menu-title '>1.25G SFP</p>
-<Link to="/SFP_1_25G_DWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DWDM</p></Link>
-<Link to="/SFP_CWDM_1_25G_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP CWDM</p></Link>
-<Link to="/Products_SFP_1_25G_BIDI"style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP BIDI</p></Link>
-<Link to="/SFP_Dual_1_25_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DUAL</p></Link>
-
-<p className='menu-title pt-2'>1.25G GBIC</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G GBIC SC</p></Link>
-
-</div>
-
-
-<div className='col-lg-2 col-md-4'>
-
-<p className='menu-title '>PON SFP   SFP+</p>
-<Link to="/Products_10G_XG_XGS_PON" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XG/XGS PON</p></Link>
-<Link to="/EPON_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G EPON</p></Link>
-<Link to="/GPON_SFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G GPON SFP</p></Link>
-<Link to="/EPON_SFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G EPON SFP</p></Link>
-
-<p className='menu-title pt-2'>2X5 SFF</p>
-<Link to="/SFF_2X5_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/1.25G 2X5 SFF</p></Link>
-
-</div>
-
-<div className='col-lg-2 col-md-4'>
-
-<p className='menu-title '>1X9</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 BIDI</p></Link>
-<Link to="/Dual_1X9_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 DUAL</p></Link>
-<Link to="/CWDM_1X9_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 CWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 BIDI</p></Link>
-<Link to="/Ultra_row_1X9_DC" style={{textDecoration:"none"}}><p className='menu-inner-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps </p></Link>
-<Link to="/Dual_125_155M_1X9" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 DUAL</p></Link>
-</div>
-
-<div className='col-lg-2 col-md-4'>
-
-<p className='menu-title '>125M 155M SFP</p>
-<Link to="/DWDM_SFP_115M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
-<Link to="/CWDW_SFP_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
-<Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP BIDI</p></Link>
-<Link to="/Products_Dual_SFP_155M" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
-
-<p className='menu-title '>622M SFP</p>
-<Link to="/Products_622M_SFP_BIDI" style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP BIDI</p></Link>
-<Link to="/Products_622M_SFP_Dual" style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP DUAL</p></Link>
-
-
-</div>
-
-<div className='col-lg-2 col-md-4'>
-
-<p className='menu-title '>10G SFP+</p>
-<Link to="/Tunable_10G_SFP_DWDM" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ DWDM Tunable</p></Link>
-<Link to="/Products_DWDM_10G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DWDM</p></Link>
-<Link to="/Products_CWDM_10G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ CWDM</p></Link>
-<Link to="/SFP_PLUS_BIDI_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ BIDI</p></Link>
-<Link to="/Products_Dual_10G_SFP " style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DUAL</p></Link>
-
-
-
-</div>
-
-<div className='col-lg-2'>
-    <p className='menu-title '>10G XFP </p>
-<Link to="/XFP_DWDM_Tunable" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM Tunable</p></Link>
-<Link to="/XFP_DWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM</p></Link>
-<Link to="/XFP_CWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP CWDM</p></Link>
-<Link to='/XFP_BIDI_Products' style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP BIDI</p></Link>
-<Link to='/XFP_DUAL_Products' style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DUAL</p></Link>
-
-
-
-</div>
-
-<div className='col-lg-2'>
-<p className='menu-title pt-2'>4G SFP</p>
-<Link to="/Products_4G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>4.25G SFP DUAL</p></Link>
-
-<p className='menu-title pt-2'>6G SFP+ </p>
-<Link to="/Products_6G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>6G SFP+ DUAL</p></Link>
-</div>
-
-
-</div>
-</div>
-</SwiperSlide>
-
-
-<SwiperSlide>
-
-    <div className='container'>
-    <h5 className='pb-5'>Fiber Optical Cable / Patch-cord</h5>
-<div className='row'>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>AOC (Active Optical Cable)</p>
-<Link to="/AOC_SPSP" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ AOC</p></Link>
-<Link to="/AOC_SFP28_25G" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 AOC</p></Link>
-<Link to="/Products_40G_QSFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ AOC</p></Link>
-<Link to="/Products_100G_QSFP28" style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 AOC</p></Link>
-<Link to="/Products_200G_QSFP56" style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP56 AOC</p></Link>
-
-</div>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>DAC (Direct-Attach Cable)</p>
-<Link to="/DAC_10G_SFPS" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DAC</p></Link>
-<Link to="/DAC_25G_SFP28" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 DAC</p></Link>
-<Link to="/DAC_40G_QSFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ DAC</p></Link>
-<Link to="/DAC_100G_QSFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 DAC</p></Link>
-
-</div>
-
-<div className='col-lg-3 col-md-4'>
-<p className='menu-title '>Indoor Patch-cord   Cable</p>
-<Link to='/Armored_Breakout_Cable' style={{textDecoration:"none"}}><p className='menu-inner-items'>Armored Breakout Cable</p></Link>
-<Link to="/Breakout_Cable" style={{textDecoration:"none"}}><p className='menu-inner-items'>Breakout Cable</p></Link>
-<Link to='/Mini_Distribution_Cable' style={{textDecoration:"none"}}><p className='menu-inner-items'>Mini Distribution Cable</p></Link>
-<Link to='/General_Patch_Cord' style={{textDecoration:"none"}}><p className='menu-inner-items'>General Patch-cord</p></Link>
-<Link to='/Energy_Chain_Cable' style={{textDecoration:"none"}}><p className='menu-inner-items'>Energy Chain Cable</p></Link>
-<Link to='/High_Strength_And_Suppleness' style={{textDecoration:"none"}}><p className='menu-inner-items'>High Strength and Suppleness Patch-cord</p></Link>
-
-</div>
-
-<div className='col-lg-3 col-md-4'>
-<p className='menu-title '>Outdoor Patch-cord   Cable</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Armored Patch-cord / Armored Breakout Cable</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>FTTA Waterproof Cable for Mobile Base Station</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Military Tactical Waterproof Cable</p></Link>
-
-</div>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>MPO Patch-cord   Cassette</p>
-<Link to='/MPO_PatchCord' style={{textDecoration:"none"}}><p className='menu-inner-items'>MPO PatchCord</p></Link>
-
-</div>
-
-
-</div>
-</div>
-</SwiperSlide>
-
-</Swiper>
-
-
-    </div>
-    </li>
-
-    <li className='n-items hover-item'>Switches
-
-<div className='inner-menu'>
-{/* <h4>Fiber Optical Transceiver</h4> */}
-<Swiper
-  modules={[Navigation, Scrollbar]}
-  navigation={true}
-  scrollbar={{ draggable: true }}
-  onSwiper={(swiper) => console.log(swiper)}
-  onSlideChange={() => console.log('slide change')}
-  className="mySwiper"
->
-<SwiperSlide>
-
-<div className='container pt-5'>
-<div className='row'>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Layer 3 Ethernet Switches</p>
-<Link to="/NXO_2408SM_NXO_4804SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM - NXO-4804SM</p></Link>
-<Link to="/Layer3_NXO_2408SM_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH</p></Link>
-<Link to="/Layer3_NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
-<Link to="/Layer3_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X & NXO-G4804X</p></Link>
-</div>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>10G Ethernet Switches</p>
-<Link to="/NXO_G24S4X_G24S2X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
-<Link to="/NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
-<Link to="/NXO_G24044X_24PH_AA" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH-AA</p></Link>
-<Link to="/NXO_GS24044X_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-GS24044X & NXO-G24044X & NXO-G4804X</p></Link>
-</div>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Gigabit Ethernet Switches</p>
-<Link to="/NXO_2408SM_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH</p></Link>
-<Link to="/NXO_2408SM_24PH_AA" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH-AA</p></Link>
-<Link to="/NXO_S2408GTM_NXO_2408SM_NXO_4804SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2408GTM & NXO-2408SM & NXO-4804SM</p></Link>
-<Link to="/NXO_S2804TM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2804TM</p></Link>
-</div>
-
-
-<div className='col-lg-4 col-md-4'>
-<p className='menu-title'>Managed Ethernet Switches</p>
-<div className='row'>
-    <div className='col-6'>
-    <Link to="/NXO_402CGSW" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CGSW</p></Link>
-<Link to="/NXO_402CSW" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CSW</p></Link>
-<Link to="/NXO_402XSM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402XSM</p></Link>
-<Link to="/NXO_803SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-803SM</p></Link>
-<Link to="/NXO_402GSM_NXO_803GSM_NXO_1604GSM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402GSM & NXO-803GSM & NXO-1604GSM</p></Link>
-    </div>
-
-    <div className='col-6'>
-    <Link to="/NXO_812SM_NXO_1604SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-812SM & NXO-1604SM</p></Link>
-<Link to="/NXO_1604XSM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1604XSM</p></Link>
-<Link to="/NXO_404SM_NXO_803SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO+404SM & NXO+803SM</p></Link>
-<Link to="/NXO_402GSM_NXO_803GSM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO+402GSM & NXO+803GSM</p></Link>
-    </div>
-</div>
-
-
-</div>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Unmanaged Ethernet Switches</p>
-<Link to="/NXO_402CS" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CS</p></Link>
-<Link to="/NXO_402S_NXO_402F" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402S & NXO-402F</p></Link>
-<Link to="/NXO_500_NXO_800" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-500 & NXO-800</p></Link>
-</div>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Optical Fiber Bypass Switch</p>
-<Link to="/NXO_202" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-202</p></Link>
-</div>
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Managed Media Converters</p>
-<Link to="/NXO_1000MS" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000MS</p></Link>
-<Link to="/NXO_1000MS_PH12" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000MS-PH12</p></Link>
-<Link to="/NXO_1000WS_PB" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000WS-PB</p></Link>
-</div>
-
-
-<div className='col-lg-4 col-md-4'>
-<p className='menu-title '>Unmanaged Media Converters</p>
-<div className='row'>
-    <div className='col-6'>
-    <Link to="/NXO_100" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100</p></Link>
-<Link to="/NXO_100C" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100C</p></Link>
-<Link to="/NXO_100_PH12" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100-PH12</p></Link>
-    </div>
-    <div className='col-6'>
-    <Link to="/NXO_1000S_PB" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000S-PB</p></Link>
-<Link to="/NXO_1001C_NXO_1001CS" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1001C & NXO-1001CS</p></Link>
-<Link to="/NXO_1001S_PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1001S-PH</p></Link>
-    </div>
-</div>
-</div>
-
-</div>
-</div>
-</SwiperSlide>
-
-</Swiper>
-
-
-</div>
-</li>
-
-   <li className='n-items hover-item-single'>Products v2
-   <ul className='inner-menu-single'>
-    <li>Pro1</li>
-    <li>Pro2</li>
-   </ul>
+  <div className='top-header'>
+  <div className='header-start'>
+  <p>Fast shipping to India</p>
+  </div>
+
+  <div className='header-end'>
+  <a href='tel:+918041622171'><MdOutlineSupportAgent style={{fontSize:"15px",marginRight:"5px", marginBottom:"5px"}}/>8041622171</a>
+  </div>
+
+  </div>
    
-   </li>
-   <Link to="" style={{color:"black", textDecoration:"none"}}><li className='n-items'>Service</li></Link> 
-   <Link to="" style={{color:"black", textDecoration:"none"}}><li className='n-items'>Support</li></Link> 
-   <Link to="" style={{color:"black", textDecoration:"none"}}><li className='n-items'>Support</li></Link> 
-
-   <Link to="/AboutUs" style={{color:"black", textDecoration:"none"}}><li className='n-items'>About Us</li></Link> 
-
-
-</ul>
-
-
-<div className='n'>
-
-<div className='position-relative hover-parent'>
-<IoNotificationsOutline className='nav-icons'/>
-
-<div className='notification_card-hover'>
-<h5>Notifications</h5>
-</div>
+         <nav className='nav-strap'>
+<div className='navlogo'>
+<Link to="/">
+      <img src={logoIcon} alt='img-not-found'/>
+</Link>  
 </div>
 
-<div className='position-relative hover-parent'>
-<BsPersonGear className='nav-icons'/>
+<div className='nav-item-links'>
+    <ul className='link-item'>
+    <li className='item-dropdown-hov'><Link to="/" className='nolink-dec'>Home</Link></li>
+        <li className='item-dropdown-hov'> Products
+        <ul className='drop-hov'>
+            <li className='drop-link'><IoMdArrowDropright className="arrow-icon"/> Transceiver
+            <ul className='hover-inner-links'>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 1.25G SFP
+                <ul className='lastdrop'>
+                <Link to="/SFP_1_25G_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G SFP DWDM</li></Link>
+                <Link to="/SFP_CWDM_1_25G_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G SFP CWDM</li></Link> 
+                <Link to="/Products_SFP_1_25G_BIDI" className='nolink-dec'><li className='lastdrop-items'> 1.25G SFP BIDI</li></Link>   
+                <Link to="/SFP_Dual_1_25_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G SFP DUAL</li></Link> 
+                </ul>
+                </li>
 
-<div className='sign_card-hover'>
-<Link to="" style={{textDecoration:"none"}}><p className='sign-content-link'>My Account</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='sign-content-link'>Orders</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='sign-content-link'>Invoice & Credits</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='sign-content-link'>Saved Carts</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='sign-content-link'>Quotes</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='sign-content-link'>Returns</p></Link>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 2.5G SFP
+                <ul className='lastdrop'>
+                 <Link to="/Products_SFP_CWDM" className='nolink-dec'><li className='lastdrop-items'> 2.5G SFP CWDM</li></Link>   
+                 <Link to="/SFP_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'> 2.5G SFP BIDI</li></Link>   
+                 <Link to="/Products_2point5_Dual" className='nolink-dec'><li className='lastdrop-items'> 2.5G SFP DUAL</li></Link>   
+                 <Link to="/SFP_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 2.5G SFP DWDM</li></Link>   
+                </ul>
+                </li>
 
-<Link style={{textDecoration:"none"}} to=""><p className='button-sign-red'>Sign In</p></Link>
-<Link style={{textDecoration:"none"}} to=""><p className='button-sign-default'>Create Account</p></Link>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 10G SFP+
+                <ul className='lastdrop'>
+                 <Link to="/Tunable_10G_SFP_DWDM" className='nolink-dec'><li className='lastdrop-items'>  SFP+ DWDM Tunable</li></Link>   
+                 <Link to="/Products_DWDM_10G_SFP" className='nolink-dec'><li className='lastdrop-items'>  10G SFP+ DWDM</li></Link>   
+                 <Link to="/Products_CWDM_10G_SFP" className='nolink-dec'><li className='lastdrop-items'>  2.5G SFP DUAL</li></Link>   
+                 <Link to="/SFP_PLUS_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'>  10G SFP+ BIDI</li></Link>   
+                 <Link to="/Products_Dual_10G_SFP " className='nolink-dec'><li className='lastdrop-items'>  10G SFP+ DUAL</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 10G XFP
+                <ul className='lastdrop'>
+                 <Link to="/XFP_DWDM_Tunable" className='nolink-dec'><li className='lastdrop-items'> 10G XFP DWDM Tunable</li></Link>   
+                 <Link to="/XFP_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 10G XFP DWDM</li></Link>   
+                 <Link to="/XFP_CWDM_Products" className='nolink-dec'><li className='lastdrop-items'>10G XFP CWDM</li></Link>   
+                 <Link to="/XFP_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'>10G XFP BIDI</li></Link>   
+                 <Link to="/XFP_DUAL_Products" className='nolink-dec'><li className='lastdrop-items'>10G XFP DUAL</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 25G SFP28
+                <ul className='lastdrop'>
+                 <Link to="/SFP28_SR_Products" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 SR</li></Link>   
+                 <Link to="/SFP28_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 BIDI</li></Link>   
+                 <Link to="/SFP28_25G_CWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 CWDM</li></Link>   
+                 <Link to="/SFP28_LR_25G_Projects" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 LR</li></Link>   
+                 <Link to="/SFP28_25G__LWDM_products" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 LWDM</li></Link>   
+                 <Link to="/SFP28_25G_DWDM" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 DWDM</li></Link>   
+                 <Link to="/SFP28_25G_SW" className='nolink-dec'><li className='lastdrop-items'> 32GFC SFP28 SW</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 1.25G CSFP
+                <ul className='lastdrop'>
+                 <Link to="/Dual_Bidi_LC_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G CSFP Dual Bidi LC</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 1.25G GBIC
+                <ul className='lastdrop'>
+                 <Link to="/SFP_1_25G_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G GBIC SC</li></Link>   
+                </ul>
+                </li>
+
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 40G QSFP+
+                <ul className='lastdrop'>
+                    <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'> QSFP+ 40G-SR4</li></Link>   
+                    <Link to="/Product_40G_eSR4" className='nolink-dec'><li className='lastdrop-items'> QSFP+ 40G-eSR4</li></Link>   
+                    <Link to="/Product_40G_SRBD" className='nolink-dec'><li className='lastdrop-items'>QSFP+ 40G-SRBD</li></Link>   
+                    <Link to="/IR4_40G" className='nolink-dec'><li className='lastdrop-items'>QSFP+ 40G-IR4</li></Link>   
+                    <Link to="/Products_40G_LR4" className='nolink-dec'><li className='lastdrop-items'> QSFP+ 40G-LR4</li></Link>   
+                    <Link to="/Product_40G_ER4" className='nolink-dec'><li className='lastdrop-items'>QSFP+ 40G-ER4</li></Link>   
+                    <Link to="/SWDM4_40G" className='nolink-dec'><li className='lastdrop-items'> QSFP+ 40G-SWDM4</li></Link>   
+                    <Link to="/Product_40G_ZR4" className='nolink-dec'><li className='lastdrop-items'>QSFP+ 40G-ZR4</li></Link>   
+                    <Link to="/PSM4_IR_40G" className='nolink-dec'><li className='lastdrop-items'>QSFP+ 40G-PSM4-IR</li></Link>   
+                    <Link to="/PSM4_LR_40G" className='nolink-dec'><li className='lastdrop-items'>QSFP+ 40G-PSM4-LR</li></Link>   
+                </ul>
+
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 100G CFP CFP2 CFP4
+                <ul className='lastdrop'>
+                <Link to="/Product_CFP1" className='nolink-dec'><li className='lastdrop-items'>100G CFP</li></Link>  
+                <Link to="/CFP2_Products_100G" className='nolink-dec'><li className='lastdrop-items'>100G CFP2</li></Link>   
+                <Link to="/Product_CFP4" className='nolink-dec'><li className='lastdrop-items'>100G CFP4</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 100G QSFP28
+                <ul className='lastdrop'>
+
+                <Link to="/Product_QSFP28_100G_SR4" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-SR4</li></Link>   
+                    <Link to="/Product_QSFP28_100G_SRBD" className='nolink-dec'><li className='lastdrop-items'> QSFP28-100G-SRBD</li></Link>   
+                    <Link to="/ESR4_100G" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-eSR4</li></Link>   
+                    <Link to="/PSM4_Ethernet_100G" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-PSM4</li></Link>   
+                    <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-DR1/FR1/LR1</li></Link>   
+                    <Link to="/LR4_100G_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-LR4</li></Link>   
+                    <Link to="/ER4_100G_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-ER4</li></Link>   
+                    <Link to="/ZR4_100G" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-ZR4</li></Link>   
+                    <Link to="/CWDM4_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-CWDM4</li></Link>   
+                    <Link to="/BIDI_4WDM_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-BIDI-4WDM-20</li></Link>   
+                    <Link to="/BIDI_10_to_40_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-BIDI-10/20/30/40</li></Link>   
+                    <Link to="/QSPF28_adaptor" className='nolink-dec'><li className='lastdrop-items'>QSFP28 to SFP28 Adapter</li></Link>   
+              </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 200G QSFP56 QSFP-DD
+                <ul className='lastdrop'>
+                <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>200G QSFP-DD SR8</li></Link>  
+                <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>200G QSFP56 SR4</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 400G QSFP-DD OSFP
+                <ul className='lastdrop'>
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G OSFP SR8</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G QSFP-DD SR8 PAM4</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G QSFP-DD DR4</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G QSFP-DD FR4</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G QSFP-DD LR4</li></Link>   
+                 <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>400G QSFP-DD ER4</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> RJ45 Copper Series
+                <ul className='lastdrop'>
+                <Link to="/SFP_100Tx_Products" className='nolink-dec'><li className='lastdrop-items'>SFP-100TX</li></Link>  
+                <Link to="/SFP_1000T_Products" className='nolink-dec'><li className='lastdrop-items'>SFP-1000T</li></Link>   
+                <Link to="/Projects_SFP_10G" className='nolink-dec'><li className='lastdrop-items'>SFP+ 10G-T</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> Loop Back Series
+                <ul className='lastdrop'>
+                 <Link to="/10G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>SFP+ 10G Loopback</li></Link>   
+                 <Link to="/25G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>SFP28 25G Loopback</li></Link>   
+                 <Link to="/100G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>QSFP28 100G Loopback</li></Link>   
+                 <Link to="/200G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>QSFP56 200G Loopback</li></Link>   
+                 <Link to="/400G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>QSFP-DD 400G Loopback</li></Link>   
+                 <Link to="/40G-Loopback-Product" className='nolink-dec'><li className='lastdrop-items'>QSFP+ 40G Loopback</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> PON SFP SFP+
+                <ul className='lastdrop'>
+                <Link to="/Products_10G_XG_XGS_PON" className='nolink-dec'><li className='lastdrop-items'>10G XG/XGS PON</li></Link>  
+                <Link to="/EPON_Products" className='nolink-dec'><li className='lastdrop-items'>10G EPON</li></Link>   
+                <Link to="/GPON_SFP_Products" className='nolink-dec'><li className='lastdrop-items'>2.5G GPON SFP</li></Link>   
+                <Link to="/EPON_SFP_Products" className='nolink-dec'><li className='lastdrop-items'>1.25G EPON SFP</li></Link>   
+                <Link to="/SFF_2X5_Products" className='nolink-dec'><li className='lastdrop-items'>125M/1.25G 2X5 SFF</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 4G SFP
+                <ul className='lastdrop'>
+                <Link to="/Products_4G_SFP" className='nolink-dec'><li className='lastdrop-items'>4.25G SFP DUAL</li></Link>   
+                </ul>
+                
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 6G SFP+
+                <ul className='lastdrop'>
+                <Link to="/Products_6G_SFP" className='nolink-dec'><li className='lastdrop-items'>6G SFP+ DUAL</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 8GFC SFP+
+                <ul className='lastdrop'>
+                <Link to="/SFP_PLUS_DUAL_Products" className='nolink-dec'><li className='lastdrop-items'>8GFC SFP+ DUAL</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 10G Xenpak
+                <ul className='lastdrop'>
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'>10G XENPAK DUAL</li></Link>   
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'>10G XENPAK CWDM</li></Link>   
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'>10G XENPAK DWDM</li></Link>   
+                </ul></li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 16GFC SFP+( 14.025G )
+                <ul className='lastdrop'>
+                <Link to="/Product_16GFC_SFP" className='nolink-dec'><li className='lastdrop-items'>16GFC SFP+ SW</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 2X5 SFF
+                <ul className='lastdrop'>
+                <Link to="/SFF_2X5_Products" className='nolink-dec'><li className='lastdrop-items'>125M/1.25G 2X5 SFF</li></Link>   
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 1X9
+                <ul className='lastdrop'>
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'>1.25G 1X9 BIDI</li></Link>   
+                <Link to="/Dual_1X9_Products" className='nolink-dec'><li className='lastdrop-items'>1.25G 1X9 DUAL</li></Link>   
+                <Link to="/CWDM_1X9_Products" className='nolink-dec'><li className='lastdrop-items'>125/155M 1X9 CWDM</li></Link>   
+                <Link to="/" className='nolink-dec'><li className='lastdrop-items'>125/155M 1X9 BIDI</li></Link>   
+                <Link to="/Ultra_row_1X9_DC" className='nolink-dec'><li className='lastdrop-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps </li></Link>   
+                <Link to="/Dual_125_155M_1X9" className='nolink-dec'><li className='lastdrop-items'>Dual_125_155M_1X9</li></Link>   
+               
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 125M 155M SFP
+                <ul className='lastdrop'>
+                <Link to="/DWDM_SFP_115M_Products" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP DWDM</li></Link>   
+                <Link to="/CWDW_SFP_155M_Products" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP CWDM</li></Link>   
+                <Link to="/BIDI_155M_Products" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP BIDI</li></Link>   
+                <Link to="/Products_Dual_SFP_155M" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP DUAL</li></Link>   
+                <Link to="/Products_622M_SFP_BIDI" className='nolink-dec'><li className='lastdrop-items'>622M SFP BIDI</li></Link>   
+                <Link to="/Products_622M_SFP_Dual" className='nolink-dec'><li className='lastdrop-items'>622M SFP DUAL</li></Link>   
+               
+                </ul>
+                </li>
+                <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon"/> 622M SF
+                <ul className='lastdrop'>
+                <Link to="/Products_622M_SFP_BIDI" className='nolink-dec'><li className='lastdrop-items'>622M SFP BIDI</li></Link>   
+                <Link to="/Products_622M_SFP_Dual" className='nolink-dec'><li className='lastdrop-items'>622M SFP DUAL</li></Link>   
+               </ul>
+               </li>
+            </ul>
+            </li>
+
+            <li className='drop-link2'><IoMdArrowDropright className="arrow-icon"/> Optical Cables / Patch Cords
+       <ul className='hover-inner-links2'>
+       <li className='inner-linkers1'><IoMdArrowDropright className="arrow-icon"/> AOC (Active Optical Cable)
+       <ul className='drop-linkers-items1'>
+       <Link to="/AOC_SPSP" className='nolink-dec'><li className='lastdrop-items'> 10G SFP+ AOC</li></Link>
+       <Link to="/AOC_SFP28_25G" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 AOC</li></Link>
+       <Link to="/Products_40G_QSFP" className='nolink-dec'><li className='lastdrop-items'> 40G QSFP+ AOC</li></Link>
+       <Link to="/Products_100G_QSFP28" className='nolink-dec'><li className='lastdrop-items'>100G QSFP28 AOC</li></Link>
+       <Link to="/Products_200G_QSFP56" className='nolink-dec'><li className='lastdrop-items'> 200G QSFP56 AOC</li></Link>
+       </ul>
+       </li>
+                <li className='inner-linkers2'><IoMdArrowDropright className="arrow-icon"/> DAC (Direct-Attach Cable)
+                <ul className='drop-linkers-items2'>
+       <Link to="/DAC_10G_SFPS" className='nolink-dec'><li className='lastdrop-items'> 10G SFP+ DAC</li></Link>
+       <Link to="/DAC_25G_SFP28" className='nolink-dec'><li className='lastdrop-items'> 25G SFP28 DAC</li></Link>
+       <Link to="/DAC_40G_QSFP_Products" className='nolink-dec'><li className='lastdrop-items'> 40G QSFP+ DAC</li></Link>
+       <Link to="/DAC_100G_QSFP_Products" className='nolink-dec'><li className='lastdrop-items'>100G QSFP28 DAC</li></Link>
+       </ul>
+                </li>
+
+                <li className='inner-linkers3'><IoMdArrowDropright className="arrow-icon"/> Indoor Patch-cord Cable
+                <ul className='drop-linkers-items3'>
+       <Link to="/Armored_Breakout_Cable" className='nolink-dec'><li className='lastdrop-items'> Armored Breakout Cable</li></Link>
+       <Link to="/Breakout_Cable" className='nolink-dec'><li className='lastdrop-items'> Breakout Cable</li></Link>
+       <Link to="/Mini_Distribution_Cable" className='nolink-dec'><li className='lastdrop-items'> Mini Distribution Cable</li></Link>
+       <Link to="/General_Patch_Cord" className='nolink-dec'><li className='lastdrop-items'>General Patch-cord</li></Link>
+       <Link to="/Energy_Chain_Cable" className='nolink-dec'><li className='lastdrop-items'>Energy Chain Cable</li></Link>
+       <Link to="/High_Strength_And_Suppleness" className='nolink-dec'><li className='lastdrop-items'>High Strength and <br/>Suppleness Patch-cord</li></Link>
+       </ul>
+                </li>
+
+                <li className='inner-linkers4'><IoMdArrowDropright className="arrow-icon"/> Outdoor Patch-cord Cable
+                <ul className='drop-linkers-items4'>
+       <Link to="/" className='nolink-dec'><li className='lastdrop-items'> Armored Patch-cord / Armored Breakout Cable</li></Link>
+       <Link to="/" className='nolink-dec'><li className='lastdrop-items'> FTTA Waterproof Cable for Mobile Base Station</li></Link>
+       <Link to="/" className='nolink-dec'><li className='lastdrop-items'> Military Tactical Waterproof Cable</li></Link>
+       </ul>
+                </li>
+
+
+                <li className='inner-linkers5'><IoMdArrowDropright className="arrow-icon"/> MPO Patch-cord Cassette
+                
+                <ul className='drop-linkers-items5'>
+       <Link to="/MPO_PatchCord" className='nolink-dec'><li className='lastdrop-items'> MPO PatchCord</li></Link>
+       </ul>
+       </li>
+       </ul>
+            </li>
+
+
+            <li className='drop-link3'><IoMdArrowDropright className="arrow-icon"/> Telecom Switches
+            <ul className='hover-inner-links3'>
+            <li className='inner-linkerslast'><MdOutlineArrowDropDown/> L2 Ethernet Switches
+        <ul className='ul-disable'>
+        <Link to="/" className='nolink-dec'><li className='lastdrop-items'> Under L2 Ethernet Switches </li></Link>
+
+        </ul>
+        </li>
+        
+       </ul>
+            </li>
+
+            <li className='drop-link4'><IoMdArrowDropright className="arrow-icon"/> Industrial Switches
+          
+     <ul  className='drop-inner-link4'>
+                    <li className='inner-linkerslast'><MdOutlineArrowDropDown className="arrow-icon"/> POE Switches
+                    <ul className='ul-disable'>
+        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> 10G Ethernet Switch 
+        <ul className='drop-items-poe-links'>
+        <Link to="/NXO_G24S4X_G24S2X " className='nolink-dec'><li className='lastdrop-items'> NXO-G24S4X & NXO-G24S2X </li></Link>
+        <Link to="/NXO_G24044X_24PH" className='nolink-dec'><li className='lastdrop-items'> NXO-G24044X-24PH </li></Link>
+        <Link to="/NXO_G24044X_24PH_AA " className='nolink-dec'><li className='lastdrop-items'>  NXO-G24044X-24PH-AA </li></Link>
+        <Link to="/NXO_GS24044X_NXO_G24044X_NXO_G4804X" className='nolink-dec'><li className='lastdrop-items'> NXO-GS24044X & NXO-G24044X <br/>& NXO-G4804X </li></Link>
+        </ul>
+        </li>
+        </Link>
+
+        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> Carrier Ethernet Switch </li></Link>
+        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> Access Switch </li></Link>
+        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> NID & EDD Switch </li></Link>
+        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> CPE Switch </li></Link>
+        </ul>
+                    </li>
+                </ul>
+               
+   
+            </li>
+        </ul>
+        </li>
+
+        {/* <li className='item-dropdown-hov'><Link to="/" className='nolink-dec'>Services</Link></li> */}
+        <li className='item-dropdown-hov'><Link to="/AboutUs" className='nolink-dec'>About Us</Link></li>
+        <li className='item-dropdown-hov'><Link to="/" className='nolink-dec'>Contact</Link></li>
+    </ul>
 </div>
-</div>
 
-<div className='position-relative hover-parent'>
-<BsCart3 className='nav-icons'/>
-
-<div className='cart_card-hover'>
-</div>
-</div>
-
+<div className='only-mobile'>
 <AiOutlineMenu className='nav-icons only-small' onClick={OpenCloseMenu}/>
 </div>
 
-</div>
-    </div>
+</nav> 
+   
+
 
 <div className='mobile-navbar' id='mobile_Setting'>
 
 <div className="mobile-navbarcontent">
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={allProduct}>All Products</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={switchsProduct}>Switchs</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Service</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Support</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Company</p></Link>
+<Link to="/" style={{textDecoration:"none"}}><p className='mob-nav-items'>Home</p></Link>
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={allProduct}>All Products</p></Link> */}
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={product}>All Products</p></Link>
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={switchsProduct}>Switchs</p></Link> */}
+<Link to="/AboutUs" style={{textDecoration:"none"}}><p className='mob-nav-items'>About us</p></Link>
 </div>
-
 
 
 <div className='mobile-nav-all_product' id='mobile_Setting_all_product'>
@@ -925,19 +792,79 @@ const Switchclose_menu8=()=>{
 
 </div>
 
+<div className='mobile-nav-all_product' id='mobile_Setting_products'>
+<TiBackspaceOutline className='close_icon' onClick={close_menuProducts}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={allProduct}>Transceiver</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={cablesCord}>Optical Cables / Path Cord</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={switchsProduct}>Switches</p></Link>
+
+</div>
+
+{/* Optical Cables / Path Cord */}
+<div className='mobile-nav-all_product' id='mobile_Setting_Cables'>
+<TiBackspaceOutline className='close_icon' onClick={close_menuCables}/>
+
+<h4 className='mob-nav-items'>FIBER OPTICAL CABLE CONTENT</h4>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={series26btn}>AOC (Active Optical Cable)</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={series27btn}>DAC (Direct-Attach Cable)</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={series28btn}>Indoor Patch-cord   Cable</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={series29btn}>Outdoor Patch-cord   Cable</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={series30btn}>MPO Patch-cord   Cassette</p></Link>
+
+</div>
+
+
+
 {/* Switchs All menu */}
+<div className='mobile-nav-all_product' id='mobile_Setting_Switchs-1'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose1}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={OpenSwirch_1_1}>Telecom </p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={OpenSwirch_1_2}>Industrial</p></Link>
+</div>
+
+
+<div className='mobile-nav-all_product' id='mobile_Setting_Switchs-1_1'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose1_1}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={OpenSwitchL2}>L2 Ethernet Switches  </p></Link>
+</div>
+
+
+<div className='mobile-nav-all_product' id='mobile_Setting_Switchs-1_1_1'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose1_1_1}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' >Under L2 Ethernet Switches  </p></Link>
+</div>
+
+<div className='mobile-nav-all_product' id='mobile_Setting_Switchs-1_2'>
+
+
+<TiBackspaceOutline className='close_icon' onClick={Switchclose1_2}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={OpenPOESwitch}>POE Switches </p></Link>
+</div>
+
 <div className='mobile-nav-all_product' id='mobile_Setting_Switchs'>
 <TiBackspaceOutline className='close_icon' onClick={Switchclose}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries3btn}>Layer 3 Ethernet Switches</p></Link>
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries3btn}>Layer 3 Ethernet Switches</p></Link> */}
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries1btn}>10G Ethernet Switches</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries2btn}>Gigabit Ethernet Switches</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries5btn}>Managed Ethernet Switches</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries7btn}>Unmanaged Ethernet Switches</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries6btn}>Optical Fiber Bypass Switch</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries4btn}>Managed Media Converters</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries8btn}>Unmanaged Media Converters</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' >Carrier Ethernet Switch</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' >Access Switch</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' >NID & EDD Switch</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' >CPE Switch</p></Link>
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries2btn}>Gigabit Ethernet Switches</p></Link> */}
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries5btn}>Managed Ethernet Switches</p></Link> */}
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries7btn}>Unmanaged Ethernet Switches</p></Link> */}
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries6btn}>Optical Fiber Bypass Switch</p></Link> */}
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries4btn}>Managed Media Converters</p></Link> */}
+{/* <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries8btn}>Unmanaged Media Converters</p></Link> */}
 </div>
+{/* ------------------------------------------------------------------------------------------- */}
+
+
 
 {/* Switchs menu inner menu */}
 <div className='mobile-nav-all_product' id='Switchseries1'>

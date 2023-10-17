@@ -2,11 +2,11 @@ import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/1X9/ultra.jpg'
 
-import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+// import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/1X9/1X9_Pinassignment.jpg';
 import machdimenssion from '../../img/products/1X9/1X9_MachanicalDimension.jpg';
-import Memorymap from '../../img/products/1X9/CWDW_dimension.jpg';
-import Memorymap2 from '../../img/products/1X9/CWDW_dimension_2.jpg';
+// import Memorymap from '../../img/products/1X9/CWDW_dimension.jpg';
+// import Memorymap2 from '../../img/products/1X9/CWDW_dimension_2.jpg';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -91,7 +91,7 @@ const Dual_155M_M85_02P = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -102,7 +102,7 @@ const Dual_155M_M85_02P = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -113,7 +113,7 @@ const Dual_155M_M85_02P = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -124,7 +124,7 @@ const Dual_155M_M85_02P = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
    

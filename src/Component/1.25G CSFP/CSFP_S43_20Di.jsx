@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/1.25G CSFP/dualBX_img.jpg'
 
-import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+// import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/1.25G CSFP/pinAssisment.jpg';
 import machdimenssion from '../../img/products/1.25G CSFP/mchDimenssion.jpg';
 import Memorymap from '../../img/products/1.25G CSFP/memoryMap1.png';
@@ -89,7 +89,7 @@ const CSFP_S43_20Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
 
@@ -100,7 +100,7 @@ const CSFP_S43_20Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
 
@@ -111,7 +111,7 @@ const CSFP_S43_20Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
 
@@ -122,7 +122,7 @@ const CSFP_S43_20Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
    

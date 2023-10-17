@@ -2,9 +2,9 @@ import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/1X9/155M_dual_5.jpg'
 
-import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+// import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/1X9/CWDW_pinAssignment.jpg';
-import machdimenssion from '../../img/products/1X9/Dual_125M.jpg';
+// import machdimenssion from '../../img/products/1X9/Dual_125M.jpg';
 import Memorymap from '../../img/products/1X9/Dual_155M_dimension_SC_S15.jpg';
 import Memorymap2 from '../../img/products/1X9/Dual_155M_dimension_ST_S15.jpg';
 import Memorymap3 from '../../img/products/1X9/Dual_155M_dimension_FC_S15.jpg';
@@ -92,7 +92,7 @@ const Dual_155M_Ax_A2P = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -103,7 +103,7 @@ const Dual_155M_Ax_A2P = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -114,7 +114,7 @@ const Dual_155M_Ax_A2P = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -125,7 +125,7 @@ const Dual_155M_Ax_A2P = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
    

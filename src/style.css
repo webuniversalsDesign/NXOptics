@@ -128,7 +128,7 @@ width: 90%;
 
 
     .leave-navbar{
-        padding-Top:80px;
+        padding-Top:0px;
     }
 
     .bannerImgcover{
@@ -157,6 +157,10 @@ width: 90%;
     .copy-rightText{
         font-size: 15px;
     }
+
+    .childone{
+        font-size: 12px;
+        }
 
     .footer-end-text{
         color: rgb(124, 124, 124);
@@ -289,6 +293,9 @@ width: 90%;
     .copy-rightText{
         font-size: 13px;
     }
+    .footer-items{
+        font-size: 10px;
+    }
 
     .footer-end-text{
         color: rgb(124, 124, 124);
@@ -358,7 +365,7 @@ width: 90%;
     }
 
     .leave-navbar{
-        padding-Top:60px;
+        padding-Top:40px;
     }
 
     .certifyImg{
@@ -387,6 +394,10 @@ width: 90%;
         visibility: visible;
     
     }
+
+.childone{
+font-size: 14px;
+}
 
     .copy-rightText{
         font-size: 15px;
@@ -494,7 +505,7 @@ margin: 10px 0px;
     }
 
     .leave-navbar{
-        padding-Top:66px;
+        padding-Top:30px;
     }
 
 
@@ -703,7 +714,7 @@ color: black;
 .footer-items{
     color: gray;
     font-weight: 400;
-    font-size: 15px;
+
     margin: 10px 5px;
     transition: all 0.3s ease-in-out;
 }
@@ -907,3 +918,65 @@ margin: 10px 0px;
     
 }
 
+.product-card h5{
+ font-size: 14px;   
+}
+
+.product-card-2{
+    box-shadow: 0px 0px 10px 0px rgb(228, 228, 228);
+    border-radius: 10px 10px 5px 5px;
+    /* padding: 10px; */
+background-color: white;
+position: relative;
+overflow: hidden;
+height: 250px;
+}
+
+.product-card-2 img{
+width: 100%;
+height: 200px;
+border-radius: 10px;
+padding: 5px;
+}
+
+.product-card-2 .pro-text{
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    padding: 10px 0px 10px 0px;
+    border-radius: 0px 0px 0px 0px;
+    margin: 0px;
+    bottom: 0px;
+    left: 50%;
+    width: max-content;
+    transform: translateX(-50%);
+    z-index: 1;
+transition: all 0.2s ease-in-out;
+
+}
+
+.text_dec_none{
+    text-decoration: none !important;
+}
+
+.overlay-layout{
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background-color: #bd0000;
+    bottom: -37px;
+transition: all 0.2s ease-in-out;
+}
+
+.product-card-2:hover .overlay-layout{
+    bottom: 0px;
+    
+}
+
+.product-card-2:hover .pro-text{
+    bottom: 0px;
+    color: white;
+
+}

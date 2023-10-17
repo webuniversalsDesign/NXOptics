@@ -33,7 +33,7 @@ India.
 
 <div className='d-flex flex-wrap pb-2'>
   <a href='tel:+91 80-41622171' style={{textDecoration:"none"}}><p className='childone'><MdAddIcCall className='footerIcons'/> 80-41622171 |&nbsp;</p></a>
-<a href='tel:+91-80-41622171' style={{textDecoration:"none"}}><p className='childone'> 80-41622171 |&nbsp;</p></a>
+
 <a href='tel:+91 9945052666' style={{textDecoration:"none"}}><p className='childone'> 9945052666.</p></a>
 
 </div>

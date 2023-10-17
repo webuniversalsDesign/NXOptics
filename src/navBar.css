@@ -372,15 +372,15 @@ width: max-content;
     width: 0%;
     height: 100vh;
     overflow: auto;
-    background-color: white;
-    top: 13%;
+    background-color: rgb(251 251 251);
+    top: 9%;
     left: -100%;
     z-index: 1111;
         transition: all 0.8s ease-in-out;
  }
 
  .mobile-nav-all_product{
-    background-color: rgb(255 239 239);
+    background-color: rgb(251 251 251);
     position: fixed;
     width: 100%;
     top: 13%;
@@ -412,7 +412,7 @@ padding: 10% 2% 0% 5%;
 
 .mob-nav-items{
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     margin: 5px 0px 5px 0px;
     padding: 15px 10px;
@@ -445,8 +445,6 @@ color: black;
 }
 
 
-
-
 .heading-banner{
     position: absolute;
     top: 50%;
@@ -472,3 +470,5 @@ opacity: 0;
     opacity: 1;
 
 }
+
+

@@ -1,14 +1,78 @@
+@media only screen and (max-width: 600px){
+    .nav-item-links{
+        display: none;
+    }
+    .only-mobile{
+        display: block;
+    
+    }
 .nav-strap{
-position: fixed;
-top: 0px;
+    padding: 13px 10px;
+    justify-content: space-between;
+    top: 0px;
+
+}
+
+.top-header{
+    padding: 10px 10px;
+
+}
+
+}
+
+@media only screen and (min-width: 998px){
+.nav-item-links{
+    display: block;
+}
+.only-mobile{
+    display: none;
+    
+}
+.nav-strap{
+    padding: 0px 100px;
+    justify-content: start;
+    top: 45px;
+}
+
+.top-header{
+    padding: 10px 100px;
+
+}
+
+
+}
+
+@media only screen and (min-width: 1400px){
+.nav-item-links{
+    display: block;
+}
+.only-mobile{
+    display: none;
+
+
+}
+.nav-strap{
+    padding: 0px 100px;
+    justify-content: start;
+    top: 35px;
+}
+
+.top-header{
+    padding: 10px 100px;
+
+}
+}
+
+
+.nav-strap{
+position: relative;
 left: 0px;
 width: 100%;
-padding: 0px 100px;
 display: flex;
-justify-content: start;
 align-items: center;
 z-index: 1111;
 background-color: white;
+box-shadow:0px 20px 20px 0px #00000024;
 }
 
 .navlogo img{
@@ -95,7 +159,19 @@ transition: all 0.3s ease-in-out;
    
 }
 
+.item-dropdown-hov .drop-hov .drop-link4{
+    display: block;
+    padding: 10px 5px;
+transition: all 0.3s ease-in-out;
+   
+}
+
 .item-dropdown-hov .drop-hov .drop-link3:hover{
+    background-color: rgb(226, 226, 226);
+   
+}
+
+.item-dropdown-hov .drop-hov .drop-link4:hover{
     background-color: rgb(226, 226, 226);
    
 }
@@ -128,10 +204,15 @@ font-size: 13px;
 font-size: 13px;
 }
 
+.drop-link4{
+    position: relative;
+font-size: 13px;
+}
+
 .hover-inner-links{
     position: absolute;
     list-style-type: none;
-    right: -265px;
+    right: -171px;
     top: 0px;
     background-color: white;
     box-shadow: 5px 0px 14px 0px #0000002b;
@@ -140,8 +221,8 @@ width: max-content;
 /* opacity: 0; */
 visibility: hidden;
 height: 0px;
-overflow-x: unset; 
-overflow-y: scroll;
+/* overflow-x: unset; 
+overflow-y: scroll; */
 border-radius: 5px;
 z-index: 111;
 transition: all 0.3s ease-in-out;
@@ -162,7 +243,7 @@ transition: all 0.3s ease-in-out;
 .drop-link:hover .hover-inner-links{
     /* opacity: 1; */
     visibility: visible;
-    height: 300px;
+    height: max-content;
 }
 
 .hover-inner-links2{
@@ -192,7 +273,7 @@ border-radius: 5px;
 .hover-inner-links3{
     position: absolute;
     list-style-type: none;
-    right: -88px;
+    right: -181px;
     top: 0px;
     background-color: white;
     box-shadow: 5px 0px 14px 0px #0000002b;
@@ -203,9 +284,17 @@ border-radius: 5px;
 visibility: hidden;
 height: 0px;
 transition: all 0.3s ease-in-out;
-}
+}   
+
+
 
 .drop-link3:hover .hover-inner-links3{
+    opacity: 1;
+    visibility: visible;
+    height: 70px;
+}
+
+.drop-link4:hover .hover-inner-link4{
     opacity: 1;
     visibility: visible;
     height: 70px;
@@ -222,11 +311,18 @@ opacity: 0;
 visibility: hidden;
 height: 0px;
 transition: all 0.3s ease-in-out;
-overflow-x: unset; 
-overflow-y: scroll;
-list-style-type:none;
-padding: 0px;
-margin: 0px;
+/* overflow-x: unset; 
+overflow-y: scroll; */
+list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: max-content;
+    background-color: white;
+    box-shadow: 5px 0px 14px 0px #0000002b;
+
 }
 
 .lastdrop::-webkit-scrollbar {
@@ -243,13 +339,19 @@ margin: 0px;
 .inner-linkers:hover .lastdrop{
 visibility: visible;
     opacity:1;
-    height:65px;
-    
+    height:max-content;
+    border-radius: 5px;
+    /* box-shadow: inset 0px -20px 20px 0px #e7e7e7; */
 }
 
 
 .lastdrop-items{
 padding:10px;
+}
+
+.lastdrop-items:hover{
+    background-color: rgb(238, 238, 238);
+
 }
 
 .drop-linkers-items1{
@@ -297,8 +399,16 @@ border-radius: 5px;
     }
     
     .inner-linkers2{
-        padding: 8px;
-        font-size: 13px;
+        padding: 8px 8px;
+            margin: 0px 0px;
+            font-size: 13px;
+        position: relative;
+    }
+
+    .inner-linkerslast{
+        padding: 8px 0px;
+            margin: 0px 0px;
+            font-size: 13px;
         position: relative;
     }
     
@@ -397,7 +507,7 @@ border-radius: 5px;
 position: absolute;
 width: max-content;
 height: 0px;
-right:-158px;
+right:-217px;
 top:0px;
 transition: all 0.3s ease-in-out;
 visibility: hidden;
@@ -412,7 +522,7 @@ list-style-type: none;
     position: absolute;
     width: max-content;
     height: 0px;
-    right:-115px;
+    right:-207px;
     top:0px;
 transition: all 0.3s ease-in-out;
 visibility: hidden;
@@ -425,13 +535,114 @@ list-style-type: none;
 
 .inner-linkers:hover .drop-inner-link3-item1{
 visibility: visible;
-    height: 40px;
+    height: 90px;
 
 }
 
 .inner-linkers:hover .drop-inner-link3-item2{
 visibility: visible;
-    height: 40px;
+    height: 240px;
 
 
+}
+
+.inner-linkers2{
+    position: relative;
+}
+
+.ul-disable{
+    list-style-type: none;
+    padding: 0px !important;
+}
+
+.drop-items-poe{
+    position: relative;
+}
+
+.drop-items-poe-links{
+    position: absolute;
+    opacity: 0;
+    list-style-type: none;
+    padding: 0px;
+    width: max-content;
+    top: 0px;
+    right: -217px;
+    height: 0px;
+    background-color: white;
+box-shadow: 5px 0px 14px 0px #0000002b;
+transition: all 0.3s ease-in-out;
+border-radius: 5px;
+}
+
+.drop-items-poe:hover .drop-items-poe-links{
+    opacity: 1;
+    height: 180px;
+}
+
+.arrow-icon{
+    transform: rotate(0deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.inner-linkers:hover .arrow-icon{
+    transform: rotate(90deg);
+}
+
+.inner-linkers:hover{
+    background-color:rgb(231, 231, 231) ;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+    background-color: #f3f3f3;
+}
+
+.top-header p{
+margin: 0px;
+font-size: 12px;
+font-weight: 500;
+color: gray;    
+letter-spacing: 1px;
+
+}
+
+.top-header a{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0px;
+    color: gray;  
+    transition: all 0.3s ease-in-out;
+
+}
+
+.top-header a:hover{
+color: black;
+}
+
+.drop-inner-link4{
+    position: absolute;
+    width: max-content;
+    list-style-type: none;
+    padding: 0px;
+    top: 0px;
+    background-color: white;
+    right: -171px;
+    visibility: hidden;
+    height: 0px;
+    border-radius: 5px;
+box-shadow: 5px 0px 14px 0px #0000002b;
+    transition: all 0.3s ease-in-out;
+}
+
+.drop-link4:hover .drop-inner-link4{
+    visibility: visible;
+    height: 230px;
 }

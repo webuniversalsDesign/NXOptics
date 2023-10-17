@@ -2,11 +2,11 @@ import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/1.25G SFP/SFP_BIDI_5.jpg'
 
-import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+// import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
 import machdimenssion from '../../img/products/1.25G SFP/SFP_BIDI_machanicaldimension.jpg';
 import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
-import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
+// import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
  
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -91,7 +91,7 @@ const BIDI_C8_S53_20Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
 
@@ -102,7 +102,7 @@ const BIDI_C8_S53_20Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
 
@@ -113,7 +113,7 @@ const BIDI_C8_S53_20Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
 
@@ -124,7 +124,7 @@ const BIDI_C8_S53_20Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
    
