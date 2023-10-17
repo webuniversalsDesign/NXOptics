@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -45,12 +45,12 @@ const Products_200G_QSFP56 = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -65,7 +65,7 @@ const Products_200G_QSFP56 = () => {
         <Link to="/Products_200G_QSFP56/QSFP56_Q5Q5_200G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3'  alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -103,7 +103,7 @@ Hot Pluggable, 850nm VCSEL, MMF OM4 1~100M, DDM
         <Link to="/Products_200G_QSFP56/QSFP56_Q6Q5_200G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -141,7 +141,7 @@ Hot Pluggable, 850nm VCSEL, MMF OM4 1~100M, DDM
         <Link to="/Products_200G_QSFP56/QSFP56_Q6Q6_200G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>

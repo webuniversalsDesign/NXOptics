@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -17,7 +17,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/QSFP28.jpg'
 import productImg2 from '../../../img/products/Fiber Optical Cable/AOC/QPSP2.jpg';
-import productImg3 from '../../../img/products/Fiber Optical Cable/AOC/QPSP.jpg';
+// import productImg3 from '../../../img/products/Fiber Optical Cable/AOC/QPSP.jpg';
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -45,12 +45,12 @@ const Products_100G_QSFP28 = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -65,7 +65,7 @@ const Products_100G_QSFP28 = () => {
         <Link to="/Products_100G_QSFP28/QSFP28_QPQP_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -103,7 +103,7 @@ Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM
         <Link to="/Products_100G_QSFP28/QSFP28_QPSP_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>

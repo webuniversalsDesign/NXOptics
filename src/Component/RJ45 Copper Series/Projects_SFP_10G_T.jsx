@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -43,12 +43,12 @@ const Projects_SFP_10G = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -63,7 +63,7 @@ const Projects_SFP_10G = () => {
         <Link to="/Projects_SFP_10G/SFP_10G_T11_Y3" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10GBASE-T SFP+ Transceiver
@@ -98,7 +98,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M
         <Link to="/Projects_SFP_10G/SFP_10G_T_Y3i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10GBASE-T SFP+ Transceiver
@@ -134,7 +134,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp
         <Link to="/Projects_SFP_10G/SFP_10G_T12_Y3" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10GBASE-T SFP+ Transceiver
@@ -208,7 +208,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M
         <Link to="/Projects_SFP_10G/T22_Y3_10G_T" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10GBASE-T SFP+ Transceiver
@@ -241,7 +241,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp
         <Link to="/Projects_SFP_10G/T11_Y8_10G_T" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10GBASE-T SFP+ Transceiver

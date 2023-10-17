@@ -120,9 +120,9 @@ const NXO_202 = () => {
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
   </ul> 
@@ -131,9 +131,9 @@ const NXO_202 = () => {
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>The {PartNumber} Optical Bypass Switch is an industrial grade external bypass switch for optical-node failure in fiber optical  network infrastructures. The NXO-202 Optical Bypass Switch prevents and saves communication from network failures during  power loss. When power failure occurs, the Bypass switch will swiftly set to bypass mode and isolate the main-network from the local  networking device (See Figure 1). Bypass switches are commonly used in some major optical networks, such as in railway  communication systems, factory automation, and power substation, where fiber link failures are not tolerated.
@@ -179,18 +179,18 @@ const NXO_202 = () => {
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

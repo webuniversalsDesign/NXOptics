@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -16,9 +16,9 @@ import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/1X9/ultra.jpg'
-import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
-import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
-import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
+// import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
+// import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
+// import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -46,12 +46,12 @@ const Ultra_row_1X9_DC = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -66,7 +66,7 @@ const Ultra_row_1X9_DC = () => {
         <Link to="/Ultra_row_1X9_DC/Ultra_02B" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver
@@ -92,7 +92,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVTTL / TTL Signal Detection
         <Link to="/Ultra_row_1X9_DC/Ultra_02Bi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver
@@ -118,7 +118,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVTTL / TTL Signal Detection
         <Link to="/Ultra_row_1X9_DC/Ultra_05B" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver
@@ -145,7 +145,7 @@ Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection
         <Link to="/Ultra_row_1X9_DC/Ultra_05Bi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver

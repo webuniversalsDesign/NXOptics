@@ -133,9 +133,9 @@ const NXO_402GSM_NXO_803GSM_NXO_1604GSM = () => {
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
   </ul> 
@@ -144,9 +144,9 @@ const NXO_402GSM_NXO_803GSM_NXO_1604GSM = () => {
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>{PartNumber} These models are managed industrial grade L2+ switches with 16/8/4 10/100Base-TX ports and 4/3/2 GbE/100M SFP ports that  provide stable and reliable Ethernet transmission. Housed in rugged DIN rail or wall mountable enclosures, these switches are  designed for harsh environments, such as industrial networking, security automation applications, intelligent transportation systems  (ITS) and are also suitable for many military and utility market applications where environmental conditions exceed commercial  product specifications (See Figure 1). Standard operating temperature range models (-10 to 60°C) and wide operating temperature  range models (-40 to 75°C) fulfill the special needs of industrial automation applications.
@@ -194,18 +194,18 @@ const NXO_402GSM_NXO_803GSM_NXO_1604GSM = () => {
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/622M_SFP/622_BIDI.jpg';
+// import productImg1 from '../../img/products/622M_SFP/622_BIDI.jpg';
 // import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
 import productImg2 from '../../img/products/622M_SFP/622_Dual.jpg'
@@ -49,12 +49,12 @@ const Products_622M_SFP_Dual = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -69,7 +69,7 @@ const Products_622M_SFP_Dual = () => {
         <Link to="/Products_622M_SFP_Dual/Dual_622M_X5D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -103,7 +103,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_X5Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -137,7 +137,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -168,7 +168,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_20Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -199,7 +199,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_60D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -231,7 +231,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_60Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -263,7 +263,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -294,7 +294,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_80Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -325,7 +325,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_A0D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -357,7 +357,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_A0Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -389,7 +389,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_A4D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -421,7 +421,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM(36dB), DDM
         <Link to="/Products_622M_SFP_Dual/Dual_622M_A6D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>

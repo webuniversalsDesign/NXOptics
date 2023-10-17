@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -16,7 +16,7 @@ import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/100G QSFP28/CWDM4_02D.png';
-import productImg2 from '../../img/products/100G QSFP28/4DWM_20e.png';
+// import productImg2 from '../../img/products/100G QSFP28/4DWM_20e.png';
 
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
@@ -45,12 +45,12 @@ const CWDM4_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -65,7 +65,7 @@ const CWDM4_Products = () => {
         <Link to="/CWDM4_Products/CWDM4_02D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G QSFP28 CWDM4 Transceiver
@@ -88,7 +88,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 2KM, DDM
         <Link to="/CWDM4_Products/CWDM4_13D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G QSFP28 CWDM4 Transceiver

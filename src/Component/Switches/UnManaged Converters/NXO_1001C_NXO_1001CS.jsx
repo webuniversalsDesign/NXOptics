@@ -5,8 +5,8 @@ import productImg1 from '../../../img/products/Switches/NXO-1000C.jpg'
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/Switches/Application.jpeg';
-import Application2 from '../../../img/products/Switches/Application2.jpeg';
+// import Application from '../../../img/products/Switches/Application.jpeg';
+// import Application2 from '../../../img/products/Switches/Application2.jpeg';
 import dime1 from '../../../img/products/Switches/Dimension1001C.jpg';
 import dime2 from '../../../img/products/Switches/Dimension1001C_2.jpg';
 
@@ -132,9 +132,9 @@ const NXO_1001C_NXO_1001CS = () => {
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
   </ul> 
@@ -143,9 +143,9 @@ const NXO_1001C_NXO_1001CS = () => {
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>
@@ -195,18 +195,18 @@ const NXO_1001C_NXO_1001CS = () => {
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

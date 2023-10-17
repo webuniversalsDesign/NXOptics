@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -51,12 +51,12 @@ const BIDI_155M_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -71,7 +71,7 @@ const BIDI_155M_Products = () => {
         <Link to="/BIDI_155M_Products/BIDI_S35_100BX_U" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -97,7 +97,7 @@ Hot Pluggable, Bidi SC, 1310nm FP / Rx1550nm, SMF 20KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_S35_100BX_Ui" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -123,7 +123,7 @@ Hot Pluggable, Bidi SC, 1310nm FP / Rx1550nm, SMF 20KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_S35_100BX_D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -148,7 +148,7 @@ Hot Pluggable, Bidi SC, 1550nm FP / Rx1310nm, SMF 20KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_S35_100BX_Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -173,7 +173,7 @@ Hot Pluggable, Bidi SC, 1550nm FP / Rx1310nm, SMF 20KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_35_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -198,7 +198,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_35_20Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -223,7 +223,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_35_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -249,7 +249,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 40KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_35_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -275,7 +275,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 40KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_35_60D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -303,7 +303,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 60KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_35_60Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -330,7 +330,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 60KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_45_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -356,7 +356,7 @@ Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 80KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_45_80Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -382,7 +382,7 @@ Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 80KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S45_A2D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -409,7 +409,7 @@ Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 120KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S45_A2Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -436,7 +436,7 @@ Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 120KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S53_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -464,7 +464,7 @@ Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 20KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S53_20Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -492,7 +492,7 @@ Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 20KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S53_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -518,7 +518,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S53_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -544,7 +544,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S53_60D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -571,7 +571,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 60KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S53_60Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -598,7 +598,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 60KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S54_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg6} className='productImg3'/>
+<img src={productImg6} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -626,7 +626,7 @@ Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 80KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S54_80Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg6} className='productImg3'/>
+<img src={productImg6} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -654,7 +654,7 @@ Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 80KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S54_A2D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg6} className='productImg3'/>
+<img src={productImg6} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -680,7 +680,7 @@ Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 120KM, DDM
         <Link to="/BIDI_155M_Products/BIDI_A8_S54_A2Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg6} className='productImg3'/>
+<img src={productImg6} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>

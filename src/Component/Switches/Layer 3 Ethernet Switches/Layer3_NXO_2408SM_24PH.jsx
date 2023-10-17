@@ -5,7 +5,7 @@ import productImg1 from '../../../img/products/Switches/Layer 3 ethernet switche
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/Switches/NOX-2408SM-24PH_Application.png';
+// import Application from '../../../img/products/Switches/NOX-2408SM-24PH_Application.png';
 import dime1 from '../../../img/products/Switches/NOX-2408SM-24PH_Dimession.png';
 
 
@@ -182,9 +182,9 @@ Peer to Peer Transparent Clock, End to End 	Transparent Clock, Master, Slave mod
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
   </ul> 
@@ -193,9 +193,9 @@ Peer to Peer Transparent Clock, End to End 	Transparent Clock, Master, Slave mod
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>{PartNumber} As an Industrial grade Layer 3 Ethernet switch, the NXO-2408SM-24PH provides full 
@@ -233,18 +233,18 @@ Peer to Peer Transparent Clock, End to End 	Transparent Clock, Master, Slave mod
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

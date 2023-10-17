@@ -2,11 +2,11 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/2.5_SFP/Dual_02D.jpg'
 
-import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+// import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
 import machdimenssion from '../../img/products/2.5_SFP//BIDI_Machanical.jpg';
 import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
-import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
+// // import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -79,7 +79,7 @@ const Dual_S13_40D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -90,7 +90,7 @@ const Dual_S13_40D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -101,7 +101,7 @@ const Dual_S13_40D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
 
@@ -112,7 +112,7 @@ const Dual_S13_40D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="img-not-found"/>
       )}
     </Item>
    
@@ -198,23 +198,23 @@ STM-16 I-16
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
  
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
     </li>
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
     </li>
 
   </ul> 
@@ -223,9 +223,9 @@ STM-16 I-16
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>
@@ -237,12 +237,12 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical lin
 </div>
 </div>
 
-<div id="menu1" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+<div id="menu1" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Absolute Maximum Ratings</h2>
   
-  <div class="table-responsive">
-    <table class="table table-hover">
+  <div className="table-responsive">
+    <table className="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -286,12 +286,12 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical lin
 </div>
 </div>
 
- <div id="menu2" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+ <div id="menu2" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Recommended Operating Conditions</h2>
   
-  <div class="table-responsive">
-    <table class="table table-hover">
+  <div className="table-responsive">
+    <table className="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -357,8 +357,8 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical lin
 </div>
  </div>
 
- <div id="menu3" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+ <div id="menu3" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
   <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
@@ -429,18 +429,18 @@ Specification.
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

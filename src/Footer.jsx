@@ -47,10 +47,10 @@ India.
 
 <div className='d-flex pb-4'>
 
-<a href="#"><BiLogoFacebook className="social-icons"/></a>
-<a href="#"><GrTwitter className="social-icons"/></a>
-<a href="#"><AiFillYoutube className="social-icons"/></a>
-<a href="#"><GrLinkedinOption className="social-icons"/></a>
+<a href="/"><BiLogoFacebook className="social-icons"/></a>
+<a href="/"><GrTwitter className="social-icons"/></a>
+<a href="/"><AiFillYoutube className="social-icons"/></a>
+<a href="/"><GrLinkedinOption className="social-icons"/></a>
 
 </div>
 </div>

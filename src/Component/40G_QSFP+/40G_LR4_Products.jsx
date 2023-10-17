@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -8,7 +8,7 @@ import Navbar from '../../Navbar'
 import Footer from '../../Footer';
 import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
-import { TiTickOutline } from 'react-icons/ti';
+
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -44,12 +44,12 @@ const Products_40G_LR4 = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -64,7 +64,7 @@ const Products_40G_LR4 = () => {
         <Link to="/Products_40G_LR4/LR4_10KM_40G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>40G QSFP+ LR4 Transceiver
@@ -88,7 +88,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
         <Link to="/Products_40G_LR4/LR4_10KM_40G_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>40G QSFP+ LR4 Transceiver
@@ -111,7 +111,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_40G_LR4/LR4_20KM_40G" style={{textDecoration:"none", color:"black"}}>
         <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>40G QSFP+ LR4 Transceiver
@@ -133,7 +133,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_40G_LR4/LR4_20KM_40G_i" style={{textDecoration:"none", color:"black"}}>
         <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>40G QSFP+ LR4 Transceiver

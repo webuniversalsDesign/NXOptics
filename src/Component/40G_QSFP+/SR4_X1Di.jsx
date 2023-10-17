@@ -12,7 +12,7 @@ import powersupply from "../../img/products/40GQSFP+/optical.png"
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
-import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
+import { BsCartCheck } from 'react-icons/bs';
 import { TiTickOutline } from 'react-icons/ti';
 
 
@@ -83,7 +83,7 @@ const SR4_X1Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -94,7 +94,7 @@ const SR4_X1Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -105,7 +105,7 @@ const SR4_X1Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -116,7 +116,7 @@ const SR4_X1Di = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
    
@@ -210,32 +210,32 @@ RoHS Compliant
 
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='d-flex felx-wrap justify-content-center'>
-       <ul class="nav nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="nav nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
  
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
     </li>
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
-      <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
+      <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
     </li>
  
   </ul> 
 </div>
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>NXOQFP-I9-M85-X1Di is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
@@ -243,12 +243,12 @@ RoHS Compliant
 </div>
 </div>
 
-<div id="menu1" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+<div id="menu1" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Absolute Maximum Ratings</h2>
   
-  <div class="table-responsive">
-    <table class="table table-hover">
+  <div className="table-responsive">
+    <table className="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -292,12 +292,12 @@ RoHS Compliant
 </div>
 </div>
 
-    <div id="menu2" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+    <div id="menu2" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Recommended Operating Conditions</h2>
   
-  <div class="table-responsive">
-    <table class="table table-hover">
+  <div className="table-responsive">
+    <table className="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -364,9 +364,9 @@ RoHS Compliant
 </div>
  </div>
  
- <div id="menu3" class="container tab-pane fade"><br/>
+ <div id="menu3" className="container tab-pane fade"><br/>
  
- <div class="container mt-3">
+ <div className="container mt-3">
  <h2>Digital Diagnostic Functions</h2>
  
 <p>As defined by the QSFP+ MSA, NXO QSFP+ transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters
@@ -463,18 +463,18 @@ It also provides a sophisticated system of alarm and warning flags, which may be
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

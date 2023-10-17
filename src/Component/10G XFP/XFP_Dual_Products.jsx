@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -48,12 +48,12 @@ const XFP_DUAL_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -68,7 +68,7 @@ const XFP_DUAL_Products = () => {
         <Link to="/XFP_Dual_Products/Dual_H7_M85_X3D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-SR Transceiver
@@ -93,7 +93,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, Multi-Mode, 300M, DDM
         <Link to="/XFP_Dual_Products/Dual_H7_S13_10D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-LR Transceiver
@@ -118,7 +118,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM
         <Link to="/XFP_Dual_Products/Dual_H7_S13_10Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-LR Transceiver
@@ -144,7 +144,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM
 " style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-LR Transceiver
@@ -169,7 +169,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM Low Power Consumpti
         <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-ER Transceiver
@@ -197,7 +197,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
         <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-ER Transceiver
@@ -224,7 +224,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
         <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40D_L" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-ER Transceiver
@@ -251,7 +251,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
         <Link to="/XFP_Dual_Products/Dual_H7_S15_80D_SFP" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-ZR Transceiver
@@ -277,7 +277,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM
         <Link to="/XFP_Dual_Products/Dual_H7_S15_80Di_SFP" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-ZR Transceiver
@@ -303,7 +303,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM
         <Link to="/XFP_Dual_Products/Dual_H7_S15_80D_L_SFP" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-ZR Transceiver
@@ -329,7 +329,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM Low Power Consum
         <Link to="/XFP_Dual_Products/Dual_H7_S15_A0D_SFP" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-ZR Transceiver
@@ -357,7 +357,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
         <Link to="/XFP_Dual_Products/Dual_H7_S15_A0Di_SFP" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-ZR Transceiver
@@ -384,7 +384,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
         <Link to="/XFP_Dual_Products/Dual_H7_S15_A2D_SFP" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G XFP-EZR Transceiver

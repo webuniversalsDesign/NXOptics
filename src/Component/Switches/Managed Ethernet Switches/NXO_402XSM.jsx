@@ -5,7 +5,7 @@ import productImg1 from '../../../img/products/Switches/NOX_402XSM.png'
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/Switches/Layer3_NOX-G24044X_Application.png';
+// import Application from '../../../img/products/Switches/Layer3_NOX-G24044X_Application.png';
 import dime1 from '../../../img/products/Switches/NOX_402XSM_Dimenssions.png';
 
 
@@ -127,9 +127,9 @@ const NXO_402XSM = () => {
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
   </ul> 
@@ -138,9 +138,9 @@ const NXO_402XSM = () => {
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>{PartNumber} NXO-402XSM is an 1G/2.5G/10G managed Layer 2 Ethernet switch. It provides 4 port of electrical 10M/100M/1G/2.5GBase-T via  RJ-45s plus 2 ports SFP slots of 100M/1G/2.5G/10GBase-X which provide stable and reliable long-distance Ethernet transmission over  optical fiber. Built to Industrial grade standards, the FANLESS design provides high MTBF in indoor environments of operating  temperature from -10 to 60°C (14 to 160°F), and incorporates redundant 12/24/48VDC power input. With Din-Rail or wall mounting  metal housings, these switches are perfect choices for heavy duty use in harsh environments, such as Industrial Factory  Automation, Data Center Networking, Intelligent Transportation Systems (ITS) and are also suitable for many military and utility  market applications where environmental conditions exceed commercial product specifications.
@@ -172,18 +172,18 @@ These managed switches also support a wide variety of Ethernet Layer 2 functions
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

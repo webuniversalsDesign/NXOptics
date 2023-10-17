@@ -7,7 +7,7 @@ import Footer from '../../../Footer';
 
 import Application from '../../../img/products/Switches/NOX-1604XSM-application.png';
 import dime1 from '../../../img/products/Switches/NOX-1604XSM-dimenssion.png';
-import dime2 from '../../../img/products/Switches/NOX_1604GSM_Dimenssion.png';
+// import dime2 from '../../../img/products/Switches/NOX_1604GSM_Dimenssion.png';
 
 
 import {TiTickOutline} from 'react-icons/ti';
@@ -121,9 +121,9 @@ const NXO_1604XSM = () => {
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
   </ul> 
@@ -132,9 +132,9 @@ const NXO_1604XSM = () => {
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>{PartNumber} An Industrial 20-port Ethernet switch comes with 16 ports Gigabit copper interface and 4 ports 10 Gigabit SFP+ 
@@ -180,18 +180,18 @@ const NXO_1604XSM = () => {
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

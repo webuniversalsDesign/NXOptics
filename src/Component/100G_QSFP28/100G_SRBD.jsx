@@ -89,7 +89,7 @@ const Product_100G_SRBD = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -100,7 +100,7 @@ const Product_100G_SRBD = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -111,7 +111,7 @@ const Product_100G_SRBD = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -122,7 +122,7 @@ const Product_100G_SRBD = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
    
@@ -216,19 +216,19 @@ RoHS compliant
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
  
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
     </li>
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
   </ul> 
@@ -237,9 +237,9 @@ RoHS compliant
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>
@@ -253,12 +253,12 @@ channels, then converting to PAM4 2x50G optical channels for an aggregated data 
 </div>
 </div>
 
-<div id="menu1" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+<div id="menu1" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Absolute Maximum Ratings</h2>
   
-  <div class="table-responsive">
-    <table class="table table-hover">
+  <div className="table-responsive">
+    <table className="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -302,12 +302,12 @@ channels, then converting to PAM4 2x50G optical channels for an aggregated data 
 </div>
 </div>
 
- <div id="menu2" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+ <div id="menu2" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Recommended Operating Conditions</h2>
   
-  <div class="table-responsive">
-    <table class="table table-hover">
+  <div className="table-responsive">
+    <table className="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -508,18 +508,18 @@ channels, then converting to PAM4 2x50G optical channels for an aggregated data 
 </div>
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

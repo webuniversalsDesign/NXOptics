@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -8,7 +8,7 @@ import Navbar from '../../Navbar'
 import Footer from '../../Footer';
 import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
-import { TiTickOutline } from 'react-icons/ti';
+
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -47,12 +47,12 @@ const CFP2_Products_100G = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -67,7 +67,7 @@ const CFP2_Products_100G = () => {
         <Link to="/CFP2_Products_100G/Product_100G_QSFP28" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
@@ -89,7 +89,7 @@ const CFP2_Products_100G = () => {
         <Link to="/CFP2_Products_100G/ER4_DuleRate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G CFP2 ER4 Dual Rate Transceiver
@@ -113,7 +113,7 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
         <Link to="/CFP2_Products_100G/LR4_Eathernet_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G CFP2 LR4 Transceiver
@@ -139,7 +139,7 @@ Hot Pluggable, Duplex LC, DML LAN-WDM, Single Mode, 10KM, DDM
         <Link to="/CFP2_Products_100G/LR4_DualRate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G CFP2 LR4 Dual Rate Transceiver
@@ -164,7 +164,7 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM
         <Link to="/CFP2_Products_100G/SR10_DuleRate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G CFP2 SR10 Dual Rate Transceiver

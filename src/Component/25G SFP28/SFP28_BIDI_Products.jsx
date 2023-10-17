@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -44,12 +44,12 @@ const SFP28_BIDI_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'  />
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found' />
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -64,7 +64,7 @@ const SFP28_BIDI_Products = () => {
         <Link to="/SFP28_BIDI_Products/SFP28_BX10_27" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'  />
 
 <div className='product-dec'>
   <h5>25G SFP28 BX-U Transceiver
@@ -90,7 +90,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 10KM, DDM
         <Link to="/SFP28_BIDI_Products/SFP28_BX10_27_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'  />
 
 <div className='product-dec'>
   <h5>25G SFP28 BX-U Transceiver
@@ -115,7 +115,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 10KM, DDM
         <Link to="/SFP28_BIDI_Products/SFP28_BX20_27" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'  />
 
 <div className='product-dec'>
   <h5>25G SFP28 BX-U Transceiver
@@ -139,7 +139,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
         <Link to="/SFP28_BIDI_Products/SFP28_BX20_27_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'  />
 
 <div className='product-dec'>
   <h5>25G SFP28 BX-U Transceiver
@@ -162,7 +162,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
         <Link to="/SFP28_BIDI_Products/SFP28_BX10_33" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'  />
 
 <div className='product-dec'>
   <h5>25G SFP28 BX-D Transceiver
@@ -185,7 +185,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 10KM, DDM</h5>
         <Link to="/SFP28_BIDI_Products/SFP28_BX10_33_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'  />
 
 <div className='product-dec'>
   <h5>25G SFP28 BX-D Transceiver
@@ -208,7 +208,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 10KM, DDM</h5>
         <Link to="/SFP28_BIDI_Products/SFP28_BX20_33" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'  />
 
 <div className='product-dec'>
   <h5>25G SFP28 BX-D Transceiver
@@ -232,7 +232,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 20KM, DDM
         <Link to="/SFP28_BIDI_Products/SFP28_BX20_33_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'  />
 
 <div className='product-dec'>
   <h5>25G SFP28 BX-D Transceiver

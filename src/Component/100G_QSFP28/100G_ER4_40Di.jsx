@@ -17,7 +17,7 @@ import transcerve from '../../img/products/100G QSFP28/transciverBlock_ER4_singl
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
-import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
+import { BsCartCheck } from 'react-icons/bs';
 
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
@@ -104,7 +104,7 @@ const ER4_40Di_100G = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -115,7 +115,7 @@ const ER4_40Di_100G = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -126,7 +126,7 @@ const ER4_40Di_100G = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -137,7 +137,7 @@ const ER4_40Di_100G = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
    

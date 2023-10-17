@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -49,12 +49,12 @@ const BIDI_10_to_40_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -69,7 +69,7 @@ const BIDI_10_to_40_Products = () => {
         <Link to="/BIDI_10_to_40_Products/BIDI_C27" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G QSFP28 Single Lambda LR1-BiDi Transceiver
@@ -92,7 +92,7 @@ Hot Pluggable, Bidi LC, Tx1271nm EML / Rx1331nm, SMF 10KM, DDM
         <Link to="/BIDI_10_to_40_Products/BIDI_C29" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G QSFP28 Single Lambda LR1-20-BiDi Transceiver
@@ -115,7 +115,7 @@ Hot Pluggable, Bidi LC, Tx1291nm EML / Rx1311nm, SMF 20KM, DDM
         <Link to="/BIDI_10_to_40_Products/BIDI_C31" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G QSFP28 Single Lambda LR1-20-BiDi Transceiver
@@ -138,7 +138,7 @@ Hot Pluggable, Bidi LC, Tx1311nm EML / Rx1291nm, SMF 20KM, DDM
         <Link to="/BIDI_10_to_40_Products/BIDI_L04" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G QSFP28 Single Lambda ER1-30-BiDi Transceiver
@@ -161,7 +161,7 @@ Hot Pluggable, Bidi LC, Tx1304nm EML / Rx1309nm, SMF 30KM, DDM
         <Link to="/BIDI_10_to_40_Products/BIDI_L09" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G QSFP28 Single Lambda ER1-30-BiDi Transceiver
@@ -184,7 +184,7 @@ Hot Pluggable, Bidi LC, Tx1309nm EML / Rx1304nm, SMF 30KM, DDM
         <Link to="/BIDI_10_to_40_Products/BIDI_C33" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
+<img src={productImg5} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>100G QSFP28 Single Lambda LR1-BiDi Transceiver

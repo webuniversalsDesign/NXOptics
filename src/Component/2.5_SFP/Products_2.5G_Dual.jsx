@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -16,12 +16,12 @@ import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/2.5_SFP/Dual_1.jpg'
-import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
+// import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 import productImg1_3 from '../../img/products/2.5_SFP/Dual_3.jpg'
 
 import productImg2 from '../../img/products/2.5_SFP/Dual_02D.jpg'
-import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
-import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
+// import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
+// import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -49,12 +49,12 @@ const Products_2point5_Dual = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -69,7 +69,7 @@ const Products_2point5_Dual = () => {
         <Link to="/Products_2point5_Dual/Dual_X3D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5> 
@@ -101,7 +101,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
         <Link to="/Products_2point5_Dual/Dual_X3Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5> 
@@ -133,7 +133,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
         <Link to="/Products_2point5_Dual/Dual_X3DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 / STM-16 Multi-Rate Transceiver
@@ -168,7 +168,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
         <Link to="/Products_2point5_Dual/Dual_X3DMi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 / STM-16 Multi-Rate Transceiver
@@ -203,7 +203,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
         <Link to="/Products_2point5_Dual/Dual_02D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 SR / STM-16 I-16 Transceiver
@@ -237,7 +237,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
         <Link to="/Products_2point5_Dual/Dual_02Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 SR / STM-16 I-16 Transceiver
@@ -271,7 +271,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
         <Link to="/Products_2point5_Dual/Dual_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
@@ -302,7 +302,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
         <Link to="/Products_2point5_Dual/Dual_20Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
@@ -333,7 +333,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S13_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
@@ -365,7 +365,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S13_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
@@ -397,7 +397,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S13_60D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
@@ -431,7 +431,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S13_60Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
@@ -465,7 +465,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -498,7 +498,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 40KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -531,7 +531,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 40KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -568,7 +568,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_80Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -605,7 +605,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_A0D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -642,7 +642,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_A0Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -679,7 +679,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_A0DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -718,7 +718,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
         <Link to="/Products_2point5_Dual/Dual_S15_A0DMi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -748,7 +748,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
         <Link to="/Products_2point5_Dual/Dual_S15_A2D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -778,7 +778,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_A2Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -808,7 +808,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
         <Link to="/Products_2point5_Dual/Dual_S15_A2DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -841,7 +841,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM, Multi-Rate
         <Link to="/Products_2point5_Dual/Dual_S15_A2DMi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_3} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver

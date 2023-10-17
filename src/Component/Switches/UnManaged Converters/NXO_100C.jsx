@@ -5,7 +5,7 @@ import productImg1 from '../../../img/products/Switches/NXO-100C.jpg'
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/Switches/Layer3_NOX-G24044X_Application.png';
+// import Application from '../../../img/products/Switches/Layer3_NOX-G24044X_Application.png';
 import dime1 from '../../../img/products/Switches/NXO-100Cdimension.jpg';
 
 
@@ -125,9 +125,9 @@ const NXO_100C = () => {
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="navs nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
   </ul> 
@@ -136,9 +136,9 @@ const NXO_100C = () => {
 
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>{PartNumber} is a compact sized, unmanaged industrial grade 100M Ethernet media converter that supports conversion between  electrical 10/100Base-TX and optical 100Base-FX Ethernet. Housed in rugged DIN rail or wall mountable enclosures, the converter is  designed for harsh environments, such as industrial networking and intelligent transportation systems (ITS) and is also suitable for  many military and utility market applications where environmental conditions exceed commercial product specifications. Wide  operating temperature range models (-40 to 75°C) fulfill the special needs of industrial automation applications.
@@ -169,18 +169,18 @@ const NXO_100C = () => {
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

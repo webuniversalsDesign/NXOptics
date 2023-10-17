@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,11 +18,11 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/4G_SFP/Dual_4G.jpg';
 // import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
-import productImg2 from '../../img/products/10SFP+/Dual_2.jpg'
-import productImg3 from '../../img/products/1.25G SFP/SFP_Dual_50D.jpg'
+// import productImg2 from '../../img/products/10SFP+/Dual_2.jpg'
+// import productImg3 from '../../img/products/1.25G SFP/SFP_Dual_50D.jpg'
 import productImg4 from '../../img/products/10SFP+/Dual_3.jpg'
-import productImg5 from '../../img/products/10SFP+/Dual_4.jpg'
-import productImg6 from '../../img/products/10SFP+/Dual_5.jpg'
+// import productImg5 from '../../img/products/10SFP+/Dual_4.jpg'
+// import productImg6 from '../../img/products/10SFP+/Dual_5.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -50,12 +50,12 @@ const Products_6G_SFP = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -70,7 +70,7 @@ const Products_6G_SFP = () => {
         <Link to="/Products_6G_SFP/Dual_67_X3D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>
@@ -103,7 +103,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
         <Link to="/Products_6G_SFP/Dual_67_X3Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>
@@ -136,7 +136,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
         <Link to="/Products_6G_SFP/Dual_67_02D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>
@@ -171,7 +171,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
         <Link to="/Products_6G_SFP/Dual_67_02Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg4} className='productImg3'/>
+<img src={productImg4} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>

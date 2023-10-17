@@ -19,7 +19,7 @@ import transcerve from '../../img/products/100G QSFP28/transciverBlock_ER4_singl
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
-import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
+import { BsCartCheck } from 'react-icons/bs';
 
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
@@ -106,7 +106,7 @@ const L12_4WDM = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -117,7 +117,7 @@ const L12_4WDM = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -128,7 +128,7 @@ const L12_4WDM = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -139,7 +139,7 @@ const L12_4WDM = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
    
@@ -201,33 +201,33 @@ const L12_4WDM = () => {
 
 <div className='container pt-lg-5  pb-lg-5'>
 <div className='d-flex felx-wrap justify-content-center'>
-       <ul class="nav nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
+       <ul className="nav nav-pills" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
 
  
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
     </li>
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic Functions</a>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic Functions</a>
     </li>
 
   </ul> 
 </div>
 
 
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br/>
-    <div class="container mt-3">
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+    <div className="container mt-3">
   <h2>Overview</h2>
   
  <p>NXOQ28-K8-L13-20De is a 8-Channel LWDM QSFP28 Bidi transceiver for 100GbE applications especially in Datacom, Data Center & Storage networks. The transmitter converts 4-Channel 25G electrical input
@@ -239,12 +239,12 @@ data to four LWDM optical signals and multiplex that into one 100G signal. The r
 
 
 
-<div id="menu1" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+<div id="menu1" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Absolute Maximum Ratings</h2>
   
-  <div class="table-responsive">
-    <table class="table table-hover">
+  <div className="table-responsive">
+    <table className="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -288,12 +288,12 @@ data to four LWDM optical signals and multiplex that into one 100G signal. The r
 </div>
 </div>
 
-    <div id="menu2" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+    <div id="menu2" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Recommended Operating Conditions</h2>
   
-  <div class="table-responsive">
-    <table class="table table-hover">
+  <div className="table-responsive">
+    <table className="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -425,8 +425,8 @@ data to four LWDM optical signals and multiplex that into one 100G signal. The r
 
 
 
- <div id="menu4" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
+ <div id="menu4" className="container tab-pane fade"><br/>
+    <div className="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
   <p>As defined by the QSFP28 MSA, NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
 </p>
@@ -516,18 +516,18 @@ The operating and diagnostics information is monitored and reported by a Digital
 <Footer/>
 
 {/* --------------------------------------------------------------------------------------------------------- */}
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+<div className="modal fade" id="myModal">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
 
       {/* <!-- Modal Header --> */}
-      <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div className="modal-header">
+        <h4 className="modal-title">Enquire Now</h4>
+        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       {/* <!-- Modal body --> */}
-      <div class="modal-body">
+      <div className="modal-body">
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>

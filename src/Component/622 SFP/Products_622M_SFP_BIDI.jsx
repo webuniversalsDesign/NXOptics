@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,10 +18,10 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/622M_SFP/622_BIDI.jpg';
 // import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
-import productImg2 from '../../img/products/10SFP+/CWDM_1.jpg'
-import productImg3 from '../../img/products/10SFP+/CWDM_1.jpg'
-import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
-import productImg5 from '../../img/products/125M 155M  SFP/Dual_S15_155M.jpg'
+// import productImg2 from '../../img/products/10SFP+/CWDM_1.jpg'
+// import productImg3 from '../../img/products/10SFP+/CWDM_1.jpg'
+// import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
+// import productImg5 from '../../img/products/125M 155M  SFP/Dual_S15_155M.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -49,12 +49,12 @@ const Products_622M_SFP_BIDI = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -69,7 +69,7 @@ const Products_622M_SFP_BIDI = () => {
         <Link to="/Products_622M_SFP_BIDI/BIDI_622M_S35" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -102,7 +102,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
         <Link to="/Products_622M_SFP_BIDI/BIDI_622M_S35i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -136,7 +136,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
         <Link to="/Products_622M_SFP_BIDI/BIDI_622M_S53" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -170,7 +170,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
         <Link to="/Products_622M_SFP_BIDI/BIDI_622M_S53i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>

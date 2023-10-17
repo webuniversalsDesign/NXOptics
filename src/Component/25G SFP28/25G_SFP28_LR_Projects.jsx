@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -43,12 +43,12 @@ const SFP28_LR_25G_Projects = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -63,7 +63,7 @@ const SFP28_LR_25G_Projects = () => {
         <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_2km" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3'  alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 LR-Lite Transceiver
@@ -91,7 +91,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 2KM, DDM
         <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_2km_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 LR-Lite Transceiver
@@ -120,7 +120,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 2KM, DDM
         <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_10km" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 LR Transceiver
@@ -149,7 +149,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM
         <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_10km_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 LR Transceiver
@@ -178,7 +178,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM
         <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_DualRate" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 LR Transceiver
@@ -209,7 +209,7 @@ Data Rate up to 25.78Gbps
         <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_DualRate_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 LR Transceiver
@@ -240,7 +240,7 @@ Data Rate up to 25.78Gbps
         <Link to="/SFP28_LR_25G_Projects/LR_S13_20DQ" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 LR Transceiver
@@ -272,7 +272,7 @@ Data Rate up to 25.78Gbps
         <Link to="/SFP28_LR_25G_Projects/LR_S13_20DQ_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 LR Transceiver

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -17,7 +17,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/25G SFP28/SFP28Img.jpg';
 
-import { TiTickOutline } from 'react-icons/ti';
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -44,12 +43,12 @@ const SFP28_SR_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -64,7 +63,7 @@ const SFP28_SR_Products = () => {
         <Link to="/SFP28_SR_Products/SFP28_25G_SR" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 SR Transceiver
@@ -88,7 +87,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
         <Link to="/SFP28_SR_Products/SFP28_25G_SR_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 SR Transceiver
@@ -112,7 +111,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
         <Link to="/SFP28_SR_Products/SFP28_25G_eSR" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 eSR Transceiver
@@ -135,7 +134,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM
         <Link to="/SFP28_SR_Products/SFP28_25G_eSR_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>25G SFP28 eSR Transceiver
@@ -158,7 +157,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM
         <Link to="/SFP28_SR_Products/SFP28_25G_eSR_DuleRate" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G / 25G SFP28 eSR Transceiver
@@ -181,7 +180,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate
         <Link to="/SFP28_SR_Products/SFP28_25G_eSR_DuleRate_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>10G / 25G SFP28 eSR Transceiver

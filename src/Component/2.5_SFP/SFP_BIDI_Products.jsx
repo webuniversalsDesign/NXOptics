@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,9 +18,9 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/2.5_SFP/BIDI_S53_20D.jpg'
 import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
-import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
-import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
-import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
+// import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
+// import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
+// import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -48,12 +48,12 @@ const SFP_BIDI_Products = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt="img-not-found"/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -68,7 +68,7 @@ const SFP_BIDI_Products = () => {
         <Link to="/SFP_BIDI_Products/BIDI_S35_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>
@@ -95,7 +95,7 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
         <Link to="/SFP_BIDI_Products/BIDI_S35_20Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>
@@ -122,7 +122,7 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
         <Link to="/SFP_BIDI_Products/BIDI_S53_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 IR-2 / STM-16 S16.2 Transceiver
@@ -151,7 +151,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
         <Link to="/SFP_BIDI_Products/BIDI_S53_20Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 IR-2 / STM-16 S16.2 Transceiver
@@ -180,7 +180,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
         <Link to="/SFP_BIDI_Products/BIDI_S35_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
@@ -209,7 +209,7 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
         <Link to="/SFP_BIDI_Products/BIDI_S35_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg1} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
@@ -238,7 +238,7 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
         <Link to="/SFP_BIDI_Products/BIDI_S53_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
@@ -267,7 +267,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
         <Link to="/SFP_BIDI_Products/BIDI_S53_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1_2} className='productImg3' alt="img-not-found"/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver

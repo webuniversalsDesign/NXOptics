@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,13 +15,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/2.5_SFP/Dual_02D.jpg';
 // import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
 import productImg2 from '../../img/products/10SFP+/CWDM_1.jpg'
 import productImg3 from '../../img/products/10SFP+/CWDM_1.jpg'
-import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
-import productImg5 from '../../img/products/125M 155M  SFP/Dual_S15_155M.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -49,12 +46,12 @@ const Products_CWDM_10G_SFP = () => {
         className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
       >
         <SwiperSlide>
-          <img src={bannerImg} className='banner_img2'/>
+          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Find the Right Product Quicker</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2'/>
+          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
       
@@ -69,7 +66,7 @@ const Products_CWDM_10G_SFP = () => {
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_08D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -100,7 +97,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_08Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -131,7 +128,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -163,7 +160,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -195,7 +192,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -227,7 +224,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_80Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg2} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -258,7 +255,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_b12D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -288,7 +285,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1450nm DFB, SMF 12dB(20KM), DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_b12Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -318,7 +315,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1450nm DFB, SMF 12dB(20KM), DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_b26D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
@@ -349,7 +346,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 26dB, DDM
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_b26Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg3} className='productImg3' alt='img-not-found'/>
 
 <div className='product-dec'>
   <h5>
