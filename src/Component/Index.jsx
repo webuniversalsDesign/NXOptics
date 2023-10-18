@@ -20,6 +20,10 @@ import Footer from '../Footer';
 import bannerImg1 from '../img/banner1.jpg'
 import bannerImg2 from '../img/banner2.jpg'
 import bannerImg3 from '../img/banner3.jpg'
+import bannerImg4 from '../img/banner4.jpg'
+import bannerImg5 from '../img/banner5.jpg'
+import bannerImg6 from '../img/banner6.jpg'
+import bannerImg7 from '../img/banner7.jpg'
 
 // FiberOptical Images
 import aocImg from '../img/products/Fiber Optical Cable/AOC/10G_SPSP.jpg';
@@ -71,29 +75,67 @@ import productImg2 from '../img/products/Switches/10G ethernet switches/NXO-G24S
     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
   </div>
   
 
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={bannerImg3} alt="Los Angeles" className="d-block bannerImgcover"/>
+      <img src={bannerImg1} alt="Los Angeles" className="d-block bannerImgcover"/>
       <div className="carousel-caption">
         <h3>NX Optics</h3>
-        <p>We had such a great time in LA!</p>
+        {/* <p>We had such a great time in LA!</p> */}
       </div>
     </div>
     <div className="carousel-item">
       <img src={bannerImg2} alt="Chicago" className="d-block bannerImgcover"/>
       <div className="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        {/* <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p> */}
       </div> 
     </div>
     <div className="carousel-item">
-      <img src={bannerImg1} alt="New York" className="d-block bannerImgcover"/>
+      <img src={bannerImg3} alt="New York" className="d-block bannerImgcover"/>
       <div className="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        {/* <h3>New York</h3>
+        <p>We love the Big Apple!</p> */}
+      </div>  
+    </div>
+
+    <div className="carousel-item">
+      <img src={bannerImg4} alt="New York" className="d-block bannerImgcover"/>
+      <div className="carousel-caption">
+        {/* <h3>New York</h3>
+        <p>We love the Big Apple!</p> */}
+      </div>  
+    </div>
+
+    <div className="carousel-item">
+      <img src={bannerImg5} alt="New York" className="d-block bannerImgcover"/>
+      <div className="carousel-caption">
+        {/* <h3>New York</h3>
+        <p>We love the Big Apple!</p> */}
+      </div>  
+    </div>
+
+
+
+    <div className="carousel-item">
+      <img src={bannerImg6} alt="New York" className="d-block bannerImgcover"/>
+      <div className="carousel-caption">
+        {/* <h3>New York</h3>
+        <p>We love the Big Apple!</p> */}
+      </div>  
+    </div>
+
+    <div className="carousel-item">
+      <img src={bannerImg7} alt="New York" className="d-block bannerImgcover"/>
+      <div className="carousel-caption">
+        {/* <h3>New York</h3>
+        <p>We love the Big Apple!</p> */}
       </div>  
     </div>
   </div>
