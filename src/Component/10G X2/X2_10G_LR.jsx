@@ -86,7 +86,7 @@ const X2_10G_LR = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -97,7 +97,7 @@ const X2_10G_LR = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -108,7 +108,7 @@ const X2_10G_LR = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -119,7 +119,7 @@ const X2_10G_LR = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
    

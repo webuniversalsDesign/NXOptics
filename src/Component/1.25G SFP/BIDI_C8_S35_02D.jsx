@@ -111,7 +111,7 @@ const BIDI_C8_S35_02D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found'/>
       )}
     </Item>
 

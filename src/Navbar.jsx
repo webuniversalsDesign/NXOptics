@@ -1,12 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
-import { PiPhoneCall } from 'react-icons/pi';
-import { AiOutlineGlobal, AiOutlineMenu } from 'react-icons/ai';
-import { IoNotificationsOutline } from 'react-icons/io5';
-import { BsPersonGear,  BsCart3 } from 'react-icons/bs';
+import {  AiOutlineMenu } from 'react-icons/ai';
+
 import { TiBackspaceOutline } from 'react-icons/ti';
 import {IoMdArrowDropright} from 'react-icons/io';
 import {MdOutlineArrowDropDown, MdOutlineSupportAgent} from 'react-icons/md';
@@ -318,33 +314,33 @@ const Switchsseries1btn =()=>{
     document.getElementById('Switchseries1').style.left="0%";
 }
 
-const Switchsseries2btn =()=>{
-    document.getElementById('Switchseries2').style.left="0%";
-}
+// const Switchsseries2btn =()=>{
+//     document.getElementById('Switchseries2').style.left="0%";
+// }
 
-const Switchsseries3btn =()=>{
-    document.getElementById('Switchseries3').style.left="0%";
-}
+// const Switchsseries3btn =()=>{
+//     document.getElementById('Switchseries3').style.left="0%";
+// }
 
-const Switchsseries4btn =()=>{
-    document.getElementById('Switchseries4').style.left="0%";
-}
+// const Switchsseries4btn =()=>{
+//     document.getElementById('Switchseries4').style.left="0%";
+// }
 
-const Switchsseries5btn =()=>{
-    document.getElementById('Switchseries5').style.left="0%";
-}
+// const Switchsseries5btn =()=>{
+//     document.getElementById('Switchseries5').style.left="0%";
+// }
 
-const Switchsseries6btn =()=>{
-    document.getElementById('Switchseries6').style.left="0%";
-}
+// const Switchsseries6btn =()=>{
+//     document.getElementById('Switchseries6').style.left="0%";
+// }
 
-const Switchsseries7btn =()=>{
-    document.getElementById('Switchseries7').style.left="0%";
-}
+// const Switchsseries7btn =()=>{
+//     document.getElementById('Switchseries7').style.left="0%";
+// }
 
-const Switchsseries8btn =()=>{
-    document.getElementById('Switchseries8').style.left="0%";
-}
+// const Switchsseries8btn =()=>{
+//     document.getElementById('Switchseries8').style.left="0%";
+// }
 
 
 //Switch Close Menu
@@ -691,12 +687,63 @@ const Switchclose_menu8=()=>{
 
             <li className='drop-link3'><IoMdArrowDropright className="arrow-icon"/> Telecom Switches
             <ul className='hover-inner-links3'>
-            <li className='inner-linkerslast'><MdOutlineArrowDropDown/> L2 Ethernet Switches
-        <ul className='ul-disable'>
-        <Link to="/" className='nolink-dec'><li className='lastdrop-items'> Under L2 Ethernet Switches </li></Link>
-
-        </ul>
-        </li>
+            <li className='tele-inner-linkers1'><IoMdArrowDropright className="arrow-icon"/> L2 Ethernet Switches
+            <ul className='tele-link1'>
+                <li className='tele-inner-linke1 tele-drop1'><IoMdArrowDropright className="arrow-icon"/>10G Ethernet Switch
+                <ul className='tele-sublinkers1 list-item-tele'>
+<li>XGS-1208SE</li>
+<li>XGS-1208M</li>
+                </ul>
+                </li>
+                <li className='tele-inner-linke1 tele-drop2'><IoMdArrowDropright className="arrow-icon"/>Carrier Switch
+                <ul className='tele-sublinkers2 list-item-tele'>
+<li>MSW-4424A</li>
+<li>MSW-4424C</li>
+<li>MSW-4428X</li>
+                </ul>
+                </li>
+                <li className='tele-inner-linke1 tele-drop3'><IoMdArrowDropright className="arrow-icon"/>Access Switch
+                <ul className='tele-sublinkers3 list-item-tele'>
+<li>XGS-1208SE</li>
+<li>XGS-1208M</li>
+<li>GSW-4448CM</li>
+<li>GSW-4424CM</li>
+<li>GSW-3424M1A</li>
+<li>GSW-4208CM</li>
+                </ul>
+                </li>
+                <li className='tele-inner-linke1 tele-drop4'><IoMdArrowDropright className="arrow-icon"/>NID and EDD Switch
+                <ul className='tele-sublinkers4 list-item-tele'>
+<li>MSW-202</li>
+<li>MSW-202A</li>
+<li>MSW-404</li>
+<li>MSW-4204</li>
+<li>MSW-4204S</li>
+                </ul>
+                </li>
+                <li className='tele-inner-linke1 tele-drop5'><IoMdArrowDropright className="arrow-icon"/>CPE Switch
+                <ul className='tele-sublinkers5 list-item-tele'>
+<li>FSW-2104</li>
+<li>GSW-1005MS</li>
+<li>GSW-2008MS</li>
+<li>GSW-2020C7</li>
+<li>GSW-2020P</li>
+<li>QSW-4204M</li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li className='tele-inner-linkers2'><IoMdArrowDropright className="arrow-icon"/> POE Switch 
+            <ul className='tele-link2'>
+                <li className='tele-inner-linke2'>GSW3208MP-1</li>
+                <li className='tele-inner-linke2'>PMC-100PD</li>
+                <li className='tele-inner-linke2'>INJ-G90</li>
+                <li className='tele-inner-linke2'>INJ-G30</li>
+                <li className='tele-inner-linke2'>GSW-3424MP</li>
+                <li className='tele-inner-linke2'>GSW-4424MP</li>
+                <li className='tele-inner-linke2'>PMC-1000S</li>
+            </ul>
+            </li>
         
        </ul>
             </li>
@@ -704,24 +751,41 @@ const Switchclose_menu8=()=>{
             <li className='drop-link4'><IoMdArrowDropright className="arrow-icon"/> Industrial Switches
           
      <ul  className='drop-inner-link4'>
-                    <li className='inner-linkerslast'><MdOutlineArrowDropDown className="arrow-icon"/> POE Switches
-                    <ul className='ul-disable'>
-        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> 10G Ethernet Switch 
-        <ul className='drop-items-poe-links'>
-        <Link to="/NXO_G24S4X_G24S2X " className='nolink-dec'><li className='lastdrop-items'> NXO-G24S4X & NXO-G24S2X </li></Link>
-        <Link to="/NXO_G24044X_24PH" className='nolink-dec'><li className='lastdrop-items'> NXO-G24044X-24PH </li></Link>
-        <Link to="/NXO_G24044X_24PH_AA " className='nolink-dec'><li className='lastdrop-items'>  NXO-G24044X-24PH-AA </li></Link>
-        <Link to="/NXO_GS24044X_NXO_G24044X_NXO_G4804X" className='nolink-dec'><li className='lastdrop-items'> NXO-GS24044X & NXO-G24044X <br/>& NXO-G4804X </li></Link>
-        </ul>
-        </li>
-        </Link>
-
-        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> Carrier Ethernet Switch </li></Link>
-        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> Access Switch </li></Link>
-        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> NID & EDD Switch </li></Link>
-        <Link to="/" className='nolink-dec'><li className='lastdrop-items drop-items-poe'><IoMdArrowDropright/> CPE Switch </li></Link>
-        </ul>
-                    </li>
+     <Link to="/" className='nolink-dec'><li className='lastdrop-items indus-link1'><IoMdArrowDropright/>E-Mark Certified Ethernet Switch 
+     <ul className='indus-inner-link1 list-item-tele'>
+        <li>IVS-802GT</li>
+        <li>IVS-802GT-8PH24</li>
+        <li>IVS-G802T</li>
+        <li>IVS-G802T-8PH24</li>
+     </ul>
+     </li></Link>
+     <Link to="/" className='nolink-dec'><li className='lastdrop-items indus-link2'><IoMdArrowDropright/>IEC 61850-3 Switch
+     <ul className='indus-inner-link2 list-item-tele'>
+        <li>IPS-803GSM</li>
+        <li>IPS-G803SM</li>
+        <li>IPS-G2404SM-8C</li>
+     </ul>
+     </li></Link>
+     <Link to="/" className='nolink-dec'><li className='lastdrop-items indus-link3'><IoMdArrowDropright/>SyncE Switch 
+     <ul className='indus-inner-link3 list-item-tele'>
+        <li>IGS-1608SM-SE & IGS-804SM-SE</li>
+        <li>IGS-1608SM-SE-8PH</li>
+       
+     </ul>
+     </li></Link>
+     <Link to="/" className='nolink-dec'><li className='lastdrop-items indus-link4'><IoMdArrowDropright/>PoE Switch 
+     <ul className='indus-inner-link4 list-item-tele'>
+     <li>IFS-1602GS-8PH, <br/>IFS-802GS-8PH</li>
+        <li>IFS-1608GSM16PH, <br/>IFS-1608GSM-8PH</li>
+        <li>IFS-402CGS-4PH</li>
+        <li>IFS-402CGSW-4PH</li>
+        <li>IFS-402GSM-4PU</li>
+        <li>IFS-803GSM-8PH24, <br/>IFS-402GSM-4PH24</li>
+        <li>IGS-1608SM-16PH,<br/> IGS-1608SM-8PH, <br/> IGS⁺803SM-8PH</li>
+        <li>IGS-402CS-4PH</li>
+        <li>IGS-402CSW-4PH</li>
+     </ul>
+     </li></Link>
                 </ul>
                
    

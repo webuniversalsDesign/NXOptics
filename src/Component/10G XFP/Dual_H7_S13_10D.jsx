@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/10G XFP/C27_20D.jpg'
 
-import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/10G XFP/DTU-80D_PinAssignment.jpg.png';
 import machdimenssion from '../../img/products/10G XFP/H7_M85_X3D_mechDimenssion.jpg';
 import Memorymap from '../../img/products/10G XFP/DTU-80D_memoryMap.png';
@@ -88,7 +87,7 @@ const Dual_H7_S13_10D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -99,7 +98,7 @@ const Dual_H7_S13_10D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt='img-not-found'/>
       )}
     </Item>
 
@@ -110,7 +109,7 @@ const Dual_H7_S13_10D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
 
@@ -121,7 +120,7 @@ const Dual_H7_S13_10D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt='img-not-found' />
       )}
     </Item>
    

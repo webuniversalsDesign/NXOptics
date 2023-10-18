@@ -273,7 +273,7 @@ border-radius: 5px;
 .hover-inner-links3{
     position: absolute;
     list-style-type: none;
-    right: -181px;
+    right: -154px;
     top: 0px;
     background-color: white;
     box-shadow: 5px 0px 14px 0px #0000002b;
@@ -634,7 +634,7 @@ color: black;
     padding: 0px;
     top: 0px;
     background-color: white;
-    right: -171px;
+    right: -224px;
     visibility: hidden;
     height: 0px;
     border-radius: 5px;
@@ -644,5 +644,275 @@ box-shadow: 5px 0px 14px 0px #0000002b;
 
 .drop-link4:hover .drop-inner-link4{
     visibility: visible;
-    height: 230px;
+    height: 160px;
 }
+
+/* ---------------- */
+.tele-inner-linkers1{
+        padding: 8px;
+        font-size: 13px;
+        position: relative;
+}
+
+.tele-inner-linkers1:hover .tele-link1{
+    height: 200px;
+    visibility: visible;
+}
+
+.tele-link1{
+    position: absolute;
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    top: 0px;
+    right: -153px;
+    background-color: white;
+    border-radius: 5px;
+    height: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+box-shadow: 5px 0px 14px 0px #0000002b;
+}
+
+.tele-inner-linke1{
+    padding: 10px;
+}
+
+.tele-inner-linkers2{
+
+    padding: 8px;
+    font-size: 13px;
+    position: relative;
+}
+
+.tele-inner-linkers2:hover .tele-link2{
+    height: 275px;
+    visibility: visible;
+}
+
+.tele-link2{
+    position: absolute;
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    top: 0px;
+    right: -108px;
+    background-color: white;
+    border-radius: 5px;
+    height: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+box-shadow: 5px 0px 14px 0px #0000002b;
+}
+
+.tele-inner-linke2{
+    padding: 10px;
+}
+
+.tele-drop1, .tele-drop2, .tele-drop3, .tele-drop4, .tele-drop5{
+    position: relative;
+}
+
+
+.tele-sublinkers1{
+    position: absolute;
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    top: 0px;
+    right: -90px;
+    background-color: white;
+    border-radius: 5px;
+    height: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+box-shadow: 5px 0px 14px 0px #0000002b;
+}
+
+.tele-drop1:hover .tele-sublinkers1{
+    height: 76px;
+    visibility: visible;
+
+}
+
+.tele-sublinkers2{
+    position: absolute;
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    top: 0px;
+    right: -95px;
+    background-color: white;
+    border-radius: 5px;
+    height: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+box-shadow: 5px 0px 14px 0px #0000002b;
+}
+
+.tele-drop2:hover .tele-sublinkers2{
+    height: 116px;
+    visibility: visible;
+
+}
+
+.tele-sublinkers3{
+    position: absolute;
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    top: 0px;
+    right: -109px;
+    background-color: white;
+    border-radius: 5px;
+    height: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+box-shadow: 5px 0px 14px 0px #0000002b;
+}
+
+.tele-drop3:hover .tele-sublinkers3{
+    height: 237px;
+    visibility: visible;
+
+}
+
+.tele-sublinkers4{
+    position: absolute;
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    top: 0px;
+    right: -93px;
+    background-color: white;
+    border-radius: 5px;
+    height: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+box-shadow: 5px 0px 14px 0px #0000002b;
+}
+
+.tele-drop4:hover .tele-sublinkers4{
+    height: 195px;
+    visibility: visible;
+
+}
+
+.tele-sublinkers5{
+    position: absolute;
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    top: 0px;
+    right: -102px;
+    background-color: white;
+    border-radius: 5px;
+    height: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+box-shadow: 5px 0px 14px 0px #0000002b;
+}
+
+.tele-drop5:hover .tele-sublinkers5{
+    height: 240px;
+    visibility: visible;
+
+}
+
+.list-item-tele li{
+    padding: 10px;
+}
+
+.indus-link1{
+    position: relative;
+}
+.indus-inner-link1{
+    list-style-type: none;
+    position: absolute;
+    top: 0px;
+    right: -126px;
+    height: 0px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 0px 14px 0px #0000002b;    
+    visibility: hidden;
+}
+
+.indus-link1:hover .indus-inner-link1{
+    height: 160px;
+    visibility: visible;
+
+}
+
+.indus-link2{
+    position: relative;
+}
+.indus-inner-link2{
+    list-style-type: none;
+    position: absolute;
+    top: 0px;
+    right: -120px;
+    height: 0px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 0px 14px 0px #0000002b;    
+    visibility: hidden;
+}
+
+.indus-link2:hover .indus-inner-link2{
+    height: 119px;
+    visibility: visible;
+
+}
+
+.indus-link3{
+    position: relative;
+}
+.indus-inner-link3{
+    list-style-type: none;
+    position: absolute;
+    top: 0px;
+    right: -212px;
+    height: 0px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 0px 14px 0px #0000002b;    
+    visibility: hidden;
+}
+
+.indus-link3:hover .indus-inner-link3{
+    height: 81px;
+    visibility: visible;
+
+}
+
+.indus-link4{
+    position: relative;
+}
+.indus-inner-link4{
+    list-style-type: none;
+    position: absolute;
+    top: 0px;
+    right: -139px;
+    height: 0px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 0px 14px 0px #0000002b;    
+    visibility: hidden;
+}
+
+.indus-link4:hover .indus-inner-link4{
+    height: 455px;
+    visibility: visible;
+
+}
+
+/* ----------------- */
