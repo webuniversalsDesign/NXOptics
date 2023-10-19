@@ -10,6 +10,7 @@ import {
 
 import Index from './Component/Index';
 import AboutUs from './Component/AboutUs';
+
 import FourtyGLoopbackProduct from './Component/LoopbackSeries/40GLoopbackProduct';
 import HundredGLoopbackProduct from './Component/LoopbackSeries/100GLoopbackProduct.jsx.jsx';
 import TwoHGLoopbackProduct from './Component/LoopbackSeries/200GLoopbackProduct.jsx';
@@ -765,12 +766,13 @@ import XGS_1208M from './Component/Telecom Switches/L2 Eternet switches/10G Eter
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208SE';
 
-
 function App() {
   return (
     <BrowserRouter>
     <Routes>
+
      <Route path="/" element={<Index/>}/>
+ 
      <Route path="/AboutUs" element={<AboutUs/>}/>
      <Route path="/40G-Loopback-Product" element={<FourtyGLoopbackProduct/>}/>
      <Route path="/100G-Loopback-Product" element={<HundredGLoopbackProduct/>}/>
