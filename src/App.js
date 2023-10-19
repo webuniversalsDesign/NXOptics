@@ -761,6 +761,12 @@ import Dual_622M_A4D from './Component/622 SFP/Dual_622M_A4D';
 import Dual_622M_A6D from './Component/622 SFP/Dual_622M_A6D';
 import NetworkSecurity from './Component/NetworkSecurity';
 
+// Telecom switchs
+
+import XGS_1208M from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208M';
+import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS_1208SE';
+// import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/';
+// import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208SE';
 
 function App() {
   return (
@@ -1555,11 +1561,10 @@ function App() {
 
 <Route path="/NetworkSecurity" element={<NetworkSecurity/>}/>
 
-
-
+<Route path='/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208M' element={<XGS_1208M/>} /> 
+<Route path='/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208SE' element={<XGS_1208SE/>} /> 
     </Routes>
     
-     
     </BrowserRouter>
   );
 }

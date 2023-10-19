@@ -691,8 +691,13 @@ const Switchclose_menu8=()=>{
             <ul className='tele-link1'>
                 <li className='tele-inner-linke1 tele-drop1'><IoMdArrowDropright className="arrow-icon"/>10G Ethernet Switch
                 <ul className='tele-sublinkers1 list-item-tele'>
-<li>XGS-1208SE</li>
-<li>XGS-1208M</li>
+                <Link to="/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208SE " className='nolink-dec'>
+                <li className='lastdrop-items'>XGS-1208SE</li>               
+                </Link>  
+                <Link to="/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208M " className='nolink-dec'>
+                <li className='lastdrop-items'>XGS-1208M</li>               
+                </Link>  
+
                 </ul>
                 </li>
                 <li className='tele-inner-linke1 tele-drop2'><IoMdArrowDropright className="arrow-icon"/>Carrier Switch
