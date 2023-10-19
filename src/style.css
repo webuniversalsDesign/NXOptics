@@ -19,6 +19,16 @@ background-color: #f1f1f1;
      
     }
 
+    .modal-title{
+        font-size: 18px !important;
+        color: #dc3545 !important;
+    }
+
+    .form-innertext{
+        font-size:17px !important;
+        font-weight: 500 !important;
+        }
+
     .copy-rightText{
         font-size: 12px;
     }
@@ -289,6 +299,16 @@ width: 90%;
         border-radius: 0px 0px 10px 10px;
         transition: all 0.8s ease-in-out;
     }
+
+    .modal-title{
+        font-size: 15px !important;
+        color: #dc3545 !important;
+    }
+
+    .form-innertext{
+        font-size:13px !important;
+        font-weight: 500 !important;
+        }
 
     .copy-rightText{
         font-size: 13px;
@@ -979,4 +999,18 @@ transition: all 0.2s ease-in-out;
     bottom: 0px;
     color: white;
 
+}
+
+.modal-content{
+    border-top:3px solid #dc3545 ;
+}
+
+
+.alert-message{
+    position: absolute;
+    color: rgb(117, 0, 0);
+    font-size: 10px;
+    margin: 5px 10px;
+    top: 53px;
+transition: alll 0.3s ease-in-out;
 }

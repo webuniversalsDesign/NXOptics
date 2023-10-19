@@ -10,6 +10,7 @@ import {
 
 import Index from './Component/Index';
 import AboutUs from './Component/AboutUs';
+
 import FourtyGLoopbackProduct from './Component/LoopbackSeries/40GLoopbackProduct';
 import HundredGLoopbackProduct from './Component/LoopbackSeries/100GLoopbackProduct.jsx.jsx';
 import TwoHGLoopbackProduct from './Component/LoopbackSeries/200GLoopbackProduct.jsx';
@@ -760,12 +761,13 @@ import Dual_622M_A4D from './Component/622 SFP/Dual_622M_A4D';
 import Dual_622M_A6D from './Component/622 SFP/Dual_622M_A6D';
 
 
-
 function App() {
   return (
     <BrowserRouter>
     <Routes>
+
      <Route path="/" element={<Index/>}/>
+ 
      <Route path="/AboutUs" element={<AboutUs/>}/>
      <Route path="/40G-Loopback-Product" element={<FourtyGLoopbackProduct/>}/>
      <Route path="/100G-Loopback-Product" element={<HundredGLoopbackProduct/>}/>

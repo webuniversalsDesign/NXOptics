@@ -1,18 +1,18 @@
-  import React from 'react'
+import React from 'react'
 
 import { Link } from 'react-router-dom';
 
-// // import Swiper core and required modules
-// import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+// import Swiper core and required modules
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+
 
 import Navbar from '../Navbar';
 import Footer from '../Footer';
@@ -59,6 +59,7 @@ import { TbTruckDelivery, TbMessageChatbot, TbMessage2 } from 'react-icons/tb';
 
 import productImg1 from '../img/products/1.25G SFP/SFP_DWDM_Img.jpg'
 import productImg2 from '../img/products/Switches/10G ethernet switches/NXO-G24S4X _ NXO-G24S2X.jpg'
+import ProductSwiper from './ProductSwiper';
 
  const Index =()=> {
   return (
@@ -154,166 +155,7 @@ import productImg2 from '../img/products/Switches/10G ethernet switches/NXO-G24S
 
 {/* Tool */}
 
-<div className='container-fluid pt-5 pb-2'>
-
-{/* <div className='resp-overflow'>
-<div className='d-flex justify-content-center'> 
-   <ul className="navs nav-pills" role="tablist">
-   
-    <li className="nav-item">
-      <a className="nav-link active" data-bs-toggle="pill" href="#home">Fiber Optical Cable / Patch-cord</a>
-    </li>
-
-    <li className="nav-item">
-      <a className="nav-link" data-bs-toggle="pill" href="#menu1">Loop-back Series</a>
-    </li>
-
-
-
-  </ul>
-</div>
-</div> */}
-
- <h2 className='text-center section-heading'>Products</h2>
-
-  {/* <!-- Tab panes --> */}
-  <div className="tab-content">
-
-    {/* <div id="home" className="container tab-pane active"><br/>
-    <Swiper
-      // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-  
-      navigation={true}
-      autoplay={{
-          delay: 10500,
-          disableOnInteraction: false,
-        }}
-      // pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-      // onSwiper={(swiper) => console.log(swiper)}
-      // onSlideChange={() => console.log('slide change')}
-      className="mySwiper"
-
-      breakpoints={{
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 1,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 2,
-          },
-        }}
-    >
-
-
-<SwiperSlide>
-      <Link to="/SFP_1_25G_DWDM_Products" className='link-black' >
-      <div className='product-card'>
-        <img src={productImg1} className='product-cart-img' alt="myproducts"/>
-      <h5 className='link-black'>Transceiver</h5>
-
-      </div>
-      </Link>
-      
-
-      </SwiperSlide>
-      
-      <SwiperSlide>
-      <Link to="/AOC_SPSP" className='link-black' >
-      <div className='product-card'>
-        <img src={aocImg} className='product-cart-img' alt="myproducts"/>
-      <h5 className='link-black'>AOC (Active Optical Cable)</h5>
-
-      </div>
-      </Link>
-      
-
-      </SwiperSlide>
-
-      <SwiperSlide>
-      <Link to="/" className='link-black' >
-      <div className='product-card'>
-        <img src={productImg2} className='product-cart-img' alt="myproducts"/>
-      <h5 className='link-black'>Telecom Switches</h5>
-
-      </div>
-      </Link>
-      
-
-      </SwiperSlide>
-
-      <SwiperSlide>
-      <Link to="/NXO_G24S4X_G24S2X" className='link-black' >
-      <div className='product-card'>
-        <img src={productImg2} className='product-cart-img' alt="myproducts"/>
-      <h5 className='link-black'>Industrial Switches</h5>
-
-      </div>
-      </Link>
-      
-
-      </SwiperSlide>
-
-    </Swiper>
-    </div> */}
-
-   
-
-
-  </div>
-
-
-  <div className='container pt-3'>
-    <div className='row'>
-
-      <div className='col-md-3 pt-2 pb-2'>
-      <Link to="/SFP_1_25G_DWDM_Products" className='text_dec_none'>
-        <div className='product-card-2'>
-          <img src={productImg1} alt="img-not-found"/>
-          <p className='pro-text'>Transceiver</p>
-          <div className='overlay-layout'/>
-        </div>
-      </Link>
-      </div>
-
-      <div className='col-md-3 pt-2 pb-2'>
-      <Link to="/AOC_SPSP" className='text_dec_none'>
-        <div className='product-card-2'>
-          <img src={aocImg} alt="img-not-found"/>
-          <p className='pro-text'>AOC (Active Optical Cable)</p>
-          <div className='overlay-layout'/>
-        </div>
-      </Link>
-      </div>
-
-      <div className='col-md-3 pt-2 pb-2'>
-      <Link to="/" className='text_dec_none'>
-        <div className='product-card-2'>
-          <img src={productImg2} alt="img-not-found"/>
-          <p className='pro-text'>Telecom Switches</p>
-          <div className='overlay-layout'/>
-        </div>
-      </Link>
-      </div>
-
-      <div className='col-md-3 pt-2 pb-2'>
-      <Link to="/NXO_G24S4X_G24S2X" className='text_dec_none'>
-        <div className='product-card-2'>
-          <img src={productImg2} alt="img-not-found"/>
-          <p className='pro-text'>Industrial Switches</p>
-          <div className='overlay-layout'/>
-        </div>
-      </Link>
-      </div>
-    </div>
-  </div>
-</div>
+<ProductSwiper/>
 
 
 
@@ -352,7 +194,7 @@ faster and more reliable.</p>
 
 <h5>Reliability Assurance</h5>
 
-<p>200+ precision testing equipments ensure each FS's products are tested to the exact 
+<p>200+ precision testing equipments ensure each Netware's products are tested to the exact 
 specifications of our customer's environment 
 with a significant level of reliability.</p>
       </div>
@@ -368,7 +210,7 @@ with a significant level of reliability.</p>
 
 <h5>Cutting Edge</h5>
 
-<p>FS prominently remains on the forefront of the latest fiber optic technologies, 
+<p>Netware prominently remains on the forefront of the latest fiber optic technologies, 
 bringing third-party options in the latest 
 advancements in 200G, 400G, 800G, PON, and more.</p>
       </div>
