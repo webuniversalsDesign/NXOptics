@@ -795,6 +795,9 @@ const Switchclose_menu8=()=>{
                
    
             </li>
+
+            <Link to='/NetworkSecurity' className='nolink-dec'><li className='drop-link'>Network & Security</li></Link>
+            <Link to='/NetworkSecurity' className='nolink-dec'><li className='drop-link'>Server & Storage</li></Link>
         </ul>
         </li>
 
