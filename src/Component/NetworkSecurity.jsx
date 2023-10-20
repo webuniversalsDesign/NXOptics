@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-import networkImg from '../img/Network.png';
+import networkImg from '../img/Network.jpg';
 import securityImg from '../img/security.png';
 import {HiOutlineArrowCircleRight} from 'react-icons/hi';
 import {FaBusinessTime} from 'react-icons/fa';
@@ -19,17 +19,18 @@ const NetworkSecurity = () => {
 
 <div className='heading-banner'>
 <h1>Network & Security</h1>
+<p>Streamlined Networks, Enhanced Productivity</p>
 </div>
 
 </div>
 
-<div className='bg-img pt-3 pb-3'>
+<div className='bg-img pt-3 pb-2 pb-lg-5'>
     <div className='container'>
 
 <div className='row align-items-center'>
 
     <div className='col-md-5'>
-<img src={networkImg} className='section-img' alt="img-not-found"/>
+<img src={networkImg} className='section-img2' alt="img-not-found"/>
     </div>
 
     <div className='col-md-7'>
@@ -47,12 +48,12 @@ we efficiently deliver the highest levels of proactive support - all while you s
 </div>
 </div>
 
-<div className='container pt-5 pb-5'>
+<div className='container pt-2 pb-lg-5 pb-1'>
     <div className='row align-items-center'>
         <div className='col-md-7'>
         <div className='section-content'>
                <h2>We design and provide support services to clients existing ITIL or ISO 17799 standards and SLAE's</h2>
-            <p >Overview of Bits and BYTE Managed Network Services:</p>
+            <p >Overview of Netware Managed Network Services:</p>
             <ul>
                 <li><HiOutlineArrowCircleRight className="list-icons"/> 24 X 7 monitoring, failure response and resolution process</li>
                 <li><HiOutlineArrowCircleRight className="list-icons"/> 24 X 7 On Call Support & Help Desk Support</li>
@@ -64,76 +65,85 @@ we efficiently deliver the highest levels of proactive support - all while you s
                  continues to meet or exceed your chosen SLA requirements.</li>
             </ul>
 
-
-
-
-
-
-
-
         </div>
          
         </div>
 
         <div className='col-lg-5'>
-            <img src={securityImg} alt="img-not-found"/>
+            <img src={securityImg} alt="img-not-found" className='section-img'/>
         </div>
     </div>
 </div>
 
-<div className='container pt-1 pb-5'>
+<div className='container pt-1 pb-1 pb-5'>
 
     <div className='section-content'>
-           <h4 className='pb-4'><b>Monitor and be notified of network failures and threats</b></h4>
-           <p>In the current scenario, next generation switching and routing solutions really need 
-           to be adopted to accommodate the continuously increasing traffic due to the introduction 
-           of new broadband services on access networks. Networks are under too high pressure to accommodate
-            this increased traffic driven by bandwidth-intensive 
-           services and the growing volume of subscriber-driven content being uploaded to the web.</p>
+           {/* <h4 className='pb-4'><b>Monitor and be notified of network failures and threats</b></h4> */}
+           <p>Netware Managed Network Services (MNS) allows you to outsource your day-to-day network 
+           management support for PC's, Servers, LAN's & WAN's. This creates a reliable and efficient 
+           network allowing you to focus on your core business. Using the global approach, we are able
+            to perform Installations, Moving, Additions and Changes in your infrastructure ensuring 
+            worry-free network, services and application availability. Managed Network Services supports
+             your business by providing 24/7 monitoring, failure response and resolution process including 
+             coordination with third party warranty providers and ISP's. Oversee network performance, 
+             pinpoint problem areas, reduce network outages and improve response and repair times;
+            Netware is the leading provider of Managed Network Services in the Philippines.</p>
 
-           <p>With its next-generation technology prowess, bits&BYTE helps to maintain service levels by
-            preventing the networks from getting overloaded with traffic. bits&BYTE helps the system to
-             quickly adapt to traffic patterns that are in constant flux by routing 
-           the traffic through the best available option - thus making the networks truly agile and reconfigurable.</p>
     
-    <div className='d-flex flex-wrap justify-content-between align-items-center pt-5 pb-5'>
+    <div className='row pt-5 pb-lg-5 pb-1'>
 
+<div className='col-md-3 col-6 pt-lg-1 pb-lg-1 pb-5'>
 <div className='service-card'>
 <div className='d-flex justify-content-center'>
 <FaBusinessTime className='service-icon'/>
 </div>
 <h5 className='service-text text-center'>Managed Services</h5>
 </div>
+</div>
 
+
+<div className='col-md-3 col-6 pt-lg-1 pb-lg-1 pb-5'>
 <div className='service-card'>
 <div className='d-flex justify-content-center'>
 <BsHddNetworkFill className='service-icon'/>
 </div>
 <h5 className='service-text text-center'>Network Design & Implementation</h5>
 </div>
+</div>
 
+
+<div className='col-md-3 col-6 pt-lg-1 pb-lg-1 pb-1'>
 <div className='service-card'>
 <div className='d-flex justify-content-center'>
 <RiWirelessChargingFill className='service-icon'/>
 </div>
 <h5 className='service-text text-center'>Wireless Network</h5>
 </div>
+</div>
 
+
+<div className='col-md-3 col-6 pt-lg-1 pb-lg-1 pb-1'>
 <div className='service-card'>
 <div className='d-flex justify-content-center'>
 <BsPcDisplayHorizontal className='service-icon'/>
 </div>
 <h5 className='service-text text-center'>Monitoring Services</h5>
 </div>
+</div>
+
 
 </div>
 
-<p>Netware Network Monitoring Services offers a proactive approach when it comes to monitoring 
-        the performance of your computer network. Based on pre-agreed conditions, time, or severity of the event,
-        bits&BYTE notifies you when you're close to exceeding your thresholds. This unparalled monitoring and reporting
-         capability allows you to plan ahead to prevent unscheduled downtimes and increase availability.
-          2 hour outage on an 80 user network costs 160 man-hours of lost time and production - the equivalent
-           of a man month! Plan ahead and prevent network downtime with Bits and BYTE Network Monitoring Services.</p>
+<p>With Managed Network Services, you benefit from the skill and technical knowledge of our Onsite
+ Technical Services team. We ensure the availability of your IT systems to your selected SLA with 
+ a money back guarantee if we do not deliver. Our dedicated servers monitors the performance of your
+  network and for any sign of trouble. Onsite Technical Support and Help Desk Support are just a phone
+   call away in case any performance issues arise. Netware Managed Network Services provides
+    pre-emptive software and firmware upgrades to servers, desktops, laptops and network devices.
+     It's clear cost efficiency and affordability gives you greater budget control and lower
+      network operating costs. MNS solutions include 24/7 monitoring, firewall management, VPN,
+       intrusion detection, virus scanning, website security assessment, applet scanning,
+content inspection and URL blocking.</p>
 </div>
  
 </div>
@@ -141,7 +151,7 @@ we efficiently deliver the highest levels of proactive support - all while you s
 <div className='container pt-2 pb-5'>
 <div className='row'>
     <div className='col-lg-6'>
-<img src={securitysolveImg} className='section-img line-img' alt="img-not-found"/>
+<img src={securitysolveImg} className='section-img line-img pb-lg-1 pb-3' alt="img-not-found"/>
 </div>
 <div className='col-md-6'>
 <div className='section-content'>
@@ -171,12 +181,12 @@ vulnerabilities that were found and recommend the ways that they can be fixed.</
 
 <div className='bg-black mb-5'>
     <div className='container'>
-    <div className='row align-items-center'>
+    <div className='row align-items-center py-5'>
          <div className='col-lg-5'>
-    <img src={workshopImg} className='line-img'/>
+    <img src={workshopImg} className='line-img' alt='img-not-found'/>
     </div>
     <div className='col-lg-7'>
-    <div className='section-content pt-5'>
+    <div className='section-content'>
     <p style={{color:"white"}}>Working as a precursor for a complete Disaster Recovery Plan, a Network Audit is about taking
      stock of all the hardware and software assets of a company. This identifies your IT assets, where
       they are located, who is using them and their configurations. The Network Audit report is essential for
@@ -184,7 +194,7 @@ vulnerabilities that were found and recommend the ways that they can be fixed.</
 
      <p style={{color:"white"}}><b>Netware is the leading Managed Network Services (MNS) provider that utilizes network auditing to evaluate network assets and benchmarks.</b></p>
 <p style={{color:"white"}}>All of Netware engineers are certified by the best-of-breed IT Vendors for network services and IT infrastructure. We are expertly qualified to assess the hardware and software used by a company for their business operations. Netware provides an in-depth report containing a list of all your IT hardware and software complete with their settings, configurations, location, vendors used and the network set-up.</p>
-    <p>Netware network audit service analyzes the performance metrics of your network elements in order to identify utilized network elements, benchmark network performance and assess overall network health. We will also make recommendation where necessary in comparison to your current and future needs.</p>
+    <p style={{color:"white"}}>Netware network audit service analyzes the performance metrics of your network elements in order to identify utilized network elements, benchmark network performance and assess overall network health. We will also make recommendation where necessary in comparison to your current and future needs.</p>
     </div>
     </div>
     </div>

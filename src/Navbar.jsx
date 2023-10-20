@@ -797,7 +797,7 @@ const Switchclose_menu8=()=>{
             </li>
 
             <Link to='/NetworkSecurity' className='nolink-dec'><li className='drop-link'>Network & Security</li></Link>
-            <Link to='/NetworkSecurity' className='nolink-dec'><li className='drop-link'>Server & Storage</li></Link>
+            <Link to='/ServerStorage' className='nolink-dec'><li className='drop-link'>Server & Storage</li></Link>
         </ul>
         </li>
 
@@ -870,6 +870,8 @@ const Switchclose_menu8=()=>{
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={allProduct}>Transceiver</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={cablesCord}>Optical Cables / Path Cord</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={switchsProduct}>Switches</p></Link>
+<Link to="/NetworkSecurity" style={{textDecoration:"none"}}><p className='mob-nav-items'>Network And Security</p></Link>
+<Link to="/ServerStorage" style={{textDecoration:"none"}}><p className='mob-nav-items'>Server And Storage</p></Link>
 
 </div>
 

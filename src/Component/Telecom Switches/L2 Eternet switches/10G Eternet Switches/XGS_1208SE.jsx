@@ -5,7 +5,7 @@ import productImg1 from '../../../../img/products/Telecom Switches/Telecom-XGS-1
 import Navbar from '../../../../Navbar';
 import Footer from '../../../../Footer';
 
-import Application from '../../../../img/products/Telecom Switches/Application XGS-1208M.jpg'
+import Application from '../../../../img/products/Telecom Switches/XGS-1208SEImg.png'
 // import dime1 from '../../../../img/products/Switches/NXO-G24044X-24PH_Dimenssions.jpeg'
 // import dime2 from '../../../img/products/Switches/NXO-G24S4X & NXO-G24S2X_Dimenssion2.jpeg'
 
@@ -21,8 +21,8 @@ import { Link } from 'react-router-dom';
 
 
 // photo swaping 
-import 'photoswipe/dist/photoswipe.css'
-import { Gallery, Item } from 'react-photoswipe-gallery'
+import 'photoswipe/dist/photoswipe.css';
+import { Gallery, Item } from 'react-photoswipe-gallery';
 
 const XGS_1208SE = () => { 
 
@@ -159,14 +159,15 @@ const XGS_1208SE = () => {
 <h5>Specifications</h5>
 
 <div className='row'>
- <div className='col-lg-6'>
+ <div className='col-lg-7'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Interface</h5>
 
 <p className='listFeture '>Fiber port: 10G SFP+ *12</p>
-<p className='listFeture '>Copper port: 10/100/1000Mbps <br/> RJ45*8</p>
-<p className='listFeture'>Console port: RS-232 in USB<br/> type C</p>
+<p className='listFeture '>Copper port: 10/100/1000Mbps RJ45*8</p>
+<p className='listFeture'>Console port: RS-232 in USB type C</p>
+<p className='listFeture'>1PPS port: SMA connector*2 (input/output)</p>
  </div>
- <div className='col-lg-6'>
+ <div className='col-lg-5'>
  <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Packet
 forwarding rate</h5>
 
@@ -221,9 +222,11 @@ forwarding rate</h5>
     <div className="container mt-3">
   <h2>Overview</h2>
   
- <p>The {PartNumber} features robust L2 switching functionality such as VLAN, port trunking, QoS, span tree protocol and IGMP multicast
-service. The hard-wired based ACL enables secure network access and traffic transportation that network administrators desire,
-reducing the risks of unauthorized or illegal intruders. The diverse management via Web GUI, SSH and SNMP, offer friendly and easeto-use interfaces, as well as secure remote management with traffic encryption.
+ <p>The {PartNumber} features robust L2 switching functionality such as VLAN, port trunking, QoS, span tree protocol and IGMP multicast 
+service. The hard-wired based ACL enables secure network access and traffic transportation that network administrators desire, 
+reducing the risks of unauthorized or illegal intruders. The diverse management via Web GUI, SSH and SNMP, offer friendly and easeto-use interfaces, as well as secured remote management with traffic encryption. Every Ethernet copper or fiber port on XGS-1208SE 
+except management port can be configured to deliver the timestamp messages of SyncE or IEEE 1588v2 inside Ethernet packets for 
+the precision timing purposes of mobile backhaul or smart factory automation network.
 </p>
 </div>
 </div>
