@@ -6,7 +6,6 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -22,7 +21,6 @@ import productImg1_4 from '../../img/products/1X9/155M_dual_4.jpg'
 import productImg1_5 from '../../img/products/1X9/155M_dual_5.jpg'
 import productImg1_6 from '../../img/products/1X9/AM_02P.jpg'
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const Dual_125_155M_1X9 = () => {
   return (
@@ -85,7 +83,7 @@ Duplex SC, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -112,7 +110,7 @@ Duplex SC, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -140,7 +138,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -168,7 +166,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -199,7 +197,7 @@ Duplex Metal ST, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -231,7 +229,7 @@ Duplex Metal ST, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -259,7 +257,7 @@ Duplex SC/ST/FC, 1310nm FP, Multi Mode, 2KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -286,7 +284,7 @@ Duplex SC/ST/FC, 1310nm FP, Multi Mode, 2KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -314,7 +312,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -342,7 +340,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -370,7 +368,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -398,7 +396,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -431,7 +429,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -464,7 +462,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -497,7 +495,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -530,7 +528,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -557,7 +555,7 @@ Duplex SC, 1310nm FP, SMF 20KM, LVPECL / PECL Signal Detection
 <p>Link distance 20km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -581,7 +579,7 @@ Duplex SC, 1310nm FP, SMF 20KM, LVPECL / PECL Signal Detection
 <p>Link distance 20km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -605,7 +603,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 <p>LVPECL Signal Detection Output</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -629,7 +627,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 <p>LVPECL Signal Detection Output</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -653,7 +651,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 <p>RoHS Compliant</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -677,7 +675,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 <p>RoHS Compliant</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -701,7 +699,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
 <p>Link distance 80km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -725,7 +723,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
 <p>Link distance 80km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -750,7 +748,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 <p>Link distance 100km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -775,7 +773,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 <p>Link distance 100km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -800,7 +798,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 <p>Link distance 120km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -825,7 +823,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 <p>Link distance 120km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -853,7 +851,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -882,7 +880,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -909,7 +907,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 <p>LVPECL Signal Detection Output</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -935,7 +933,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 <p>LVPECL Signal Detection Output</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -961,7 +959,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 <p>LVPECL / PECL Signal Detection Output</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -987,7 +985,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 <p>LVPECL / PECL Signal Detection Output</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1013,7 +1011,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 <p>LVPECL / PECL Signal Detection Output</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1039,7 +1037,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 <p>LVPECL / PECL Signal Detection Output</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1067,7 +1065,7 @@ Duplex SC/ST/FC, 1310nm FP, Multi Mode, 2KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1094,7 +1092,7 @@ Duplex SC/ST/FC, 1310nm FP, Multi Mode, 2KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1121,7 +1119,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1148,7 +1146,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1176,7 +1174,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1204,7 +1202,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1232,7 +1230,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1260,7 +1258,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1291,7 +1289,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1322,7 +1320,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1354,7 +1352,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1387,7 +1385,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1420,7 +1418,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1453,7 +1451,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1476,7 +1474,7 @@ Duplex Metal ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection </h5>
 <p>LVPECL/ PECL Signal Detection Output </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1499,7 +1497,7 @@ Duplex Metal ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection </h5>
 <p>LVPECL/ PECL Signal Detection Output </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1527,7 +1525,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1555,7 +1553,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1584,7 +1582,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1612,7 +1610,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1640,7 +1638,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1668,7 +1666,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1695,7 +1693,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1723,7 +1721,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -1731,7 +1729,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

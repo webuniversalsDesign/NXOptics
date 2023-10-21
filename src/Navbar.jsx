@@ -5,7 +5,7 @@ import {  AiOutlineMenu } from 'react-icons/ai';
 
 import { TiBackspaceOutline } from 'react-icons/ti';
 import {IoMdArrowDropright} from 'react-icons/io';
-import {MdOutlineArrowDropDown, MdOutlineSupportAgent} from 'react-icons/md';
+import { MdOutlineSupportAgent} from 'react-icons/md';
 import logoIcon from './img/logo/navlogo.png'; 
 
 const Navbar = () => {

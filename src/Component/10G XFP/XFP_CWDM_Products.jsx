@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -20,7 +20,7 @@ import productImg2 from '../../img/products/10G XFP/DTU_80D.jpg'
 
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
+
 
 const XFP_CWDM_Products = () => {
   return (
@@ -80,7 +80,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -104,7 +103,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -128,7 +126,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM</h5>
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -153,7 +150,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM</h5>
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -161,7 +157,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM</h5>
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

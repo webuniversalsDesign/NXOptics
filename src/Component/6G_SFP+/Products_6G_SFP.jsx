@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -16,15 +16,9 @@ import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/4G_SFP/Dual_4G.jpg';
-// import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
-// import productImg2 from '../../img/products/10SFP+/Dual_2.jpg'
-// import productImg3 from '../../img/products/1.25G SFP/SFP_Dual_50D.jpg'
 import productImg4 from '../../img/products/10SFP+/Dual_3.jpg'
-// import productImg5 from '../../img/products/10SFP+/Dual_4.jpg'
-// import productImg6 from '../../img/products/10SFP+/Dual_5.jpg'
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const Products_6G_SFP = () => {
   return (
@@ -93,7 +87,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -126,7 +120,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -161,7 +155,6 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -196,7 +189,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -204,7 +197,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

@@ -1,11 +1,9 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
-// import Swiper core and required modules
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 
 // Import Swiper styles
@@ -25,31 +23,7 @@ import bannerImg5 from '../img/banner5.jpg'
 import bannerImg6 from '../img/banner6.jpg'
 import bannerImg7 from '../img/banner7.jpg'
 
-// FiberOptical Images
-import aocImg from '../img/products/Fiber Optical Cable/AOC/10G_SPSP.jpg';
-// import dacImg from '../img/products/Fiber Optical Cable/DAC/10G_SFPS.jpg';
-// import ipcImg from '../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/Armored_Path_cord.png';
-// import mpoImg from '../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/MPO_PathCoard.jpg';
-// import opcImg from '../img/products/Fiber Optical Cable/AOC/10G_SPSP.jpg';
-// import loopbackcableImg from '../img/products/loopbackcable.jpg';
-// import tcable1 from '../img/products/transceiverCable1.jpg';
-// import tcable3 from '../img/products/transceiverCable2.jpg';
-// import tcable2 from '../img/products/transceiverCable3.jpg';
 
-
-
-// Certification
-// import houseImg from '../img/wherehouse.jpg';
-// import randdImg from '../img/RandD.jpg';
-// import envtestingImg from '../img/environmenttest.jpg';
-// import qtyassureImg from '../img/qualityasssurance.jpg';
-// import compatibilityImg from '../img/compatibility.jpg';
-// import solutionTestImg from '../img/solutionTest.jpg';
-
-// Customer
-// import customer1Img from '../img/customer1.jpg';
-// import customer2Img from '../img/customer2.jpg';
-// import customer3Img from '../img/customer3.jpg';
 
 import {  MdOutlineAssuredWorkload, MdOutlineSwitchAccessShortcutAdd} from 'react-icons/md';
 import { BiPurchaseTag } from 'react-icons/bi';
@@ -57,8 +31,7 @@ import { GrUserExpert } from 'react-icons/gr';
 import { TbTruckDelivery, TbMessageChatbot, TbMessage2 } from 'react-icons/tb';
 // import NavbarTwo from '../NavbarTwo';
 
-import productImg1 from '../img/products/1.25G SFP/SFP_DWDM_Img.jpg'
-import productImg2 from '../img/products/Switches/10G ethernet switches/NXO-G24S4X _ NXO-G24S2X.jpg'
+
 import ProductSwiper from './ProductSwiper';
 
  const Index =()=> {

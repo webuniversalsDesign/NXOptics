@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -20,7 +20,7 @@ import productImg2 from '../../img/products/1.25G CSFP/dualBX_img.jpg'
 
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
+
 
 const Dual_Bidi_LC_Products = () => {
   return (
@@ -88,7 +88,7 @@ Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -120,7 +120,7 @@ Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -151,7 +151,7 @@ Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -182,7 +182,7 @@ Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -215,7 +215,7 @@ Hot Pluggable, Dual Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -248,7 +248,7 @@ Hot Pluggable, Dual Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -256,7 +256,7 @@ Hot Pluggable, Dual Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

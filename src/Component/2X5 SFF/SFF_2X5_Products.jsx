@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -17,8 +17,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/2X5 SFF/2X5_SFF_img.jpg'
 
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const SFF_2X5_Products = () => {
   return (
@@ -85,7 +83,7 @@ const SFF_2X5_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -116,7 +114,7 @@ const SFF_2X5_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -124,7 +122,7 @@ const SFF_2X5_Products = () => {
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

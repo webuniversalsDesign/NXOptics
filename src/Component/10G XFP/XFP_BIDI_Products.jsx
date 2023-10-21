@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -15,14 +15,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/10G XFP/C27_20D.jpg'
-import productImg2 from '../../img/products/10G XFP/Dxx_40D.jpg'
-import productImg3 from '../../img/products/10G XFP/C43_80D.jpg'
-import productImg4 from '../../img/products/10G XFP/C55_80D.jpg'
+import productImg1 from '../../img/products/10G XFP/C27_20D.jpg';
+import productImg2 from '../../img/products/10G XFP/Dxx_40D.jpg';
+import productImg3 from '../../img/products/10G XFP/C43_80D.jpg';
+import productImg4 from '../../img/products/10G XFP/C55_80D.jpg';
 
-
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const XFP_BIDI_Products = () => {
   return (
@@ -82,7 +79,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -106,7 +102,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -130,7 +125,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -154,7 +148,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -179,7 +172,6 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -204,7 +196,6 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -230,7 +221,6 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -256,7 +246,6 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -283,38 +272,12 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
         </div>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/XFP_BIDI_Products/BIDI_C33_40Di" style={{textDecoration:"none", color:"black"}}>
 
-<div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>10G XFP BX(BR)-D Transceiver
-Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
-
-
-</h5>
-<p>Part Number : NXOXFP-H8-C33-X40Di</p>
-<h4>Feature's</h4> 
-<p>1330nm DFB laser transmitter</p>
-<p>Link distance 40km over SM fiber</p>
-<p>Hot Pluggable XFP footprint</p>
-
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div> */}
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/XFP_BIDI_Products/BIDI_C33_60D" style={{textDecoration:"none", color:"black"}}>
@@ -337,7 +300,6 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -364,7 +326,6 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -390,7 +351,6 @@ Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -416,7 +376,6 @@ Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -443,7 +402,6 @@ Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -470,7 +428,6 @@ Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -478,7 +435,6 @@ Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
       </div>
 </div>
 
-<EnquireForm/>
 
 <Footer/>
     </>

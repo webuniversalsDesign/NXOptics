@@ -770,7 +770,7 @@ background-color: white;
 
 .listFeture{
     margin: 10px 15px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
 }
 
@@ -793,7 +793,7 @@ background-color: white;
 }
 
 .product-dec h5{
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 350;
 }
 
@@ -803,6 +803,7 @@ cursor: pointer;
 
 .product-dec p{
 font-weight: 500;
+font-size: 13px;
 }
 
 .enquire-btn{

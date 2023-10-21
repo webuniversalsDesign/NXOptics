@@ -18,7 +18,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/10G SFP+/c27_20D.jpg'
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
+
 
 const SFP_PLUS_DUAL_Products = () => {
   return (
@@ -90,7 +90,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -126,7 +126,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 

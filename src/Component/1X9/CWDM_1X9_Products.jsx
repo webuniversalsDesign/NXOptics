@@ -6,7 +6,6 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -16,16 +15,7 @@ import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/1X9/1X9_CWDW.jpg'
-// import productImg1_2 from '../../img/products/1X9/ultra.jpg'
-// import productImg1_3 from '../../img/products/1X9/155M_dual_3.jpg'
-// import productImg1_4 from '../../img/products/1X9/155M_dual_4.jpg'
-// import productImg1_5 from '../../img/products/1X9/155M_dual_5.jpg'
 
-// import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
-// import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
-// import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const CWDM_1X9_Products = () => {
   return (
@@ -85,7 +75,7 @@ const CWDM_1X9_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -109,7 +99,7 @@ const CWDM_1X9_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -133,7 +123,7 @@ const CWDM_1X9_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -157,7 +147,7 @@ const CWDM_1X9_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -182,7 +172,7 @@ const CWDM_1X9_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -206,7 +196,7 @@ const CWDM_1X9_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -214,8 +204,6 @@ const CWDM_1X9_Products = () => {
 
       </div>
 </div>
-
-<EnquireForm/>
 
 <Footer/>
     </>

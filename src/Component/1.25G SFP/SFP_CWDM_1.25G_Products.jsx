@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -22,7 +22,7 @@ import productImg1 from '../../img/products/2.5_SFP/CWDM_2.5G.jpg';
 // import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
 // import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
+
 
 const SFP_CWDM_1_25G_Products = () => {
   return (
@@ -86,7 +86,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -114,7 +114,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -140,7 +140,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -166,7 +166,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -192,7 +192,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -218,7 +218,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -227,7 +227,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

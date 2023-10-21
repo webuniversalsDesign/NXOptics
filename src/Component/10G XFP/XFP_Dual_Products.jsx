@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -21,8 +21,6 @@ import productImg3 from '../../img/products/10G XFP/DTU_80D.jpg';
 import productImg4 from '../../img/products/10G XFP/Dxx_40D.jpg';
 
 
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const XFP_DUAL_Products = () => {
   return (
@@ -83,7 +81,6 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, Multi-Mode, 300M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -108,7 +105,6 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -133,7 +129,6 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -159,7 +154,6 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM Low Power Consumpti
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -187,7 +181,6 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -214,7 +207,6 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -241,7 +233,6 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -267,7 +258,6 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -293,7 +283,6 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -319,7 +308,6 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM Low Power Consum
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -346,7 +334,6 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -374,7 +361,6 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -400,7 +386,6 @@ Hot Pluggable, Duplex LC, 1550nm CML, SMF 120KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -408,7 +393,7 @@ Hot Pluggable, Duplex LC, 1550nm CML, SMF 120KM, DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -19,8 +19,6 @@ import productImg1 from '../../img/products/10G XFP/Dxx_40D.jpg'
 import productImg2 from '../../img/products/10G XFP/DTU_80D.jpg'
 
 
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const XFP_DWDM_Products = () => {
   return (
@@ -79,7 +77,6 @@ const XFP_DWDM_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -102,7 +99,6 @@ const XFP_DWDM_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -125,7 +121,6 @@ const XFP_DWDM_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -148,7 +143,6 @@ const XFP_DWDM_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -156,7 +150,6 @@ const XFP_DWDM_Products = () => {
       </div>
 </div>
 
-<EnquireForm/>
 
 <Footer/>
     </>

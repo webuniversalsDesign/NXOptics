@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -22,7 +22,7 @@ import productImg1 from '../../img/products/1.25G SFP/SFP_DWDM_Img.jpg'
 // import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
 // import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
+
 
 const SFP_1_25G_DWDM_Products = () => {
   return (
@@ -86,7 +86,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -113,7 +113,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -141,7 +141,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -166,7 +166,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 <p>Link distance 120km over SM fiber </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -175,7 +175,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>
