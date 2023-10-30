@@ -131,8 +131,8 @@ const IVS802GT = () => {
 <p className='listFeture '> Wide operating temperature -40 ~ 75°C ("E" model)</p>
 
 <h5 className='pt-4'>Specifications</h5>
-
-<div className='row'>
+<div className='container-fluid'>
+  <div className='row'>
  <div className='col-lg-7'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IEEE Standard</h5>
 
@@ -168,6 +168,8 @@ const IVS802GT = () => {
       
    </div>
 </div>
+</div>
+
 
 </div>
 

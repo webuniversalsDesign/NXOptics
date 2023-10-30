@@ -21,7 +21,6 @@ import productImg4 from '../../src/img/products/Telecom Switches/networkImg.jpeg
 import productImg5 from '../../src/img/products/Telecom Switches/storage.jpeg';
 
 
-
 const ProductSwiper = () => {
 
   const [formData, setFormData] = useState({

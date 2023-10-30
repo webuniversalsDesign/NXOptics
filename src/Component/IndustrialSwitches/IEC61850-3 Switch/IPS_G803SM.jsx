@@ -22,10 +22,10 @@ import { Gallery, Item } from 'react-photoswipe-gallery';
 import EnquireForm from '../../EnquireForm';
 
 
-const IPS_803GSM = () => {
+const IPS_G803SM = () => {
 
-    let PartNumber = "IPS-803GSM";
-    let productName ="8x 10/100Base RJ45 + 3x 100/1000Base SFP, Managed Ethernet Switch";
+    let PartNumber = "IPS-G803SM";
+    let productName ="8x GbE RJ45 + 3x 100/1000Base SFP, Managed Ethernet Switch";
 
     
   return (
@@ -146,6 +146,7 @@ Peer Transparent Clock, End to End Transparent Clock, Master, Slave mode by each
 
 <p className='listFeture '>IEEE 802.3 10Base-T 10Mbit/s Ethernet</p>
 <p className='listFeture '>IEEE 802.3u 100Base-TX, 100Base-FX, Fast Ethernet</p>
+<p className='listFeture '>IEEE 802.3ab 1000Base-T Gbit/s Ethernet over twisted pair</p>
 <p className='listFeture'>IEEE 802.3z 1000Base-X Gbit/s Ethernet over Fiber-Optic</p>
 <p className='listFeture'>IEEE 802.1d STP (Spanning Tree Protocol)</p>
 <p className='listFeture'>IEEE 802.1w RSTP (Rapid Spanning Tree Protocol)</p>
@@ -169,16 +170,8 @@ LACP(Link Aggregation Control Protocol)</p>
 Power 1 (Green), Power 2 (Green), Power 
 3(Green), Fault (Amber) (-HL model)
 </p>
-
-<p className='listFeture'>Per RJ-45 port :10/100Link/Act: Green </p>
+<p className='listFeture'>Per RJ-45 port :10/100Link/Act: Green , 1000Link/Act: Amber </p>
 <p className='listFeture'>SFP Fiber Per port : Link/Active (Green)</p>
-
-<p className='listFeture'> Per Port PoE LED <br/>
-&nbsp; &nbsp;  Active : ON<br/>
-&nbsp; &nbsp;  Inactive : OFF
-</p>
-
-
 </div>
 
    <div className='col-lg-6'>
@@ -226,21 +219,13 @@ Power 1 (Green), Power 2 (Green), Power
 <p className='listFeture'><b>SSH over IPv6</b> Supported</p>
 <p className='listFeture'><b>IPv6 Telnet</b> Supported</p>
 <p className='listFeture'><b>IPv6 NTP / SNTP</b> Client</p>
-<p className='listFeture'><b>IPv6 TFTP</b> Supported</p>
-<p className='listFeture'><b>IPv6 QoS</b> Supported</p>
-<p className='listFeture'><b>IPv6 ACL</b> Number of rules: up to 256 entries
-<br/>for L2 / L3 / L4
-<br/>L2 : Mac address SA/DA/VLAN
-<br/>L3 : IP address SA/DA, Subnet
-<br/>L4 : TCP/UDP
-</p>
+
     </div>
 
     <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Multiple u-Ring</h5>
- <p className='listFeture'> up to 5 instances that each supports u-Ring, u-Chain 
- or Sub-Ring type for flexible uses, and maximum up 
-to 5 RingsRecovery time {'<10ms'} Maximum 250 devices in a Ring</p>
+ <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Cable Diagnostic</h5>
+ <p className='listFeture'>  Measuring UTP cable is normal or broken point 
+distance</p>
 
     </div>
 
@@ -335,4 +320,4 @@ System or other third party SNMP managers.
   )
 }
 
-export default IPS_803GSM
+export default IPS_G803SM;
