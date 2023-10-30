@@ -704,17 +704,33 @@ const Navbar = () => {
                                                 </li>
                                                 <li className='tele-inner-linke1 tele-drop2'><IoMdArrowDropright className="arrow-icon" />Carrier Switch
                                                     <ul className='tele-sublinkers2 list-item-tele'>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/Carrier Ethernet Switch/MSW-4424A" className='nolink-dec'>
                                                         <li>MSW-4424A</li>
-                                                        <li>MSW-4424C</li>
-                                                        <li>MSW-4428X</li>
+                                                    </Link>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/Carrier Ethernet Switch/MSW-4424C" className='nolink-dec'>
+                                                    <li>MSW-4424C</li>
+                                                    </Link>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/Carrier Ethernet Switch/MSW-4428X" className='nolink-dec'>
+                                                    <li>MSW-4428X</li>
+                                                    </Link>
                                                     </ul>
                                                 </li>
                                                 <li className='tele-inner-linke1 tele-drop3'><IoMdArrowDropright className="arrow-icon" />Access Switch
                                                     <ul className='tele-sublinkers3 list-item-tele'>
-                                                        <li>XGS-1208SE</li>
-                                                        <li>XGS-1208M</li>
+                                                        <Link to="/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208SE " className='nolink-dec'>
+                                                            <li className='lastdrop-items'>XGS-1208SE</li>
+                                                        </Link>
+                                                        <Link to="/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208M " className='nolink-dec'>
+                                                            <li className='lastdrop-items'>XGS-1208M</li>
+                                                        </Link>
+                                                        
+                                                        <Link to="/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4448CM" className='nolink-dec'>           
                                                         <li>GSW-4448CM</li>
+                                                        </Link>
+                                                        <Link to="/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4424CM" className='nolink-dec'>          
                                                         <li>GSW-4424CM</li>
+                                                        </Link>
+
                                                         <li>GSW-3424M1A</li>
                                                         <li>GSW-4208CM</li>
                                                     </ul>
