@@ -134,6 +134,7 @@ const MSW_4428X = () => {
                     <p className='listFeture '>CE2.0 compliant product to guarantee the compatibility with other MEF certified equipment and reduce the risk and cost for Metro </p>
 
                     <h5 className='mt-3'>Specifications</h5>
+                    <div className='container-fluid'>
 
                     <div className='row'>
                         <div className='col-lg-6'>
@@ -156,6 +157,7 @@ const MSW_4428X = () => {
                             <p className='listFeture'>   ARP inspection </p>
                         </div>
 
+                    </div>
                     </div>
 
                 </div>
