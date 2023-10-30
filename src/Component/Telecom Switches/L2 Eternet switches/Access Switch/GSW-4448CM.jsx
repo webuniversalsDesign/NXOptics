@@ -135,7 +135,8 @@ const GSW_4448CM = () => {
 
 
                     <h5 className='mt-3'>Specifications</h5>
-                
+                    <div className='container-fluid'>
+
                     <div className='row'>
                         <div className='col-lg-6'>
                             <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Filter & Forward rate</h5>
@@ -160,7 +161,7 @@ const GSW_4448CM = () => {
                         </div>
 
                     </div>
-
+                   </div>
                 </div>
 
             </div>

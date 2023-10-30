@@ -135,6 +135,7 @@ const MSW_4424A = () => {
 
 
                     <h5 className='mt-3'>Specifications</h5>
+                    <div className='container-fluid'>
 
                     <div className='row'>
                         <div className='col-lg-6'>
@@ -157,6 +158,7 @@ const MSW_4424A = () => {
                             <p className='listFeture'>   ARP inspection </p>
                         </div>
 
+                    </div>
                     </div>
 
                 </div>
