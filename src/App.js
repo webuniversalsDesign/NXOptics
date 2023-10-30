@@ -765,6 +765,13 @@ import NetworkSecurity from './Component/NetworkSecurity';
 
 import XGS_1208M from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208M';
 import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS_1208SE';
+import MSW_4424A from './Component/Telecom Switches/L2 Eternet switches/Carrier Ethernet Switch/MSW-4424A';
+import MSW_4424C from './Component/Telecom Switches/L2 Eternet switches/Carrier Ethernet Switch/MSW-4424C';
+import MSW_4428X from './Component/Telecom Switches/L2 Eternet switches/Carrier Ethernet Switch/MSW-4428X';
+import GSW_4448CM from './Component/Telecom Switches/L2 Eternet switches/Access Switch/GSW-4448CM';
+import GSW_4424CM from './Component/Telecom Switches/L2 Eternet switches/Access Switch/GSW-4424CM';
+
+
 import ServerStorage from './Component/ServerStorage';
 import IVS802GT from './Component/IndustrialSwitches/E-mark/IVS802GT';
 import IVS_802GT_8PH24 from './Component/IndustrialSwitches/E-mark/IVS_802GT_8PH24';
@@ -1566,8 +1573,17 @@ function App() {
 <Route path="/NetworkSecurity" element={<NetworkSecurity/>}/>
 <Route path="/ServerStorage" element={<ServerStorage/>}/>
 
+
+{/* Telecom switches */}
+
 <Route path='/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208M' element={<XGS_1208M/>} /> 
-<Route path='/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208SE' element={<XGS_1208SE/>} /> 
+<Route path='/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208SE' element={<XGS_1208SE/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/Carrier Ethernet Switch/MSW-4424A' element={<MSW_4424A/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/Carrier Ethernet Switch/MSW-4424C' element={<MSW_4424C/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/Carrier Ethernet Switch/MSW-4428X' element={<MSW_4428X/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4448CM' element={<GSW_4448CM/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4424CM' element={<GSW_4424CM/>} />
+
 
 {/* Industrial Switches --> E-Mark Certified Ethernet Switches */}
 <Route path="/Industrial_Switches/EMark/IVS802GT" element={<IVS802GT/>}/>
@@ -1576,7 +1592,7 @@ function App() {
 
 
     </Routes>
-    
+
     </BrowserRouter>
   );
 }
