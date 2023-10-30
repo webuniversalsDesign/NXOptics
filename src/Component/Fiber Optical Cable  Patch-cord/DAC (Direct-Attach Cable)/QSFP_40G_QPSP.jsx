@@ -1,19 +1,16 @@
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react';
+
 import productImg1 from '../../../img/products/Fiber Optical Cable/DAC/40G_QPQP.jpg'
 
 // import TransceiverBlock from '../../img/products/10SFP+/Transciever.jpg';
 import pinassisment from '../../../img/products/Fiber Optical Cable/DAC/40G_QPQP_PinAssisment.jpg';
 import pinassisment2 from '../../../img/products/Fiber Optical Cable/DAC/10G_PinAssignment.png';
 import machdimenssion from '../../../img/products/Fiber Optical Cable/DAC/40G_QPSP_mechDimenssion.jpg';
-// import Memorymap from '../../../img/products/Fiber Optical Cable/AOC/Memory.jpg';
-// // import handling from '../../../img/products/Fiber Optical Cable/AOC/handling.jpg';
-// import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
+
 
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import { TiTickOutline } from 'react-icons/ti';
 
 import { BsCartCheck } from 'react-icons/bs';
 import { LiaWarehouseSolid } from 'react-icons/lia';
@@ -25,42 +22,12 @@ import { Link } from 'react-router-dom';
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
+import EnquireForm from '../../EnquireForm';
 
 const QSFP_40G_QPSP = () => {
 
     let PartNumber = "NXODAC-40G-QPSP-Pxx-yy    ";
     let productName = "40G QSFP+ to 4 x SFP+ Passive Direct Attach Cable (DAC) Hot Pluggable, Copper Cable, 1M~5M ";
-
-    const [name, setName] = useState("");
-    const [mobNumber, setmobNumber] = useState("");
-    const [userEmail, setuserEmail] = useState("");
-    const [userMessage, setuserMessage] = useState("");
-
-    const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('service_s6yscqg', 'template_nnkudli', form.current, 'ctLMl35oWO-hYo21q')
-            .then((result) => {
-                console.log(result.text);
-                console.log("Message Sent :)");
-                document.getElementById('successMsg').style.top = "0px";
-
-                setName("");
-                setmobNumber("");
-                setuserEmail("");
-                setuserMessage("");
-
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
-
-
-    const hidePop = () => {
-        document.getElementById("successMsg").style.top = "-100%";
-    }
 
     return (
         <>
@@ -131,7 +98,7 @@ const QSFP_40G_QPSP = () => {
 
 
                         <div className="d-flex justify-content-center flex-wrap cart-btn">
-                            <Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal"><BsCartCheck style={{ marginBottom: "5px" }} /> Request a Quote</Link>
+                            <Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal2"><BsCartCheck style={{ marginBottom: "5px" }} /> Request a Quote</Link>
                         </div>
 
                     </div>
@@ -392,74 +359,8 @@ of 10Gbps (40Gbps composite). It offers Passive copper cables in lengths of 1met
 
             <Footer />
             {/* --------------------------------------------------------------------------------------------------------- */}
-            <div className="modal fade" id="myModal">
-                <div className="modal-dialog modal-dialog-centered">
-                    <div className="modal-content">
-
-                        {/* <!-- Modal Header --> */}
-                        <div className="modal-header">
-                            <h4 className="modal-title">Enquire Now</h4>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        {/* <!-- Modal body --> */}
-                        <div className="modal-body">
-                            <form ref={form} onSubmit={sendEmail}>
-
-                                <div className='row'>
-                                    <div className='col-md-6 col-sm-12'>
-                                        <label>Your Product Part Number</label>
-                                        <input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly />
-                                    </div>
-                                    <div className='col-md-6 col-sm-12'>
-                                        <label>Your Product Name</label>
-                                        <input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly />
-
-                                    </div>
-                                </div>
-
-                                <input type='text' className='form-control mt-2 mb-2' value={name} onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required />
-                                <div className='row'>
-                                    <div className='col-6'>
-                                        <input type='number' className='form-control mt-2 mb-2' value={mobNumber} onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required />
-                                    </div>
-                                    <div className='col-6'>
-                                        <input type='email' className='form-control mt-2 mb-2' value={userEmail} onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required />
-
-                                    </div>
-                                </div>
-
-                                <textarea rows="2" cols='2' className='form-control' value={userMessage} onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
-                                <input type='submit' className='btn btn-danger mt-2' value="Send" style={{ width: "200px" }} />
-                            </form>
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-                <div className="message-sent" id="successMsg">
-
-                    <div className="card-message">
-
-                        <div className="d-flex justify-content-center">
-                            <TiTickOutline className="messagetick-mark" />
-                        </div>
-
-                        <p className="successMsgTest">Thank you so much for taking the time to fill out the form! We truly appreciate your interest in our services.
-                            Your inquiry is valuable to us, and our team shall get back to you soon.</p>
-
-                        <div className="d-flex justify-content-center pt-5 pb-1">
-                            <button type="button" className="btn btn-danger" onClick={hidePop}>Go Back</button>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-            </div>
+<EnquireForm pathNum={PartNumber} productN={productName}></EnquireForm>
+           
         </>
     )
 }

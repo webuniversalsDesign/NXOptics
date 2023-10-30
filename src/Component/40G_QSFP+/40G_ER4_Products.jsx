@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 
@@ -18,7 +18,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/40G-ER4/40G_ER4.jpg'
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
+
 
 const Product_40G_ER4 = () => {
   return (
@@ -78,7 +78,6 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -102,7 +101,6 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -112,7 +110,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

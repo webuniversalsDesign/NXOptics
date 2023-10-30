@@ -6,7 +6,6 @@ import bannerImg from '../../../img/products/productbanner.jpg'
 import bannerImg2 from '../../../img/products/productbanner2.jpg'
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
-import EnquireForm from '../../../Component/EnquireForm';
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -19,7 +18,6 @@ import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/Q5Q5.jpg'
 import productImg2 from '../../../img/products/Fiber Optical Cable/AOC/Q6Q6.jpg';
 import productImg3 from '../../../img/products/Fiber Optical Cable/AOC/Q6Q62.jpg';
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const Products_200G_QSFP56 = () => {
   return (
@@ -93,7 +91,7 @@ Hot Pluggable, 850nm VCSEL, MMF OM4 1~100M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -107,12 +105,7 @@ Hot Pluggable, 850nm VCSEL, MMF OM4 1~100M, DDM
 
 <div className='product-dec'>
   <h5>
-  200G QSFP56 to 2x100G QSFP56 Active Optical Cable ( AOC ) Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM
-
-
-
-
-</h5>
+  200G QSFP56 to 2x100G QSFP56 Active Optical Cable ( AOC ) Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM</h5>
 <p>Part Number : NXOAOC-B0G-Q6Q5-xxx-xx
 </p>
 
@@ -131,7 +124,7 @@ Hot Pluggable, 850nm VCSEL, MMF OM4 1~100M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -170,15 +163,12 @@ Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
         </div>
       </div>
 </div>
-
-<EnquireForm/>
 
 <Footer/>
     </>

@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -20,7 +20,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg2 from '../../img/products/10SFP+/CWDM_1.jpg'
 import productImg3 from '../../img/products/10SFP+/CWDM_1.jpg'
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const Products_CWDM_10G_SFP = () => {
   return (
@@ -87,7 +86,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -118,7 +117,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -150,7 +149,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -182,7 +181,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -214,7 +213,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -245,7 +244,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -275,7 +274,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1450nm DFB, SMF 12dB(20KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -305,7 +304,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1450nm DFB, SMF 12dB(20KM), DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -336,7 +335,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 26dB, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -367,7 +366,6 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 26dB, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -376,7 +374,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 26dB, DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

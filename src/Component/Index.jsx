@@ -1,10 +1,5 @@
 import React from 'react'
 
-// import { Link } from 'react-router-dom';
-
-
-
-
 
 // Import Swiper styles
 import 'swiper/css';
@@ -42,7 +37,7 @@ import ProductSwiper from './ProductSwiper';
 
 {/*Carousel Banner Start*/}
 
-<div id="demo" className="carousel slide leave-navbar" data-bs-ride="carousel">
+<div id="demo" className="carousel slide leave-navbar" data-bs-ride="carousel" >
 
 
   <div className="carousel-indicators">

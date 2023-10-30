@@ -5,9 +5,7 @@ import productImg1 from '../../../img/products/Fiber Optical Cable/DAC/25G_SFPS.
 // import TransceiverBlock from '../../img/products/10SFP+/Transciever.jpg';
 import pinassisment from '../../../img/products/Fiber Optical Cable/DAC/pinAssisment.jpg';
 import machdimenssion from '../../../img/products/Fiber Optical Cable/DAC/25G_SFPS_mechDimenssion.png';
-// import Memorymap from '../../../img/products/Fiber Optical Cable/AOC/Memory.jpg';
-// import handling from '../../../img/products/Fiber Optical Cable/AOC/handling.jpg';
-// import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
+
 
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
@@ -130,7 +128,7 @@ const DAC_25G_SFP28 = () => {
 
 
                         <div className="d-flex justify-content-center flex-wrap cart-btn">
-                            <Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal"><BsCartCheck style={{ marginBottom: "5px" }} /> Request a Quote</Link>
+                            <Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal2"><BsCartCheck style={{ marginBottom: "5px" }} /> Request a Quote</Link>
                         </div>
 
                     </div>

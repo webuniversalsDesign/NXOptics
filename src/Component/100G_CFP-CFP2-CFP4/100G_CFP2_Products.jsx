@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 
@@ -21,7 +21,6 @@ import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.
 import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
 import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const CFP2_Products_100G = () => {
   return (
@@ -79,7 +78,6 @@ const CFP2_Products_100G = () => {
 <p>RoHS compliant</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -103,7 +101,6 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
 <p>Low power consumption, {'<'}12W</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -129,7 +126,6 @@ Hot Pluggable, Duplex LC, DML LAN-WDM, Single Mode, 10KM, DDM
 <p>Single 3.3V power supply</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -153,7 +149,6 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM
 <p>Built in quad TX CDR and RX CDR</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -178,7 +173,6 @@ Hot Pluggable, MPO / MTP-24, 850nm VCSEL, MMF, 100M, DDM
 <p>Single 3.3V power supply</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -187,7 +181,7 @@ Hot Pluggable, MPO / MTP-24, 850nm VCSEL, MMF, 100M, DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

@@ -18,7 +18,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/40G_eSR4/eSR4_1.jpg'
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const SR4_40G_Products = () => {
   return (
@@ -89,7 +88,6 @@ const SR4_40G_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -122,7 +120,6 @@ const SR4_40G_Products = () => {
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 

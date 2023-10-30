@@ -19,8 +19,6 @@ import productImg1 from '../../img/products/100G QSFP28/4DWM_20.png';
 import productImg2 from '../../img/products/100G QSFP28/4DWM_20e.png';
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
-
 const BIDI_4WDM_Products = () => {
   return (
     <>
@@ -79,7 +77,6 @@ Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
 <p>Operating Temperature -20~85°C</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -103,7 +100,6 @@ Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM
 <p>Operating Temperature -20~85°C</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 

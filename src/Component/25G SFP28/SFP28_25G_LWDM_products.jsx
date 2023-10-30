@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -19,7 +19,7 @@ import productImg1 from '../../img/products/25G SFP28/LWDM_25G.jpg';
 // import productImg2 from '../../img/products/25G SFP28/SFP_BX10_33Img.jpg';
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
+
 
 const SFP28_25G__LWDM_products = () => {
   return (
@@ -77,7 +77,6 @@ Hot Pluggable, Duplex LC, 800GHz LWDM EML, SMF 40KM, DDM
 <p>Link distance 40km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -100,7 +99,6 @@ Hot Pluggable, Duplex LC, 800GHz LWDM EML, SMF 40KM, DDM
 <p>Single +3.3V power supply</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -109,7 +107,7 @@ Hot Pluggable, Duplex LC, 800GHz LWDM EML, SMF 40KM, DDM
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

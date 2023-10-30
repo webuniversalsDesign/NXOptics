@@ -18,8 +18,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/100G QSFP28/PDSM4_100G.jpg';
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
-
 const LR4_100G_Products   = () => {
   return (
     <>
@@ -78,7 +76,6 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
 <p>O-Band LWDM DFB transmitter</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -102,7 +99,6 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
 <p>Link distance 10km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 

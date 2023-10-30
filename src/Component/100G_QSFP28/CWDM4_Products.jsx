@@ -6,7 +6,6 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -16,10 +15,7 @@ import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/100G QSFP28/CWDM4_02D.png';
-// import productImg2 from '../../img/products/100G QSFP28/4DWM_20e.png';
 
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const CWDM4_Products = () => {
   return (
@@ -78,7 +74,6 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 2KM, DDM
 <p>Maximum Power consumption 3.5W</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -101,7 +96,6 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 <p>CWDM DFB transmitter</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -109,8 +103,6 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 
       </div>
 </div>
-
-<EnquireForm/>
 
 <Footer/>
     </>

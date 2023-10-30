@@ -7,6 +7,8 @@ import { TiBackspaceOutline } from 'react-icons/ti';
 import {IoMdArrowDropright} from 'react-icons/io';
 import { MdOutlineSupportAgent} from 'react-icons/md';
 import logoIcon from './img/logo/navlogo.png'; 
+// import AutocompleteSearchBox from './AutocompleteSearchBox';
+
 
 const Navbar = () => {
 
@@ -758,12 +760,13 @@ const Switchclose_menu8=()=>{
      <ul  className='drop-inner-link4'>
      <Link to="/" className='nolink-dec'><li className='lastdrop-items indus-link1'><IoMdArrowDropright/>E-Mark Certified Ethernet Switch 
      <ul className='indus-inner-link1 list-item-tele'>
-        <li>IVS-802GT</li>
-        <li>IVS-802GT-8PH24</li>
-        <li>IVS-G802T</li>
-        <li>IVS-G802T-8PH24</li>
+        <Link to="/Industrial_Switches/EMark/IVS802GT" className='nolink-dec'><li>IVS-802GT</li></Link>
+        <Link to="/Industrial_Switches/EMark/IVS_802GT_8PH24" className='nolink-dec'><li>IVS-802GT-8PH24</li></Link>
+        <Link to="/Industrial_Switches/EMark/IVS_G802T" className='nolink-dec'><li>IVS-G802T</li></Link> 
+        <Link to="/" className='nolink-dec'><li>IVS-G802T-8PH24</li></Link> 
      </ul>
      </li></Link>
+
      <Link to="/" className='nolink-dec'><li className='lastdrop-items indus-link2'><IoMdArrowDropright/>IEC 61850-3 Switch
      <ul className='indus-inner-link2 list-item-tele'>
         <li>IPS-803GSM</li>
@@ -810,6 +813,8 @@ const Switchclose_menu8=()=>{
 <div className='only-mobile'>
 <AiOutlineMenu className='nav-icons only-small' onClick={OpenCloseMenu}/>
 </div>
+
+{/* <AutocompleteSearchBox/> */}
 
 </nav> 
    

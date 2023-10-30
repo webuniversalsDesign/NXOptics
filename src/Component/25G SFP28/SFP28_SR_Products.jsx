@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -16,9 +16,6 @@ import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/25G SFP28/SFP28Img.jpg';
-
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const SFP28_SR_Products = () => {
   return (
@@ -77,7 +74,6 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
 <p>Maximum Power consumption 1.0W</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -101,7 +97,6 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
 <p>Maximum Power consumption 1.0W</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -124,7 +119,6 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM
 <p>Duplex LC connector</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -147,7 +141,6 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM
 <p>Duplex LC connector</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -170,7 +163,6 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate
 <p>850nm VCSEL laser transmitter</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -193,7 +185,6 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate
 <p>850nm VCSEL laser transmitter</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -202,7 +193,6 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate
       </div>
 </div>
 
-<EnquireForm/>
 
 <Footer/>
     </>

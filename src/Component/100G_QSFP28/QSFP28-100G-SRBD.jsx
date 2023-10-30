@@ -19,8 +19,6 @@ import productImg1 from '../../img/products/100G QSFP28/100G_SRBD_card1.jpg';
 import productImg2 from '../../img/products/100G QSFP28/100G_SRBD_card2.jpg';
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
-
 const Product_QSFP28_100G_SRBD = () => {
   return (
     <>
@@ -88,7 +86,6 @@ Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -124,8 +121,6 @@ Hot Pluggable QSFP28 footprint
 </p>
 </div>
 
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 

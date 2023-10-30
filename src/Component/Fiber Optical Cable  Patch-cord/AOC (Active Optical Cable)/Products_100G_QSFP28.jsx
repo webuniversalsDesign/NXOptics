@@ -6,7 +6,7 @@ import bannerImg from '../../../img/products/productbanner.jpg'
 import bannerImg2 from '../../../img/products/productbanner2.jpg'
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
-import EnquireForm from '../../../Component/EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -19,7 +19,6 @@ import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/QSFP28.jp
 import productImg2 from '../../../img/products/Fiber Optical Cable/AOC/QPSP2.jpg';
 // import productImg3 from '../../../img/products/Fiber Optical Cable/AOC/QPSP.jpg';
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const Products_100G_QSFP28 = () => {
   return (
@@ -92,7 +91,7 @@ Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -130,7 +129,7 @@ s
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -138,7 +137,6 @@ s
       </div>
 </div>
 
-<EnquireForm/>
 
 <Footer/>
     </>

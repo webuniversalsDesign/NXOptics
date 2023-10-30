@@ -766,6 +766,9 @@ import NetworkSecurity from './Component/NetworkSecurity';
 import XGS_1208M from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208M';
 import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS_1208SE';
 import ServerStorage from './Component/ServerStorage';
+import IVS802GT from './Component/IndustrialSwitches/E-mark/IVS802GT';
+import IVS_802GT_8PH24 from './Component/IndustrialSwitches/E-mark/IVS_802GT_8PH24';
+import IVS_G802T from './Component/IndustrialSwitches/E-mark/IVS_G802T';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208SE';
 
@@ -1565,6 +1568,13 @@ function App() {
 
 <Route path='/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208M' element={<XGS_1208M/>} /> 
 <Route path='/Telecom_Switches/L2_Eternet_Switches/10G_Eternet_Switches/XGS_1208SE' element={<XGS_1208SE/>} /> 
+
+{/* Industrial Switches --> E-Mark Certified Ethernet Switches */}
+<Route path="/Industrial_Switches/EMark/IVS802GT" element={<IVS802GT/>}/>
+<Route path="/Industrial_Switches/EMark/IVS_802GT_8PH24" element={<IVS_802GT_8PH24/>}/>
+<Route path="/Industrial_Switches/EMark/IVS_G802T" element={<IVS_G802T/>}/>
+
+
     </Routes>
     
     </BrowserRouter>

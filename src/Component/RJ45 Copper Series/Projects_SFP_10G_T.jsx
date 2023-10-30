@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -17,8 +17,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/RJ45 Copper Series/SFP_10-T_Y.jpg';
 
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const Projects_SFP_10G = () => {
   return (
@@ -88,7 +86,6 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -123,7 +120,6 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -158,49 +154,12 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M
 
 
 </div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
         </div>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Projects_SFP_10G/SFP_10G_T13_Y3" style={{textDecoration:"none", color:"black"}}>
 
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>10GBASE-T SFP+ Transceiver
-Hot Pluggable, RJ-45, Active Copper SFP+, 30M
-
-
-</h5>
-
-<p>Part Number : NXOSPP-HJ-T13-Y3</p>
-
-
-<h4>Feature's</h4>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div> */}
 
     
         
@@ -231,7 +190,6 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -264,7 +222,6 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp
 </p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -309,7 +266,6 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 80M
       </div>
 </div>
 
-<EnquireForm/>
 
 <Footer/>
     </>

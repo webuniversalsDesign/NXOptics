@@ -6,7 +6,7 @@ import bannerImg from '../../../img/products/productbanner.jpg'
 import bannerImg2 from '../../../img/products/productbanner2.jpg'
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
-import EnquireForm from '../../../Component/EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -18,7 +18,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../../img/products/Fiber Optical Cable/DAC/A0G_QPQP.jpg';
 import productImg2 from '../../../img/products/Fiber Optical Cable/DAC/A0G_QPSP.jpg';
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const DAC_100G_QSFP_Products = () => {
   return (
@@ -84,7 +83,6 @@ Hot Pluggable, Twinax Copper Cables, Passive 0.5~5M
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -113,7 +111,7 @@ Hot Pluggable, Twinax Copper Cables, Passive 0.5~5M
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -124,7 +122,7 @@ Hot Pluggable, Twinax Copper Cables, Passive 0.5~5M
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

@@ -23,8 +23,6 @@ import productImg4 from '../../img/products/100G QSFP28/BIDI_L09.png';
 import productImg5 from  '../../img/products/100G QSFP28/BIDI_C31.png'
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
-
 const BIDI_10_to_40_Products = () => {
   return (
     <>
@@ -82,7 +80,6 @@ Hot Pluggable, Bidi LC, Tx1271nm EML / Rx1331nm, SMF 10KM, DDM
 <p>Operating Temperature 0~70°C</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -105,7 +102,6 @@ Hot Pluggable, Bidi LC, Tx1291nm EML / Rx1311nm, SMF 20KM, DDM
 <p>CWDM 1291nm EML transmitter</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -128,7 +124,6 @@ Hot Pluggable, Bidi LC, Tx1311nm EML / Rx1291nm, SMF 20KM, DDM
 <p>Maximum Power consumption 4.5W</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -151,7 +146,6 @@ Hot Pluggable, Bidi LC, Tx1304nm EML / Rx1309nm, SMF 30KM, DDM
 <p>Maximum Power consumption 4.5W</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -174,7 +168,6 @@ Hot Pluggable, Bidi LC, Tx1309nm EML / Rx1304nm, SMF 30KM, DDM
 <p>Operating Temperature 0~70°C</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -197,7 +190,6 @@ Hot Pluggable, Bidi LC, Tx1331nm EML / Rx1271nm, SMF 10KM, DDM
 <p>Operating Temperature 0~70°C</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 

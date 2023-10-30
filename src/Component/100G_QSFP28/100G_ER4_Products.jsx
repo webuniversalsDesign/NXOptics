@@ -18,8 +18,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/100G QSFP28/100G_ER4.jpg';
 
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
-
 const ER4_100G_Products = () => {
   return (
     <>
@@ -77,7 +75,6 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
 <p>O-Band LWDM DFB transmitter</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -100,7 +97,6 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
 <p>Compliant with SFF-8665 QSFP28 MSA</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -123,7 +119,6 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
 <p>Link distance 40km over SM fiber</p>
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 

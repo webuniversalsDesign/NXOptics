@@ -6,7 +6,6 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -17,8 +16,6 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/100G QSFP28/100G_SR4_1.jpg';
 
-
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
 const Product_QSFP28_100G_SR4 = () => {
   return (
@@ -83,7 +80,7 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -112,7 +109,6 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate
 </div>
 
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
 </Link>
 
@@ -121,7 +117,7 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate
       </div>
 </div>
 
-<EnquireForm/>
+
 
 <Footer/>
     </>

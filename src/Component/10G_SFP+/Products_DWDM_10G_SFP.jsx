@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -23,7 +23,7 @@ import productImg3 from '../../img/products/10SFP+/DWDM_3.jpg'
 // import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 // import productImg5 from '../../img/products/125M 155M  SFP/Dual_S15_155M.jpg'
 
-import { TfiHeadphoneAlt } from 'react-icons/tfi';
+
 
 const Products_DWDM_10G_SFP = () => {
   return (
@@ -88,7 +88,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -117,7 +117,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -146,7 +146,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -175,7 +175,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -203,7 +203,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 100KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -232,7 +232,7 @@ Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -260,7 +260,7 @@ Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 40KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -289,7 +289,7 @@ Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -318,7 +318,7 @@ Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 80KM, DDM
 
 </div>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+
 </div>
 </Link>
 
@@ -326,7 +326,6 @@ Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 80KM, DDM
       </div>
 </div>
 
-<EnquireForm/>
 
 <Footer/>
     </>
