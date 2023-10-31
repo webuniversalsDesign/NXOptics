@@ -799,6 +799,10 @@ import IFS_402GSM_4PU from './Component/IndustrialSwitches/POE Switch/IFS_402GSM
 import IFS_803GSM_8PH24_IFS_402GSM_4PH24 from './Component/IndustrialSwitches/POE Switch/IFS_803GSM_8PH24_IFS_402GSM_4PH24';
 import IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH from './Component/IndustrialSwitches/POE Switch/IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH';
 import IGS_402CS_4PH from './Component/IndustrialSwitches/POE Switch/IGS_402CS_4PH';
+import IGS_402CSW_4PH from './Component/IndustrialSwitches/POE Switch/IGS_402CSW_4PH';
+import IQS_402XSM_4PH from './Component/IndustrialSwitches/POE Switch/IQS_402XSM_4PH';
+import IFS_402GSW_4PB from './Component/IndustrialSwitches/POE Switch/IFS_402GSW_4PB';
+import IFS_PLUS_803GSM_8PH from './Component/IndustrialSwitches/POE Switch/IFS_PLUS_803GSM_8PH';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208SE';
 
@@ -1640,8 +1644,11 @@ function App() {
 <Route path="/Industrial_Switches/POE_Switches/IFS_402GSM_4PU" element={<IFS_402GSM_4PU/>}/>
 <Route path="/Industrial_Switches/POE_Switches/IFS_803GSM_8PH24_IFS_402GSM_4PH24" element={<IFS_803GSM_8PH24_IFS_402GSM_4PH24/>}/>
 <Route path="/Industrial_Switches/POE_Switches/IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH" element={<IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH/>}/>
-
 <Route path="/Industrial_Switches/POE_Switches/IGS_402CS_4PH" element={<IGS_402CS_4PH/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_402CSW_4PH" element={<IGS_402CSW_4PH/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IQS_402XSM_4PH" element={<IQS_402XSM_4PH/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IFS_402GSW_4PB" element={<IFS_402GSW_4PB/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IFS_PLUS_803GSM_8PH" element={<IFS_PLUS_803GSM_8PH/>}/>
 
     </Routes>
 
