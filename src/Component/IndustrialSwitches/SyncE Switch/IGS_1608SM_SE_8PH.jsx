@@ -1,13 +1,13 @@
 import React from 'react';
 
-import productImg1 from '../../../img/products/industrialSwitches/IPS-803GSM/IPS-803GSM.jpeg';
+import productImg1 from '../../../img/products/industrialSwitches/SyncESwitches/IGS-1608SM-SE-8PH.jpeg';
 
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/industrialSwitches/IPS-803GSM/IPS-803GSM-applicatio.jpeg'
-import dime1 from '../../../img/products/industrialSwitches/IPS-803GSM/IPS-803GSM-dimen.jpeg';
-import dime2 from '../../../img/products/industrialSwitches/IVS-802GT/IVS-802GT-Dimensions-2.jpeg';
+import Application from '../../../img/products/industrialSwitches/SyncESwitches/IGS-1608SM-SE-8PH-application.jpeg'
+import dime1 from '../../../img/products/industrialSwitches/SyncESwitches/IGS-1608SM-SE & IGS-804SM-SE-Dimension-1.jpeg';
+import dime2 from '../../../img/products/industrialSwitches/SyncESwitches/IGS-1608SM-SE & IGS-804SM-SE-Dimension-2.jpeg';
 
 import { BsCartCheck } from 'react-icons/bs';
 import { LiaWarehouseSolid } from 'react-icons/lia';
@@ -22,11 +22,11 @@ import { Gallery, Item } from 'react-photoswipe-gallery';
 import EnquireForm from '../../EnquireForm';
 
 
-const IPS_803GSM = () => {
+const IGS_1608SM_SE_8PH = () => {
 
-    let PartNumber = "IPS-803GSM";
-    let productName ="8x 10/100Base RJ45 + 3x 100/1000Base SFP, Managed Ethernet Switch";
-
+    let PartNumber = "IGS-1608SM-SE-8PH ";
+    let productName ="16x GbE RJ45 + 8x 100/1000Base SFP with SyncE and 8x PoE 240W, 48VDC";
+   
     
   return (
 <>
@@ -126,17 +126,15 @@ const IPS_803GSM = () => {
 
 <h5 className='pt-4'>Features</h5>
 
-<p className='listFeture '>Redundant isolated low voltage 24/48VDC, or/and isolated High voltage AC/DC (110/220 VAC/VDC ) power inputs</p>
-<p className='listFeture '> Wide Operating Temperature -40~85°C</p>
-<p className='listFeture '> DIN Rail mounting or wall mounting</p>
-<p className='listFeture '> IP30 rugged metal housing, Fanless</p>
-<p className='listFeture '> Cable diagnostic, measuring cable normal or broken point distance</p>
-<p className='listFeture'> Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to 
-Peer Transparent Clock, End to End Transparent Clock, Master, Slave mode by each port</p>
-<p className='listFeture'> Provides 5 instances that each can support µ-Ring, µ-Chain or Sub-Ring type for flexible uses</p>
-<p className='listFeture'> µ-Ring for Redundant Ethernet Ring, recovery time{'<'}10ms in 250 units</p>
-<p className='listFeture'> Provides SmartConfig for quick and easy mass Configuration Tool*</p>
-<p className='listFeture'>Supported by SmartView for Centralized Management*</p>
+<p className='listFeture '>  Cable diagnostic, measuring cable normal or broken point distance</p>
+<p className='listFeture '> u-Ring, STP, RSTP, MSTP, ITU-T G.8032 Ethernet Ring Protection Switching (ERPS) for redundant cabling</p>
+<p className='listFeture '> Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses. (Please see CTC μ-Ring white paper for more details and more topology application)</p>
+<p className='listFeture '> μ-Ring for Redundant Cabling, recovery time{'<10ms'} in 250 devices</p>
+<p className='listFeture '> Supports Sync Ethernet allow operators to deliver service with optimal stability and continuity in end-to-end connectivity</p>
+<p className='listFeture '>Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to Peer Transparent Clock, End to End 
+Transparent Clock, Master, Slave mode by each port</p>
+<p className='listFeture '> Provides SmartConfig for quick and easy mass Configuration Tool*</p>
+<p className='listFeture '>Supports SmartView for Centralized Management*</p>
 
 <h5 className='pt-4'>Specifications</h5>
 <div className='container-fluid'>
@@ -146,16 +144,20 @@ Peer Transparent Clock, End to End Transparent Clock, Master, Slave mode by each
 
 <p className='listFeture '>IEEE 802.3 10Base-T 10Mbit/s Ethernet</p>
 <p className='listFeture '>IEEE 802.3u 100Base-TX, 100Base-FX, Fast Ethernet</p>
+<p className='listFeture '>IEEE 802.3ab 1000Base-T Gbit/s Ethernet over twisted pair</p>
 <p className='listFeture'>IEEE 802.3z 1000Base-X Gbit/s Ethernet over Fiber-Optic</p>
+<p className='listFeture'>IEEE 802.3af PoE (Power over Ethernet)</p>
+<p className='listFeture'>IEEE 802.3at PoE+ (Power over Ethernet enhancements)</p>
 <p className='listFeture'>IEEE 802.1d STP (Spanning Tree Protocol)</p>
-<p className='listFeture'>IEEE 802.1w RSTP (Rapid Spanning Tree Protocol)</p>
+<p className='listFeture'>IEEE 802.1w RSTP (Rapid Spanning Tree Protocol )</p>
 <p className='listFeture'>IEEE 802.1s MSTP (Multiple Spanning Tree Protocol)</p>
-<p className='listFeture'>IEEE 802.1Q for VLAN Tagging</p>
-<p className='listFeture'>IEEE 802.1X Port based and MAC based Network
-Access Control, Authentication</p>
-<p className='listFeture'>IEEE 802.3ac Max frame size extended to 1522Bytes</p>
-<p className='listFeture'>IEEE 802.3ad Link aggregation for parallel links with 
-LACP(Link Aggregation Control Protocol)</p>
+<p className='listFeture'>ITU-T G.8032 / Y.1344 ERPS (Ethernet Ring Protection Switching)</p>
+<p className='listFeture'>IEEE 802.1Q Virtual LANs (VLAN)</p>
+<p className='listFeture'>IEEE 802.1X Port based and MAC based Network Access Control, Authentication</p>
+<p className='listFeture'>IEEE 802.3ac  Max frame size extended to 1522Bytes.</p>
+
+
+
  </div>
 
 
@@ -163,24 +165,22 @@ LACP(Link Aggregation Control Protocol)</p>
 
 <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>LED</h5>
 
-<p className='listFeture'>Per unit : Power 1 (Green), Power 2 (Green), Fault 
-(Amber) (-LL model)</p>
-<p className='listFeture'> Per unit: <br/>
-Power 1 (Green), Power 2 (Green), Power 
-3(Green), Fault (Amber) (-HL model)
+<p className='listFeture'><b>Per unit:</b> Power 1 (Green), Power 2 (Green), Fault 
+(Amber), CPU Act (Green), Ring Master (Yellow)</p>
+<p className='listFeture'><b>Per RJ-45 port:</b> 10/100 Link/Active (Green)
+ 1000 Link/Active (Amber)</p>
+<p className='listFeture'><b>SFP Fiber Per port:</b> Link/Active (Green)</p>
+<p className='listFeture'><b>PoE Port LED, 1 LED /per Port :</b> <br/>
+PoE Output Power On : ON (Green) <br/>
+PoE Output Power OFF : OFF
 </p>
-
-<p className='listFeture'>Per RJ-45 port :10/100Link/Act: Green </p>
-<p className='listFeture'>SFP Fiber Per port : Link/Active (Green)</p>
-
-
 </div>
 
    <div className='col-lg-6'>
       <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Cable </h5>
       
-      <p className='listFeture'>  UTP/STP above Cat. 5e cable </p>
-      <p className='listFeture'>EIA/TIA-568 100-ohm (100m)</p>
+      <p className='listFeture'>  UTP/STP above Cat. 5e cable or above</p>
+      <p className='listFeture'>EIA/TIA-568 100-ohm (100meter)</p>
 
    </div>
 
@@ -188,9 +188,11 @@ Power 1 (Green), Power 2 (Green), Power
    <div className='col-lg-6'>
  <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Connector</h5>
 
-   <p className='listFeture'>8x 10/100Base-TX RJ-45 auto negotiation speed </p>
-   <p className='listFeture'>Auto MDI/MDI-X function, Full/Half duplex </p>
-   <p className='listFeture'>3x 100/1000Base-X dual speed mode SFP slot, with DDMI</p>
+   <p className='listFeture'>16x 10/100/1000Base-T RJ-45+ 8x 100/1000Base-X 
+SFP connector
+RJ-45 UTP port support Auto negotiation speed, 
+Auto MDI/MDI-X function,
+SFP port support dual speed with DDMI </p>
 
  </div>
 </div>
@@ -202,51 +204,45 @@ Power 1 (Green), Power 2 (Green), Power
 <div className='row'>
     <div className='col-md-6'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>VLAN</h5>
- <p className='listFeture'>IEEE 802.1q VLAN,up to 4094 ID</p>
+ <p className='listFeture'>IEEE 802.1q VLAN,up to 4094 802.1Q VLAN VID</p>
  <p className='listFeture'>IEEE 802.1q VLAN,up to 4094 Groups</p>
  <p className='listFeture'>IEEE 802.1ad Q-in-Q </p>
  <p className='listFeture'>MAC-based VLAN,up to 256 entries </p>
  <p className='listFeture'>IP Subnet-based VLAN, up to 128 entries</p>
- <p className='listFeture'>Protocol-based VLAN (Ethernt, SNAP, LLC), up to 128 entries</p>
- <p className='listFeture'>VLAN Translation, up to 256 entries</p>
- <p className='listFeture'>MVR (Multiple VLAN Registration)</p>
- <p className='listFeture'>GVRP (GARP VLAN Registration Protocol)</p>
+ <p className='listFeture'>Protocol-based VLAN(Ethernt, SNAP, LLC), up to 128 entries</p>
+ <p className='listFeture'>VLAN Translation, up to 256 entries </p>
+ <p className='listFeture'>Private VLAN for port isolation</p>
+ <p className='listFeture'>GVRP (GARP VLAN Registration Protocal)</p>
+ <p className='listFeture'>MVR ( Multicast VLAN Registration)</p>
     </div>
 
     <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IPv6 Features</h5>
-<p className='listFeture'><b>IPv6 Management</b>  Telnet Server/ICMP v6</p>
-<p className='listFeture'><b>SNMP over IPv6</b> Supported</p>
-<p className='listFeture'><b>HTTP over IPv6</b> Supported</p>
-<p className='listFeture'><b>SSH over IPv6</b> Supported</p>
-<p className='listFeture'><b>IPv6 Telnet</b> Supported</p>
-<p className='listFeture'><b>IPv6 NTP / SNTP</b> Client</p>
-<p className='listFeture'><b>IPv6 TFTP</b> Supported</p>
-<p className='listFeture'><b>IPv6 QoS</b> Supported</p>
-<p className='listFeture'><b>IPv6 ACL</b> Number of rules: up to 256 entries
-<br/>for L2 / L3 / L4
-<br/>L2 : Mac address SA/DA/VLAN
-<br/>L3 : IP address SA/DA, Subnet
-<br/>L4 : TCP/UDP
+ <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>QoS Features</h5>
+<p className='listFeture'><b>Class of Service</b>  IEEE 802.1p 8 active priorities queues per port </p>
+<p className='listFeture'><b>Traffic Classification QoS</b> IEEE 802.1p based CoS | IP Precedence based CoS | IP DSCP based CoS | QCL(QoS Control List): Frame Type, Source/
+Destination MAC, VLAN ID, PCP, DEI | QCE(QoS Control Entry): Protocol, Source IP, IP  Fragment, DSCP, TCP/UDP port number</p>
+    </div>
+
+    <div className='col-md-6'>
+ <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IP Multicasting Features</h5>
+ <p className='listFeture'>  <b>IGMP / MLD  Snooping</b> <br/>
+  IGMP Snooping v1, v2, v3 / MLD Snooping  v1, v2 <br/>
+ Port Filtering Profile <br/>
+ Throttling, Fast Leave<br/>
+ <b>Maximum Multicast Group :</b> up to 1022 entries<br/>
+ Query / Static Router Port<br/>
 </p>
-    </div>
-
-    <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Multiple u-Ring</h5>
- <p className='listFeture'> up to 5 instances that each supports u-Ring, u-Chain 
- or Sub-Ring type for flexible uses, and maximum up 
-to 5 RingsRecovery time {'<10ms'} Maximum 250 devices in a Ring</p>
 
     </div>
 
     <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Green Ethernet</h5>
- <p className='listFeture'> Supports IEEE 802.3az EEE (Energy Efficient Ethernet) 
-Management to optimize the power consumption</p>
-<p className='listFeture'>
-Determine the cable length and lowering the power 
-for ports with short cables
+ <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Bandwidth 
+Control for 
+Ingress</h5>
+ <p className='listFeture'>100~1,000,000 when the "Unit" is "kbps"
+and 1~1,000 when the "Unit" is "Mbps"
 </p>
+
 
     </div>
 
@@ -277,14 +273,13 @@ for ports with short cables
     <div className="container mt-3">
   <h2>Overview</h2>
   
- <p>{PartNumber} is a managed industrial grade Ethernet switch that is designed to meet the demands of power substation systems and is 
-fully compliant with the requirement of IEC 61850-3 and IEEE 1613. The switch provides a variety of redundant functions to increase 
-the reliability of your communications system, including redundant and isolated power supplies (24/48 VDC) and 110/220 VDC/VAC). 
-The managed Ethernet functions include STP/RSTP/MSTP/ITU-T G.8032 ERPS and multiple µ-Ring for redundant cabling, layer 2 
-Ethernet IGMP, VLAN, QoS, ACL, Security, IPv6, bandwidth control, port mirroring, cable diagnostic and Green Ethernet. Housed in 
-rugged DIN rail or wall mountable enclosures, these switches are designed for harsh environments, such as power substation networks 
-(See Figure). The series product can be managed centrally and conveniently by CTC Union's SmartView™ Element Management 
-System or other third party SNMP managers.
+ <p>The Gigabit Ethernet switch model is a managed industrial grade L2+ switches with 16 10/100/1000Base-T ports and 8 GbE/Fast SFP 
+ports that provide stable and reliable transmission. It also supports timing synchronization features (SyncE & IEEE1588 PTP v2) that 
+allow operators to deliver services with optimal stability and continuity in end to end connectivity. Housed in rugged DIN rail or wall 
+mountable enclosures, the switch is designed for harsh environments, such as industrial networking, security automation applications, 
+intelligent transportation systems (ITS) and are also suitable for many military and utility market applications where environmental 
+conditions exceed commercial product specifications (See Figure). Standard operating temperature range models (-10 to 60°C) and 
+wide operating temperature range models (-40 to 75°C) fulfill the special needs of industrial automation applications.
 </p>
 </div>
 </div>
@@ -330,4 +325,4 @@ System or other third party SNMP managers.
   )
 }
 
-export default IPS_803GSM
+export default IGS_1608SM_SE_8PH;
