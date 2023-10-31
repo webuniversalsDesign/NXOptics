@@ -900,7 +900,7 @@ box-shadow: 5px 0px 14px 0px #0000002b;
     list-style-type: none;
     position: absolute;
     top: 0px;
-    right: -139px;
+    right: -160px;
     height: 0px;
     background-color: white;
     padding: 0px;
@@ -911,7 +911,7 @@ box-shadow: 5px 0px 14px 0px #0000002b;
 }
 
 .indus-link4:hover .indus-inner-link4{
-    height: 455px;
+    height: 925px;
     visibility: visible;
 
 }

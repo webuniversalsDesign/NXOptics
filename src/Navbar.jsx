@@ -828,7 +828,19 @@ const Navbar = () => {
                                                  <Link to="/Industrial_Switches/POE_Switches/IFS_803GSM_8PH24_IFS_402GSM_4PH24" className='nolink-dec'><li>IFS-803GSM-8PH24, <br />IFS-402GSM-4PH24</li></Link> 
                                                   <Link to="/Industrial_Switches/POE_Switches/IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH" className='nolink-dec'><li>IGS-1608SM-16PH,<br /> IGS-1608SM-8PH, <br /> IGS⁺803SM-8PH</li></Link>
                                                  <Link to="/Industrial_Switches/POE_Switches/IGS_402CS_4PH" className='nolink-dec'><li>IGS-402CS-4PH</li></Link> 
-                                                 <Link to="/" className='nolink-dec'><li>IGS-402CSW-4PH</li></Link> 
+                                                 <Link to="/Industrial_Switches/POE_Switches/IGS_402CSW_4PH" className='nolink-dec'><li>IGS-402CSW-4PH</li></Link> 
+                                                 <Link to="/Industrial_Switches/POE_Switches/IQS_402XSM_4PH" className='nolink-dec'><li>IE-IQS-402XSM-4PH</li></Link> 
+                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_402GSW_4PB" className='nolink-dec'><li>IFS-402GSW-4PB</li></Link> 
+                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_PLUS_803GSM_8PH" className='nolink-dec'><li>IFS-plus-803GSM-8PH</li></Link> 
+                                                 <Link to="/" className='nolink-dec'><li>IGS-402S-4PH24</li></Link> 
+                                                 <Link to="/" className='nolink-dec'><li>IGS-402SM-4PU</li></Link> 
+                                                 <Link to="/" className='nolink-dec'><li>IGS-402SW-4PB</li></Link> 
+                                                 <Link to="/" className='nolink-dec'><li>IGS-600-4PH24<br/>IGS-402F-4PH24</li></Link> 
+                                                 <Link to="/" className='nolink-dec'><li>IGS-800C-8PH</li></Link> 
+                                                 <Link to="/" className='nolink-dec'><li>IGS-803SM-8PH24 <br/>IGS-402SM-4PH24</li></Link> 
+                                                 <Link to="/" className='nolink-dec'><li>IGS-1604XSM-16PH</li></Link> 
+                                                 <Link to="/" className='nolink-dec'><li>IGS-plus-402SM-4PH24</li></Link> 
+                                            
                                             </ul>
                                         </li></Link>
                                     </ul>
