@@ -770,6 +770,14 @@ import MSW_4424C from './Component/Telecom Switches/L2 Eternet switches/Carrier 
 import MSW_4428X from './Component/Telecom Switches/L2 Eternet switches/Carrier Ethernet Switch/MSW-4428X';
 import GSW_4448CM from './Component/Telecom Switches/L2 Eternet switches/Access Switch/GSW-4448CM';
 import GSW_4424CM from './Component/Telecom Switches/L2 Eternet switches/Access Switch/GSW-4424CM';
+import GSW_3424M1A from './Component/Telecom Switches/L2 Eternet switches/Access Switch/GSW-3424M1A';
+import GSW_4208CM from './Component/Telecom Switches/L2 Eternet switches/Access Switch/GSW-4208CM';
+import MSW_202 from './Component/Telecom Switches/L2 Eternet switches/NID & EDD switches/MSW-202';
+import MSW_202A from './Component/Telecom Switches/L2 Eternet switches/NID & EDD switches/MSW-202A';
+import MSW_404 from './Component/Telecom Switches/L2 Eternet switches/NID & EDD switches/MSW-404';
+import MSW_4204 from './Component/Telecom Switches/L2 Eternet switches/NID & EDD switches/MSW-4204';
+import MSW_4204S from './Component/Telecom Switches/L2 Eternet switches/NID & EDD switches/MSW-4204S';
+import FSW_2104 from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/FSW-2104';
 
 
 import ServerStorage from './Component/ServerStorage';
@@ -1583,6 +1591,14 @@ function App() {
 <Route path='/Telecom_Switches/L2_Eternet_Switches/Carrier Ethernet Switch/MSW-4428X' element={<MSW_4428X/>} />
 <Route path='/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4448CM' element={<GSW_4448CM/>} />
 <Route path='/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4424CM' element={<GSW_4424CM/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-3424M1A' element={<GSW_3424M1A/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4208CM' element={<GSW_4208CM/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-202' element={<MSW_202/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-202A' element={<MSW_202A/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-404' element={<MSW_404/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-4204' element={<MSW_4204/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-4204S' element={<MSW_4204S/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/FSW-2104' element={<FSW_2104/>} />
 
 
 {/* Industrial Switches --> E-Mark Certified Ethernet Switches */}
