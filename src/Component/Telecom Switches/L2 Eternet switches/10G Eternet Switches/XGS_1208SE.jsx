@@ -186,13 +186,15 @@ forwarding rate</h5>
     <div id="home" className="container tab-pane active"><br/>
     <div className="container mt-3">
   <h2>Overview</h2>
-  
+  <p>CTC Union Technologies unveils a brand-new product that enables 10Gbps speed for fiber Ethernet interfaces. The XGS-1208SE is designed to enable applications for 4G/5G mobile backhaul network or core switching and connection in the network of smart factory automation. It is equipped with 8 ports GbE RJ45 and 12 ports 10G SFP+ slot with high performance switching and wire speed connectivity to boost the connection efficiency as well as capability of delivering time sensitive applications. </p>
  <p>The {PartNumber} features robust L2 switching functionality such as VLAN, port trunking, QoS, span tree protocol and IGMP multicast 
 service. The hard-wired based ACL enables secure network access and traffic transportation that network administrators desire, 
 reducing the risks of unauthorized or illegal intruders. The diverse management via Web GUI, SSH and SNMP, offer friendly and easeto-use interfaces, as well as secured remote management with traffic encryption. Every Ethernet copper or fiber port on XGS-1208SE 
 except management port can be configured to deliver the timestamp messages of SyncE or IEEE 1588v2 inside Ethernet packets for 
 the precision timing purposes of mobile backhaul or smart factory automation network.
 </p>
+
+<p>XGS-1208SE has built-in 1PPS input and output SMA connectors. The output SMA interface supports the waveform measurement of IEEE 1588v2 via external instrument, as well, the input SMA interface may be connected to external time source as the reference clock for the network.</p>
 </div>
 </div>
 

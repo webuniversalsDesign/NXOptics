@@ -768,11 +768,28 @@ const Navbar = () => {
                                                     <Link to="/Telecom_Switches/L2_Eternet_Switches/CPE Switches/FSW-2104" className='nolink-dec'>          
                                                     <li>FSW-2104</li>
                                                     </Link>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-1005MS" className='nolink-dec'>          
+
                                                         <li>GSW-1005MS</li>
+                                                    </Link>
+
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2008MS" className='nolink-dec'>          
+
                                                         <li>GSW-2008MS</li>
+                                                    </Link>    
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2020C7" className='nolink-dec'>          
+
                                                         <li>GSW-2020C7</li>
+                                                    </Link>    
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2020P" className='nolink-dec'>          
+
                                                         <li>GSW-2020P</li>
+                                                    </Link>    
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/CPE Switches/QSW-4204M" className='nolink-dec'>          
+
                                                         <li>QSW-4204M</li>
+                                                    </Link>    
+
                                                     </ul>
                                                 </li>
                                             </ul>
