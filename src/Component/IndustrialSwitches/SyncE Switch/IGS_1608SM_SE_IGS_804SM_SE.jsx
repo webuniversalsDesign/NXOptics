@@ -24,7 +24,7 @@ import EnquireForm from '../../EnquireForm';
 
 const IGS_1608SM_SE_IGS_804SM_SE = () => {
 
-    let PartNumber = "IGS-1608SM-SE & IGS-804SM-SE ";
+    let PartNumber = "IGS-1608SM-SE_IGS-804SM-SE ";
     let productName ="16x GbE RJ45 + 8x 100/1000Base SFP with SyncE and 8x PoE 240W, 48VDC";
     let productName1 ="16x GbE RJ45 + 8x 100/1000Base SFP with SyncE & IEEE1588 v2 ";
     let productName2 ="8x GbE RJ45 + 4x 100/1000Base SFP with SyncE & IEEE1588 v2";
@@ -134,7 +134,7 @@ const IGS_1608SM_SE_IGS_804SM_SE = () => {
 
 <p className='listFeture '>  Cable diagnostic, measuring cable normal or broken point distance</p>
 <p className='listFeture '> u-Ring, STP, RSTP, MSTP, ITU-T G.8032 Ethernet Ring Protection Switching (ERPS) for redundant cabling</p>
-<p className='listFeture '> Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses.</p>
+<p className='listFeture '> Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses.(Please see CTC μ-Ring white paper for more details and more topology application)</p>
 <p className='listFeture '> μ-Ring for Redundant Cabling, recovery time{'<10ms'} in 250 devices</p>
 <p className='listFeture '> Supports Sync Ethernet allow operators to deliver service with optimal stability and continuity in end-to-end connectivity</p>
 <p className='listFeture '>Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to Peer Transparent Clock, End to End 
@@ -167,13 +167,26 @@ Access Control, Authentication</p>
 
 
  <div className='col-lg-6'>
+ <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Connector</h5>
+
+   <p className='listFeture'>8x 10/100/1000Base-T RJ-45 + 4x 100/1000Base-X SFP 
+connector (IGS-804SM-SE)<br/>
+16x 10/100/1000Base-T RJ-45+ 8x 100/1000Base-X 
+SFP connector (IGS-1608SM-SE)<br/>
+RJ-45 UTP port support Auto negotiation speed, 
+Auto MDI/MDI-X function,
+SFP port support dual speed with DDMI </p>
+
+ </div>
+
+ <div className='col-lg-6'>
 
 <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>LED</h5>
 
 <p className='listFeture'>Per unit: Power 1 (Green), Power 2 (Green), Fault 
 (Amber), CPU Act (Green), Ring Master (Yellow)</p>
-<p className='listFeture'>Per unit: Power 1 (Green), Power 2 (Green), Fault 
-(Amber), CPU Act (Green), Ring Master (Yellow)</p>
+<p className='listFeture'>Per RJ-45 port: 10/100 Link/Active (Green)
+ 1000 Link/Active (Amber)</p>
 <p className='listFeture'>SFP Fiber Per port: Link/Active (Green)</p>
 </div>
 
@@ -186,18 +199,7 @@ Access Control, Authentication</p>
    </div>
 
 
-   <div className='col-lg-6'>
- <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Connector</h5>
 
-   <p className='listFeture'>8x 10/100/1000Base-T RJ-45 + 4x 100/1000Base-X SFP 
-connector (IGS-804SM-SE)
-16x 10/100/1000Base-T RJ-45+ 8x 100/1000Base-X 
-SFP connector (IGS-1608SM-SE)
-RJ-45 UTP port support Auto negotiation speed, 
-Auto MDI/MDI-X function,
-SFP port support dual speed with DDMI </p>
-
- </div>
 </div>
 </div>
 
@@ -220,6 +222,18 @@ SFP port support dual speed with DDMI </p>
     </div>
 
     <div className='col-md-6'>
+ <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IP Multicasting Features</h5>
+ <p className='listFeture'>  <b>IGMP / MLD  Snooping</b> <br/>
+  IGMP Snooping v1, v2, v3 / MLD Snooping  v1, v2 <br/>
+ Port Filtering Profile <br/>
+ Throttling, Fast Leave<br/>
+ Throttling, Fast Leave<br/>
+ Query / Static Router Port<br/>
+</p>
+
+    </div>
+
+    <div className='col-md-6'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>QoS Features</h5>
 <p className='listFeture'><b>Class of Service</b>  IEEE 802.1p 8 active priorities queues per port </p>
 <p className='listFeture'><b>Traffic Classification QoS</b> IEEE 802.1p based CoS | IP DSCP based CoS | IP DSCP based CoS | QCL(QoS Control List): Frame Type, Source/
@@ -233,28 +247,30 @@ Fragment, DSCP, TCP/UDP port number</p>
 
     </div>
 
-    <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IP Multicasting Features</h5>
- <p className='listFeture'>  <b>IGMP / MLD  Snooping</b> <br/>
-  IGMP Snooping v1, v2, v3 / MLD Snooping  v1, v2 <br/>
- Port Filtering Profile <br/>
- Throttling, Fast Leave<br/>
- Throttling, Fast Leave<br/>
- Query / Static Router Port<br/>
-</p>
 
-    </div>
+
+
 
     <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Bandwidth 
-Control for 
-Ingress</h5>
- <p className='listFeture'>100~1,000,000 when the "Unit" is "kbps"
-and 1~1,000 when the "Unit" is "Mbps"
-</p>
+ <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IPv6 Features</h5>
+ <p className='listFeture'><b>IPv6 Management</b> Telnet Server/ICMP v6</p>
+ <p className='listFeture'><b>SNMP over IPv6</b> Supported</p>
+ <p className='listFeture'><b>HTTP over IPv6</b> Supported</p>
+ <p className='listFeture'><b>SSH over IPv6</b> Supported</p>
+ <p className='listFeture'><b>IPv6 Telnet</b> Supported</p>
+ <p className='listFeture'><b>IPv6 NTP, SNTP</b> Client</p>
+ <p className='listFeture'><b>IPv6 TFTP</b> Supported</p>
+ <p className='listFeture'><b>IPv6 QoS</b> Supported</p>
+ <p className='listFeture'><b>IPv6 ACL</b> Number of rules: up to 256 entries<br/>
+ for L2 / L3 / L4<br/>
+ L2 : Mac address SA/DA/VLAN<br/>
+ L3: IP address SIP, Subnet (32bit)<br/>
+ L4: TCP/UDP
+ </p>
 
 
     </div>
+   
 
   
 </div>
@@ -283,11 +299,13 @@ and 1~1,000 when the "Unit" is "Mbps"
     <div className="container mt-3">
   <h2>Overview</h2>
   
- <p>IEC 61850-3 defines general requirements for the construction, design and environmental conditions of utility communications and 
-intelligent electronic equipment in the power plant and substation environment. IPS-G2404SM-8C is an IEC61850 and IEEE1613 
-certified 28-port full Gigabit Ethernet switch and comes with 8 combo-ports that provide flexible port usage of up to 24 RJ45 copper 
-interfaces or up to 16 SFP slots for fiber optic module connections. It is an ideal solution for substation Ethernet communication 
-deployments.
+ <p>These Gigabit Ethernet models are managed industrial grade L2+ switches with 8/16 10/100/1000Base-T ports and 4/8 GbE/Fast SFP 
+ports that provide stable and reliable transmission. They also support timing synchronization features (SyncE & IEEE1588 PTP v2) that 
+allow operators to deliver services with optimal stability and continuity in end to end connectivity. Housed in rugged DIN rail or wall 
+mountable enclosures, these switches are designed for harsh environments, such as industrial networks, security automation 
+applications, intelligent transportation systems (ITS) and are also suitable for many military and utility market applications where 
+environmental conditions exceed commercial product specifications (See Figure). Standard operating temperature range models (-10 
+to 60°C) and wide operating temperature range models (-40 to 75°C) fulfill the special needs of industrial automation applications.
 </p>
 </div>
 </div>

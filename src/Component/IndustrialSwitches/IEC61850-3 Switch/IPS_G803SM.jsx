@@ -166,7 +166,7 @@ LACP(Link Aggregation Control Protocol)</p>
 
 <p className='listFeture'>Per unit : Power 1 (Green), Power 2 (Green), Fault 
 (Amber) (-LL model)</p>
-<p className='listFeture'> Per port: <br/>
+<p className='listFeture'> Per unit: <br/>
 Power 1 (Green), Power 2 (Green), Power 
 3(Green), Fault (Amber) (-HL model)
 </p>
@@ -186,7 +186,7 @@ Power 1 (Green), Power 2 (Green), Power
    <div className='col-lg-6'>
  <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Connector</h5>
 
-   <p className='listFeture'>8x 10/100Base-TX RJ-45 auto negotiation speed </p>
+   <p className='listFeture'>8x 10/100Base-T RJ-45 auto negotiation speed </p>
    <p className='listFeture'>Auto MDI/MDI-X function, Full/Half duplex </p>
    <p className='listFeture'>3x 100/1000Base-X dual speed mode SFP slot, with DDMI</p>
 

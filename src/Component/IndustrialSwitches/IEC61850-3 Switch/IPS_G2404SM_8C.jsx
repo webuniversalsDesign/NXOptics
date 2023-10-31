@@ -220,7 +220,6 @@ IEEE 802.1p based CoS | IP DSCP based CoS </p>
  <p className='listFeture'>  <b>IGMP / MLD 
 Snooping </b><br/>
 IGMP Snooping v1, v2, v3 / MLD Snooping v1, v2<br/>
-GMP Snooping v1, v2, v3 / MLD Snooping v1, v2
 </p>
 
     </div>

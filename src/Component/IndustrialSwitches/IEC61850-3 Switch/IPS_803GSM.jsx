@@ -165,7 +165,7 @@ LACP(Link Aggregation Control Protocol)</p>
 
 <p className='listFeture'>Per unit : Power 1 (Green), Power 2 (Green), Fault 
 (Amber) (-LL model)</p>
-<p className='listFeture'> Per port: <br/>
+<p className='listFeture'> Per unit: <br/>
 Power 1 (Green), Power 2 (Green), Power 
 3(Green), Fault (Amber) (-HL model)
 </p>
@@ -173,19 +173,14 @@ Power 1 (Green), Power 2 (Green), Power
 <p className='listFeture'>Per RJ-45 port :10/100Link/Act: Green </p>
 <p className='listFeture'>SFP Fiber Per port : Link/Active (Green)</p>
 
-<p className='listFeture'> Per Port PoE LED <br/>
-&nbsp; &nbsp;  Active : ON<br/>
-&nbsp; &nbsp;  Inactive : OFF
-</p>
-
 
 </div>
 
    <div className='col-lg-6'>
       <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Cable </h5>
       
-      <p className='listFeture'> UTP/STP Cat. 5e cable or above </p>
-      <p className='listFeture'>EIA/TIA-568 100-ohm (100meter)</p>
+      <p className='listFeture'>  UTP/STP above Cat. 5e cable </p>
+      <p className='listFeture'>EIA/TIA-568 100-ohm (100m)</p>
 
    </div>
 

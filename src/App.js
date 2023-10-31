@@ -784,6 +784,11 @@ import IGS_1608SM_SE_8PH from './Component/IndustrialSwitches/SyncE Switch/IGS_1
 import IFS_1602GS_8PH_IFS_802GS_8PH from './Component/IndustrialSwitches/POE Switch/IFS_1602GS_8PH_IFS_802GS_8PH';
 import IFS_1608GSM_16PH_1G_2_5G_IFS_1608GSM_8PH from './Component/IndustrialSwitches/POE Switch/IFS_1608GSM_16PH_1G_2_5G_IFS_1608GSM_8PH';
 import IFS_402CGS_4PH from './Component/IndustrialSwitches/POE Switch/IFS_402CGS_4PH';
+import IFS_402CGSW_4PH from './Component/IndustrialSwitches/POE Switch/IFS_402CGSW_4PH';
+import IFS_402GSM_4PU from './Component/IndustrialSwitches/POE Switch/IFS_402GSM_4PU';
+import IFS_803GSM_8PH24_IFS_402GSM_4PH24 from './Component/IndustrialSwitches/POE Switch/IFS_803GSM_8PH24_IFS_402GSM_4PH24';
+import IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH from './Component/IndustrialSwitches/POE Switch/IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH';
+import IGS_402CS_4PH from './Component/IndustrialSwitches/POE Switch/IGS_402CS_4PH';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208SE';
 
@@ -1611,7 +1616,12 @@ function App() {
 <Route path="/Industrial_Switches/POE_Switches/IFS_1602GS_8PH_IFS_802GS_8PH" element={<IFS_1602GS_8PH_IFS_802GS_8PH/>}/>
 <Route path="/Industrial_Switches/POE_Switches/IFS_1608GSM_16PH_1G_2_5G_IFS_1608GSM_8PH" element={<IFS_1608GSM_16PH_1G_2_5G_IFS_1608GSM_8PH/>}/>
 <Route path="/Industrial_Switches/POE_Switches/IFS_402CGS_4PH" element={<IFS_402CGS_4PH/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IFS_402CGSW_4PH" element={<IFS_402CGSW_4PH/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IFS_402GSM_4PU" element={<IFS_402GSM_4PU/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IFS_803GSM_8PH24_IFS_402GSM_4PH24" element={<IFS_803GSM_8PH24_IFS_402GSM_4PH24/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH" element={<IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH/>}/>
 
+<Route path="/Industrial_Switches/POE_Switches/IGS_402CS_4PH" element={<IGS_402CS_4PH/>}/>
 
     </Routes>
 

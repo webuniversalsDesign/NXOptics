@@ -162,14 +162,10 @@ const IFS_1602GS_8PH_IFS_802GS_8PH = () => {
 
 <p className='listFeture'><b>Per unit:</b> Power 1 (Green), Power 2 (Green), Fault 
 (Amber)</p>
-<p className='listFeture'><b>Per RJ-45 port:</b> Link/Active (Green)
+<p className='listFeture'><b>Per RJ-45 port:</b><br/> Link/Active (Green)
 Speed 100 (Yellow) </p>
-<p className='listFeture'><b>SFP Fiber Per port:</b> Link/Active (Green)</p>
-<p className='listFeture'><b>PoE Port LED, 1 LED /per Port :</b> <br/>
-PoE Output Power On : ON (Green) <br/>
-PoE Output Power OFF : OFF<br/>
-Fiber Per port: Link/Active (Green) <br/>
-<b>Per PoE Port LED : </b><br/>
+<p className='listFeture'><b>Fiber Per port:</b>  Link/Active (Green) </p>
+<p className='listFeture'><b>Pre PoE Port:</b> <br/>
 Active : ON <br/>
 Inactive : OFF
 </p>

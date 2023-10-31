@@ -792,7 +792,7 @@ const Navbar = () => {
                                         </li></Link>
                                         <Link to="/" className='nolink-dec'><li className='lastdrop-items indus-link3'><IoMdArrowDropright />SyncE Switch
                                             <ul className='indus-inner-link3 list-item-tele'>
-                                                <Link to="/Industrial_Switches/SyncE_Switch/IGS_1608SM_SE_IGS_804SM_SE" className='nolink-dec'><li>IGS-1608SM-SE & IGS-804SM-SE</li></Link>
+                                                <Link to="/Industrial_Switches/SyncE_Switch/IGS_1608SM_SE_IGS_804SM_SE" className='nolink-dec'><li>IGS-1608SM-SE_IGS-804SM-SE</li></Link>
                                              <Link to="/Industrial_Switches/SyncE_Switch/IGS_1608SM_SE_8PH" className='nolink-dec'> <li>IGS-1608SM-SE-8PH</li></Link>  
 
                                             </ul>
@@ -802,11 +802,11 @@ const Navbar = () => {
                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_1602GS_8PH_IFS_802GS_8PH" className='nolink-dec'><li>IFS-1602GS-8PH, <br />IFS-802GS-8PH</li></Link>
                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_1608GSM_16PH_1G_2_5G_IFS_1608GSM_8PH" className='nolink-dec'> <li>IFS-1608GSM16PH, <br />IFS-1608GSM-8PH</li></Link> 
                                                  <Link to="/Industrial_Switches/POE_Switches/IFS_402CGS_4PH" className='nolink-dec'><li>IFS-402CGS-4PH</li></Link> 
-                                                 <Link to="/" className='nolink-dec'><li>IFS-402CGSW-4PH</li></Link> 
-                                                 <Link to="/" className='nolink-dec'> <li>IFS-402GSM-4PU</li></Link>
-                                                 <Link to="/" className='nolink-dec'><li>IFS-803GSM-8PH24, <br />IFS-402GSM-4PH24</li></Link> 
-                                                  <Link to="/" className='nolink-dec'><li>IGS-1608SM-16PH,<br /> IGS-1608SM-8PH, <br /> IGS⁺803SM-8PH</li></Link>
-                                                 <Link to="/" className='nolink-dec'><li>IGS-402CS-4PH</li></Link> 
+                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_402CGSW_4PH" className='nolink-dec'><li>IFS-402CGSW-4PH</li></Link> 
+                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_402GSM_4PU" className='nolink-dec'> <li>IFS-402GSM-4PU</li></Link>
+                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_803GSM_8PH24_IFS_402GSM_4PH24" className='nolink-dec'><li>IFS-803GSM-8PH24, <br />IFS-402GSM-4PH24</li></Link> 
+                                                  <Link to="/Industrial_Switches/POE_Switches/IGS_1608SM_16PH_IGS1608SM_8PH_IGS803SM_8PH" className='nolink-dec'><li>IGS-1608SM-16PH,<br /> IGS-1608SM-8PH, <br /> IGS⁺803SM-8PH</li></Link>
+                                                 <Link to="/Industrial_Switches/POE_Switches/IGS_402CS_4PH" className='nolink-dec'><li>IGS-402CS-4PH</li></Link> 
                                                  <Link to="/" className='nolink-dec'><li>IGS-402CSW-4PH</li></Link> 
                                             </ul>
                                         </li></Link>

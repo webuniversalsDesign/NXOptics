@@ -5,7 +5,7 @@ import productImg1 from '../../../img/products/industrialSwitches/IVS-802GT/IVS-
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/industrialSwitches/IVS-802GT/IVS-802GT-Application.jpeg'
+import Application from '../../../img/products/industrialSwitches/Emark/IVS-G802T-application.jpeg'
 import dime1 from '../../../img/products/industrialSwitches/IVS-802GT/IVS-802GT-Dimensions.jpeg';
 // import dime2 from '../../../img/products/industrialSwitches/IVS-802GT/IVS-802GT-Dimensions-2.jpeg';
 

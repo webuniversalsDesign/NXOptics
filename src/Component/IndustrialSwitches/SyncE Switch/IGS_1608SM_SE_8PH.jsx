@@ -24,7 +24,7 @@ import EnquireForm from '../../EnquireForm';
 
 const IGS_1608SM_SE_8PH = () => {
 
-    let PartNumber = "IGS-1608SM-SE & IGS-804SM-SE ";
+    let PartNumber = "IGS-1608SM-SE-8PH ";
     let productName ="16x GbE RJ45 + 8x 100/1000Base SFP with SyncE and 8x PoE 240W, 48VDC";
    
     
@@ -128,7 +128,7 @@ const IGS_1608SM_SE_8PH = () => {
 
 <p className='listFeture '>  Cable diagnostic, measuring cable normal or broken point distance</p>
 <p className='listFeture '> u-Ring, STP, RSTP, MSTP, ITU-T G.8032 Ethernet Ring Protection Switching (ERPS) for redundant cabling</p>
-<p className='listFeture '> Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses.</p>
+<p className='listFeture '> Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses. (Please see CTC μ-Ring white paper for more details and more topology application)</p>
 <p className='listFeture '> μ-Ring for Redundant Cabling, recovery time{'<10ms'} in 250 devices</p>
 <p className='listFeture '> Supports Sync Ethernet allow operators to deliver service with optimal stability and continuity in end-to-end connectivity</p>
 <p className='listFeture '>Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to Peer Transparent Clock, End to End 
