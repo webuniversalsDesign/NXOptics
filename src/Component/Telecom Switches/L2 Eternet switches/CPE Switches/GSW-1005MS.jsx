@@ -1,11 +1,12 @@
 import React from 'react';
 
-import productImg1 from '../../../../img/products/Telecom Switches/MSW-4428X-img.jpg'
+import productImg1 from '../../../../img/products/Telecom Switches/GSW-1005MS-img.jpg'
 
 import Navbar from '../../../../Navbar';
 import Footer from '../../../../Footer';
 
-import Application from '../../../../img/products/Telecom Switches/MSW-4428X-application.jpg'
+import Application from '../../../../img/products/Telecom Switches/GSW-1005MS-application.jpg'
+import Application2 from '../../../../img/products/Telecom Switches/CableTray.jpg'
 
 
 import { BsCartCheck } from 'react-icons/bs';
@@ -20,10 +21,10 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery';
 import EnquireForm from '../../../EnquireForm';
 
-const MSW_4428X = () => {
+const GSW_1005MS = () => {
 
-    let PartNumber = "MSW-4428X";
-    let productName = "24x GbE/SFP + 4x GbE/RJ-45 with 4x 10G/SFP+  L2+ Carrier Ethernet Switch";
+    let PartNumber = "GSW-1005MS";
+    let productName = "5x GbE/RJ45 + 1x 1G/SFP L2+ Managed Ethernet Switch";
 
     return (
         <>
@@ -120,50 +121,57 @@ const MSW_4428X = () => {
                         &nbsp;
                         <p style={{ fontWeight: "500" }}><MdSecurity /> Test Support</p>
                     </div>
+                    <h5>Features</h5>
+
+                    <p className='listFeture '>5-Port 10/100/1000Base-T + 100/1000Base-X SFP uplink </p>
+                    <p className='listFeture '>Supports 9.6K Bytes jumbo frame </p>
+                    <p className='listFeture '>Supports IEEE 802.1Q tagged VLAN & Q-in-Q VLAN stacking </p>
+                    <p className='listFeture '>Supports IEEE 802.1p priority queue</p>
+ 
+                    <p className='listFeture '>Supports IGMP snooping v1/v2/v3 </p>
+                    <p className='listFeture '>Supports DHCP auto provisioning </p>
+                    <p className='listFeture '>Supports dying gasp </p>
+                    <p className='listFeture '>Fiber cable tray(optional)</p>
 
 
-                    <h5> Features</h5>
-                    <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Fully dual rate architecture of fiber link port</h5>
-                    <p className='listFeture '> Completely dual speed ports of fiber link to offer the scalable physical connection of Metro Ethernet network for operators
-                    </p>
-                    <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Fully Ethernet OAM enabled</h5>
-                    <p className='listFeture '>
-                    Enables Ethernet OAM features (IEEE 802.3ah/802.1ag/ITU-T Y.1731) to rapidly detect and recover network fault and save the OPEX for operators as well as increase customer satisfaction
-                        </p>
-                    <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>MEF standards compliant solution</h5>
-                    <p className='listFeture '>CE2.0 compliant product to guarantee the compatibility with other MEF certified equipment and reduce the risk and cost for Metro Ethernet network deployment of operators
- </p>
 
                     <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
 
-                    <div className='row'>
-                        <div className='col-lg-6'>
-                            <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Standards</h5>
-                          <p className='listFeture '>   IEEE 802.3u, IEEE 802.3z, IEEE 802.3ae </p> 
-                           <p className='listFeture '>  IEEE 802.1p, IEEE 802.1Q, IEEE 802.1ad ,IEEE 802.1d </p>
-                           <p className='listFeture '>  IEEE 802.1w, IEEE 802.1s, IEEE 802.1x, IEEE 802.3ad </p>
-                           <p className='listFeture '>  IEEE 802.3az, IEEE 802.3ah, IEEE 802.1ag, ITU-T Y.1731  </p>
+                        <div className='row'>
+                            <div className='col-lg-6'>
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Standards</h5>
+
+                                
+                                <p className='listFeture '>IEEE 802.3u, IEEE 802.3z, IEEE 802.3ae, </p>
+                                <p className='listFeture '>  IEEE 802.3x, IEEE 802.1p, IEEE 802.1Q, </p>
+                                <p className='listFeture '> IEEE 802.1ad, IEEE 802.1x, IEEE 802.1ab, </p>
+                                <p className='listFeture '> IEEE 802.3az </p>
+                           
+                            </div>
+
+                            <div className='col-lg-6'>
+
+
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Security
+                                </h5>
+
+              
+                               
+                               <p className='listFeture'> Port based/single/multiple IEEE 802.1x access control </p>
+                                <p className='listFeture'> MAC based access control authentication </p>
+                                <p className='listFeture'> RADIUS authentication, limited MAC address learning </p>
+                                <p className='listFeture'> IP/MAC binding, ACL rule based filtering  </p>
+                                <p className='listFeture'>TACACS+, DHCP snooping/relay option 82  </p>
+                                <p className='listFeture'>ARP inspection, IP source guard  </p>
+                          
+                            </div>
                         </div>
-                        <div className='col-lg-6'>
-
-
-                            <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Security
-                            </h5>
-                            <p className='listFeture'>  IEEE 802.1x port based access control </p>
-                            <p className='listFeture'>  MAC based access control authentication </p>
-                            <p className='listFeture'>  RADIUS authentication, limited MAC address learning  </p>
-                            <p className='listFeture'>  IP/MAC binding, ACL rule based filtering, TACACS+ </p>
-                            <p className='listFeture'>  IP source guard, DHCP snooping/relay option 82 </p>
-                            <p className='listFeture'>   ARP inspection </p>
-                        </div>
-
                     </div>
-                    </div>
-
                 </div>
 
             </div>
+
 
             <div className='container pt-lg-5  pb-lg-5'>
                 <div className='resp-overflow'>
@@ -184,11 +192,9 @@ const MSW_4428X = () => {
                         <div className="container mt-3">
                             <h2>Overview</h2>
 
-                            <p>The {PartNumber} is positioned as a layer 2+ Gigabit access switch solution. It is equipped with 24 100Base-FX/1000Base-X dual speed SFP slots, 4 ports GbE (10/100/1000Base-T) ports and 4 1000Base-X/10GBase-X dual speed SFP+ uplink slots. The MSW-4428X offers the best flexibility and scalability for operators or service providers to deploy their Metro Ethernet network. With the deployment of MSW-4428X, operators or service providers can flexibly provision the bandwidth of either 100Mbps or 1000Mbps as well as uplink connection of Gigabit or 10G speed upon their service applications. The MSW-4428X has built-in dual power supplies to enable power redundancy and enhance high network availability.
-                            </p>
                             <p>
-                            Aimed at Metro Ethernet applications, the specifications of MSW-4428X fully meet the attributes of Carrier Ethernet proposed by MEF (Metro Ethernet Forum). It complies with CE2.0 standard to support E-Line/E-LAN/E-Tree/E-Access service and enables the bandwidth profile configuration delivering SLA (Service Level Agreement) for end-to-end performance characteristics as well as Ethernet OAM functionality to support carrier grade service OAM management rapidly detecting and recovering from the network incidents in real time.
-                            </p>
+                            GSW-1005MS is a managed Gigabit Ethernet CPE switch designed 5-Ports 10/100/1000Base-T RJ45 and 1 port 100/1000Base-X SFP based fiber optics. The traditional transmission distance of Gigabit Ethernet over RJ45 copper can be extended up to 100km over a fiber optics interface. GSW-1005MS has a optional cable tray that allows the installer to enclose the excess fiber within the unit, thus providing protection for the sensitive fiber at subscriber side. LEDs provide visual monitoring of Ethernet connected devices such as Ethernet home gateways, wireless access points or PC/laptop via 10/100/1000Base-T twisted pair RJ45 ports on GSW-1005MS. When GSW-1005MS is deployed as a stand-alone solution, it incorporates an easy to use Web user interface for operation, administration and maintenance both locally and remotely. All of the enabled Layer 2 features and functions of GSW-1005MS can be configured and monitored via web, CLI or SNMP management. GSW- 1005MS is particularly suitable for deploying and provisioning active Ethernet FTTX service of multi-service operators (MSO).
+                             </p>
                         </div>
                     </div>
 
@@ -200,7 +206,7 @@ const MSW_4428X = () => {
                 <h1 className='pb-4'>Application</h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
-                    <img src={Application} className='sectionImg2_1' alt="memorymapImg" />
+                    <img src={Application} className='sectionImg2' alt="memorymapImg" />
                 </div>
 
             </div>
@@ -209,10 +215,12 @@ const MSW_4428X = () => {
             {/* Mechanical Dimensions section start */}
 
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                {/* <h1 className='pb-4'>Dimensions </h1> */}
+                <h1 className='pb-4'>Cable Tray Assembly </h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     {/* <img src={dime1} className='sectionImg2_1' alt="Transceiver Block Diagram"/> */}
+                    <img src={Application2} className='sectionImg2_1' alt="memorymapImg" />
+
                 </div>
                 <br />
                 {/* <br/>
@@ -233,4 +241,4 @@ const MSW_4428X = () => {
     )
 }
 
-export default MSW_4428X;
+export default GSW_1005MS;

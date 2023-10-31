@@ -130,8 +130,7 @@ const MSW_4424A = () => {
                     <p className='listFeture '>
                         Enabling Ethernet OAM features (IEEE 802.3ah/802.1ag/ITU-T Y.1731) to rapidly detect and recover network fault and save the OPEX for operators as well as increase customer satisfaction </p>
                     <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>MEF standards compliant solution</h5>
-                    <p className='listFeture '> Ethernet OAM features (IEEE 802.3ah/802.1ag/ITU-T Y.1731) help to rapidly detect and recover network faults and save OPEX for
-                        operators as well as increase customer satisfaction</p>
+                    <p className='listFeture '> CE2.0 compliant product to guarantee the compatibility with other MEF certified equipment and reduce the risk and cost for Metro Ethernet network deployment of operators</p>
 
 
                     <h5 className='mt-3'>Specifications</h5>
@@ -185,6 +184,7 @@ const MSW_4424A = () => {
                             <h2>Overview</h2>
 
                             <p>The {PartNumber} is positioned as a layer 2+ Gigabit access switch solution. It is equipped with 20 100Base-FX/1000Base-X dual speed SFP slots, 4 ports GbE combo (10/100/1000Base-T or 100/1000Base-X SFP) ports and 4 1000Base-X/10G Base-X dual speed SFP+ uplink slots. The MSW-4424C offers the best flexibility and scalability for operators or service providers to deploy their Metro Ethernet network. With the deployment of MSW-4424C, operators or service providers can flexibly provision the bandwidth for either 100Mbps or 1000Mbps as well as uplink connection of Gigabit or 10G speed in their service applications. The MSW-4424C has built-in dual power supplies to enable power redundancy and enhance the high network availability. </p>
+                            <p>Aimed at Metro Ethernet applications, the specifications of MSW-4424C fully meet the attributes of Carrier Ethernet proposed by MEF (Metro Ethernet Forum). It complies with MEF 9 standard to support E-Line/E-Access service and MEF 14 standard to enable the bandwidth profile configuration delivering SLA (Service Level Agreement) for end-to-end performance characteristics as well as Ethernet OAM functionality to support carrier grade service OAM management rapidly detecting and recovering from the network incidents in real time</p>
                         </div>
                     </div>
 

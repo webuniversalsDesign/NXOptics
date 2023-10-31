@@ -778,6 +778,8 @@ import MSW_404 from './Component/Telecom Switches/L2 Eternet switches/NID & EDD 
 import MSW_4204 from './Component/Telecom Switches/L2 Eternet switches/NID & EDD switches/MSW-4204';
 import MSW_4204S from './Component/Telecom Switches/L2 Eternet switches/NID & EDD switches/MSW-4204S';
 import FSW_2104 from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/FSW-2104';
+import GSW_1005MS from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/GSW-1005MS';
+import GSW_2008MS from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/GSW-2008MS';
 
 
 import ServerStorage from './Component/ServerStorage';
@@ -1616,6 +1618,8 @@ function App() {
 <Route path='/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-4204' element={<MSW_4204/>} />
 <Route path='/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-4204S' element={<MSW_4204S/>} />
 <Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/FSW-2104' element={<FSW_2104/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-1005MS' element={<GSW_1005MS/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2008MS' element={<GSW_2008MS/>} />
 
 
 {/* Industrial Switches --> E-Mark Certified Ethernet Switches */}

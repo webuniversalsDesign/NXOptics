@@ -1,11 +1,11 @@
 import React from 'react';
 
-import productImg1 from '../../../../img/products/Telecom Switches/MSW-4204S-img.jpg'
+import productImg1 from '../../../../img/products/Telecom Switches/FSW-2104-img.jpg'
 
 import Navbar from '../../../../Navbar';
 import Footer from '../../../../Footer';
 
-import Application from '../../../../img/products/Telecom Switches/MSW-4204S-Application.jpg'
+import Application from '../../../../img/products/Telecom Switches/FSW-2104-application.jpg'
 // import Application2 from '../../../../img/products/Telecom Switches/MSW-404-application2.jpg'
 
 
@@ -24,7 +24,7 @@ import EnquireForm from '../../../EnquireForm';
 const FSW_2104 = () => {
 
     let PartNumber = "FSW-2104";
-    let productName = "4× GbE/RJ45 + 2× 1G/10G SFP+ L2+ Carrier Ethernet Switch with SyncE";
+    let productName = "4x FE, RJ45 + 1 or 2 x FE, Fiber Switch with AC Adapter";
 
     return (
         <>
@@ -123,47 +123,42 @@ const FSW_2104 = () => {
                     </div>
                     <h5>Features</h5>
 
-
-                    <p className='listFeture '> The next generation Ethernet demarcation device, at customer premise, fulfills the large-scale carrier Ethernet deployment for intelligent business connection and mobile backhaul services compliant to CE 2.0 standard. </p>
-                    <p className='listFeture '> CE2.0 standards compliant product guarantees the full interoperability with other MEF certified equipment and reduces the risks and cost of Carrier Ethernet network deployment for operators and service providers.  </p>
-                    <p className='listFeture '> Advanced clock synchronization features for carrier Ethernet network allows operators to deliver time sensitive services with optimal stability and continuity in the end-to-end connectivity. </p>
-
-                    <h5>Precise Time synchronization</h5>
-                    <p className='listFeture '>
-                        Every Ethernet copper or fiber port on MSW-4204S except management port can be configured to deliver the timestamp messages of SyncE or IEEE 1588v2 inside Ethernet packets for the precision time purpose of mobile backhaul network. MSW-4204S is built-in 1PPS/ToD input and output SMA connectors. The output SMA interface supports the waveform measurement of IEEE 1588v2 via external instrument as well as the input SMA interface can be connected to external time source as the reference clock for the network.
-
-                    </p>
+                    <p className='listFeture '> 4x 10/100Base-TX and 1x 100Base-FX Switch  </p>
+                    <p className='listFeture '> Auto-Negotiation </p>
+                     <p className='listFeture '> Auto MDI/MDIX  </p>
+                    <p className='listFeture '> Forward 1552 bytes (Max.) packets </p>
+                   <p className='listFeture '> Supports 1K MAC address </p>
+                    <p className='listFeture '> 512k bits packets buffer memory </p>
+                    <p className='listFeture '> Supports broadcast storm protection </p>
 
 
-                    {/* <h5 className='mt-3'>Specifications</h5>
+
+
+                    <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
 
                         <div className='row'>
                             <div className='col-lg-6'>
-                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Packet Forwarding Rate</h5>
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Standards</h5>
 
 
-                                <p className='listFeture '> 14880pps@10Mbps, </p>
-                                <p className='listFeture '> 148800pps@100Mbps, </p>
-                                <p className='listFeture '> 1488000pps@1000Mbps, </p>
-                                <p className='listFeture '> 14880000pps@10Gbps, </p>
+                                <p className='listFeture '>  IEEE802.3, </p>
+                                <p className='listFeture '>  IEEE802.3u</p>
+                                
                             </div>
 
                             <div className='col-lg-6'>
 
 
-                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>IP Multicasting
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Dimensions 
                                 </h5>
 
-                                <p className='listFeture'>   IGMP snooping v1/v2/v3, IGMP proxy reporting </p>
-                                <p className='listFeture'>    MLD snooping v1/v2  </p>
-                                <p className='listFeture'>   IGMP fast leave </p>
-                                <p className='listFeture'>    IGMP query </p>
-                                <p className='listFeture'>    IGMP filtering/throttling </p>
-                                <p className='listFeture'>   MVR (Multicast VLAN Registration) </p>
+                                <p className='listFeture'>138 x 77 x 28mm (D x W x H) (FSW-2104)</p>
+                                <p className='listFeture'>215 x 91.3 x 29mm (D x W x H) (FSW-2104-AD) </p>
+                          
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
 
             </div>
@@ -189,12 +184,8 @@ const FSW_2104 = () => {
                             <h2>Overview</h2>
 
                             <p>
-                            The next generation Carrier Ethernet Network Interface Device (NID) is designed for mobile backhaul transportation of 4G LTE-A/5G network. The MSW-4204S is equipped with 2 SFP+ slots, dual rate 1G/10Gbps and 2 ports Gigabit RJ45 network interfaces. It can be configurable as either UNI or NNI device which are CE(Carrier Ethernet) 2.0 compliant for Metro Ethernet network deployments.
-
-                            <br/>
-                            <br/>
-                                The MSW-4204S is positioned as an universal network interface device (NID) for most carrier Ethernet access applications. It has builtin hardware based Ethernet OAM engine and is compliant to the latest OAM standards to deliver the committed SLA performance KPIs measurement on a per service basis
-                            </p>
+                            The FSW-2104 provides a low cost solution for non-managed Ethernet fiber switches. The FSW-2104 is a 4-port 10/100Base-TX plus 1-port 100Base-FX Fast Ethernet switch. FSW-2104 is designed for small workgroup applications that require a long distance connection to the backbone, such as between buildings, offices, or within a campus location. FSW-2104 provides full-duplex capability on each auto-negotiating port, for enhanced performance. A wide range of transceiver selection provides fiber connection with SC type connectors in multimode or single mode and at distance from 2 to 120km as well as BiDi (single fiber) at distances of 20, 40, 60, or 80km.
+                           </p>
                         </div>
                     </div>
 
@@ -206,7 +197,7 @@ const FSW_2104 = () => {
                 <h1 className='pb-4'>Application</h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
-                    <img src={Application} className='sectionImg2' alt="memorymapImg" />
+                    <img src={Application} className='sectionImg2_1' alt="memorymapImg" />
                 </div>
 
             </div>
