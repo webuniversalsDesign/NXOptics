@@ -730,23 +730,44 @@ const Navbar = () => {
                                                         <Link to="/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4424CM" className='nolink-dec'>          
                                                         <li>GSW-4424CM</li>
                                                         </Link>
+                                                        <Link to="/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-3424M1A" className='nolink-dec'>          
 
                                                         <li>GSW-3424M1A</li>
+                                                        </Link>
+                                                        <Link to="/Telecom_Switches/L2_Eternet_Switches/Access Switch/GSW-4208CM" className='nolink-dec'>          
+
                                                         <li>GSW-4208CM</li>
+                                                        </Link>
+
                                                     </ul>
                                                 </li>
                                                 <li className='tele-inner-linke1 tele-drop4'><IoMdArrowDropright className="arrow-icon" />NID and EDD Switch
                                                     <ul className='tele-sublinkers4 list-item-tele'>
+
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-202" className='nolink-dec'>          
                                                         <li>MSW-202</li>
+                                                    </Link>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-202A" className='nolink-dec'>          
                                                         <li>MSW-202A</li>
+                                                    </Link>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-404" className='nolink-dec'>          
                                                         <li>MSW-404</li>
+                                                    </Link>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-4204" className='nolink-dec'>          
+
                                                         <li>MSW-4204</li>
+                                                    </Link>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/NID & EDD switches/MSW-4204S" className='nolink-dec'>          
                                                         <li>MSW-4204S</li>
+                                                    </Link>
+
                                                     </ul>
                                                 </li>
                                                 <li className='tele-inner-linke1 tele-drop5'><IoMdArrowDropright className="arrow-icon" />CPE Switch
                                                     <ul className='tele-sublinkers5 list-item-tele'>
-                                                        <li>FSW-2104</li>
+                                                    <Link to="/Telecom_Switches/L2_Eternet_Switches/CPE Switches/FSW-2104" className='nolink-dec'>          
+                                                    <li>FSW-2104</li>
+                                                    </Link>
                                                         <li>GSW-1005MS</li>
                                                         <li>GSW-2008MS</li>
                                                         <li>GSW-2020C7</li>
