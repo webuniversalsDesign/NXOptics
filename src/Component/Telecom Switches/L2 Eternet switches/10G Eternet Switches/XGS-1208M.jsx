@@ -185,7 +185,7 @@ forwarding rate</h5>
     <div id="home" className="container tab-pane active"><br/>
     <div className="container mt-3">
   <h2>Overview</h2>
-  
+  <p>CTC Union Technologies unveils a brand-new product that enables 10Gbps speed for fiber Ethernet interfaces. The XGS-1208M is designed to enable applications for aggregate networks or core switching and connections in an enterprise network. It is equipped with 8 ports GbE RJ45 and 12 ports 10G SFP+ slot with high performance switching and wire speed connectivity to boost the connection efficiency among servers, workstations and other facilities inside of offices or campus</p>
  <p>The {PartNumber} features robust L2 switching functionality such as VLAN, port trunking, QoS, span tree protocol and IGMP multicast
 service. The hard-wired based ACL enables secure network access and traffic transportation that network administrators desire,
 reducing the risks of unauthorized or illegal intruders. The diverse management via Web GUI, SSH and SNMP, offer friendly and easeto-use interfaces, as well as secure remote management with traffic encryption.
