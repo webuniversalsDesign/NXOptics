@@ -2,14 +2,14 @@
 
 import React from 'react';
 
-import productImg1 from '../../../img/products/Telecom Switches/ICR-4103-img.jpg'
+import productImg1 from '../../../img/products/Telecom Switches/ICR-W401-img.jpg'
 
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/Telecom Switches/ICR-4103-application.jpg'
-import module from '../../../img/products/Telecom Switches/ICR-4103-dimension.jpg'
-import Application2 from '../../../img/products/Telecom Switches/ICR-4103-application2.jpg'
+import Application from '../../../img/products/Telecom Switches/ICR-W401-application.jpg'
+import module from '../../../img/products/Telecom Switches/ICR-W401-dimension.jpg'
+// import Application2 from '../../../img/products/Telecom Switches/ICR-4103-application2.jpg'
 
 
 import { BsCartCheck } from 'react-icons/bs';
@@ -24,10 +24,10 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery';
 import EnquireForm from '../../EnquireForm';
 
-const ICR_4103  = () => {
+const ICR_W401 =() =>{
 
-    let PartNumber = "ICR-4103";
-    let productName = "4G LTE, 2x SIM, 4x FE + 2x DI/1x DO, 1x RS485, 2x RS232";
+    let PartNumber = "ICR_W401";
+    let productName = "4G LTE, GPS, WiFi IEEE 802.11 b/g/n 2T2R and DI/DO Router";
 
     return (
         <>
@@ -125,88 +125,87 @@ const ICR_4103  = () => {
                         <p style={{ fontWeight: "500" }}><MdSecurity /> Test Support</p>
                     </div>
                     <h5>Features</h5>
+
                     
                     
-                    <p className='listFeture'>Supports multi-band connectivity with FDD 4G LTE/ TDD 4G LTE/ 3G WCDMA/2G GSM/ LTE Cat4 
+                    <p className='listFeture'>  Highly reliable and secure for mission-critical cellular communications 
                     </p>
-                    <p className='listFeture'>2 SIM card slots 4G LTE antenna, 1x WAN (10/100Base-TX) + 3x LAN (10/100Base-TX UTP), 2x DI + 1x DO, 3x Serial COM port (2x RS232, 1x RS485) 
+                    <p className='listFeture'>  Compact and lightweight design with 1 LAN and 1 WAN Ethernet interfaces 
                     </p>
-                    <p className='listFeture'>Highly reliable and secure for mission-critical cellular communications 
+                    <p className='listFeture'>  Supports multi-band connectivity with FDD LTE/ TDD LTE/ WCDMA/ GSM/ LTE Cat 4 
                     </p>
-                    <p className='listFeture'>Provide flexible options to configure LAN/ WAN ports  
+                    <p className='listFeture'>  Provides IEEE 802.11b/g/n WiFi 2T2R  
                     </p>
-                    <p className='listFeture'>Built-in dual SIM for network redundancy / failover/ roaming over/ back up 
+                    <p className='listFeture'>  Micro SIM connector and DI/DO interfaces 
                     </p>
-                    <p className='listFeture'>Integrated dual detachable antenna against radio interference 
+                    <p className='listFeture'>  LED indicators for connection and data transmission status 
                     </p>
-                    <p className='listFeture'>4G LTE  and WAN port for seamless connection and redundancy 
+                    <p className='listFeture'>  Industrial temperature rated from -30 ~ +70°C for use in harsh environments 
                     </p>
-                    <p className='listFeture'>Supports 3x Serial port (1x RS485, 2x RS232) for IoT and automation application, Modbus RTU and Modbus/TCP gateway, MQTT 
+                    <p className='listFeture'>  IPv6/IPv4 dual stack and all applications are IPv6 ready 
                     </p>
-                    <p className='listFeture'>Supports Routing/Firewall, NAT, Virtual Server, DMZ, Port filtering, MAC Filter, URL Filter, IP Filter, VLAN, Static Routing and RIP 1 & 2, VRRP, OSPF V2 & V3, BGP  
+                    <p className='listFeture'>  Enhance security and encryption for authentication and transmission
                     </p>
-                    <p className='listFeture'>Supports VPN, OpenVPN, IPSec (3DES, AES128, AES196, AES256, MD5, SHA-1, SHA256), GRE, PPPTP, L2TP 
-                    </p>
-                    <p className='listFeture'>IPv6/IPv4 dual stack and all applications are IPv6 ready 
-                    </p>
-                    <p className='listFeture'>Supports DHCP server and client, PPPoE, Static IP, SNTP, DNS Proxy, DDNS, QoS, Virtual Com, UPnP 
-                    </p>
-                    <p className='listFeture'>Supports Alarm message : DO, SNMP Trap, E-mail 
-                    </p>
-                    <p className='listFeture'>Supports SNMP, TR069,Web, Telnet, CLI for management 
-                    </p>
-                    <p className='listFeture'>Supports dual Image firmware upgrade by Web 
-                    </p>
-                    <p className='listFeture'>CE, FCC, Rail Traffic EN50121-4 certified 
-                    </p>
-                    <p className='listFeture'>Safety EN60950-1 certified 
-                    </p>
-                    <p className='listFeture'>Radio RED ETSI EN301 489-1/-19/-52, EN301 908-1, EN303 413, NCC certified 
-                    </p>
-                    <p className='listFeture'>Heavy industrial grade EMS, EMI, EN61000-6-2, EN61000-6-4 certified 
-                    </p>
-                    <p className='listFeture'>Rugged metal, IP30 protection & Fanless design 
-                    </p>
-                    <p className='listFeture'>Wide operating temperature -20 ~ 75°C
-                     </p>
 
                     <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
 
                         <div className='row'>
                             <div className='col-lg-6'>
-                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>DIP SW for RS485 port</h5>
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Standard </h5>
                                 
+                                <p className='listFeture'>IEEE 802.3  10Base-T 10Mbit/s Ethernet   
+                            </p>
+                            <p className='listFeture'>IEEE 802.3u  100Base-TX Fast Ethernet 
+                            </p>
+                            <p className='listFeture'>IEEE 802.3ab 1000Base-T Gbit Ethernet over twisted pair  
+                            </p>
+                            <p className='listFeture'>IEEE 802.1Q  Virtual LANs (VLAN)    
+                            </p>
+                            <p className='listFeture'>IEEE 802.3x  Flow control for Full Duplex         
+                            </p>
+                            <p className='listFeture'>IEEE 802.1p  LAN Layer 2 QoS for Traffic Prioritization   
+                            </p>
+                            <p className='listFeture'>IEEE 802.1X  Port based and MAC based Network 
+                            </p>
+                            <p className='listFeture'>Access Control, Authentication
+                            </p>
                           
-                          
-                          <p className='listFeture'>DIP 1 Pull Low : 
-                          </p>
-                          <p className='listFeture'>OFF: Disable, ON: Enable
-                          </p>
-                          <p className='listFeture'> DIP 2  Pull High : 
-                          </p>
-                          <p className='listFeture'>OFF: Disable, ON: Enable 
-                          </p>
-                          <p className='listFeture'>DIP 3  120 ohm terminal resistor : 
-                          </p>
-                          <p className='listFeture'>OFF: Disable, ON: Enable
-                           </p>
+                         
                             </div>
+ 
+                            
+                            
+                          
+
+
 
                             <div className='col-lg-6'>
 
 
-                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Alarm message 
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Hardware Interface 
                                 </h5>
-
-                                <p className='listFeture'> DO for alarm message, with current capacity of 
-                                 </p>
-                                 <p className='listFeture'>500mA/50VDC maximum 
-                                 </p>
-                                 <p className='listFeture'>SNMP trap, E-mail, SMS, Alarm trigger by DI, VPN or 
-                                 </p>
-                                 <p className='listFeture'>WAN disconnection 
-                                  </p>
+                                  
+                                
+                                
+                                <p className='listFeture'>  1 x Micro SIM Connector (push-push type) 
+                                </p>
+                                <p className='listFeture'>  1 x LAN 10/100 Mbps Ethernet port 
+                                </p>
+                                <p className='listFeture'>  1 x WAN 10/100 Mbps Ethernet port Reset Button for device reset
+                                </p>
+                                <p className='listFeture'>   1x RS232 for console configuration (TXD/RXD/GND) 
+                                </p>
+                                <p className='listFeture'>  1 x DI (Non-Isolated), 
+                                </p>
+                                <p className='listFeture'>  1 x DO (Non-Isolated) 
+                                </p>
+                                <p className='listFeture'>  2 x SMA connectors for detachable LTE Antenna 
+                                </p>
+                                <p className='listFeture'>  2 x RP-SMA for WiFi Antenna 
+                                </p>
+                                <p className='listFeture'>  1 x GPS detachable Antenna
+                            </p>
 
                             </div>
                         </div>
@@ -236,8 +235,8 @@ const ICR_4103  = () => {
                             <h2>Overview</h2>
 
                             <p>
-                            The ICR-4103 is a high-performance, industrial grade, 4G-LTE cellular router which is designed to offer fast connectivity over cellular networks for industrial applications. ICR-4103’s Ethernet ports can allow up to 3 Ethernet devices to link to the cellular network. It provides dual SIM card slots and one Ethernet WAN port which can automatically re-connect and auto-switch to offer cellular network redundancy and ensure uninterrupted connectivity. The ICR-4103 cellular router is integrated with WAN, LAN, SIM, VPN, Firewall, built-in DI/DO and Serial port services. In addition, ICR-4103 uses the highest level of industrial grade design for connection in the most demanding environments and is an ideal solution for Industrial Internet of Things (IIoT) and M2M (Machine-to-Machine) applications, such as remote control and monitoring, bus ticketing collection system, CCTV, SCADA, digital signage, kiosk and intelligent traffic systems. 
-                            </p>
+                            The ICR-W401 is a compact, lightweight and cost-effective Industrial grade 4G LTE Router that has 1 LAN plus 1 WAN Fast Ethernet connection and supports uplink to 2G/3G/4G mobile data networks. Built for harsh environments, the router is equipped with a       DI/DO interface. The ICR-W401 is simple to configure through its embedded Web user interface applications. The ICR-W401’s WiFi is compliant with IEEE 802.11b/g/n wireless connectivity. The Router features VPN Tunneling with Firewall and management capability via TR069 and SNMP. The ICR-W401 provides highly secure authentication, encryption and management, to protect your data between public and private networks and simplify your complicated solutions for smart city and industrial networking.
+                             </p>
                             
                         </div>
                     </div>
@@ -247,7 +246,7 @@ const ICR_4103  = () => {
 
             {/* Memory Map Section Start */}
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                <h1 className='pb-4'> Application for Environmental Monitoring</h1>
+                <h1 className='pb-4'> Application </h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     <img src={Application} className='sectionImg2_1' alt="memorymapImg" />
@@ -255,7 +254,7 @@ const ICR_4103  = () => {
 
             </div>
 
-            <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+            {/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
                 <h1 className='pb-4'>Application for Transportation/Bus Communication</h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
@@ -265,13 +264,13 @@ const ICR_4103  = () => {
                 <br />
              
 
-            </div>
+            </div> */}
 
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
                 <h1 className='pb-4'>Dimensions</h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
-                    <img src={module} className='sectionImg2' alt="memorymapImg" />
+                    <img src={module} className='sectionImg2_1' alt="memorymapImg" />
                 </div>
 
             </div>
@@ -291,5 +290,4 @@ const ICR_4103  = () => {
     )
 }
 
-export default ICR_4103 
- ;
+export default ICR_W401;
