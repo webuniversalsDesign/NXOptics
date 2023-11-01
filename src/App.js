@@ -806,6 +806,7 @@ import IGS_402CSW_4PH from './Component/IndustrialSwitches/POE Switch/IGS_402CSW
 import IQS_402XSM_4PH from './Component/IndustrialSwitches/POE Switch/IQS_402XSM_4PH';
 import IFS_402GSW_4PB from './Component/IndustrialSwitches/POE Switch/IFS_402GSW_4PB';
 import IFS_PLUS_803GSM_8PH from './Component/IndustrialSwitches/POE Switch/IFS_PLUS_803GSM_8PH';
+<<<<<<< HEAD
 
 // /* Industrial Switches --> Celluar_Router   */
 
@@ -814,6 +815,18 @@ import ICR_4103 from './Component/IndustrialSwitches/Celluar_Router/ICR-4103';
 
 
 
+=======
+import IGS_402S_4PH24 from './Component/IndustrialSwitches/POE Switch/IGS_402S_4PH24';
+import IGS_402SM_4PU from './Component/IndustrialSwitches/POE Switch/IGS_402SM_4PU';
+import IGS_402SW_4PB from './Component/IndustrialSwitches/POE Switch/IGS_402SW_4PB';
+import IGS_600_4PH24__IGS_402F_4PH24 from './Component/IndustrialSwitches/POE Switch/IGS_600_4PH24__IGS_402F_4PH24';
+import IGS_800C_8PH from './Component/IndustrialSwitches/POE Switch/IGS_800C_8PH';
+import IGS_803SM_8PH24__IGS_402SM_4PH24 from './Component/IndustrialSwitches/POE Switch/IGS_803SM_8PH24__IGS_402SM_4PH24';
+import IGS_1604XSM_16PH from './Component/IndustrialSwitches/POE Switch/IGS_1604XSM_16PH';
+import IGS_plus_402SM_4PH24 from './Component/IndustrialSwitches/POE Switch/IGS_plus_402SM_4PH24';
+// import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/';
+// import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208SE';
+>>>>>>> 20155abec75f5ba1ca20f1a41d4556ffa660c5d6
 
 function App() {
   return (
@@ -1661,6 +1674,15 @@ function App() {
 <Route path="/Industrial_Switches/POE_Switches/IQS_402XSM_4PH" element={<IQS_402XSM_4PH/>}/>
 <Route path="/Industrial_Switches/POE_Switches/IFS_402GSW_4PB" element={<IFS_402GSW_4PB/>}/>
 <Route path="/Industrial_Switches/POE_Switches/IFS_PLUS_803GSM_8PH" element={<IFS_PLUS_803GSM_8PH/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_402S_4PH24" element={<IGS_402S_4PH24/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_402SM_4PU" element={<IGS_402SM_4PU/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_402SW_4PB" element={<IGS_402SW_4PB/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_600_4PH24__IGS_402F_4PH24" element={<IGS_600_4PH24__IGS_402F_4PH24/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_800C_8PH" element={<IGS_800C_8PH/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_803SM_8PH24__IGS_402SM_4PH24" element={<IGS_803SM_8PH24__IGS_402SM_4PH24/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_1604XSM_16PH" element={<IGS_1604XSM_16PH/>}/>
+<Route path="/Industrial_Switches/POE_Switches/IGS_plus_402SM_4PH24" element={<IGS_plus_402SM_4PH24/>}/>
+
 
 
 
