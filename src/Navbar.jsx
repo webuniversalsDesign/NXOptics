@@ -835,7 +835,8 @@ const Navbar = () => {
 
                                             </ul>
                                         </li></Link>
-                                        <Link to="/" className='nolink-dec'><li className='lastdrop-items indus-link4'><IoMdArrowDropright />PoE Switch
+                                        <Link to="/" className='nolink-dec'>
+                                        <li className='lastdrop-items indus-link4'><IoMdArrowDropright />PoE Switch
                                             <ul className='indus-inner-link4 list-item-tele'>
                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_1602GS_8PH_IFS_802GS_8PH" className='nolink-dec'><li>IFS-1602GS-8PH, <br />IFS-802GS-8PH</li></Link>
                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_1608GSM_16PH_1G_2_5G_IFS_1608GSM_8PH" className='nolink-dec'> <li>IFS-1608GSM16PH, <br />IFS-1608GSM-8PH</li></Link> 
@@ -860,7 +861,44 @@ const Navbar = () => {
                                                  <Link to="/Industrial_Switches/POE_Switches/IGS_plus_402SM_4PH24" className='nolink-dec'><li>IGS-plus-402SM-4PH24</li></Link> 
                                             
                                             </ul>
-                                        </li></Link>
+                                        </li>
+                                        </Link>
+
+                                        <Link to="/" className='nolink-dec'>
+                                        <li className='lastdrop-items indus-link5'><IoMdArrowDropright />Celluar Router
+                                            <ul className='indus-inner-link5 list-item-tele'>
+                                                <Link to="/" className='nolink-dec'><li>ICR-4103</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>ICR-GW404</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>ICR-W401</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>ICR-W402</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>ICR-W403</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>ICR-W405_ ICR-405</li></Link>
+                                            
+                                            
+                                            </ul>
+                                        </li>
+                                        </Link>
+
+                                        <Link to="/" className='nolink-dec'>
+                                        <li className='lastdrop-items indus-link6'><IoMdArrowDropright />Rackmount Switches
+                                            <ul className='indus-inner-link6 list-item-tele'>
+                                                <Link to="/" className='nolink-dec'><li>ICS-G24S4X<br/>ICS-G24S2X</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>ICS-G24044X-24PH-AA</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>ICS-GS24044X<br/>ICS-G24044X<br/>ICS-G4804X</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IE-ICS-G24044X-24PH</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IE-IGS-2408SM-24PH</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IGR-2408SM-24PH</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IGR-S2804GTM<br/>IGR-2408SM<br/>IGR-4804SM</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IGS-2408SM-24PH-AA</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IGS-S2804GTM<br/>IGS-2408SM<br/>IGS-4804SM</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IGS-S2804TM</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IXR-G24044X-24PH</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IXR-GS24044X<br/>IXR-G24044X<br/>IXR-G4804X</li></Link>
+                                                <Link to="/" className='nolink-dec'><li>IXR-MG2404XS</li></Link>
+                                            
+                                            </ul>
+                                        </li>
+                                        </Link>
                                     </ul>
 
 

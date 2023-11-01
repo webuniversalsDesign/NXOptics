@@ -129,7 +129,7 @@ const IFS_402GSM_4PU = () => {
 <p className='listFeture '> 48VDC (44~57VDC) redundant dual input power</p>
 <p className='listFeture '> Provides 4 port IEEE 802.3af / 802.3at PoE+ output, 60W per port</p>
 <p className='listFeture '> Cable diagnostics, identifies opens/shorts distance </p>
-<p className='listFeture '> Provides 5 ring instances that each can support µ-Ring, µ-Chain or Sub-Ring type for flexible uses. Supports up to 5 rings in one device </p>
+<p className='listFeture '> Provides 5 ring instances that each can support µ-Ring, µ-Chain or Sub-Ring type for flexible uses. Supports up to 5 rings in one device <br/>(Please see CTC µ-Ring white paper for more details and more topology application)</p>
 <p className='listFeture '>µ-Ring for Redundant Cabling, recovery time{'<10ms'} in 250 devices</p>
 <p className='listFeture '>  Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to Peer Transparent Clock, End to End 
 Transparent Clock, Master, Slave mode by each port</p>
