@@ -824,6 +824,9 @@ import IGS_800C_8PH from './Component/IndustrialSwitches/POE Switch/IGS_800C_8PH
 import IGS_803SM_8PH24__IGS_402SM_4PH24 from './Component/IndustrialSwitches/POE Switch/IGS_803SM_8PH24__IGS_402SM_4PH24';
 import IGS_1604XSM_16PH from './Component/IndustrialSwitches/POE Switch/IGS_1604XSM_16PH';
 import IGS_plus_402SM_4PH24 from './Component/IndustrialSwitches/POE Switch/IGS_plus_402SM_4PH24';
+import ICS_G24S4X__ICS_G24S2X from './Component/IndustrialSwitches/Rackmount Switches/ICS_G24S4X__ICS_G24S2X';
+import ICS_G24044X_24PH_AA from './Component/IndustrialSwitches/Rackmount Switches/ICS_G24044X_24PH_AA';
+import ICS_GS24044X__ICS_G24044X__ICS_G4804X from './Component/IndustrialSwitches/Rackmount Switches/ICS_GS24044X__ICS_G24044X__ICS_G4804X';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/';
 // import XGS_1208SE from './Component/Telecom Switches/L2 Eternet switches/10G Eternet Switches/XGS-1208SE';
 
@@ -1704,6 +1707,11 @@ function App() {
 <Route path="/Industrial_Switches/Celluar_Router/ICR-W402" element={<ICR_W402/>}/>
 <Route path="/Industrial_Switches/Celluar_Router/ICR-W403" element={<ICR_W403/>}/>
 <Route path="/Industrial_Switches/Celluar_Router/ICR_W405_ICR_405" element={<ICR_W405_ICR_405/>}/>
+
+{/* Industrial Switches --> Rackmount Switches  */}
+<Route path="/Industrial_Switches/Rackmount Switches/ICS_G24S4X__ICS_G24S2X" element={<ICS_G24S4X__ICS_G24S2X/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH_AA" element={<ICS_G24044X_24PH_AA/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/ICS_GS24044X__ICS_G24044X__ICS_G4804X" element={<ICS_GS24044X__ICS_G24044X__ICS_G4804X/>}/>
 
     </Routes>
 
