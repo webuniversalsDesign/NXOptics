@@ -882,9 +882,9 @@ const Navbar = () => {
                                         <Link to="/" className='nolink-dec'>
                                         <li className='lastdrop-items indus-link6'><IoMdArrowDropright />Rackmount Switches
                                             <ul className='indus-inner-link6 list-item-tele'>
-                                                <Link to="/" className='nolink-dec'><li>ICS-G24S4X<br/>ICS-G24S2X</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>ICS-G24044X-24PH-AA</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>ICS-GS24044X<br/>ICS-G24044X<br/>ICS-G4804X</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/ICS_G24S4X__ICS_G24S2X" className='nolink-dec'><li>ICS-G24S4X<br/>ICS-G24S2X</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH_AA" className='nolink-dec'><li>ICS-G24044X-24PH-AA</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/ICS_GS24044X__ICS_G24044X__ICS_G4804X" className='nolink-dec'><li>ICS-GS24044X<br/>ICS-G24044X<br/>ICS-G4804X</li></Link>
                                                 <Link to="/" className='nolink-dec'><li>IE-ICS-G24044X-24PH</li></Link>
                                                 <Link to="/" className='nolink-dec'><li>IE-IGS-2408SM-24PH</li></Link>
                                                 <Link to="/" className='nolink-dec'><li>IGR-2408SM-24PH</li></Link>

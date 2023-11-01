@@ -1,13 +1,15 @@
 import React from 'react';
 
-import productImg1 from '../../../img/products/industrialSwitches/POESwitches/IFS-803GSM-8PH24 & IFS-402GSM-4PH24.jpeg';
+import productImg1 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-GS24044X.jpeg';
 
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/industrialSwitches/POESwitches/IFS-803GSM-8PH24 & IFS-402GSM-4PH24-application.jpeg'
-import dime1 from '../../../img/products/industrialSwitches/POESwitches/IFS-803GSM-8PH24 & IFS-402GSM-4PH24-dimenssion.jpeg';
-// import dime2 from '../../../img/products/industrialSwitches/IVS-802GT/IVS-802GT-Dimensions-2.jpeg';
+// import Application1 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-G24S4X-Application-1.jpeg'
+// import Application2 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-G24S4X-Application-2.jpeg'
+import dime1 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-GS24044X-Dimenssion-1.jpeg';
+import dime2 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-GS24044X-Dimenssion-2.jpeg';
+import dime3 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-GS24044X-Dimenssion-2.jpeg';
 
 import { BsCartCheck } from 'react-icons/bs';
 import { LiaWarehouseSolid } from 'react-icons/lia';
@@ -22,12 +24,13 @@ import { Gallery, Item } from 'react-photoswipe-gallery';
 import EnquireForm from '../../EnquireForm';
 
 
-const IFS_803GSM_8PH24_IFS_402GSM_4PH24 = () => {
+const ICS_GS24044X__ICS_G24044X__ICS_G4804X = () => {
 
-    let PartNumber = "IFS-803GSM-8PH24_IFS-402GSM-4PH24";
-    let productName ="8x 10/100Base RJ45 + 3x 100/1000Base SFP with 8x PoE 180W, 24/48VDC || 4x 10/100Base RJ45 + 2x 100/1000Base SFP with 4x PoE 120W, 24/48VDC";
-    let productName1 ="8x 10/100Base RJ45 + 3x 100/1000Base SFP with 8x PoE 180W, 24/48VDC";
-    let productName2 ="4x 10/100Base RJ45 + 2x 100/1000Base SFP with 4x PoE 120W, 24/48VDC";
+    let PartNumber = "ICS-GS24044X & ICS-G24044X & ICS-G4804X";
+    let productName ="24x GbE SFP + 4x GbE RJ45 + 4x 1G/2.5G/10G SFP+ || 24x GbE RJ45 + 4x GbE SFP + 4x 1G/2.5G/10G SFP+ || 48x GbE RJ45 + 4x 1G/2.5G/10G SFP+";
+    let productName1 ="24x GbE SFP + 4x GbE RJ45 + 4x 1G/2.5G/10G SFP+";
+    let productName2 ="24x GbE RJ45 + 4x GbE SFP + 4x 1G/2.5G/10G SFP+";
+    let productName3 ="48x GbE RJ45 + 4x 1G/2.5G/10G SFP+";
 
     
   return (
@@ -107,13 +110,11 @@ const IFS_803GSM_8PH24_IFS_402GSM_4PH24 = () => {
 </div>
 
 <div className='product-content'>
-<h4>
-{productName1}
-</h4>
+<h4>{productName1}</h4>
 
-<h4>
-{productName2}
-</h4>
+<h4>{productName2}</h4>
+
+<h4>{productName3}</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
@@ -132,15 +133,17 @@ const IFS_803GSM_8PH24_IFS_402GSM_4PH24 = () => {
 
 <h5 className='pt-4'>Features</h5>
 
-<p className='listFeture '> Regulated PoE output voltage (52VDC) to stabilize PoE device, and guarantee delivery PoE power distance to 100meter (Figure 2)</p>
-<p className='listFeture '>Provides 4/8 port IEEE 802.3af / 802.3at PoE output (30W per Port)</p>
-<p className='listFeture '> Cable diagnostics, identifies opens/shorts distance </p>
-<p className='listFeture '> Provides 5 ring instances that each can support µ-Ring, µ-Chain or Sub-Ring type for flexible uses. Supports up to 5 rings in one device </p>
-<p className='listFeture '>µ-Ring for Redundant Cabling, recovery time{'<10ms'} in 250 devices</p>
-<p className='listFeture '>  Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to Peer Transparent Clock, End to End 
-Transparent Clock, Master, Slave mode by each port</p>
-<p className='listFeture'> Provides SmartConfig for quick and easy mass Configuration Tool*</p>
-<p className='listFeture'> Supports SmartView for Centralized Management Tool*</p>
+
+<p className='listFeture '> Redundant isolated 24/48/-48VDC (18~60VDC), or/and isolated 110/220VAC power inputs</p>
+<p className='listFeture '> Supports negative voltage power input</p>
+<p className='listFeture '> 2.25K VDC Hi-pot isolation protection for Ethernet ports and power </p>
+<p className='listFeture '> STP, RSTP, MSTP, ITU-T G.8032 Ethernet Ring Protection Switching (ERPS) for network redundancy</p>
+<p className='listFeture '> Provides 14 instances each can support μ-Ring, u-Chain or Sub-Ring for flexible networking applications</p>
+<p className='listFeture '> μ-Ring redundancy, recovery time {'<20ms'} in 250 devices</p>
+<p className='listFeture '> Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to Peer Transparent Clock, End to End 
+Transparent Clock, Master, Slave mode by each port (ICS-GS24044X, ICS-G24044X)</p>
+<p className='listFeture '> Supports SmartView™ for Centralized Management*</p>
+
 
 <h5 className='pt-4'>Specifications</h5>
 <div className='container-fluid'>
@@ -148,31 +151,24 @@ Transparent Clock, Master, Slave mode by each port</p>
  <div className='col-lg-6'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IEEE Standard</h5>
 
- <p className='listFeture'>IEEE 802.3 10Base-T 10Mbit/s Ethernet</p>
-<p className='listFeture'>IEEE 802.3u 100Base-TX, 100Base-FX, Fast Ethernet</p>
-<p className='listFeture'>IEEE 802.3ab 1000Base-T Gbit/s Ethernet over twisted pair</p>
-<p className='listFeture'>IEEE 802.3z 1000Base-X Gbit/s Ethernet over Fiber-Optic</p>
-<p className='listFeture'>IEEE 802.3af PoE (Power over Ethernet)</p>
-<p className='listFeture'>IEEE 802.3at PoE+ (Power over Ethernetenhancements)</p>
-<p className='listFeture'>IEEE 802.1d STP (Spanning Tree Protocol)</p>
-<p className='listFeture'>IEEE 802.1w RSTP (Rapid Spanning Tree Protocol )</p>
-<p className='listFeture'>IEEE 802.1s MSTP (Multiple Spanning Tree Protocol)</p>
-<p className='listFeture '>ITU-T G.8032 / Y.1344 ERPS (Ethernet Ring Protection Switching)</p> 
-<p className='listFeture'>IEEE 802.1Q Virtual LANs (VLAN)</p>
-<p className='listFeture'>IEEE 802.1X Port based and MAC based Network Access Control, Authentication</p>
-<p className='listFeture'>IEEE 802.3ac Max frame size extended to 1522Bytes</p>
-<p className='listFeture'>IEEE 802.3adLink aggregation for parallel links with LACP(Link Aggregation Control Protocol)</p>
-<p className='listFeture'>IEEE 802.3x Flow control for Full Duplex</p>
-<p className='listFeture'>IEEE 802.1ad Stacked VLANs, Q-in-Q</p>
-<p className='listFeture'>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for Traffic Prioritization</p>
-<p className='listFeture'>IEEE 802.1ab Link Layer Discovery Protocol (LLDP)</p>
-<p className='listFeture'>IEEE 802.3az EEE (Energy Efficient Ethernet)</p>
-
-
-
-
-
-
+  <p className='listFeture '>IEEE 802.3 10Base-T 10Mbit/s Ethernet</p>
+ <p className='listFeture '>IEEE 802.3u 100Base-TX, 100Base-FX, Fast Ethernet</p>
+ <p className='listFeture '>IEEE 802.3ab 1000Base-T Gbit/s Ethernet over twisted pair</p>
+ <p className='listFeture '>IEEE 802.3z 1000Base-X Gbit/s Ethernet over Fiber-Optic</p>
+ <p className='listFeture '>IEEE 802.3ae 10 Gbit/s Ethernet over fiber</p>
+ <p className='listFeture '>IEEE 802.1d STP (Spanning Tree Protocol)</p>
+ <p className='listFeture '>IEEE 802.1w RSTP (Rapid Spanning Tree Protocol )</p>
+ <p className='listFeture '>IEEE 802.1s MSTP (Multiple Spanning Tree Protocol)</p>
+ <p className='listFeture '>ITU-T G.8032 / Y.1344 ERPS (Ethernet Ring Protection Switching) </p>
+ <p className='listFeture '>ITU-T G.8031 / Y.1342 EPS (Ethernet Protection Switching)</p>
+ <p className='listFeture '>IEEE 802.1Q Virtual LANs (VLAN)</p>
+ <p className='listFeture '>IEEE 802.1X Port based and MAC based Network Access Control, Authentication</p>
+ <p className='listFeture '>IEEE 802.3ac Max frame size extended to 1522Bytes</p>
+ <p className='listFeture '>IEEE 802.3adLink aggregation for parallel links \with LACP(Link Aggregation Control Protocol)</p>
+ <p className='listFeture '>IEEE 802.3X Flow control for full duplex IEEE 802.1ad Stacked VLANs, Q-in-Q </p>
+ <p className='listFeture '>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for Traffic Prioritization</p>
+ <p className='listFeture '>IEEE 802.1ab Link Layer Discovery Protocol (LLDP)</p>
+ <p className='listFeture '>IEEE 802.3az EEE (Energy Efficient Ethernet)</p>
  </div>
 
 
@@ -180,22 +176,27 @@ Transparent Clock, Master, Slave mode by each port</p>
 
 <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>LED</h5>
 
-<p className='listFeture'>Per unit: Power 1 (Green), Power 2 (Green), Fault 
-(Amber), CPU Act (Green), Ring Master (Yellow)</p>
-<p className='listFeture'><b>Per RJ-45 port </b> 10/100 Link/Active (Green) </p>
+<p className='listFeture'>Per unit:<br/> Power 1 (Green), Power 2 (Green), 
+ Act /Alarm (Green/Amber), Ring Master (Green)</p>
+<p className='listFeture'><b>Per RJ-45 port </b>: <br/>10/100 Link/Active (Green)<br/>
+1000 Link/Active (Yellow) </p>
 
-<p className='listFeture'>SFP Fiber Per port: Link/Active (Green) </p>
-<p className='listFeture'><b>PoE Port LED 1 LED /per Port </b><br/>
-PoE Output Power On : ON (Green) <br/>
-PoE Fault (Over Load, Short Circuit,Port failed at Startup) : Flash 1times /sec (Green)<br/>
-PoE Output Power Off : Off
-</p>
+<p className='listFeture'>P25~28 (ICS-GS24044X)<br/>
+P1~24 (ICS-G24044X)<br/>
+P1~48 (ICS-G4804X)<br/>
+ Per RJ-45 port: 10/100 Link/Active (Green) 
+ 1000 Link/Active (Amber) </p>
+
+ <p className='listFeture'>P1~24 (ICS-GS24044X)<br/> P25~28 (ICS-G24044X) <br/>Per SFP Fiber port: Link/Active (Amber) </p>
+
+ <p className='listFeture'> P29~32 (ICS-GS24044X)<br/> P29~32 (ICS-G24044X )<br/> P49~52 (ICS-G4804X)<br/>
+  Per SFP+ Fiber port: Link/Active (Amber) 10GBase-X Link/Active (Blue) </p>
 </div>
 
    <div className='col-lg-6'>
       <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Cable </h5>
       
-      <p className='listFeture'> UTP/STP above Cat. 5e cable </p>
+      <p className='listFeture'>UTP/STP Cat. 5e cable or above</p>
       <p className='listFeture'>EIA/TIA-568 100-ohm (100meter)</p>
 
    </div>
@@ -204,14 +205,14 @@ PoE Output Power Off : Off
    <div className='col-lg-6'>
  <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Connector</h5>
 
-   <p className='listFeture'> 4x 10/100Base-TX RJ-45 + 2x 100/1000Base-X SFP slot
-(IFS-402GSM-4PH24) 
-8x 10/100Base-TX RJ-45 + 3x 100/1000Base-X SFP slot
-(IFS-803GSM-8PH24)
-<br/>
-RJ-45 UTP port support Auto negotiation speed,
-Auto MDI/MDI-X function,
-SFP ports support 100/1000M with DDMI 
+   <p className='listFeture'>10GbE SFP+ : 4x 1G/2.5G/10G SFP socket Supports DDMI<br/>
+GbE SFP:24x 100/1000Base-X SFP socket (ICS-GS24044X) 4x 100/1000Base-X SFP socket (ICS-G24044X) Support DDMI <br/>
+RJ45: <br/>
+4x 10/100/1000Base-T RJ-45 (ICS-GS24044X)<br/>
+ 24x 10/100/1000Base-T RJ-45 (ICS-G24044X)<br/>
+48x 10/100/1000Base-T RJ-45 (ICS-G4804X)<br/>
+Support Auto negotiation speed, Auto MDI/MDI-X 
+function
  </p>
 
  </div>
@@ -234,6 +235,7 @@ SFP ports support 100/1000M with DDMI
 <p className='listFeture'>Private VLAN for port isolation</p>
 <p className='listFeture'>GVRP (GARP VLAN Registration Protocal)</p>
 <p className='listFeture'>MVR ( Multicast VLAN Registration)</p>
+<p className='listFeture'>Voice VLAN</p>
 
         </div>
         <div className='col-md-6'>
@@ -264,16 +266,14 @@ SFP ports support 100/1000M with DDMI
 
         </div>
         <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Management</h5>
-<p className='listFeture'>PoE PD failure auto checking ,and auto reset when PD fail</p>
-<p className='listFeture'>PoE port on/off weekly scheduling</p>
-<p className='listFeture'>PoE Configuration</p>
-<p className='listFeture'>PoE Enable/Disable</p>
-<p className='listFeture'>Power limit by classification</p>
-<p className='listFeture'>Power limit by management</p>
-<p className='listFeture'>Total PoE Power budge limitation (Maximum 120W 
-for IFS-402GSM-4PH24, 180W for IFS-803GSM- 8PH24) 
-Power feeding priority</p>
+ <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IP Multicasting Features</h5>
+ <p className='listFeture'><b>Snooping IGMP / MLD</b></p>
+<p className='listFeture'>IGMP Snooping v1, v2, v3 / MLD Snooping v1, v2</p>
+<p className='listFeture'>Port Filtering Profile </p>
+<p className='listFeture'>Throttling, Fast Leave</p>
+<p className='listFeture'>Maximum Multicast Group : up to 1022 entries</p>
+<p className='listFeture'>Query / Static Router Port</p>
+
         </div>
     </div>
 </div>
@@ -301,14 +301,12 @@ Power feeding priority</p>
     <div className="container mt-3">
   <h2>Overview</h2>
   
- <p>These Fast Ethernet switch models are managed industrial grade L2 switches with 8/4 10/100Base-T ports and 3/2 GbE/100M SFP 
-ports which also supports PoE+/PSE and provide stable and reliable transmission. Housed in rugged DIN rail or wall mountable 
-enclosures, these switches are designed for harsh environments, such as industrial networking. They are an ideal solution for Smart 
-City, surveillance, Intelligent traffic control systems, production automation applications and support up to 8/4 PoE/PoE+ (IEEE 
-802.3af/IEEE 802.3at) ports which can provide 15.4/30watts power output per port for connecting with heavy-duty industrial PoE 
-devices, such as PTZ IP surveillance cameras, high-performance wireless access points, digital signage and IP phones. (See Figure). 
-Standard operating temperature range models (-10 to 60°C) and wide operating temperature range models (-40 to 75°C) fulfill the 
-special needs of industrial automation applications.
+ <p>The industrial grade rackmount 10G up link switch, ICS-GS24044X, ICS-G24044X and ICS-G4804X managed L2+, hardened design, 
+built for the rigorous demands of centralized and critical applications. The switch supports 4-ports 10GbE SFP+ and 24GbE SFP 
+/24GbE RJ45 /48GbE RJ45ports. ICS series models are all fan-less designs with redundant, isolated power supplies (2 AC, 2 DC, AC + 
+DC) and can be mounted in 19-inch EIA standard rack. ICS Series are certified with many industrial-grade standards and are ideal for 
+deployments in harsh environments to deliver mission-critical network services. This product is ideal for Smart City, surveillance, 
+Intelligent traffic control systems and production automation applications.
 </p>
 </div>
 </div>
@@ -317,14 +315,19 @@ special needs of industrial automation applications.
 </div>
 
 {/* Memory Map Section Start */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Application</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={Application} className='img-fluid' alt="memorymapImg"/>
+<img src={Application1} className='img-fluid' alt="memorymapImg"/>
+</div>
+<br/>
+<br/>
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={Application2} className='img-fluid' alt="memorymapImg"/>
 </div>
     
-</div>
+</div> */}
 
 
 {/* Mechanical Dimensions section start */}
@@ -336,10 +339,14 @@ special needs of industrial automation applications.
 <img src={dime1} className='img-fluid' alt="Transceiver Block Diagram"/>
 </div>
 <br/>
-{/* <br/>
+<br/>
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={dime2} className='img-fluid' alt="Diagram"/>
-</div> */}
+</div>
+<br/>
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={dime3} className='img-fluid' alt="Diagram"/>
+</div>
 
 </div>
 {/* Mechanical Dimensions section end */}
@@ -354,4 +361,4 @@ special needs of industrial automation applications.
   )
 }
 
-export default IFS_803GSM_8PH24_IFS_402GSM_4PH24;
+export default ICS_GS24044X__ICS_G24044X__ICS_G4804X;
