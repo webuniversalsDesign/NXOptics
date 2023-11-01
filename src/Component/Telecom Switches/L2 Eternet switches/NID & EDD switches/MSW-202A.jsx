@@ -125,7 +125,7 @@ const MSW_202A   = () => {
 
                     <h5>Features</h5>
 
-                    <p className='listFeture '>Complies with CE1.0 </p>
+                    <p className='listFeture '>Complies with CE2.0 (E-Line / E-Access)  </p>
                      <p className='listFeture '> IPv6 management </p>
                      <p className='listFeture '> IEEE 802.3ah, IEEE 802.1ag, ITU-T Y.1731 </p>
                       <p className='listFeture '> IEEE 1588v2 </p>

@@ -24,7 +24,7 @@ import EnquireForm from '../../../EnquireForm';
 const MSW_4204   = () => {
 
     let PartNumber = "MSW-4204";
-    let productName = "4x GbE/RJ45 + 4x 1G/SFP L2+ Carrier Ethernet Switch (NID)";
+    let productName = "4× GbE/RJ45 + 2× 1G/10G SFP+ L2+ Carrier Ethernet Switch";
 
     return (
         <>
