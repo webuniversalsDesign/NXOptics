@@ -144,7 +144,7 @@ const GSW_4448CM = () => {
                 
                 <p className='listFeture '> SFP Transceiver DDMI function </p>
                 <p className='listFeture '> Remote port configuration setting and statistics monitoring  </p>
-                <p className='listFeture '> Text based CLI </p>
+                <p className='listFeture '> Text based CLI  configuration download and upload</p>
 
                     <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import productImg1 from '../../../../img/products/Telecom Switches/GSW-3424M1A-img.jpg'
+import productImg1 from '../../../../img/products/Telecom Switches/GSW-4208CM-img.jpg'
 
 import Navbar from '../../../../Navbar';
 import Footer from '../../../../Footer';
@@ -156,6 +156,8 @@ const GSW_4208CM  = () => {
                                <p className='listFeture'>  256 ACL rules based on L2~L4 information </p>
                                <p className='listFeture'>  RADIUS/TACACS+ authentication </p>
                                <p className='listFeture'>  HTTPs & SSH v2  </p>
+                               <p className='listFeture'>IP/MAC binding  </p>
+                               <p className='listFeture'>IP source guard & ARP inspection </p>
                             </div>
 
                         </div>
