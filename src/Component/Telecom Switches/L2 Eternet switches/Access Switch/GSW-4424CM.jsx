@@ -131,7 +131,22 @@ const GSW_4424CM = () => {
                   <p className='listFeture '> Static MAC address access limit and Dynamic MAC address number on port </p>
                   <p className='listFeture '> IEEE 802.1D & 802.1w & 802.1s </p>
                   <p className='listFeture '> DHCP Client / DHCP Option 82 Relay / DHCP Snooping function </p>
+                  
+                    <p className='listFeture '>ACL function for L2 ~ L4 packet control, Ingress/Egress rate control on port</p>
 
+                    <p className='listFeture '>IP Multicast with IGMP snooping / query / fast leave / filtering / group limited / MVR</p>
+
+                    <p className='listFeture '>Broadcast/Multicast/Unknown Unicast storm policing </p>
+                    <p className='listFeture '>ARP inspection / IP source guard</p>
+
+                    <p className='listFeture '>RMON 1,2,3,9</p>
+
+                    <p className='listFeture '>SFP Transceiver DDMI function</p>
+
+                    <p className='listFeture '>Remote port configuration setting and statistics monitoring </p>
+                    <p className='listFeture '>Text based CLI configuration download and upload</p>
+
+                    <p className='listFeture '>IEEE 802.3az power management / Green Ethernet</p>
                     <h5 className='mt-3'>Specifications</h5>
                    <div className='container-fluid'>
                     <div className='row'>
@@ -143,6 +158,8 @@ const GSW_4424CM = () => {
                            <p className='listFeture '>  Voice VLAN; MAC based VLAN; Protocol based VLAN; </p>
                            <p className='listFeture '>  IP subnet based VLAN </p>
                            <p className='listFeture '>  Private VLAN for port isolation; VLAN translation </p>
+                           <p className='listFeture '>  GVRP (GARP VLAN registration protocol)</p>
+                           
                         </div>
 
                         <div className='col-lg-6'>
@@ -158,6 +175,8 @@ const GSW_4424CM = () => {
                           <p className='listFeture'>  512 ACL rules based on L2~L4 information </p>
                           <p className='listFeture'>  RADIUS/TACACS+ authentication </p>
                           <p className='listFeture'>  HTTPs & SSH v2 </p>
+                          <p className='listFeture'> IP/MAC binding </p>
+                          <p className='listFeture'> IP source guard & ARP inspection</p>
                         </div>
 
                     </div>
@@ -184,7 +203,7 @@ const GSW_4424CM = () => {
                     <div id="home" className="container tab-pane active"><br />
                         <div className="container mt-3">
                             <h2>Overview</h2>
-
+                            <p>The new generation L2+ managed Ethernet switch, GSW-4424CM, is designed for FTTH and enterprise network application. The 10G uplink ports relieve the insufficiency of Gigabit links for new demanding bandwidth consumption applications such as 4K UHD video streaming, WiFi-6 network and cloud service access in the enterprise and SMB network</p>
                             <p>The {PartNumber} is equipped with 24 Gigabit RJ45 ports and 4 1G/10G SFP+ based fiber optics ports. It is featured completely L2+
 switch functionality which guarantees high network availability, robust network access and security as well as comprehensive QoS in
 the network edge. It will deliver the benefits of optimal traffic transportation performance and lower ownership cost while maintaining

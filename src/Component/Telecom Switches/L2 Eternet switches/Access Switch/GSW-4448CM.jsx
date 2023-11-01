@@ -132,7 +132,19 @@ const GSW_4448CM = () => {
                   <p className='listFeture '> Static MAC address access limit and Dynamic MAC address number on port </p>
                   <p className='listFeture '> IEEE 802.1D & 802.1w & 802.1s </p>
                   <p className='listFeture '> DHCP Client / DHCP Option 82 Relay / DHCP Snooping function </p>
-
+                  
+                  <p className='listFeture '> ACL function for L2 ~ L4 packet control, Ingress/Egress rate control on port </p>
+                
+                <p className='listFeture '> IP Multicast with IGMP snooping / query / fast leave / filtering / group limited /MVR </p>
+                
+                <p className='listFeture '> Broadcast/Multicast/Unknown Unicast storm control  </p>
+                <p className='listFeture '> ARP inspection / IP source guard </p>
+                
+                <p className='listFeture '> RMON 1,2,3,9 </p>
+                
+                <p className='listFeture '> SFP Transceiver DDMI function </p>
+                <p className='listFeture '> Remote port configuration setting and statistics monitoring  </p>
+                <p className='listFeture '> Text based CLI </p>
 
                     <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
@@ -158,6 +170,11 @@ const GSW_4448CM = () => {
                            <p className='listFeture'>Guest VLAN </p> 
                            <p className='listFeture'>RADIUS accounting </p> 
                            <p className='listFeture'>MAC address limit  </p> 
+                           
+                           <p className='listFeture'>TACACS+ </p>
+                           <p className='listFeture'>Web and CLI authentication and authorization</p>
+                           <p className='listFeture'> ACLs for filtering, policing, and port copy (1K entries Max.) </p>
+                           <p className='listFeture'>IP source guard</p>
                         </div>
 
                     </div>
@@ -185,7 +202,7 @@ const GSW_4448CM = () => {
                         <div className="container mt-3">
                             <h2>Overview</h2>
 
-                            <p>The {PartNumber} is an SNMP manageable Gigabit Ethernet switch for FTTx deployment or Gigabit Ethernet fiber aggregation that is equipped with 48 1000Base-X CSFP ports included 4 Gigabit combo ports (RJ45 or CSFP slot) and 4 1G/10Gbps dual rate SFP+ slots. The GSW-4448CM supports a special BX optics (Compact SFP) which can double the fiber port density to 48 links, make it be attractive for the FTTx deployment and scenarios where increased user links are required in limited construction space. With advanced layer 2 and QoS features, this switch is targeted at multi-service operators (MSO) with a desire to deploy provisioned triple play services via active Ethernet FTTx network infrastructures. Fiber based network infrastructures offer the data rates required by triple play services such as high speed internet access, VoIP and HD IPTV. The GSW-4448CM Ethernet access switch provides VLAN, QoS and IGMP L2 feature sets as well as robust security management to facilitate service provider's build out of a manageable and secure FTTx access 
+                            <p>The {PartNumber} is an SNMP manageable Gigabit Ethernet switch for FTTx deployment or Gigabit Ethernet fiber aggregation that is equipped with 48 1000Base-X CSFP ports included 4 Gigabit combo ports (RJ45 or CSFP slot) and 4 1G/10Gbps dual rate SFP+ slots. The GSW-4448CM supports a special BX optics (Compact SFP) which can double the fiber port density to 48 links, make it be attractive for the FTTx deployment and scenarios where increased user links are required in limited construction space. With advanced layer 2 and QoS features, this switch is targeted at multi-service operators (MSO) with a desire to deploy provisioned triple play services via active Ethernet FTTx network infrastructures. Fiber based network infrastructures offer the data rates required by triple play services such as high speed internet access, VoIP and HD IPTV. The GSW-4448CM Ethernet access switch provides VLAN, QoS and IGMP L2 feature sets as well as robust security management to facilitate service provider's build out of a manageable and secure FTTx access Network. 
                              </p>
                         </div>
                     </div>
