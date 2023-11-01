@@ -1,6 +1,6 @@
 import React from 'react';
 
-import productImg1 from '../../../../img/products/Telecom Switches/MSW_202-img.jpg'
+import productImg1 from '../../../../img/products/Telecom Switches/MSW-404-img.jpg'
 
 import Navbar from '../../../../Navbar';
 import Footer from '../../../../Footer';
@@ -151,7 +151,7 @@ const MSW_404   = () => {
                               <p className='listFeture'>  access control authentication, RADIUS authentication , </p>
                              <p className='listFeture'>   limited MAC address learning, IP/MAC binding, ACL rule </p>
                                <p className='listFeture'>  based filtering, TACACS+, IP source guard, DHCP  </p>
-                            
+                               <p className='listFeture'> snooping/relay option 82, ARP inspection </p>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,9 @@ const MSW_404   = () => {
                     <div id="home" className="container tab-pane active"><br />
                         <div className="container mt-3">
                             <h2>Overview</h2>
-
+                            <p>                               
+MSW-404 is a new generation of carrier grade Ethernet demarcation device for business connection and mobile backhaul transportation service delivered by carriers. The MSW-404 is equipped 4 SFP slots as dual rate 100/1000Base-X and 4 ports 10/100/1000Base-T RJ45 network interfaces. It is designed to enable E-Line, E-LAN, E-Tree services which are CE (Carrier Ethernet) 2.0 compliant for Metro Ethernet network deployments.
+                            </p>
                             <p>
                             The MSW-404 device enables carriers and service providers to delivered SLA-based network service with extensive fault detection and diagnostic capabilities which are compliant with the latest Ethernet OAM standards such as IEEE 802.3ah, IEEE 802.1ag and ITU-T Y.1731. With built-in RFC2544 and ITU-T Y.1564 feature sets, the MSW-404 also enables the service providers to perform the SLA verification anytime to ensure the quantitative latency, jitter and throughput delivery performance indexes. The CE2.0 compliant functions support EVCs and 3 colors marker QoS traffic management to enable service providers management of bandwidth and to enforce SLA guarantees
                              </p>

@@ -184,10 +184,9 @@ const MSW_4204   = () => {
                     <div id="home" className="container tab-pane active"><br />
                         <div className="container mt-3">
                             <h2>Overview</h2>
-
+                            <p>The next generation Carrier Ethernet Network Interface Device (NID) is designed for business connection in Ethernet virtual connection technology. The MSW-4204 is equipped with 2 SFP+ slots, dual rate 1G/10Gbps and 4 ports Gigabit RJ45 network interfaces. It can be configurable as either UNI or NNI device which are CE(Carrier Ethernet) 2.0 compliant for Metro Ethernet network deployments.</p>
                             <p>
-                            The MSW-4204 device enables carriers and service providers to delivered SLA-based network service with extensive fault detection and diagnostic capabilities which are compliant with the latest Ethernet OAM standards such as IEEE 802.3ah, IEEE 802.1ag and ITU-T Y.1731. With built-in RFC2544 and ITU-T Y.1564 feature sets, the MSW-4204 also enables the service providers to perform the SLA verification anytime to ensure the quantitative latency, jitter and throughput delivery performance indexes. The CE2.0 compliant functions support EVCs and 3 colors marker QoS traffic management to enable service providers management of bandwidth and to enforce SLA guarantees
-
+                            The MSW-4204 is positioned as an universal network interface device (NID) for most carrier Ethernet access applications. It has built-in hardware based Ethernet OAM engine and is compliant to the latest OAM standards to deliver the committed SLA performance KPIs measurement on a per service basis. 
                              </p>
                         </div>
                     </div>

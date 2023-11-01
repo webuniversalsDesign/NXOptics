@@ -139,6 +139,10 @@ const GSW_3424M1A = () => {
                                 <p className='listFeture '> IEEE 802.1ad QinQ VLAN</p>
                                 <p className='listFeture '> Voice VLAN; MAC based VLAN; Protocol based VLAN;</p>
                                 <p className='listFeture '> IP subnet based VLAN Private VLAN for port isolation</p>
+                                <p className='listFeture '>RADIUS/TACACS+ authentication </p>
+                               <p className='listFeture '> HTTPs & SSH v2  </p>
+                                <p className='listFeture '>IP/MAC binding </p>
+                               <p className='listFeture '> IP source guard & ARP inspection </p>
                             </div>
 
                             <div className='col-lg-6'>

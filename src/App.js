@@ -780,6 +780,9 @@ import MSW_4204S from './Component/Telecom Switches/L2 Eternet switches/NID & ED
 import FSW_2104 from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/FSW-2104';
 import GSW_1005MS from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/GSW-1005MS';
 import GSW_2008MS from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/GSW-2008MS';
+import GSW_2020C7 from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/GSW-2020C7';
+import GSW_2020P  from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/GSW-2020P';
+import QSW_4204M  from './Component/Telecom Switches/L2 Eternet switches/CPE Switches/QSW-4204M';
 
 
 import ServerStorage from './Component/ServerStorage';
@@ -803,6 +806,14 @@ import IGS_402CSW_4PH from './Component/IndustrialSwitches/POE Switch/IGS_402CSW
 import IQS_402XSM_4PH from './Component/IndustrialSwitches/POE Switch/IQS_402XSM_4PH';
 import IFS_402GSW_4PB from './Component/IndustrialSwitches/POE Switch/IFS_402GSW_4PB';
 import IFS_PLUS_803GSM_8PH from './Component/IndustrialSwitches/POE Switch/IFS_PLUS_803GSM_8PH';
+
+// /* Industrial Switches --> Celluar_Router   */
+
+
+import ICR_4103 from './Component/IndustrialSwitches/Celluar_Router/ICR-4103';
+
+
+
 import IGS_402S_4PH24 from './Component/IndustrialSwitches/POE Switch/IGS_402S_4PH24';
 import IGS_402SM_4PU from './Component/IndustrialSwitches/POE Switch/IGS_402SM_4PU';
 import IGS_402SW_4PB from './Component/IndustrialSwitches/POE Switch/IGS_402SW_4PB';
@@ -1628,6 +1639,9 @@ function App() {
 <Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/FSW-2104' element={<FSW_2104/>} />
 <Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-1005MS' element={<GSW_1005MS/>} />
 <Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2008MS' element={<GSW_2008MS/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2020C7' element={<GSW_2020C7/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2020P' element={<GSW_2020P/>} />
+<Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/QSW-4204M' element={<QSW_4204M/>} />
 
 
 {/* Industrial Switches --> E-Mark Certified Ethernet Switches */}
@@ -1665,6 +1679,14 @@ function App() {
 <Route path="/Industrial_Switches/POE_Switches/IGS_803SM_8PH24__IGS_402SM_4PH24" element={<IGS_803SM_8PH24__IGS_402SM_4PH24/>}/>
 <Route path="/Industrial_Switches/POE_Switches/IGS_1604XSM_16PH" element={<IGS_1604XSM_16PH/>}/>
 <Route path="/Industrial_Switches/POE_Switches/IGS_plus_402SM_4PH24" element={<IGS_plus_402SM_4PH24/>}/>
+
+
+
+
+
+{/* Industrial Switches --> Celluar_Router   */}
+<Route path="/Industrial_Switches/Celluar_Router/ICR-4103" element={<ICR_4103/>}/>
+
 
 
     </Routes>

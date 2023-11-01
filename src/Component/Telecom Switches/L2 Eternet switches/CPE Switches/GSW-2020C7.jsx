@@ -1,11 +1,15 @@
+
+
 import React from 'react';
 
-import productImg1 from '../../../../img/products/Telecom Switches/GSW-4208CM-img.jpg'
+import productImg1 from '../../../../img/products/Telecom Switches/GSW-2020C7-img.jpg'
 
 import Navbar from '../../../../Navbar';
 import Footer from '../../../../Footer';
 
-import Application from '../../../../img/products/Telecom Switches/GSW-4208CM-application.jpg'
+import Application from '../../../../img/products/Telecom Switches/GSW-2020C7-application.jpg'
+import module from '../../../../img/products/Telecom Switches/GSW-2020C7-module.jpg'
+import Application2 from '../../../../img/products/Telecom Switches/GSW-2020C7-product picture.jpg'
 
 
 import { BsCartCheck } from 'react-icons/bs';
@@ -20,10 +24,10 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery';
 import EnquireForm from '../../../EnquireForm';
 
-const GSW_4208CM  = () => {
+const GSW_2020C7 = () => {
 
-    let PartNumber = "GSW-4208CM";
-    let productName = "8× GbE/RJ45 + 2× 1G/10G SFP+ L2+ Managed Ethernet Switch";
+    let PartNumber = "GSW-2020C7";
+    let productName = "7x GbE, RJ45 + 1x Dual Rate SFP L2+ Managed CPE Switch with Cable Tray & CATV RF Receiver Module ";
 
     return (
         <>
@@ -120,51 +124,63 @@ const GSW_4208CM  = () => {
                         &nbsp;
                         <p style={{ fontWeight: "500" }}><MdSecurity /> Test Support</p>
                     </div>
+                    <h5>Features</h5>
+
+                    <p className='listFeture '> Built-in IPTV probe feature can monitor IPTV service quality and performance in real-time </p>
+                    
+                    <p className='listFeture '> Smart interrogator function - automatically gather vital information from the CPE at all times and store in database accessible by the operator </p>
+                    
+                    
+                    <p className='listFeture '> Optional integrated CTC in-house developed CATV RF receiver to provision CATV based triple play service </p>
+                    
+                    <p className='listFeture '> Smart fiber tray design makes fiber cable management more handy</p>
 
 
-                    <h5>Fully Layer 2+ Management </h5>
-
-                    <p className='listFeture '>The GSW-4208CM is equipped with 8 Gigabit RJ45 ports and 2 1G/10G SFP+ based fiber optics ports. It is also a feature complete L2+ switch which guarantees high network availability, robust network access and security, as well as comprehensive QoS in the network edge. It will deliver the benefits of optimal traffic transportation performance and lower ownership cost while maintaining simple  network deployment. 
-                     </p>
-               
                     <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
 
                         <div className='row'>
                             <div className='col-lg-6'>
-                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>VLAN feature</h5>
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> QoS feature</h5>
 
-                                <p className='listFeture '> IEEE 802.1Q tagged VLAN (4K VLAN groups) </p>
-                                <p className='listFeture '>  IEEE 802.1ad QinQ VLAN  </p>
-                                <p className='listFeture '> Voice VLAN; MAC based VLAN; Protocol based VLAN;  </p>
-                                <p className='listFeture '> IP subnet based VLAN  </p>
-                                <p className='listFeture '> Private VLAN for port isolation; VLAN translation </p>
-                                <p className='listFeture '>  GVRP (GARP VLAN registration protocol) </p>
+                                 
+                                 <p className='listFeture '>Hard wired IEEE 802.1p 8 priority queues per port  </p>
+                                 <p className='listFeture '>Traffic scheduling based on strict/WRR priority  </p>
+                                 <p className='listFeture '>CoS based traffic classification on switch port, VLAN  </p>
+                                 <p className='listFeture '>ID, DSCP, TCP/UDP port  </p>
+                                 <p className='listFeture '>IEEE 802.1p priority tag remarking; DSCP remarking  </p>
+                                 <p className='listFeture '>Per Port/Queue based ingress/egress rate limit in  </p>
+                                 <p className='listFeture '>steps of 100kbps </p>
+                                 <p className='listFeture '> IEEE 802.3x flow control  </p>
+                                 <p className='listFeture '>Multicast/Broadcast/Unicast storm control with </p>
+                                 <p className='listFeture '> flooding control </p>
+                           
                             </div>
 
                             <div className='col-lg-6'>
 
 
-                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Security
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Security
                                 </h5>
 
-
-                               <p className='listFeture'> Static port security (MAC based) </p>
-                               <p className='listFeture'>  Per port limited MAC learning </p>
-                               <p className='listFeture'>  Port based/MAC base/single/multiple IEEE 802.1x  </p>
-                               <p className='listFeture'> access control </p>
-                               <p className='listFeture'>  256 ACL rules based on L2~L4 information </p>
-                               <p className='listFeture'>  RADIUS/TACACS+ authentication </p>
-                               <p className='listFeture'>  HTTPs & SSH v2  </p>
-                               <p className='listFeture'>IP/MAC binding  </p>
-                               <p className='listFeture'>IP source guard & ARP inspection </p>
+              
+                                  <p className='listFeture'>Static port security (MAC based) </p>
+                                  <p className='listFeture'> Per port limited MAC learning  </p>
+                                  <p className='listFeture'>Port based/MAC base/single/multiple IEEE 802.1x  </p>
+                                  <p className='listFeture'>access control  </p>
+                                  <p className='listFeture'>256 ACL rules based on L2~L4 information  </p>
+                                  <p className='listFeture'>RADIUS/TACACS+ authentication </p>
+                                  <p className='listFeture'> HTTPs & SSH v2 </p>
+                                  <p className='listFeture'> IP/MAC binding </p>
+                                  <p className='listFeture'> IP source guard & ARP inspection </p>
+                          
                             </div>
-
                         </div>
                     </div>
                 </div>
 
             </div>
+
 
             <div className='container pt-lg-5  pb-lg-5'>
                 <div className='resp-overflow'>
@@ -186,9 +202,14 @@ const GSW_4208CM  = () => {
                             <h2>Overview</h2>
 
                             <p>
-                            The new generation L2+ managed Ethernet switch, GSW-4208CM, is designed for SMB and FTTH networks. The 10G uplink ports relieve the insufficiency of Gigabit links for new demanding bandwidth consumption applications such as 4K UHD video streaming, WiFi-6 network and cloud service access in the enterprise and SOHO environment.
-
-                            </p>
+                            The GSW-2020C7 is a new generation CPE switch developed by CTC Union Technologies. This new CPE switch is designed with 7 ports 10/100/1000Base-T RJ45 and 1 port 100/1000Base-X SFP based fiber optics for P2P FTTH service applications. Its design concept is well considered from the basis of stylish and elegant appearance for the residential user as well as the advantage of easy installation for the FTTH service provider. Hence, the GSW-2020C7 makes an Internet connected device no longer like the legacy ones hidden in the corner of household. Oppositely, it can become as an eye-catching furniture to blend into the overall decoration aesthetics at home. As usual, the GSW-2020C7 adopts the evolutionary cable tray structural design to help the installer more easily and protectively manage the excess fiber within the unit
+                             </p>
+                             <p>
+                             In addition a CATV RF receiver module is an optional feature which can be integrated into the GSW-2020C7. The seamless integration of both H/W and S/W design between GSW-2020C7 and CATV RF receiver existing the cable operator or multi-service provider (MSO) to be able to provision the new services along with the CATV service via their existing pipeline infrastructure. This can generate additional revenue income from their existing subscriber base or even attract new subscribers.
+                             </p>
+                             <p>
+                             The GSW-2020C7 fully supports Layer 2 feature sets with complete network management interfaces such as Web GUI, CLI and SNMP. The GSW-2020C7 also supports DHCP auto provisioning and TR-069 client function which are suitable for the very large scale deployment from operator or service provider. Both device management features can avoid truck rolls and save OPEX for FTTH service providers.
+                             </p>
                         </div>
                     </div>
 
@@ -200,19 +221,29 @@ const GSW_4208CM  = () => {
                 <h1 className='pb-4'>Application</h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
-                    <img src={Application} className='sectionImg2_1' alt="memorymapImg" />
+                    <img src={Application} className='sectionImg2' alt="memorymapImg" />
                 </div>
-              
+
             </div>
 
+            <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+                <h1 className='pb-4'>CATV RF Receiver Module</h1>
+
+                <div className='d-flex justify-content-center' style={{ width: "100%" }}>
+                    <img src={module} className='sectionImg2_1' alt="memorymapImg" />
+                </div>
+
+            </div>
 
             {/* Mechanical Dimensions section start */}
 
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                {/* <h1 className='pb-4'>Dimensions </h1> */}
+                <h1 className='pb-4'>Product Picture </h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     {/* <img src={dime1} className='sectionImg2_1' alt="Transceiver Block Diagram"/> */}
+                    <img src={Application2} className='sectionImg2' alt="memorymapImg" />
+
                 </div>
                 <br />
                 {/* <br/>
@@ -233,4 +264,5 @@ const GSW_4208CM  = () => {
     )
 }
 
-export default GSW_4208CM ;
+export default GSW_2020C7
+ ;
