@@ -147,7 +147,6 @@ Peer Transparent Clock, End to End Transparent Clock, Master, Slave mode by each
 
 <p className='listFeture '>IEEE 802.3 10Base-T 10Mbit/s Ethernet</p>
 <p className='listFeture '>IEEE 802.3u 100Base-TX, 100Base-FX, Fast Ethernet</p>
-<p className='listFeture'>IEEE 802.3ab  1000Base-T Gbit/s Ethernet over twisted pair</p>
 <p className='listFeture'>IEEE 802.3z  1000Base-X Gbit/s Ethernet over twisted pair</p>
 <p className='listFeture'>IEEE 802.3at   PoE+ (Power over Ethernet enhancements)</p>
 <p className='listFeture'>IEEE 802.3af PoE (Power over Ethernet)</p>
@@ -230,7 +229,7 @@ SFP port supports 100/1000M dual speed with DDMI </p>
  <p className='listFeture'><b>HTTP over IPv6</b> Supported</p>
  <p className='listFeture'><b>SSH over IPv6</b> Supported</p>
  <p className='listFeture'><b>IPv6 Telnet</b> Supported</p>
- <p className='listFeture'><b>IPv6 NTP</b> Client</p>
+ <p className='listFeture'><b>IPv6 NTP, SNTP</b> Client</p>
  <p className='listFeture'><b>IPv6 TFTP</b> Supported</p>
  <p className='listFeture'><b>IPv6 QoS</b> Supported</p>
  <p className='listFeture'><b>IPv6 ACL</b>Number of rules: up to 256 entries <br/>
@@ -258,9 +257,8 @@ SFP port supports 100/1000M dual speed with DDMI </p>
 <p className='listFeture'>PoE Configuration</p>
 <p className='listFeture'>PoE Enable/Disable</p>
 <p className='listFeture'>Power limit by classification</p>
-<p className='listFeture'>Power limit by management</p>
 <p className='listFeture'>Power feeding priority</p>
-<p className='listFeture'>Total PoE Power budge limitation (maximum 120W)</p>
+<p className='listFeture'>Total PoE Power budge limitation (maximum 240W)</p>
         </div>
     </div>
 </div>

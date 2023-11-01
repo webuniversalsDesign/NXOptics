@@ -129,7 +129,6 @@ const IFS_402CGSW_4PH = () => {
 <p className='listFeture '>  Redundant power input</p>
 <p className='listFeture '>Provides 4 port IEEE 802.3af / 802.3at PoE output</p>
 <p className='listFeture '>  Cable diagnostics </p>
-<p className='listFeture '>Supports DIP switch to set broadcast storm protection, SFP Auto/Force Mode, SFP 100M/1000M ; RJ45 Auto/force mode, 10M/100M, Full/half.</p>
 <p className='listFeture '> Provides SmartConfig for quick and easy mass Configuration*</p>
 <p className='listFeture '> Supports SmartView for Centralized Management*</p>
 
@@ -189,7 +188,7 @@ PoE Output Power Off : Off</p>
    <div className='col-lg-6'>
  <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Connector</h5>
 
-   <p className='listFeture'>4x 10/100Base-TX RJ-45 + 2x FE/GbE SFP slot
+   <p className='listFeture'>4x 10/100Base-TX RJ-45 + 2x FE/GbE SFP slot<br/>
 RJ-45 UTP port support Auto negotiation speed,
 Auto MDI/MDI-X function,
 SFP ports support FE/GbE with DDMI  </p>
@@ -217,7 +216,7 @@ SFP ports support FE/GbE with DDMI  </p>
 
         </div>
         <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>MVR ( Multicast VLAN Registration)</h5>
+ <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IPv6 Features</h5>
  <p className='listFeture'><b>IPv6 Management</b> Telnet Server/ICMP v6</p>
  <p className='listFeture'><b>SNMP over IPv6</b> Supported</p>
  <p className='listFeture'><b>HTTP over IPv6</b> Supported</p>

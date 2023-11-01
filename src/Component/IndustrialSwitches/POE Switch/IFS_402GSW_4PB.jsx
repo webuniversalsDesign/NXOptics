@@ -137,25 +137,25 @@ const IFS_402GSW_4PB = () => {
  <div className='col-lg-6'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IEEE Standard</h5>
 
-<p className='listFeture '>IEEE 802.3 10Base-T 10Mbit/s Ethernet</p>
+ <p className='listFeture '>IEEE 802.3 10Base-T 10Mbit/s Ethernet</p>
 <p className='listFeture '>IEEE 802.3u 100Base-TX, 100Base-FX, Fast Ethernet</p>
-<p className='listFeture'>IEEE 802.3ab  1000Base-T Gbit/s Ethernet over twisted pair</p>
-<p className='listFeture'>IEEE 802.3z  1000Base-X Gbit/s Ethernet over twisted pair</p>
-<p className='listFeture'>IEEE 802.3at   PoE+ (Power over Ethernet enhancements)</p>
-<p className='listFeture'>IEEE 802.3af PoE (Power over Ethernet)</p>
-<p className='listFeture'>EEE802.3bt PoE+ (Power over Ethernet)</p>
-<p className='listFeture'>IEEE 802.3X  Flow control for full duplex</p>
-<p className='listFeture'>IEEE 802.1d STP (Spanning Tree Protocol)</p>
-<p className='listFeture'>IEEE 802.1w RSTP (Rapid Spanning Tree Protocol )</p>
-<p className='listFeture'>IEEE 802.1s MSTP (Multiple Spanning Tree Protocol)</p>
-<p className='listFeture'>IEEE 802.1Q Virtual LANs (VLAN)</p>
-<p className='listFeture'>IEEE 802.1X Port based and MAC based Network  Access Control, Authentication</p>
-<p className='listFeture'>IEEE802.3ac Max frame size extended to 1522Bytes</p>
-<p className='listFeture'>IEEE 802.3ad Link aggregation for parallel links with LACP(Link Aggregation Control Protocol)</p>
-<p className='listFeture'>IEEE 802.1ad Stacked VLANs, Q-in-Q</p>
-<p className='listFeture'>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for Traffic Prioritization</p>
-<p className='listFeture'>IEEE 802.1ab Link Layer Discovery Protocol (LLDP)</p>
-<p className='listFeture'>IEEE 802.3az EEE (Energy Efficient Ethernet)</p>
+<p className='listFeture '>IEEE 802.3ab 1000Base-T Gbit/s Ethernet over twisted pair</p>
+<p className='listFeture '>IEEE 802.3z 1000Base-X Gbit/s Ethernet over Fiber-Optic</p>
+<p className='listFeture '>IEEE 802.3af PoE (Power over Ethernet)</p>
+<p className='listFeture '>IEEE 802.3at PoE+ (Power over Ethernetenhancements)</p>
+<p className='listFeture '>IEEE802.3bt PoE++</p>
+<p className='listFeture '>IEEE 802.1d STP (Spanning Tree Protocol)</p>
+<p className='listFeture '>IEEE 802.1w RSTP (Rapid Spanning Tree Protocol )</p>
+<p className='listFeture '>IEEE 802.1s MSTP (Multiple Spanning Tree Protocol)</p>
+<p className='listFeture '>IEEE 802.1Q Virtual LANs (VLAN)</p>
+<p className='listFeture '>IEEE 802.1X Port based and MAC based Network Access Control, Authentication</p>
+<p className='listFeture '>IEEE802.3ac Max frame size extended to 1522Bytes</p>
+<p className='listFeture '>IEEE 802.3adLink aggregation for parallel links with LACP(Link Aggregation Control Protocol)</p>
+<p className='listFeture '>IEEE 802.3x Flow control for Full Duplex</p>
+<p className='listFeture '>IEEE 802.1ad Stacked VLANs, Q-in-Q</p>
+<p className='listFeture '>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for Traffic Prioritization</p>
+<p className='listFeture '>IEEE 802.1ab Link Layer Discovery Protocol (LLDP)</p>
+<p className='listFeture '>IEEE 802.3az EEE (Energy Efficient Ethernet)</p>
  </div>
 
 
@@ -219,7 +219,7 @@ SFP port supports 100/1000 dual speed with DDMI </p>
  <p className='listFeture'><b>HTTP over IPv6</b> Supported</p>
  <p className='listFeture'><b>SSH over IPv6</b> Supported</p>
  <p className='listFeture'><b>IPv6 Telnet</b> Supported</p>
- <p className='listFeture'><b>IPv6 NTP</b> Client</p>
+ <p className='listFeture'><b>IPv6 NTP, SNTP</b> Client</p>
  <p className='listFeture'><b>IPv6 TFTP</b> Supported</p>
  <p className='listFeture'><b>IPv6 QoS</b> Supported</p>
  <p className='listFeture'><b>IPv6 ACL</b>Number of rules: up to 256 entries <br/>
@@ -247,9 +247,8 @@ SFP port supports 100/1000 dual speed with DDMI </p>
 <p className='listFeture'>PoE Configuration</p>
 <p className='listFeture'>PoE Enable/Disable</p>
 <p className='listFeture'>Power limit by classification</p>
-<p className='listFeture'>Power limit by management</p>
 <p className='listFeture'>Power feeding priority</p>
-<p className='listFeture'>Total PoE Power budge limitation (maximum 120W)</p>
+<p className='listFeture'>Total PoE Power budge limitation (maximum 240W)</p>
         </div>
     </div>
 </div>

@@ -152,6 +152,7 @@ const IGS_402CSW_4PH = () => {
 <p className='listFeture'>IEEE 802.1X Port based and MAC based Network  Access Control, Authentication</p>
 <p className='listFeture'>IEEE802.3ac Max frame size extended to 1522Bytes</p>
 <p className='listFeture'>IEEE 802.3ad Link aggregation for parallel links with LACP(Link Aggregation Control Protocol)</p>
+<p className='listFeture'>IEEE 802.3x Flow control for Full Duplex</p>
 <p className='listFeture'>IEEE 802.1ad Stacked VLANs, Q-in-Q</p>
 <p className='listFeture'>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for Traffic Prioritization</p>
 <p className='listFeture'>IEEE 802.1ab Link Layer Discovery Protocol (LLDP)</p>

@@ -151,7 +151,6 @@ const IQS_402XSM_4PH = () => {
 <p className='listFeture'>IEEE 802.3ab  1000Base-T Gbit/s Ethernet over twisted pair</p>
 <p className='listFeture'>IEEE 802.3bz 2.5GBase-T</p>
 <p className='listFeture'>IEEE 802.3z  1000Base-X Gbit/s Ethernet over Fiber-Optic</p>
-<p className='listFeture'>IEEE 802.3at   PoE+ (Power over Ethernet enhancements)</p>
 <p className='listFeture'>IEEE802.3ae 10G bit/s Ethernet over Fiber</p>
 <p className='listFeture'>ITU-T G.8032 / Y.1344 ERPS (Ethernet Ring Protection Switching)</p>
 <p className='listFeture'>ITU-T G.8031 / Y.1342 EPS (Ethernet Protection Switching)</p>
@@ -236,7 +235,7 @@ PoE Output Power Off : Off </p>
         <div className='col-md-6'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>IP Multicasting Features</h5>
  <p className='listFeture'><b>IGMP / MLD Snooping</b></p>
-<p className='listFeture'>IGMP / MLD Snooping </p>
+<p className='listFeture'>IGMP Snooping v1, v2, v3 / MLD Snooping v1, v2 </p>
 <p className='listFeture'>Port Filtering Profile</p>
 <p className='listFeture'>Throttling, Fast Leave</p>
 <p className='listFeture'>Maximum Multicast Group : up to 1022 entries</p>
@@ -245,14 +244,13 @@ PoE Output Power Off : Off </p>
         </div>
         <div className='col-md-6'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Advanced PoE</h5>
- <p className='listFeture'>Management</p>
+ <p className='listFeture'><b>Management</b></p>
 <p className='listFeture'>PoE PD failure auto checking ,and auto reset when PD fail</p>
 <p className='listFeture'>PoE port on/off weekly scheduling</p>
 <p className='listFeture'>PoE Configuration</p>
 <p className='listFeture'>PoE Enable/Disable</p>
 <p className='listFeture'>Power limit by classification</p>
 <p className='listFeture'>Power limit by management</p>
-<p className='listFeture'>Power feeding priority</p>
 <p className='listFeture'>Total PoE Power budge limitation (maximum 120W)</p>
 <p className='listFeture'>Power feeding priority</p>
         </div>

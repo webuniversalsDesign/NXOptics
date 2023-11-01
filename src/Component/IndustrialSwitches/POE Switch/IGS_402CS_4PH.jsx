@@ -184,65 +184,6 @@ Full/Half duplex </p>
 </div>
 </div>
 
-
-<h5 className='pt-4'>Software Specifications</h5>
-<div className='container-fluid'>
-    <div className='row'>
-        <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>VLAN</h5>
-<p className='listFeture'>IEEE 802.1q VLAN,up to 4094 802.1Q VLAN VID</p>
-<p className='listFeture'>IEEE 802.1q VLAN,up to 4094 Groups </p>
-<p className='listFeture'>IEEE 802.1ad Q-in-Q </p>
-<p className='listFeture'>MAC-based VLAN,up to 256 entries </p>
-<p className='listFeture'>IP Subnet-based VLAN, up to 128 entries</p>
-<p className='listFeture'>Protocol-based VLAN(Ethernt, SNAP, LLC), up to 128 entries</p>
-<p className='listFeture'>VLAN Translation, up to 256 entries </p>
-<p className='listFeture'>Private VLAN for port isolation</p>
-<p className='listFeture'>GVRP (GARP VLAN Registration Protocal)</p>
-<p className='listFeture'>MVR ( Multicast VLAN Registration)</p>
-
-        </div>
-        <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>MVR ( Multicast VLAN Registration)</h5>
- <p className='listFeture'><b>IPv6 Management</b> Telnet Server/ICMP v6</p>
- <p className='listFeture'><b>SNMP over IPv6</b> Supported</p>
- <p className='listFeture'><b>HTTP over IPv6</b> Supported</p>
- <p className='listFeture'><b>SSH over IPv6</b> Supported</p>
- <p className='listFeture'><b>IPv6 Telnet</b> Supported</p>
- <p className='listFeture'><b>IPv6 NTP</b> Client</p>
- <p className='listFeture'><b>IPv6 TFTP</b> Supported</p>
- <p className='listFeture'><b>IPv6 QoS</b> Supported</p>
- <p className='listFeture'><b>IPv6 ACL</b>Number of rules: up to 256 entries <br/>
- for L2 / L3 / L4 <br/>
- L2 : Mac address SA/DA/VLAN<br/>
- L3: IP address SIP ,Subnet (32bit)<br/>
- L4: TCP/UDP
- </p>
-
-        </div>
-        <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>ACL</h5>
-<p className='listFeture'>Number of rules : up to 256 entries </p>
-<p className='listFeture'>for L2 / L3 / L4 </p>
-<p className='listFeture'>L2 : Mac address SA/DA/VLAN</p>
-<p className='listFeture'>L3: IP address SA/DA, Subnet</p>
-<p className='listFeture'>L4: TCP/UDP</p>
-
-        </div>
-        <div className='col-md-6'>
- <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Management</h5>
-<p className='listFeture'>PoE PD failure auto checking ,and auto reset when PD fail</p>
-<p className='listFeture'>PoE port on/off weekly scheduling</p>
-<p className='listFeture'>PoE Configuration</p>
-<p className='listFeture'>PoE Enable/Disable</p>
-<p className='listFeture'>Power limit by classification</p>
-<p className='listFeture'>Power limit by management</p>
-<p className='listFeture'>Power feeding priority</p>
-<p className='listFeture'>Total PoE Power budge limitation (maximum 120W)</p>
-        </div>
-    </div>
-</div>
-
 </div>
 
 </div>
@@ -266,14 +207,12 @@ Full/Half duplex </p>
     <div className="container mt-3">
   <h2>Overview</h2>
   
- <p>These Gigabit Ethernet switch models are managed industrial grade L2 switches with 4 10/100Base-TX ports and 2 GbE/100M SFP 
-ports which also supports PoE+/PSE and provide stable and reliable transmission. Housed in rugged DIN rail or wall mountable 
-enclosures, these switches are designed for harsh environments, such as industrial networking. They are an ideal solution for Smart 
-City, surveillance, Intelligent traffic control systems, production automation applications and support up to 8/4 PoE/PoE+ (IEEE 
-802.3af/IEEE 802.3at) ports which can provide 15.4/30watts power output per port for connecting with heavy-duty industrial PoE 
-devices, such as PTZ IP surveillance cameras, high-performance wireless access points, digital signage and IP phones. Standard 
-operating temperature range models (-10 to 60°C) and wide operating temperature range models (-40 to 75°C) fulfill the special 
-needs of industrial automation applications. 
+ <p>The IGS-402CS-4PH is 6 Ports unmanaged industrial grade Ethernet PoE switches with 4x 10/100/1000Base-T PoE+/PoE that provide 
+stable and reliable Ethernet transmission. Housed in rugged DIN rail or wall mountable enclosures, these switches are designed for 
+harsh environments, such as industrial networking, security automation applications, IP Surveillance, intelligent transportation 
+systems (ITS) and are also suitable for many military and utility market applications where environmental conditions exceed commercial 
+product specifications. Standard operating temperature range models (-10 to 60°C) and wide operating temperature range models 
+(-40 to 75°C) fulfill the special needs of industrial automation applications.
 </p>
 </div>
 </div>

@@ -150,6 +150,7 @@ Transparent Clock, Master, Slave mode by each port</p>
 
 <p className='listFeture '>IEEE 802.3 10Base-T 10Mbit/s Ethernet</p>
 <p className='listFeture '>IEEE 802.3u  100Base-TX, 100Base-FX and Fast Ethernet</p>
+<p className='listFeture'>IEEE 802.3z 1000Base-T Gbit/s Ethernet over twisted pair</p>
 <p className='listFeture'>IEEE 802.3z 1000Base-X Gbit/s Ethernet over Fiber-Optic</p>
 <p className='listFeture'>IEEE 802.3at   PoE+ (Power over Ethernet enhancements)</p>
 <p className='listFeture'>IEEE 802.3af PoE (Power over Ethernet)</p>
