@@ -135,7 +135,7 @@ const MSW_4204S = () => {
                     </p>
 
 
-                    {/* <h5 className='mt-3'>Specifications</h5>
+                    <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
 
                         <div className='row'>
@@ -163,7 +163,7 @@ const MSW_4204S = () => {
                                 <p className='listFeture'>   MVR (Multicast VLAN Registration) </p>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
 
             </div>

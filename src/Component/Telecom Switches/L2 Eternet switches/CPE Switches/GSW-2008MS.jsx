@@ -131,7 +131,6 @@ const GSW_2008MS  = () => {
                     <p className='listFeture '>Supports IEEE 802.1p priority queue</p>
  
                     <p className='listFeture '>Supports IGMP snooping v1/v2/v3 </p>
-                    <p className='listFeture '>Supports DHCP auto provisioning </p>
                     <p className='listFeture '>Supports dying gasp </p>
                     <p className='listFeture '>Fiber cable tray(optional)</p>
 
@@ -218,7 +217,7 @@ const GSW_2008MS  = () => {
 
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
                 <h1 className='pb-4'>Cable Tray Assembly </h1>
-
+                <p>CT001/CT002 is an optional fiber tray and mounting hardware for deploying GSW-1005/2008 for residential fiber to the home applications. CT001/CT002 tray options is wall mounted, allowing secure termination of fiber leads</p>
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     {/* <img src={dime1} className='sectionImg2_1' alt="Transceiver Block Diagram"/> */}
                     <img src={Application2} className='sectionImg2_1' alt="memorymapImg" />

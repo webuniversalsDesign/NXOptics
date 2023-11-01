@@ -867,12 +867,12 @@ const Navbar = () => {
                                         <Link to="/" className='nolink-dec'>
                                         <li className='lastdrop-items indus-link5'><IoMdArrowDropright />Celluar Router
                                             <ul className='indus-inner-link5 list-item-tele'>
-                                                <Link to="/" className='nolink-dec'><li>ICR-4103</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>ICR-GW404</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>ICR-W401</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>ICR-W402</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>ICR-W403</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>ICR-W405_ ICR-405</li></Link>
+                                                <Link to="/Industrial_Switches/Celluar_Router/ICR-4103" className='nolink-dec'><li>ICR-4103</li></Link>
+                                                <Link to="/Industrial_Switches/Celluar_Router/ICR-GW404" className='nolink-dec'><li>ICR-GW404</li></Link>
+                                                <Link to="/Industrial_Switches/Celluar_Router/ICR-W401" className='nolink-dec'><li>ICR-W401</li></Link>
+                                                <Link to="/Industrial_Switches/Celluar_Router/ICR-W402" className='nolink-dec'><li>ICR-W402</li></Link>
+                                                <Link to="/Industrial_Switches/Celluar_Router/ICR-W403" className='nolink-dec'><li>ICR-W403</li></Link>
+                                                <Link to="/Industrial_Switches/Celluar_Router/ICR_W405_ICR_405" className='nolink-dec'><li>ICR-W405_&_ICR-405</li></Link>
                                             
                                             
                                             </ul>

@@ -1,12 +1,14 @@
+
+
 import React from 'react';
 
-import productImg1 from '../../../../img/products/Telecom Switches/GSW-1005MS-img.jpg'
+import productImg1 from '../../../img/products/Telecom Switches/ICR-W403-img.jpg'
+import Navbar from '../../../Navbar';
+import Footer from '../../../Footer';
 
-import Navbar from '../../../../Navbar';
-import Footer from '../../../../Footer';
-
-import Application from '../../../../img/products/Telecom Switches/GSW-1005MS-application.jpg'
-import Application2 from '../../../../img/products/Telecom Switches/CableTray.jpg'
+import Application from '../../../img/products/Telecom Switches/ICR-W403-application.jpg'
+import module from '../../../img/products/Telecom Switches/ICR-W403-dimension.jpg'
+import Application2 from '../../../img/products/Telecom Switches/ICR-W403-application2.jpg'
 
 
 import { BsCartCheck } from 'react-icons/bs';
@@ -19,12 +21,12 @@ import { Link } from 'react-router-dom';
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery';
-import EnquireForm from '../../../EnquireForm';
+import EnquireForm from '../../EnquireForm';
 
-const GSW_1005MS = () => {
+const ICR_W403 =() =>{
 
-    let PartNumber = "GSW-1005MS";
-    let productName = "5x GbE/RJ45 + 1x 1G/SFP L2+ Managed Ethernet Switch";
+    let PartNumber = "ICR-W403";
+    let productName = "4G LTE, GPS, IEEE 802.11ac/b/g/n 2T2R, 2x SIM, 3x GbE + DI/DO, RS232";
 
     return (
         <>
@@ -123,48 +125,87 @@ const GSW_1005MS = () => {
                     </div>
                     <h5>Features</h5>
 
-                    <p className='listFeture '>5-Port 10/100/1000Base-T + 100/1000Base-X SFP uplink </p>
-                    <p className='listFeture '>Supports 9.6K Bytes jumbo frame </p>
-                    <p className='listFeture '>Supports IEEE 802.1Q tagged VLAN & Q-in-Q VLAN stacking </p>
-                    <p className='listFeture '>Supports IEEE 802.1p priority queue</p>
- 
-                    <p className='listFeture '>Supports IGMP snooping v1/v2/v3 </p>
-                    <p className='listFeture '>Supports DHCP auto provisioning </p>
-                    <p className='listFeture '>Supports dying gasp </p>
-                    <p className='listFeture '>Fiber cable tray(optional)</p>
 
-
+                    
+                     
+                     <p className='listFeture'>IEEE 802.11 ac/b/g/n, multiple SSID, captive portal for WiFi hotspot 
+                     </p>
+                     <p className='listFeture'>Web, CLI ,SNMP, TR069, SMS for management and configuration 
+                     </p>
+                     <p className='listFeture'>Events triggered by pre-defined, and notification sent by SMS, SNMP trap, or e-mail  
+                     </p>
+                     <p className='listFeture'>Supports USB for log storage 
+                     </p>
+                     <p className='listFeture'>EN62368-1, CE, Radio RED, Rail Traffic EN50121-4 certified 
+                     </p>
+                     <p className='listFeture'>Rugged metal, IP30 protection & Fanless design
+                     </p>
 
                     <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
 
                         <div className='row'>
                             <div className='col-lg-6'>
-                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Standards</h5>
-
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Standard </h5>
                                 
-                                <p className='listFeture '>IEEE 802.3u, IEEE 802.3z, IEEE 802.3ae, </p>
-                                <p className='listFeture '>  IEEE 802.3x, IEEE 802.1p, IEEE 802.1Q, </p>
-                                <p className='listFeture '> IEEE 802.1ad, IEEE 802.1x, IEEE 802.1ab, </p>
-                                <p className='listFeture '> IEEE 802.3az </p>
-                           
+                                
+                               
+                               <p className='listFeture'> Cellular MobilComm standard: (Please see order 
+                               </p>
+                               <p className='listFeture'> information for optional band) 
+                               </p>
+                               <p className='listFeture'> 4G LTE: FDD-LTE, TDD-LTE 
+                               </p>
+                               <p className='listFeture'> 3G: WCDMA 
+                               </p>
+                               <p className='listFeture'> 2G: GSM/EDGE 
+                               </p>
+                               <p className='listFeture'> GNSS: GPS 
+                               </p>
+                               <p className='listFeture'> IEEE 802.3 10Base-T 10Mbit/s Ethernet 
+                               </p>
+                               <p className='listFeture'> IEEE 802.3u 100Base-TX Fast Ethernet 
+                               </p>
+                               <p className='listFeture'> IEEE 802.3ab 1000Base-T Gbit Ethernet over twisted pair 
+                               </p>
+                               <p className='listFeture'> IEEE 802.1Q Virtual LANs (VLAN) 
+                               </p>
+                               <p className='listFeture'> IEEE 802.3x Flow control for Full Duplex 
+                               </p>
+                               <p className='listFeture'> IEEE 802.1p LAN Layer 2 QoS for Traffic Prioritization 
+                               </p>
+                               <p className='listFeture'> IEEE 802.1X Port based and MAC based Network Access Control, Authentication
+                            </p>
                             </div>
+ 
+                            
+                            
+                          
+
+
 
                             <div className='col-lg-6'>
 
 
-                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'> Security
+                                <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>Connector
                                 </h5>
+                                 
+                                 
+                                 <p className='listFeture'>2x 2.3dBi LTE Antenna and connector 
+                                 </p>
+                                 <p className='listFeture'>2x 5dBi WiFi Antenna and connector 1x SMA Female connector for GPS antenna (Antenna optional)
+                                 </p>
+                                 <p className='listFeture'> 2 SIM card sockets 
+                                 </p>
+                                 <p className='listFeture'>1x USB 2.0 socket 
+                                 </p>
+                                 <p className='listFeture'>3 RJ45 for GbE LAN/WAN 
+                                 </p>
+                                 <p className='listFeture'>1x Removable Terminal block (Input power, 1x IGN, 
+                                 </p>
+                                 <p className='listFeture'>2x DI, 1x DO, RS232)
+                                </p>
 
-              
-                               
-                               <p className='listFeture'> Port based/single/multiple IEEE 802.1x access control </p>
-                                <p className='listFeture'> MAC based access control authentication </p>
-                                <p className='listFeture'> RADIUS authentication, limited MAC address learning </p>
-                                <p className='listFeture'> IP/MAC binding, ACL rule based filtering  </p>
-                                <p className='listFeture'>TACACS+, DHCP snooping/relay option 82  </p>
-                                <p className='listFeture'>ARP inspection, IP source guard  </p>
-                          
                             </div>
                         </div>
                     </div>
@@ -193,8 +234,9 @@ const GSW_1005MS = () => {
                             <h2>Overview</h2>
 
                             <p>
-                            GSW-1005MS is a managed Gigabit Ethernet CPE switch designed 5-Ports 10/100/1000Base-T RJ45 and 1 port 100/1000Base-X SFP based fiber optics. The traditional transmission distance of Gigabit Ethernet over RJ45 copper can be extended up to 100km over a fiber optics interface. GSW-1005MS has a optional cable tray that allows the installer to enclose the excess fiber within the unit, thus providing protection for the sensitive fiber at subscriber side. LEDs provide visual monitoring of Ethernet connected devices such as Ethernet home gateways, wireless access points or PC/laptop via 10/100/1000Base-T twisted pair RJ45 ports on GSW-1005MS. When GSW-1005MS is deployed as a stand-alone solution, it incorporates an easy to use Web user interface for operation, administration and maintenance both locally and remotely. All of the enabled Layer 2 features and functions of GSW-1005MS can be configured and monitored via web, CLI or SNMP management. GSW- 1005MS is particularly suitable for deploying and provisioning active Ethernet FTTX service of multi-service operators (MSO).
+                            The ICR-W403 is a high-performance industrial grade wireless router. It combines IEEE 802.11b/g/n/ac WLAN and 4G LTE cellular technologies to provide flexible wireless network connectivity for industrial applications. ICR-W403 provides 3 Ethernet ports and dual SIM cards for failover redundancy, to ensure uninterrupted connectivity. ICR-W403 has support for secure VPN communications, GPS, static and dynamic IP routing of RIP1/2 and OSPF, NAT, port forwarding, Firewall, built-in DI/DO and Serial port services. In addition, ICR-W403 uses the highest level of industrial grade design for connection in the most demanding environments, and is an ideal solution for Industrial Internet of Things (IIoT) and M2M (Machine-to-Machine) applications, such as remote control and monitoring, fleet management, bus ticketing collection systems, CCTV, SCADA, digital signage, KIOSK and intelligent traffic systems.
                              </p>
+                            
                         </div>
                     </div>
 
@@ -203,7 +245,7 @@ const GSW_1005MS = () => {
 
             {/* Memory Map Section Start */}
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                <h1 className='pb-4'>Application</h1>
+                <h1 className='pb-4'> Application of Wireless Transmission in Logistics Center </h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     <img src={Application} className='sectionImg2' alt="memorymapImg" />
@@ -211,24 +253,30 @@ const GSW_1005MS = () => {
 
             </div>
 
-
-            {/* Mechanical Dimensions section start */}
-
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                <h1 className='pb-4'>Cable Tray Assembly </h1>
-               <p>CT001/CT002 is an optional fiber tray and mounting hardware for deploying GSW-1005/2008 for residential fiber to the home applications. CT001/CT002 tray options is wall mounted, allowing secure termination of fiber leads</p>
+                <h1 className='pb-4'> Application of Vehicle Location Tracking System</h1>
+
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
-                    {/* <img src={dime1} className='sectionImg2_1' alt="Transceiver Block Diagram"/> */}
-                    <img src={Application2} className='sectionImg2_1' alt="memorymapImg" />
+                    <img src={Application2} className='sectionImg2' alt="memorymapImg" />
 
                 </div>
                 <br />
-                {/* <br/>
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={dime2} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
-</div> */}
+             
 
             </div>
+
+            <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+                <h1 className='pb-4'>Dimensions</h1>
+
+                <div className='d-flex justify-content-center' style={{ width: "100%" }}>
+                    <img src={module} className='sectionImg2_1' alt="memorymapImg" />
+                </div>
+
+            </div>
+
+            {/* Mechanical Dimensions section start */}
+
+           
             {/* Mechanical Dimensions section end */}
 
 
@@ -241,4 +289,5 @@ const GSW_1005MS = () => {
     )
 }
 
-export default GSW_1005MS;
+export default ICR_W403;
+

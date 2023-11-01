@@ -126,7 +126,7 @@ const MSW_404   = () => {
                     <h5>Features</h5>
 
                     <p className='listFeture '> The next generation of Ethernet demarcation device, at customer premise, fulfilling the large-scale carrier Ethernet deployment for intelligent business connection and mobile backhaul services complied to CE 2.0 standard. </p>
-                               <p className='listFeture '> E2.0 standards compliant product guarantees the fully interoperability with other MEF certified equipment and reduces the risks and cost of Carrier Ethernet network deployment for operators and service providers.
+                               <p className='listFeture '> CE2.0 standards compliant product guarantees the fully interoperability with other MEF certified equipment and reduces the risks and cost of Carrier Ethernet network deployment for operators and service providers.
  </p>
                     <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
