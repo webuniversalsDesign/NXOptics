@@ -832,6 +832,7 @@ import ICR_4103 from './Component/IndustrialSwitches/Celluar_Router/ICR-4103';
 import ICR_GW404 from './Component/IndustrialSwitches/Celluar_Router/ICR-GW404';
 import ICR_W401 from './Component/IndustrialSwitches/Celluar_Router/ICR-W401';
 import ICR_W402 from './Component/IndustrialSwitches/Celluar_Router/ICR-W402';
+import ICS_G24044X_24PH from './Component/IndustrialSwitches/Rackmount Switches/ICS_G24044X_24PH';
 
 
 function App() {
@@ -1705,6 +1706,8 @@ function App() {
 <Route path="/Industrial_Switches/Rackmount Switches/ICS_G24S4X__ICS_G24S2X" element={<ICS_G24S4X__ICS_G24S2X/>}/>
 <Route path="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH_AA" element={<ICS_G24044X_24PH_AA/>}/>
 <Route path="/Industrial_Switches/Rackmount Switches/ICS_GS24044X__ICS_G24044X__ICS_G4804X" element={<ICS_GS24044X__ICS_G24044X__ICS_G4804X/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH" element={<ICS_G24044X_24PH/>}/>
+
 
     </Routes>
 
