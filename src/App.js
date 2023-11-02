@@ -850,6 +850,8 @@ import IGS_2408SM_24PH_AA from './Component/IndustrialSwitches/Rackmount Switche
 import IGS_S2804GTM__IGS_2408SM__IGS_4804SM from './Component/IndustrialSwitches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM';
 import IGS_S2804TM from './Component/IndustrialSwitches/Rackmount Switches/IGS_S2804TM';
 import IXR_G24044X_24PH from './Component/IndustrialSwitches/Rackmount Switches/IXR_G24044X_24PH';
+import IXR_GS24044X__IXR_G24044X__IXR_G4804X from './Component/IndustrialSwitches/Rackmount Switches/IXR_GS24044X__IXR_G24044X__IXR_G4804X.jsx';
+import IXR_MG2404XS from './Component/IndustrialSwitches/Rackmount Switches/IXR_MG2404XS.jsx';
 
 
 function App() {
@@ -1737,6 +1739,9 @@ function App() {
 <Route path="/Industrial_Switches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM" element={<IGS_S2804GTM__IGS_2408SM__IGS_4804SM/>}/>
 <Route path="/Industrial_Switches/Rackmount Switches/IGS_S2804TM" element={<IGS_S2804TM/>}/>
 <Route path="/Industrial_Switches/Rackmount Switches/IXR_G24044X_24PH" element={<IXR_G24044X_24PH/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IXR_GS24044X__IXR_G24044X__IXR_G4804X" element={<IXR_GS24044X__IXR_G24044X__IXR_G4804X/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IXR_MG2404XS" element={<IXR_MG2404XS/>}/>
+
 
 
     </Routes>

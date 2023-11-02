@@ -152,6 +152,7 @@ const handleSubmit = async (e)=>{
       setAlertQtynum(!formData.qty ? 'Quantity is required' : '');
       setAlertName(!formData.companyname ? 'Company name is required' : '');
       setAlertEmailad(!formData.emailid ? 'Email is required' : '');
+      
       return; // Do not proceed with the submission
     }
     try {

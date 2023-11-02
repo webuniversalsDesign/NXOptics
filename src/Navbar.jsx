@@ -453,7 +453,7 @@ const Navbar = () => {
                                             <ul className='lastdrop'>
                                                 <Link to="/Tunable_10G_SFP_DWDM" className='nolink-dec'><li className='lastdrop-items'>  SFP+ DWDM Tunable</li></Link>
                                                 <Link to="/Products_DWDM_10G_SFP" className='nolink-dec'><li className='lastdrop-items'>  10G SFP+ DWDM</li></Link>
-                                                <Link to="/Products_CWDM_10G_SFP" className='nolink-dec'><li className='lastdrop-items'>  2.5G SFP DUAL</li></Link>
+                                                {/* <Link to="/Products_CWDM_10G_SFP" className='nolink-dec'><li className='lastdrop-items'>  2.5G SFP DUAL</li></Link> */}
                                                 <Link to="/SFP_PLUS_BIDI_Products" className='nolink-dec'><li className='lastdrop-items'>  10G SFP+ BIDI</li></Link>
                                                 <Link to="/Products_Dual_10G_SFP " className='nolink-dec'><li className='lastdrop-items'>  10G SFP+ DUAL</li></Link>
                                             </ul>
@@ -606,7 +606,7 @@ const Navbar = () => {
                                                 <Link to="/SFF_2X5_Products" className='nolink-dec'><li className='lastdrop-items'>125M/1.25G 2X5 SFF</li></Link>
                                             </ul>
                                         </li>
-                                        <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon" /> 1X9
+                                        {/* <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon" /> 1X9
                                             <ul className='lastdrop'>
                                                 <Link to="/" className='nolink-dec'><li className='lastdrop-items'>1.25G 1X9 BIDI</li></Link>
                                                 <Link to="/Dual_1X9_Products" className='nolink-dec'><li className='lastdrop-items'>1.25G 1X9 DUAL</li></Link>
@@ -616,15 +616,15 @@ const Navbar = () => {
                                                 <Link to="/Dual_125_155M_1X9" className='nolink-dec'><li className='lastdrop-items'>Dual_125_155M_1X9</li></Link>
 
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon" /> 125M 155M SFP
                                             <ul className='lastdrop'>
                                                 <Link to="/DWDM_SFP_115M_Products" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP DWDM</li></Link>
                                                 <Link to="/CWDW_SFP_155M_Products" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP CWDM</li></Link>
                                                 <Link to="/BIDI_155M_Products" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP BIDI</li></Link>
                                                 <Link to="/Products_Dual_SFP_155M" className='nolink-dec'><li className='lastdrop-items'>125M/155M SFP DUAL</li></Link>
-                                                <Link to="/Products_622M_SFP_BIDI" className='nolink-dec'><li className='lastdrop-items'>622M SFP BIDI</li></Link>
-                                                <Link to="/Products_622M_SFP_Dual" className='nolink-dec'><li className='lastdrop-items'>622M SFP DUAL</li></Link>
+                                                {/* <Link to="/Products_622M_SFP_BIDI" className='nolink-dec'><li className='lastdrop-items'>622M SFP BIDI</li></Link>
+                                                <Link to="/Products_622M_SFP_Dual" className='nolink-dec'><li className='lastdrop-items'>622M SFP DUAL</li></Link> */}
 
                                             </ul>
                                         </li>
@@ -916,8 +916,8 @@ const Navbar = () => {
                                                 <Link to="/Industrial_Switches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM" className='nolink-dec'><li>IGS-S2804GTM<br/>IGS-2408SM<br/>IGS-4804SM</li></Link>
                                                 <Link to="/Industrial_Switches/Rackmount Switches/IGS_S2804TM" className='nolink-dec'><li>IGS-S2804TM</li></Link>
                                                 <Link to="/Industrial_Switches/Rackmount Switches/IXR_G24044X_24PH" className='nolink-dec'><li>IXR-G24044X-24PH</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IXR-GS24044X<br/>IXR-G24044X<br/>IXR-G4804X</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IXR-MG2404XS</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IXR_GS24044X__IXR_G24044X__IXR_G4804X" className='nolink-dec'><li>IXR-GS24044X<br/>IXR-G24044X<br/>IXR-G4804X</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IXR_MG2404XS" className='nolink-dec'><li>IXR-MG2404XS</li></Link>
                                             
                                             </ul>
                                         </li>
