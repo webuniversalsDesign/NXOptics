@@ -854,6 +854,8 @@ import INJ_G90 from './Component/Telecom Switches/POE Switch/INJ-G90';
 import INJ_G30 from './Component/Telecom Switches/POE Switch/INJ-G30';
 import GSW_4424MP from './Component/Telecom Switches/POE Switch/GSW-4424MP';
 import PMC_1000S from './Component/Telecom Switches/POE Switch/PMC-1000S';
+import IXR_GS24044X__IXR_G24044X__IXR_G4804X from './Component/IndustrialSwitches/Rackmount Switches/IXR_GS24044X__IXR_G24044X__IXR_G4804X.jsx';
+import IXR_MG2404XS from './Component/IndustrialSwitches/Rackmount Switches/IXR_MG2404XS.jsx';
 
 
 function App() {
@@ -1745,6 +1747,9 @@ function App() {
 <Route path="/Industrial_Switches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM" element={<IGS_S2804GTM__IGS_2408SM__IGS_4804SM/>}/>
 <Route path="/Industrial_Switches/Rackmount Switches/IGS_S2804TM" element={<IGS_S2804TM/>}/>
 <Route path="/Industrial_Switches/Rackmount Switches/IXR_G24044X_24PH" element={<IXR_G24044X_24PH/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IXR_GS24044X__IXR_G24044X__IXR_G4804X" element={<IXR_GS24044X__IXR_G24044X__IXR_G4804X/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IXR_MG2404XS" element={<IXR_MG2404XS/>}/>
+
 
 
     </Routes>
