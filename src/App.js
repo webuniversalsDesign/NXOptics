@@ -837,11 +837,19 @@ import ICR_4103 from './Component/IndustrialSwitches/Celluar_Router/ICR-4103';
 import ICR_GW404 from './Component/IndustrialSwitches/Celluar_Router/ICR-GW404';
 import ICR_W401 from './Component/IndustrialSwitches/Celluar_Router/ICR-W401';
 import ICR_W402 from './Component/IndustrialSwitches/Celluar_Router/ICR-W402';
+import ICS_G24044X_24PH from './Component/IndustrialSwitches/Rackmount Switches/ICS_G24044X_24PH';
 import ICR_W403 from './Component/IndustrialSwitches/Celluar_Router/ICR-W403';
 import ICR_W405_ICR_405 from './Component/IndustrialSwitches/Celluar_Router/ICR-W405 & ICR-405';
 import GSW3208MP_1 from './Component/Telecom Switches/POE Switch/GSW3208MP-1';
 import GSW_3424MP from './Component/Telecom Switches/POE Switch/GSW-3424MP';
 import PMC_100PD from './Component/Telecom Switches/POE Switch/PMC-100PD';
+import IGS_2408SM_24PH from './Component/IndustrialSwitches/Rackmount Switches/IGS_2408SM_24PH';
+import IGR_2408SM_24PH from './Component/IndustrialSwitches/Rackmount Switches/IGR_2408SM_24PH';
+import IGR_S2804GTM__IGR_2408SM__IGR_4804SM from './Component/IndustrialSwitches/Rackmount Switches/IGR_S2804GTM__IGR_2408SM__IGR_4804SM';
+import IGS_2408SM_24PH_AA from './Component/IndustrialSwitches/Rackmount Switches/IGS_2408SM_24PH_AA';
+import IGS_S2804GTM__IGS_2408SM__IGS_4804SM from './Component/IndustrialSwitches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM';
+import IGS_S2804TM from './Component/IndustrialSwitches/Rackmount Switches/IGS_S2804TM';
+import IXR_G24044X_24PH from './Component/IndustrialSwitches/Rackmount Switches/IXR_G24044X_24PH';
 
 
 function App() {
@@ -1721,6 +1729,15 @@ function App() {
 <Route path="/Industrial_Switches/Rackmount Switches/ICS_G24S4X__ICS_G24S2X" element={<ICS_G24S4X__ICS_G24S2X/>}/>
 <Route path="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH_AA" element={<ICS_G24044X_24PH_AA/>}/>
 <Route path="/Industrial_Switches/Rackmount Switches/ICS_GS24044X__ICS_G24044X__ICS_G4804X" element={<ICS_GS24044X__ICS_G24044X__ICS_G4804X/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH" element={<ICS_G24044X_24PH/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IGS_2408SM_24PH" element={<IGS_2408SM_24PH/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IGR_2408SM_24PH" element={<IGR_2408SM_24PH/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IGR_S2804GTM__IGR_2408SM__IGR_4804SM" element={<IGR_S2804GTM__IGR_2408SM__IGR_4804SM/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IGS_2408SM_24PH_AA" element={<IGS_2408SM_24PH_AA/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM" element={<IGS_S2804GTM__IGS_2408SM__IGS_4804SM/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IGS_S2804TM" element={<IGS_S2804TM/>}/>
+<Route path="/Industrial_Switches/Rackmount Switches/IXR_G24044X_24PH" element={<IXR_G24044X_24PH/>}/>
+
 
     </Routes>
 

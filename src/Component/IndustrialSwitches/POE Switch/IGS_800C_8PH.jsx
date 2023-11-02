@@ -126,7 +126,6 @@ const IGS_800C_8PH = () => {
 
 <h5 className='pt-4'>Features</h5>
 
-<p className='listFeture '>48VDC (44~57VDC) redundant dual input power</p>
 <p className='listFeture'> Provides 8-port IEEE 802.3at/af PoE+ output, 30W/per port, total 240W</p>
 <p className='listFeture'>48VDC (44~57VDC) redundant dual input power</p> 
 <p className='listFeture'> Supports flow control</p>
@@ -215,12 +214,12 @@ speed, Auto MDI/MDI-X function, Full/Half duplex </p>
     <div className="container mt-3">
   <h2>Overview</h2>
   
- <p>These models are 6 port unmanaged industrial grade Gigabit PoE switches with 4x 10/100/1000Base-T PoE ports that provide stable 
-and reliable Ethernet transmission. Housed in rugged DIN rail or wall mountable enclosures, these switches are designed for harsh 
+ <p>IGS-800C-8PH is an unmanaged, industrial grade, Gigabit PoE switch with 8x 10/100/1000Base-T PoE ports that provide stable and 
+reliable Ethernet transmissions. Housed in rugged DIN rail or wall mountable enclosures, these switches are designed for harsh 
 environments, such as industrial networking, security automation applications, IP Surveillance, intelligent transportation systems (ITS) 
 and are also suitable for many military and utility market applications where environmental conditions exceed commercial product 
 specifications (See figure 1). Standard operating temperature range models (-10 to 60°C) and wide operating temperature range 
-models (-40 to 75°C) fulfill the special needs of industrial automation applications. 
+models (-40 to 70°C) fulfill the special needs of industrial automation applications.
 </p>
 </div>
 </div>

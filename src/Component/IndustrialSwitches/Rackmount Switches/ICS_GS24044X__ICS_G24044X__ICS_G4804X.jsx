@@ -9,7 +9,7 @@ import Footer from '../../../Footer';
 // import Application2 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-G24S4X-Application-2.jpeg'
 import dime1 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-GS24044X-Dimenssion-1.jpeg';
 import dime2 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-GS24044X-Dimenssion-2.jpeg';
-import dime3 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-GS24044X-Dimenssion-2.jpeg';
+import dime3 from '../../../img/products/industrialSwitches/Rackmount Switches/ICS-GS24044X-Dimenssion-3.jpeg';
 
 import { BsCartCheck } from 'react-icons/bs';
 import { LiaWarehouseSolid } from 'react-icons/lia';

@@ -863,7 +863,6 @@ const Navbar = () => {
                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_1602GS_8PH_IFS_802GS_8PH" className='nolink-dec'><li>IFS-1602GS-8PH, <br />IFS-802GS-8PH</li></Link>
                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_1608GSM_16PH_1G_2_5G_IFS_1608GSM_8PH" className='nolink-dec'> <li>IFS-1608GSM16PH, <br />IFS-1608GSM-8PH</li></Link> 
                                                  <Link to="/Industrial_Switches/POE_Switches/IFS_402CGS_4PH" className='nolink-dec'><li>IFS-402CGS-4PH</li></Link> 
-
                                                  <Link to="/Industrial_Switches/POE_Switches/IFS_402CGSW_4PH" className='nolink-dec'><li>IFS-402CGSW-4PH</li></Link> 
                                                  <Link to="/Industrial_Switches/POE_Switches/IFS_402GSM_4PU" className='nolink-dec'> <li>IFS-402GSM-4PU</li></Link>
                                                  <Link to="/Industrial_Switches/POE_Switches/IFS_803GSM_8PH24_IFS_402GSM_4PH24" className='nolink-dec'><li>IFS-803GSM-8PH24, <br />IFS-402GSM-4PH24</li></Link> 
@@ -872,7 +871,8 @@ const Navbar = () => {
                                                  <Link to="/Industrial_Switches/POE_Switches/IGS_402CSW_4PH" className='nolink-dec'><li>IGS-402CSW-4PH</li></Link> 
                                                  <Link to="/Industrial_Switches/POE_Switches/IQS_402XSM_4PH" className='nolink-dec'><li>IE-IQS-402XSM-4PH</li></Link> 
                                                  <Link to="/Industrial_Switches/POE_Switches/IFS_402GSW_4PB" className='nolink-dec'><li>IFS-402GSW-4PB</li></Link> 
-                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_PLUS_803GSM_8PH" className='nolink-dec'><li>IFS-plus-803GSM-8PH</li></Link> 
+                                                 <Link to="/Industrial_Switches/POE_Switches/IFS_PLUS_803GSM_8PH" className='nolink-dec'><li>IFS-plus-803GSM-8PH</li></Link>
+
                                                  <Link to="/Industrial_Switches/POE_Switches/IGS_402S_4PH24" className='nolink-dec'><li>IGS-402S-4PH24</li></Link> 
                                                  <Link to="/Industrial_Switches/POE_Switches/IGS_402SM_4PU" className='nolink-dec'><li>IGS-402SM-4PU</li></Link> 
                                                  <Link to="/Industrial_Switches/POE_Switches/IGS_402SW_4PB" className='nolink-dec'><li>IGS-402SW-4PB</li></Link> 
@@ -907,14 +907,15 @@ const Navbar = () => {
                                                 <Link to="/Industrial_Switches/Rackmount Switches/ICS_G24S4X__ICS_G24S2X" className='nolink-dec'><li>ICS-G24S4X<br/>ICS-G24S2X</li></Link>
                                                 <Link to="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH_AA" className='nolink-dec'><li>ICS-G24044X-24PH-AA</li></Link>
                                                 <Link to="/Industrial_Switches/Rackmount Switches/ICS_GS24044X__ICS_G24044X__ICS_G4804X" className='nolink-dec'><li>ICS-GS24044X<br/>ICS-G24044X<br/>ICS-G4804X</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IE-ICS-G24044X-24PH</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IE-IGS-2408SM-24PH</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGR-2408SM-24PH</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGR-S2804GTM<br/>IGR-2408SM<br/>IGR-4804SM</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGS-2408SM-24PH-AA</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGS-S2804GTM<br/>IGS-2408SM<br/>IGS-4804SM</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGS-S2804TM</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IXR-G24044X-24PH</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH" className='nolink-dec'><li>IE-ICS-G24044X-24PH</li></Link>
+                                                
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGS_2408SM_24PH" className='nolink-dec'><li>IE-IGS-2408SM-24PH</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGR_2408SM_24PH" className='nolink-dec'><li>IGR-2408SM-24PH</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGR_S2804GTM__IGR_2408SM__IGR_4804SM" className='nolink-dec'><li>IGR-S2804GTM<br/>IGR-2408SM<br/>IGR-4804SM</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGS_2408SM_24PH_AA" className='nolink-dec'><li>IGS-2408SM-24PH-AA</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM" className='nolink-dec'><li>IGS-S2804GTM<br/>IGS-2408SM<br/>IGS-4804SM</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGS_S2804TM" className='nolink-dec'><li>IGS-S2804TM</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IXR_G24044X_24PH" className='nolink-dec'><li>IXR-G24044X-24PH</li></Link>
                                                 <Link to="/" className='nolink-dec'><li>IXR-GS24044X<br/>IXR-G24044X<br/>IXR-G4804X</li></Link>
                                                 <Link to="/" className='nolink-dec'><li>IXR-MG2404XS</li></Link>
                                             

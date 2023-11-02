@@ -160,8 +160,8 @@ const IGS_1604XSM_16PH = () => {
 
 <p className='listFeture'>IEEE 802.3x Flow control for Full Duplex</p>
 <p className='listFeture'>IEEE 802.1ad Stacked VLANs, Q-in-Q</p>
-<p className='listFeture'>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for </p>
-Traffic Prioritization
+<p className='listFeture'>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for Traffic Prioritization</p>
+
 
 <p className='listFeture'>IEEE 802.1ab Link Layer Discovery Protocol (LLDP)</p>
 <p className='listFeture'>IEEE 802.3az EEE (Energy Efficient Ethernet)</p>

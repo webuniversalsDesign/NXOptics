@@ -147,7 +147,6 @@ const IGS_402SW_4PB = () => {
 <p className='listFeture '>IEEE 802.1d STP (Spanning Tree Protocol)</p>
 <p className='listFeture '>IEEE 802.1w RSTP (Rapid Spanning Tree Protocol )</p>
 <p className='listFeture '>IEEE 802.1s MSTP (Multiple Spanning Tree Protocol)</p>
-<p className='listFeture '>ITU-T G.8032 / Y.1344 ERPS (Ethernet Ring Protection Switching) </p>
 <p className='listFeture '>IEEE 802.1Q Virtual LANs (VLAN)</p>
 <p className='listFeture '>IEEE 802.1X Port based and MAC based Network Access Control, Authentication</p>
 <p className='listFeture '>IEEE802.3ac Max frame size extended to 1522Bytes</p>

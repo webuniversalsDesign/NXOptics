@@ -25,7 +25,7 @@ import EnquireForm from '../../EnquireForm';
 
 const ICS_G24044X_24PH_AA = () => {
 
-    let PartNumber = "ICS-G24S4X & ICS-G24S2X";
+    let PartNumber = "ICS-G24044X-24PH-AA";
     let productName ="24x GbE RJ45 + 4x 100/1000Base SFP + 4x 1G/2.5G/10G SFP with 24x PoE 150W, 110/240VAC";
 
 

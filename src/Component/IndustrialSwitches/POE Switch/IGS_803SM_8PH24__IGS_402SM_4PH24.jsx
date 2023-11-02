@@ -153,7 +153,7 @@ Transparent Clock, Master, Slave mode by each port</p>
 <p className='listFeture'>IEEE 802.3u 100Base-TX, 100Base-FX, Fast Ethernet</p>
 <p className='listFeture'>IEEE 802.3ab 1000Base-T Gbit/s Ethernet over twisted pair</p>
 <p className='listFeture'>IEEE 802.3z 1000Base-X Gbit/s Ethernet over Fiber-Optic</p>
-<p className='listFeture'>IEEE 802.3cb 2.5GBase-X</p>
+<p className='listFeture'>IEEE 802.3cb 2.5G Base-X</p>
 <p className='listFeture'>IEEE 802.3af PoE (Power over Ethernet)</p>
 <p className='listFeture'>IEEE 802.3at PoE+ (Power over Ethernet enhancements)</p>
 <p className='listFeture'>IEEE 802.1d STP (Spanning Tree Protocol)</p>
@@ -167,8 +167,8 @@ ITU-T G.8032 / Y.1344 ERPS (Ethernet Ring Protection Switching) </p>
 
 <p className='listFeture'>IEEE 802.3x Flow control for Full Duplex</p>
 <p className='listFeture'>IEEE 802.1ad Stacked VLANs, Q-in-Q</p>
-<p className='listFeture'>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for </p>
-Traffic Prioritization
+<p className='listFeture'>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for Traffic Prioritization</p>
+
 
 <p className='listFeture'>IEEE 802.1ab Link Layer Discovery Protocol (LLDP)</p>
 <p className='listFeture'>IEEE 802.3az EEE (Energy Efficient Ethernet)</p>
@@ -278,13 +278,16 @@ L4: TCP/UDP
         <div className='col-md-6'>
  <h5 style={{fontWeight:"500", fontSize:"16px"}} className='pt-3'>Advanced PoE</h5>
  <p className='listFeture'><b>Management</b></p>
-<p className='listFeture'>PoE PD failure auto checking, and auto reset when PD fail</p>
+
+<p className='listFeture'>PoE PD failure auto checking ,and auto reset when PD fail</p>
 <p className='listFeture'>PoE port on/off weekly scheduling</p>
 <p className='listFeture'>PoE Configuration</p>
 <p className='listFeture'>PoE Enable/Disable</p>
 <p className='listFeture'>Power limit by classification</p>
+<p className='listFeture'>Power limit by management</p>
 <p className='listFeture'>Power feeding priority</p>
-<p className='listFeture'>Total PoE Power budge limitation: maximum 240W</p>
+<p className='listFeture'>Total PoE Power budge limitation (maximum 120W for IGS-402SM-4PH24, 180W for IGS-803SM-8PH24)</p>
+
 
         </div>
     </div>
