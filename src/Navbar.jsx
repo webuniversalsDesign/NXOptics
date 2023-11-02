@@ -796,13 +796,35 @@ const Navbar = () => {
                                         </li>
                                         <li className='tele-inner-linkers2'><IoMdArrowDropright className="arrow-icon" /> POE Switch
                                             <ul className='tele-link2'>
+                                            <Link to="/Telecom_Switches/POE_Switches/GSW3208MP_1" className='nolink-dec'>          
                                                 <li className='tele-inner-linke2'>GSW3208MP-1</li>
+                                             </Link>    
+                                             <Link to="/Telecom_Switches/POE_Switches/PMC_100PD" className='nolink-dec'>          
+
                                                 <li className='tele-inner-linke2'>PMC-100PD</li>
+                                             </Link>    
+
+                                             <Link to="/Telecom_Switches/POE_Switches/INJ_G90" className='nolink-dec'>          
+                                               
                                                 <li className='tele-inner-linke2'>INJ-G90</li>
+                                              </Link>
+                                             <Link to="/Telecom_Switches/POE_Switches/INJ_G30" className='nolink-dec'>          
+                                               
                                                 <li className='tele-inner-linke2'>INJ-G30</li>
+                                              </Link>
+                                             <Link to="/Telecom_Switches/POE_Switches/GSW_3424MP" className='nolink-dec'>          
+                                                
                                                 <li className='tele-inner-linke2'>GSW-3424MP</li>
+                                              </Link>
+                                              <Link to="/Telecom_Switches/POE_SwitchesGSW_4424MP" className='nolink-dec'>          
+                                               
                                                 <li className='tele-inner-linke2'>GSW-4424MP</li>
-                                                <li className='tele-inner-linke2'>PMC-1000S</li>
+                                              </Link>
+                                               <Link to="/Telecom_Switches/POE_SwitchesPMC_1000S" className='nolink-dec'>          
+                                               
+                                                 <li className='tele-inner-linke2'>PMC-1000S</li>
+                                                </Link>
+                                                
                                             </ul>
                                         </li>
 

@@ -839,6 +839,9 @@ import ICR_W401 from './Component/IndustrialSwitches/Celluar_Router/ICR-W401';
 import ICR_W402 from './Component/IndustrialSwitches/Celluar_Router/ICR-W402';
 import ICR_W403 from './Component/IndustrialSwitches/Celluar_Router/ICR-W403';
 import ICR_W405_ICR_405 from './Component/IndustrialSwitches/Celluar_Router/ICR-W405 & ICR-405';
+import GSW3208MP_1 from './Component/Telecom Switches/POE Switch/GSW3208MP-1';
+import GSW_3424MP from './Component/Telecom Switches/POE Switch/GSW-3424MP';
+import PMC_100PD from './Component/Telecom Switches/POE Switch/PMC-100PD';
 
 
 function App() {
@@ -1658,6 +1661,12 @@ function App() {
 <Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2020C7' element={<GSW_2020C7/>} />
 <Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/GSW-2020P' element={<GSW_2020P/>} />
 <Route path='/Telecom_Switches/L2_Eternet_Switches/CPE Switches/QSW-4204M' element={<QSW_4204M/>} />
+
+{/* Telecom_Switches --> POE Switch */}
+<Route path='/Telecom_Switches/POE_Switches/GSW3208MP_1' element={<GSW3208MP_1/>} />
+<Route path='/Telecom_Switches/POE_Switches/GSW_3424MP' element={<GSW_3424MP/>} />
+<Route path='/Telecom_Switches/POE_Switches/PMC_100PD' element={<PMC_100PD/>} />
+
 
 
 {/* Industrial Switches --> E-Mark Certified Ethernet Switches */}
