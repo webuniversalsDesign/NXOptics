@@ -133,8 +133,6 @@ const IGS_600_4PH24__IGS_402F_4PH24 = () => {
 
 <h5 className='pt-4'>Features</h5>
 
-<p className='listFeture '>48VDC (44~57VDC) redundant dual input power</p>
-
 <p className='listFeture '>Provides 4-port IEEE 802.3at/af PoE+ output, 30W/per port</p> 
 <p className='listFeture '>Supports power failure alarm message by relay</p> 
 <p className='listFeture '>Supports flow control</p> 

@@ -886,13 +886,14 @@ const Navbar = () => {
                                                 <Link to="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH_AA" className='nolink-dec'><li>ICS-G24044X-24PH-AA</li></Link>
                                                 <Link to="/Industrial_Switches/Rackmount Switches/ICS_GS24044X__ICS_G24044X__ICS_G4804X" className='nolink-dec'><li>ICS-GS24044X<br/>ICS-G24044X<br/>ICS-G4804X</li></Link>
                                                 <Link to="/Industrial_Switches/Rackmount Switches/ICS_G24044X_24PH" className='nolink-dec'><li>IE-ICS-G24044X-24PH</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IE-IGS-2408SM-24PH</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGR-2408SM-24PH</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGR-S2804GTM<br/>IGR-2408SM<br/>IGR-4804SM</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGS-2408SM-24PH-AA</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGS-S2804GTM<br/>IGS-2408SM<br/>IGS-4804SM</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IGS-S2804TM</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IXR-G24044X-24PH</li></Link>
+                                                
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGS_2408SM_24PH" className='nolink-dec'><li>IE-IGS-2408SM-24PH</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGR_2408SM_24PH" className='nolink-dec'><li>IGR-2408SM-24PH</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGR_S2804GTM__IGR_2408SM__IGR_4804SM" className='nolink-dec'><li>IGR-S2804GTM<br/>IGR-2408SM<br/>IGR-4804SM</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGS_2408SM_24PH_AA" className='nolink-dec'><li>IGS-2408SM-24PH-AA</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM" className='nolink-dec'><li>IGS-S2804GTM<br/>IGS-2408SM<br/>IGS-4804SM</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IGS_S2804TM" className='nolink-dec'><li>IGS-S2804TM</li></Link>
+                                                <Link to="/Industrial_Switches/Rackmount Switches/IXR_G24044X_24PH" className='nolink-dec'><li>IXR-G24044X-24PH</li></Link>
                                                 <Link to="/" className='nolink-dec'><li>IXR-GS24044X<br/>IXR-G24044X<br/>IXR-G4804X</li></Link>
                                                 <Link to="/" className='nolink-dec'><li>IXR-MG2404XS</li></Link>
                                             
