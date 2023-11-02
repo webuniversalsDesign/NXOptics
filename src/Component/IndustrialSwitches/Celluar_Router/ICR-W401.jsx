@@ -158,8 +158,7 @@ const ICR_W401 =() =>{
                             </p>
                             <p className='listFeture'>IEEE 802.3u  100Base-TX Fast Ethernet 
                             </p>
-                            <p className='listFeture'>IEEE 802.3ab 1000Base-T Gbit Ethernet over twisted pair  
-                            </p>
+                            
                             <p className='listFeture'>IEEE 802.1Q  Virtual LANs (VLAN)    
                             </p>
                             <p className='listFeture'>IEEE 802.3x  Flow control for Full Duplex         
@@ -246,7 +245,7 @@ const ICR_W401 =() =>{
 
             {/* Memory Map Section Start */}
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                <h1 className='pb-4'> Application </h1>
+                <h1 className='pb-4'> The vending machine logistics system application</h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     <img src={Application} className='sectionImg2_1' alt="memorymapImg" />

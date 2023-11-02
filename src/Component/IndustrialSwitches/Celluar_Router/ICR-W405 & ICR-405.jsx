@@ -129,21 +129,17 @@ const ICR_W405_ICR_405 =() =>{
                     </div>
                     <h5>Features</h5>
 
-
                     
-                     
-                     <p className='listFeture'>IEEE 802.11 ac/b/g/n, multiple SSID, captive portal for WiFi hotspot 
-                     </p>
-                     <p className='listFeture'>Web, CLI ,SNMP, TR069, SMS for management and configuration 
-                     </p>
-                     <p className='listFeture'>Events triggered by pre-defined, and notification sent by SMS, SNMP trap, or e-mail  
-                     </p>
-                     <p className='listFeture'>Supports USB for log storage 
-                     </p>
-                     <p className='listFeture'>EN62368-1, CE, Radio RED, Rail Traffic EN50121-4 certified 
-                     </p>
-                     <p className='listFeture'>Rugged metal, IP30 protection & Fanless design
-                     </p>
+                     <p className='listFeture'>Highly reliable and secure for mission-critical cellular communications
+                    </p>
+                     <p className='listFeture'>2x SIM slots, RS232, RS485 serial ports and DI/DO interfaces
+                    </p>
+                     <p className='listFeture'>LED indicators for connection and data transmission status
+                    </p>
+                     <p className='listFeture'>Industrial temperature rated from -20 ~ +70°C for use in harsh environments 
+                    </p>
+                     <p className='listFeture'>Support serial communication protocols for rich connectivity
+</p>
 
                     <h5 className='mt-3'>Specifications</h5>
                     <div className='container-fluid'>
