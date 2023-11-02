@@ -816,11 +816,11 @@ const Navbar = () => {
                                                 
                                                 <li className='tele-inner-linke2'>GSW-3424MP</li>
                                               </Link>
-                                              <Link to="/Telecom_Switches/POE_SwitchesGSW_4424MP" className='nolink-dec'>          
+                                              <Link to="/Telecom_Switches/POE_Switches/GSW_4424MP" className='nolink-dec'>          
                                                
                                                 <li className='tele-inner-linke2'>GSW-4424MP</li>
                                               </Link>
-                                               <Link to="/Telecom_Switches/POE_SwitchesPMC_1000S" className='nolink-dec'>          
+                                               <Link to="/Telecom_Switches/POE_Switches/PMC_1000S" className='nolink-dec'>          
                                                
                                                  <li className='tele-inner-linke2'>PMC-1000S</li>
                                                 </Link>

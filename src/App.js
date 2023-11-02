@@ -850,6 +850,10 @@ import IGS_2408SM_24PH_AA from './Component/IndustrialSwitches/Rackmount Switche
 import IGS_S2804GTM__IGS_2408SM__IGS_4804SM from './Component/IndustrialSwitches/Rackmount Switches/IGS_S2804GTM__IGS_2408SM__IGS_4804SM';
 import IGS_S2804TM from './Component/IndustrialSwitches/Rackmount Switches/IGS_S2804TM';
 import IXR_G24044X_24PH from './Component/IndustrialSwitches/Rackmount Switches/IXR_G24044X_24PH';
+import INJ_G90 from './Component/Telecom Switches/POE Switch/INJ-G90';
+import INJ_G30 from './Component/Telecom Switches/POE Switch/INJ-G30';
+import GSW_4424MP from './Component/Telecom Switches/POE Switch/GSW-4424MP';
+import PMC_1000S from './Component/Telecom Switches/POE Switch/PMC-1000S';
 
 
 function App() {
@@ -1674,6 +1678,10 @@ function App() {
 <Route path='/Telecom_Switches/POE_Switches/GSW3208MP_1' element={<GSW3208MP_1/>} />
 <Route path='/Telecom_Switches/POE_Switches/GSW_3424MP' element={<GSW_3424MP/>} />
 <Route path='/Telecom_Switches/POE_Switches/PMC_100PD' element={<PMC_100PD/>} />
+<Route path='/Telecom_Switches/POE_Switches/INJ_G90' element={<INJ_G90/>} />
+<Route path='/Telecom_Switches/POE_Switches/INJ_G30' element={<INJ_G30/>} />
+<Route path='/Telecom_Switches/POE_Switches/GSW_4424MP' element={<GSW_4424MP/>} />
+<Route path='/Telecom_Switches/POE_Switches/PMC_1000S' element={<PMC_1000S/>} />
 
 
 
