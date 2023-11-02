@@ -136,8 +136,7 @@ const ICR_W402 =() =>{
                     </p>
                     <p className='listFeture'>  Provides IEEE 802.11b/g/n WiFi 2T2R  
                     </p>
-                    <p className='listFeture'>  Micro SIM connector and DI/DO interfaces 
-                    </p>
+                   
                     <p className='listFeture'>  LED indicators for connection and data transmission status 
                     </p>
                     <p className='listFeture'>  Industrial temperature rated from -30 ~ +70°C for use in harsh environments 
