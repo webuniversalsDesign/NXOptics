@@ -265,6 +265,7 @@ L4: TCP/UDP
 <p className='listFeture'>PoE Configuration</p>
 <p className='listFeture'>PoE Enable/Disable</p>
 <p className='listFeture'>Power limit by classification</p>
+<p className='listFeture'>Power limit by management</p>
 <p className='listFeture'>Power feeding priority</p>
 <p className='listFeture'>Total PoE Power budge limitation: maximum 120W</p>
 
