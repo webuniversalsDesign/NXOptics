@@ -173,7 +173,6 @@ const INJ_G90  = () => {
                                  <p className='listFeture'>Both 1/2 (+), 3/6 (-) and 4/5 (+), 7/8 (-)
                                  </p>
 
-                                 <p className='listFeture'>108 x 74 x 23mm (D x W x H) </p>
                                   
                                   
                                 <h5 style={{ fontWeight: "500", fontSize: "16px" }} className='pt-3'>  LED indicator
