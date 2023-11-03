@@ -192,13 +192,7 @@ SFP (P25~P28) Fiber Per port: <br/>1000Base-X Link/Active (Amber)
  <h5 style={{fontWeight:"500" , fontSize:"16px"}} className='pt-3'>Network Connector</h5>
 
    <p className='listFeture'>
-   Port 25~28 GbE SFP support 1000M<br/>
-Port 21~24 GbE SFP/RJ45 UTP combo (dual speed 
-100/1000M) <br/>    
-Port 1~20 GbE SFP support dual speed (100/1000M) 
-SFP support 100/1000M dual speed with DDMI<br/> 
-RJ-45 UTP port support 10/100/1000Base-T(X), Auto 
-negotiation speed, Auto MDI/MDI-X function
+28x 100/1000Base-X SFP with 4x GbE Combo (UTP/ SFP)
  </p>
 
 

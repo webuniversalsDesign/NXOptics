@@ -159,8 +159,6 @@ Transparent Clock, Master, Slave mode by each port (IGS-S2804GTM, IGS-2408SM)</p
 <p className='listFeture'>IEEE 802.1X Port based and MAC based Network Access Control, Authentication</p>
 <p className='listFeture'>IEEE 802.3ac Max frame size extended to 1522Bytes</p>
 <p className='listFeture'>IEEE 802.3ad Link aggregation for parallel links with LACP(Link Aggregation Control Protocol)</p>
-<p className='listFeture'>IEEE 802.3af PoE (Power over Ethernet)</p>
-<p className='listFeture'>IEEE 802.3at PoE+ (Power over Ethernet enhancement)</p>
 <p className='listFeture'>IEEE 802.3X Flow control for full duplex</p>
 <p className='listFeture'>IEEE 802.1ad Stacked VLANs, Q-in-Q </p>
 <p className='listFeture'>IEEE 802.1p LAN Layer 2 QoS/CoS Protocol for Traffic Prioritization</p>
