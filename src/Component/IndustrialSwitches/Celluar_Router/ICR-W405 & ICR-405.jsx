@@ -150,15 +150,13 @@ const ICR_W405_ICR_405 =() =>{
                                 
                                 
                                
-                               <p className='listFeture'> Cellular MobilComm standard: (Please see order 
-                               </p>
-                               <p className='listFeture'> information for optional band) 
+                               <p className='listFeture'> Cellular MobilComm standard: 
                                </p>
                                <p className='listFeture'> 4G LTE: FDD-LTE, TDD-LTE 
                                </p>
                                <p className='listFeture'> 3G: WCDMA 
                                </p>
-                               <p className='listFeture'> 2G: GSM/EDGE 
+                               <p className='listFeture'>IEEE802.11 a/b/g/n/ac WiFi Standard 
                                </p>
                                <p className='listFeture'> GNSS: GPS 
                                </p>
@@ -258,8 +256,10 @@ const ICR_W405_ICR_405 =() =>{
 
             {/* Memory Map Section Start */}
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                <h1 className='pb-4'> Application of Wireless Transmission in Logistics Center </h1>
-
+                <h1 className='pb-4'> Application</h1>
+                <h5>4G Industrial Router in Remote Monitoring of Medical Equipment</h5>
+                <p>High speed 4G Cat6 wireless communication technology provides reliable, fast data transmission network for mobile medical system, data.</p>
+                <h6 className='text-center'> Video Surveillance over 4G/LTE</h6>
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     <img src={Application} className='sectionImg2_1' alt="memorymapImg" />
                 </div>
@@ -267,8 +267,8 @@ const ICR_W405_ICR_405 =() =>{
             </div>
 
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                <h1 className='pb-4'> Application of Vehicle Location Tracking System</h1>
-
+                <h1 className='pb-4'> </h1>
+                <h6 className='text-center'> IOT Environmental Monitoring Application</h6>
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     <img src={Application2} className='sectionImg2_1' alt="memorymapImg" />
 
