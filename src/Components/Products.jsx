@@ -12,19 +12,17 @@ import bannerImg from '../img/products/productbanner.jpg'
 import bannerImg2 from '../img/products/productbanner2.jpg'
 // -----------------------------------------------------------------------
 
+
+import {BsFillCaretRightFill} from 'react-icons/bs'
 import { Link } from 'react-router-dom';
+
+
 
 const Products = () => {
   return (
     <>
     <Navbar/>
 
-    <div className='product-Breadcrumb'>
-        <div className='d-flex align-items-center'>
-           <Link className="nolink-dec"> <h4>Home /</h4></Link>
-            <p>Products</p>
-        </div>
-    </div>
 
     <Swiper
         spaceBetween={30}
@@ -52,10 +50,25 @@ const Products = () => {
           <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
           <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
         </SwiperSlide>
+
+        <div className='breadcrub pt-1 pb-1'>
+           <div className='d-flex  align-items-center'>
+           <Link to="/" className='nolink-dec'><h5>Home <BsFillCaretRightFill className='icon'/></h5>  </Link>&nbsp;
+           <p>Products</p>
+           </div>
+        </div> 
       
       </Swiper>
     
 
+<div className='container pt-5 '>
+
+  <div className='row'>
+    <div className='col-md-6 col-12'>
+      
+    </div>
+  </div>
+</div>
     </>
   )
 }

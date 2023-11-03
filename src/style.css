@@ -1177,17 +1177,28 @@ font-weight: 450;
 }
 
 
-.product-Breadcrumb{
-margin-top: 100px;
-background-color: rgb(236, 236, 236);
-padding: 50px 50px;
+
+.breadcrub{
+    position: absolute;
+    z-index: 1111;
+    bottom: 0px;
+    right: 120px;
 }
 
-.product-Breadcrumb h4{
-
+.breadcrub p{
+    margin: 0px;
+    font-weight: 500;
 }
 
+.breadcrub h5{
+    margin: 0px;
+}
 
-.product-Breadcrumb p{
-margin: 0px;
+.breadcrub .icon{
+ font-size: 15px;
+}
+
+.product-img img{
+    height: 200px;
+    width: 250px;
 }

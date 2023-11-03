@@ -517,10 +517,10 @@ background-color: #ff5416;
 
 .banner-heading{
     position: absolute;
-    left: 85%;
     color: black;
+    left: 51%;
     top: 50%;
-    transform: translate(-85%, -50%);
+    transform: translateY(-50%);
     font-weight: 500;
     margin: 0px;
     width: max-content;
