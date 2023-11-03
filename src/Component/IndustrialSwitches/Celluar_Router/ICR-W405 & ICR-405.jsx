@@ -26,7 +26,7 @@ import EnquireForm from '../../EnquireForm';
 const ICR_W405_ICR_405 =() =>{
 
     let PartNumber = "ICR-W405 & ICR-405";
-    let productName1 = "4G LTE, 2x SIM, WiFi IEEE 802.11 a/b/g/n/ac 2.4G/5G, GPS,1x GbE  WAN,   4x GbE LAN, RS232 COM, RS485, and DI/DO Route";
+    let productName1 = "4G LTE, 2x SIM, WiFi IEEE 802.11 a/b/g/n/ac 2.4G/5G, GPS,1x GbE  WAN,   4x GbE LAN, RS232 COM, RS485, and DI/DO Router";
     let productName2 = "4G LTE, 2x SIM, GPS,1x GbE WAN, 4x GbE LAN, RS232 COM, RS485, and DI/DO Router";
     let productName = "4G LTE, 2x SIM, WiFi IEEE 802.11 a/b/g/n/ac 2.4G/5G, GPS,1x GbE  WAN,   4x GbE LAN, RS232 COM, RS485, and DI/DO Route|| 4G LTE, 2x SIM, GPS,1x GbE WAN, 4x GbE LAN, RS232 COM, RS485, and DI/DO Router"
     

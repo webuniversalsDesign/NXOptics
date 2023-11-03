@@ -161,8 +161,8 @@ const PMC_1000S  = () => {
                                 </p>
                                 <p className='listFeture'>  IEEE 802.3u 100Base-FX, 
                                 </p>
-                                <p className='listFeture'>  IEEE 802.3ab 1000Base-T(X) 
-                                </p>
+                                {/* <p className='listFeture'>  IEEE 802.3ab 1000Base-T(X) 
+                                </p> */}
                                 <p className='listFeture'>  IEEE 802.3z 1000Base-SX/LX 
                                 </p>
                                 <p className='listFeture'>  IEEE 802.3x Flow Control and Back pressure 
@@ -222,7 +222,7 @@ const PMC_1000S  = () => {
 
                             <p>
                             PMC-1000S is an managed Gigabit Ethernet media converter that supports conversion between electrical 10/100/1000Base-T and optical 1000Base-X Ethernet and as PSE (Power Source Equipment) provide PoE+ power over Ethernet. PMC-1000S provides an SFP cage for 100/1000Base-X compatible SFP modules. By offering in-band management, this converter can be remotely controlled and monitored in a centrally located managed rack via FMC-1800 media converter rack.
-                             </p>
+                                </p>
                            
                         </div>
                     </div>
