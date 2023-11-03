@@ -156,7 +156,8 @@ const ICR_W405_ICR_405 =() =>{
                                </p>
                                <p className='listFeture'> 3G: WCDMA 
                                </p>
-                            
+                               <p className='listFeture'>IEEE802.11 a/b/g/n/ac WiFi Standard 
+                               </p>
                                <p className='listFeture'> GNSS: GPS 
                                </p>
                                <p className='listFeture'> IEEE 802.3 10Base-T 10Mbit/s Ethernet 
@@ -256,7 +257,7 @@ const ICR_W405_ICR_405 =() =>{
             {/* Memory Map Section Start */}
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
                 <h1 className='pb-4'> Application</h1>
-                <h5>4G Industrial Router in Remote Monitoring of Medical Equipmen</h5>
+                <h5>4G Industrial Router in Remote Monitoring of Medical Equipment</h5>
                 <p>High speed 4G Cat6 wireless communication technology provides reliable, fast data transmission network for mobile medical system, data.</p>
                 <h6 className='text-center'> Video Surveillance over 4G/LTE</h6>
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
