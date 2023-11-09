@@ -857,6 +857,17 @@ import PMC_1000S from './Component/Telecom Switches/POE Switch/PMC-1000S';
 import IXR_GS24044X__IXR_G24044X__IXR_G4804X from './Component/IndustrialSwitches/Rackmount Switches/IXR_GS24044X__IXR_G24044X__IXR_G4804X.jsx';
 import IXR_MG2404XS from './Component/IndustrialSwitches/Rackmount Switches/IXR_MG2404XS.jsx';
 import Products from './Components/Products.jsx';
+import IVS_G802T_8PH24 from './Component/IndustrialSwitches/E-mark/IVS_G802T_8PH24.jsx';
+import Login from './Components/Login.jsx';
+import Dashboard from './Components/Dashboard.jsx';
+import AddProducts from './Components/AddProducts.jsx';
+import ViewProduct from './Components/ViewProduct.jsx';
+import AddNewCategory from './Components/AddNewCategory.jsx';
+import AddNewSubCategory from './Components/AddNewSubCategory.jsx';
+import AddCategoryItems from './Components/AddCategoryItems.jsx';
+import CategoryProductpage from './Components/CategoryProductpage.jsx';
+import SubCategoryProductpage from './Components/SubCategoryProductpage.jsx';
+import CategoryItemProductpage from './Components/CategoryItemProductpage.jsx';
 
 
 function App() {
@@ -1692,6 +1703,7 @@ function App() {
 <Route path="/Industrial_Switches/EMark/IVS802GT" element={<IVS802GT/>}/>
 <Route path="/Industrial_Switches/EMark/IVS_802GT_8PH24" element={<IVS_802GT_8PH24/>}/>
 <Route path="/Industrial_Switches/EMark/IVS_G802T" element={<IVS_G802T/>}/>
+<Route path="/Industrial_Switches/EMark/IVS_G802T_8PH24" element={<IVS_G802T_8PH24/>}/>
 
 {/* Industrial Switches --> IEC61850-3 Switch */}
 <Route path="/Industrial_Switches/IEC61850-3_Switch/IPS_803GSM" element={<IPS_803GSM/>}/>
@@ -1752,7 +1764,16 @@ function App() {
 <Route path="/Industrial_Switches/Rackmount Switches/IXR_MG2404XS" element={<IXR_MG2404XS/>}/>
 
 <Route path="/Products" element={<Products/>}/>
-
+<Route path="/Login" element={<Login/>}/>
+<Route path="/Dashboard" element={<Dashboard/>}/>
+<Route path="/Dashboard/AddProducts" element={<AddProducts/>}/>
+<Route path="/Dashboard/ViewProduct" element={<ViewProduct/>}/>
+<Route path="/Dashboard/AddNewCategory" element={<AddNewCategory/>}/>
+<Route path="/Dashboard/AddNewSubCategory" element={<AddNewSubCategory/>}/>
+<Route path="/Dashboard/AddCategoryItems" element={<AddCategoryItems/>}/>
+<Route path="/Dashboard/CategoryProductpage" element={<CategoryProductpage/>}/>
+<Route path="/Dashboard/SubCategoryProductpage" element={<SubCategoryProductpage/>}/>
+<Route path="/Dashboard/CategoryItemProductpage" element={<CategoryItemProductpage/>}/>
 
     </Routes>
 

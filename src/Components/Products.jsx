@@ -13,12 +13,13 @@ import bannerImg2 from '../img/products/productbanner2.jpg'
 // -----------------------------------------------------------------------
 
 
-import {BsFillCaretRightFill} from 'react-icons/bs'
+import {BsFillCaretRightFill} from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
-
+import CardDetails from '../Components/CardDetails';
 
 const Products = () => {
+
   return (
     <>
     <Navbar/>
@@ -64,9 +65,31 @@ const Products = () => {
 <div className='container pt-5 '>
 
   <div className='row'>
-    <div className='col-md-6 col-12'>
-      
+{CardDetails.map((fetchdetails)=>(
+   <div className='col-md-6 col-12'>
+      {/* <ProductCardDetails ProductImges={fetchdetails.proimg} prodetils={fetchdetails.name}></ProductCardDetails> */}
+
+      <div className='shadow d-flex product-card-1 '>
+<div className='product-img-1'>``
+    <img src={fetchdetails.proimg} alt="img-not-found"/>
+</div>
+<div className="px-4 py-2">
+<h5>{fetchdetails.name}</h5>
+<p style={{margin:"0px"}}>Part Number </p>
+<p className='partnumber'>{fetchdetails.partNumber}</p>
+{/* <ul>
+                    {fetchdetails.feature.map((features) => (
+                      <li >{features}</li>
+                    ))}
+                  </ul> */}
+
+<Link to="/" className=' btn btn-danger mt-2 stick-bottom' style={{borderRadius:"2px", fontWeight:"200"}}>View Product</Link>
+
+</div>
+      </div>
     </div>
+))}
+   
   </div>
 </div>
     </>

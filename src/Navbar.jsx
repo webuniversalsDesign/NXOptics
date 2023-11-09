@@ -487,11 +487,11 @@ const Navbar = () => {
                                             </ul>
                                         </li>
 
-                                        <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon" /> 1.25G GBIC
+                                        {/* <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon" /> 1.25G GBIC
                                             <ul className='lastdrop'>
                                                 <Link to="/SFP_1_25G_DWDM_Products" className='nolink-dec'><li className='lastdrop-items'> 1.25G GBIC SC</li></Link>
                                             </ul>
-                                        </li>
+                                        </li> */}
 
                                         <li className='inner-linkers'><IoMdArrowDropright className="arrow-icon" /> 40G QSFP+
                                             <ul className='lastdrop'>
@@ -522,7 +522,7 @@ const Navbar = () => {
                                                 <Link to="/Product_QSFP28_100G_SRBD" className='nolink-dec'><li className='lastdrop-items'> QSFP28-100G-SRBD</li></Link>
                                                 <Link to="/ESR4_100G" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-eSR4</li></Link>
                                                 <Link to="/PSM4_Ethernet_100G" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-PSM4</li></Link>
-                                                <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-DR1/FR1/LR1</li></Link>
+                                                {/* <Link to="/SR4_40G_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-DR1/FR1/LR1</li></Link> */}
                                                 <Link to="/LR4_100G_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-LR4</li></Link>
                                                 <Link to="/ER4_100G_Products" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-ER4</li></Link>
                                                 <Link to="/ZR4_100G" className='nolink-dec'><li className='lastdrop-items'>QSFP28-100G-ZR4</li></Link>
@@ -839,7 +839,7 @@ const Navbar = () => {
                                                 <Link to="/Industrial_Switches/EMark/IVS802GT" className='nolink-dec'><li>IVS-802GT</li></Link>
                                                 <Link to="/Industrial_Switches/EMark/IVS_802GT_8PH24" className='nolink-dec'><li>IVS-802GT-8PH24</li></Link>
                                                 <Link to="/Industrial_Switches/EMark/IVS_G802T" className='nolink-dec'><li>IVS-G802T</li></Link>
-                                                <Link to="/" className='nolink-dec'><li>IVS-G802T-8PH24</li></Link>
+                                                <Link to="/Industrial_Switches/EMark/IVS_G802T_8PH24" className='nolink-dec'><li>IVS-G802T-8PH24</li></Link>
                                             </ul>
                                         </li></Link>
 
@@ -1002,7 +1002,9 @@ const Navbar = () => {
 
                     <Link to="" style={{ textDecoration: "none" }}><p className='mob-nav-items' onClick={allProduct}>Transceiver</p></Link>
                     <Link to="" style={{ textDecoration: "none" }}><p className='mob-nav-items' onClick={cablesCord}>Optical Cables / Path Cord</p></Link>
-                    <Link to="" style={{ textDecoration: "none" }}><p className='mob-nav-items' onClick={switchsProduct}>Switches</p></Link>
+                    {/* <Link to="" style={{ textDecoration: "none" }}><p className='mob-nav-items' onClick={switchsProduct}>Switches</p></Link> */}
+                    <Link to="" style={{ textDecoration: "none" }}><p className='mob-nav-items' onClick={OpenSwirch_1_1}>Telecom Switches</p></Link>
+                    <Link to="" style={{ textDecoration: "none" }}><p className='mob-nav-items' onClick={OpenSwirch_1_2}>Industrial Switches </p></Link>
                     <Link to="/NetworkSecurity" style={{ textDecoration: "none" }}><p className='mob-nav-items'>Network And Security</p></Link>
                     <Link to="/ServerStorage" style={{ textDecoration: "none" }}><p className='mob-nav-items'>Server And Storage</p></Link>
 
@@ -1035,6 +1037,7 @@ const Navbar = () => {
                 <div className='mobile-nav-all_product' id='mobile_Setting_Switchs-1_1'>
                     <TiBackspaceOutline className='close_icon' onClick={Switchclose1_1} />
 
+                    <Link to="" style={{ textDecoration: "none" }}><p className='mob-nav-items' onClick={OpenSwitchL2}>L2 Ethernet Switches  </p></Link>
                     <Link to="" style={{ textDecoration: "none" }}><p className='mob-nav-items' onClick={OpenSwitchL2}>L2 Ethernet Switches  </p></Link>
                 </div>
 
