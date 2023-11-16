@@ -1,17 +1,18 @@
 import React from 'react';
-import DashboardNavbar from './DashboardNavbar';
-import {AiOutlineFolderView} from 'react-icons/ai';
-import {MdOutlineAddchart} from 'react-icons/md';
+
 import { Link } from 'react-router-dom';
+import Topbar from '../Components/Dashboard/Topbar';
+import Sidebar from '../Components/Dashboard/Sidebar';
 
 const Dashboard = () => {
   return (
     <>
-      <DashboardNavbar/>
-<div className='container leave-navbar-2'>
-  <div className='row'>
-    <div className='col-2'></div>
-    <div className='col-10'>
+       <div id="root">
+<div className='dashboard'>
+<Topbar/>
+<Sidebar/>
+
+<div className='main-content container-fluid' id='mainbody'>
 <div className='row'>
 
 <div className='col-4'>
@@ -33,11 +34,11 @@ const Dashboard = () => {
 
 </div>
 
- 
-    
-    </div>
-  </div>
-</div>
+          </div>
+
+        </div>
+       </div>
+        
 
     </>
   )

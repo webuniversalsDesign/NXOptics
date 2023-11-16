@@ -3,6 +3,8 @@ import DashboardNavbar from './DashboardNavbar'
 import Texteditor from './Texteditor';
 import {AiOutlinePlusCircle, AiOutlineMinusCircle} from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import Topbar from '../Components/Dashboard/Topbar';
+import Sidebar from '../Components/Dashboard/Sidebar';
 
 const CategoryItemProductpage = () => {
   const formBlog=(e)=>{
@@ -29,11 +31,13 @@ const handleClickREMOVE = (e) => {
   };
   return (
     <>
-      <DashboardNavbar/>
-      <div className='container leave-navbar-2'>
-  <div className='row'>
-    <div className='col-2'></div>
-    <div className='col-10'>
+
+<div id="root">
+<div className='dashboard'>
+<Topbar/>
+<Sidebar/>
+
+<div className='main-content container-fluid' id='mainbody'>
     <div className='d-flex px-2'>
 <Link to="/Dashboard" className='nolink-dec'>Dashboard / </Link>
 &nbsp;
@@ -132,10 +136,14 @@ return(<>
 
     </form>
     </div>
+          </div>
+
+        </div>
+       </div>
+
+
+
    
-    </div>
-  </div>
-</div>
     </>
   )
 }

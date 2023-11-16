@@ -1,15 +1,18 @@
-import React from 'react'
-import DashboardNavbar from './DashboardNavbar'
+import React from 'react';
+import Topbar from '../Components/Dashboard/Topbar';
+import Sidebar from '../Components/Dashboard/Sidebar';
 
 const AddNewCategory = () => {
   return (
     <>
-      <DashboardNavbar/>
-      <div className='container leave-navbar-2'>
-  <div className='row'>
-    <div className='col-2'></div>
-    <div className='col-10'>
-    <div className='body-center'>
+    <div id="root">
+<div className='dashboard'>
+<Topbar/>
+<Sidebar/>
+
+<div className='main-content container-fluid' id='mainbody'>
+
+   <div className='body-center'>
 <div className='shadow p-3' style={{borderRadius:"10px"}}>
 <h5>Add New Category</h5>
 <hr/>
@@ -21,11 +24,15 @@ const AddNewCategory = () => {
 </form>    
 </div>
     </div>
+          </div>
+
+        </div>
+       </div>
+
+ 
 
     
-    </div>
-  </div>
-</div>
+
     </>
   )
 }

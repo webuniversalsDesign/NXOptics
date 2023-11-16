@@ -3,7 +3,7 @@ import JoditEditor,{Jodit} from 'jodit-react';
 
 const Texteditor = () => {
 
-    const editor = useRef(null);
+    // const editor = useRef(null);
 	const [content, setContent] = useState('');
 	const config = { // Define your Jodit editor configuration options here
 		// Example configuration options:
@@ -37,4 +37,4 @@ const Texteditor = () => {
   )
 }
 
-export default Texteditor
+export default Texteditor;

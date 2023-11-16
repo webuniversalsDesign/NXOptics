@@ -1,15 +1,19 @@
-import React from 'react'
-import DashboardNavbar from './DashboardNavbar'
+
+import Topbar from '../Components/Dashboard/Topbar';
+import Sidebar from '../Components/Dashboard/Sidebar';
 
 const AddCategoryItems = () => {
   return (
     <>
-      <DashboardNavbar/>
-      <div className='container leave-navbar-2'>
-  <div className='row'>
-    <div className='col-2'></div>
-    <div className='col-10'>
-    <div className='body-center'>
+
+<div id="root">
+<div className='dashboard'>
+<Topbar/>
+<Sidebar/>
+
+<div className='main-content container-fluid' id='mainbody'>
+
+ <div className='body-center'>
 
     <div className='shadow p-3 mb-3 mt-5' style={{borderRadius:"10px"}}>
     <div className='row'>
@@ -48,11 +52,15 @@ const AddCategoryItems = () => {
 </form>    
 </div>
     </div>
+          </div>
 
-    
-    </div>
-  </div>
-</div>
+        </div>
+       </div>
+
+
+   
+
+
     </>
   )
 }

@@ -1,21 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import DashboardNavbar from './DashboardNavbar'
+
 import productImg1 from '../img/products/transceiverCable1.jpg';
 import productImg2 from '../img/products/transceiverCable2.jpg';
 import productImg3 from '../img/products/transceiverCable3.jpg';
-import {AiOutlineDelete} from 'react-icons/ai'
+import {AiOutlineDelete} from 'react-icons/ai';
+import Topbar from '../Components/Dashboard/Topbar';
+import Sidebar from '../Components/Dashboard/Sidebar';
+
 const ViewProduct = () => {
   return (
     <>
-         <DashboardNavbar/>
+     
+     <div id="root">
+<div className='dashboard'>
+<Topbar/>
+<Sidebar/>
 
-         <div className='container leave-navbar-2'>
-  <div className='row'>
-    <div className='col-2'></div>
-    <div className='col-10'>
-  
-
+<div className='main-content container-fluid' id='mainbody'>
 <div className='d-flex py-5 px-5'>
 <Link to="/Dashboard" className='nolink-dec'>Dashboard / </Link>
 &nbsp;
@@ -85,13 +87,15 @@ const ViewProduct = () => {
 
     </div>
 
+          </div>
 
-    
-    </div>
-  </div>
-</div>
+        </div>
+       </div>
 
 
+
+
+  
     </>
   )
 }

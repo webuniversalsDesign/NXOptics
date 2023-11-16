@@ -4,6 +4,9 @@ import DashboardNavbar from './DashboardNavbar';
 import { Link } from 'react-router-dom';
 import Texteditor from './Texteditor';
 import {AiOutlinePlusCircle, AiOutlineMinusCircle} from 'react-icons/ai';
+import Topbar from '../Components/Dashboard/Topbar';
+import Sidebar from '../Components/Dashboard/Sidebar';
+import Footer from '../Components/Dashboard/Footer';
 
 const AddProducts = () => {
 
@@ -23,7 +26,9 @@ const handleClickADD = (e) => {
 };
 
 const handleClickREMOVE = (e) => {
+  if (counter > 1) {
     setCounter(counter - 1);
+}
     e.preventDefault();
 
     // console.log(counter);
@@ -31,16 +36,13 @@ const handleClickREMOVE = (e) => {
 
   return (
     <>
-      <DashboardNavbar/>
+ 
+ <div id="root">
+<div className='dashboard'>
+<Topbar/>
+<Sidebar/>
 
-<div className='container  leave-navbar-2'>
-
-
-
-
-    <div className='row'>
-    <div className='col-2'></div>
-    <div className='col-10'>
+<div className='main-content container-fluid' id='mainbody'>
 
 <div className='d-flex py-5 px-5'>
 <Link to="/Dashboard" className='nolink-dec'>Dashboard / </Link>
@@ -49,7 +51,7 @@ const handleClickREMOVE = (e) => {
   <Link to="" className='nolink-dec'>Add Product</Link>
 </div>
 
-    <div className='shadow p-5 mb-4' style={{borderRadius:"10px"}}>
+    <div className='shadow px-5 mb-5 pt-5 ' style={{borderRadius:"10px"}}>
         <div className='product-table'>
             <h2>Add Product</h2>
             <Link to="/Dashboard/ViewProduct" className="btn btn-primary">View Products</Link>
@@ -164,16 +166,6 @@ const handleClickREMOVE = (e) => {
 
         <h5 className='pt-5 pb-1'>Add Product Block Diagrams</h5>
 
-        <div className='row py-3'>
-  <div className='col-6'>
-<input type='text' className='form-control'  placeholder='Enter Block Diagram Title' id='productId' name='idproduct'/>
-  </div>
-
-  <div className='col-6'>
-<input type='file' className='form-control'   id='productId' name='idproduct'/>
-  </div>
-</div>
-
 {counter > 0 && Array.from(Array(counter)).map((c, index) => {
   return(<>
     <div className='row py-3'>
@@ -214,11 +206,14 @@ const handleClickREMOVE = (e) => {
         
 
     </div>
-    
-    </div>
-  </div>
-</div>
 
+          </div>
+
+        </div>
+       </div>
+
+
+    
     </>
   )
 }

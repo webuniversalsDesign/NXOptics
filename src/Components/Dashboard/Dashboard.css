@@ -1,0 +1,190 @@
+.top-bar .menu-icon{
+padding: 5px;
+color: black;
+cursor: pointer;
+font-size: 35px;
+position: fixed;
+ left: 10px;
+}
+
+.start-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+margin: 0px;
+letter-spacing: 1px;
+color: white;
+}
+
+.top-bar{
+    position: fixed;
+display: flex;
+height: 65px;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding: 10px 80px;
+z-index: 111;
+background-color: white;
+box-shadow: 0px 0px 5px 0px #d2d2d2;
+}
+
+
+.side-bar{
+    position: fixed;
+    /* overflow: hidden; */
+    width: 50px;
+    height: 95vh;
+    bottom: 0px;
+    background-color: #008ad2 ;
+    transition: all 0.2s ease-in-out;
+}
+.sidetoggle{
+    width: 220px;
+}
+
+
+.main-content{
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 50px);
+    height: 100vh;
+    padding-left:50px ;
+    padding-right:50px ;
+    padding-top: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.maintoggle{
+    left: 220px;
+    width: calc(100% - 220px);
+}
+
+
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 40px 0px;
+}
+
+.menu .items{
+    padding: 10px 0px 10px 10px;
+border-radius: 4px;
+}
+
+.items{
+    /* position: relative; */
+    color: white;
+    background-color: #008ad2;
+    margin: 5px 5px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.items:hover{
+    color: black;
+    background-color: white;
+    margin: 5px 5px;
+}
+
+.items.active {
+    background-color: white;
+    color: black;
+  }
+
+.icons{
+    margin-bottom: 5px;
+}
+
+.disble-decoration{
+    text-decoration: none;
+}
+
+.resp{
+    position: absolute;
+    width: max-content;
+    left: 50px;
+}
+
+.submenu{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.submenu li{
+    padding: 5px 0px;
+    font-weight: 500;
+}
+
+.dropmenu{
+    height: 45px;
+    overflow: hidden;
+}
+
+
+.opensubmenu1{
+    height: 150px;
+}
+
+.opensubmenu2{
+    height: 150px;
+
+}
+
+.opensubmenu{
+    height: 115px;
+
+}
+
+
+
+.logo Img{
+    height: auto;
+    width: 40px;
+    padding: 5px 0px;
+}
+
+.top-menu-bar ul{
+padding: 0px;
+list-style-type: none;
+display: flex;
+margin: 0px;
+}
+
+.top-menu-bar ul li{
+font-weight: 500;
+margin: 0px 5px;
+padding :0px 5px;
+color: black;
+}
+
+
+
+.footer-body{
+    position: fixed;
+    left: 50px;
+    width: calc(100% - 50px);
+    bottom: 0px;
+z-index: 111;
+background-color: black;
+}
+
+
+.openmenudashboard{
+    color: #008ad2 !important;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #d2d2d2;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-icon:hover{
+    color: #008ad2 !important;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px gray;
+    transition: all 0.3s ease-in-out;
+}
+
