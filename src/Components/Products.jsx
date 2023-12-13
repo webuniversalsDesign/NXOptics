@@ -70,7 +70,7 @@ const Products = () => {
       {/* <ProductCardDetails ProductImges={fetchdetails.proimg} prodetils={fetchdetails.name}></ProductCardDetails> */}
 
       <div className='shadow d-flex product-card-1 '>
-<div className='product-img-1'>``
+<div className='product-img-1'>
     <img src={fetchdetails.proimg} alt="img-not-found"/>
 </div>
 <div className="px-4 py-2">

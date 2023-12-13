@@ -31,34 +31,7 @@ const Products_Dual_SFP_155M = () => {
 <Navbar/>
 
 <div className='container leave-navbar'>
-<Swiper
-        spaceBetween={30}
-        effect={'fade'}
-        navigation={false}
 
-        pagination={{
-          clickable: true,
-        }}
-
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-
-        modules={[EffectFade, Navigation, Pagination, Autoplay]}
-        className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
-      >
-        <SwiperSlide>
-          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
-          <p className='banner-heading'>Find the Right Product Quicker</p>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
-          <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
-        </SwiperSlide>
-      
-      </Swiper>
 
 
 <h2 className='pt-5'>125M/155M SFP DUAL</h2>

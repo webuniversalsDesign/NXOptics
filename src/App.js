@@ -868,6 +868,16 @@ import AddCategoryItems from './Components/AddCategoryItems.jsx';
 import CategoryProductpage from './Components/CategoryProductpage.jsx';
 import SubCategoryProductpage from './Components/SubCategoryProductpage.jsx';
 import CategoryItemProductpage from './Components/CategoryItemProductpage.jsx';
+import MegaMenu from './Components/MegaMenu.jsx';
+import G200_QSFP56_SR4 from './Component/40G_QSFP+/G200_QSFP56_SR4.jsx';
+import G200_QSFP_DD_ER4 from './Component/40G_QSFP+/G200_QSFP_DD_ER4.jsx';
+import G200QSFP_DD_LR4 from './Component/40G_QSFP+/G200QSFP_DD_LR4 .jsx';
+import QSFP_SR8 from './Component/400G QSPF/QSFP_SR8.jsx';
+import QSFP_DD_DR4 from './Component/400G QSPF/QSFP_DD_DR4.jsx';
+import QSFP_DD_FR4 from './Component/400G QSPF/QSFP_DD_FR4.jsx';
+import QSFP_DD_LR4 from './Component/400G QSPF/QSFP_DD_LR4.jsx';
+import QSFP_DD_EDR4 from './Component/400G QSPF/QSFP_DD_EDR4.jsx';
+import Thankyou from './Component/Thankyou.jsx';
 
 
 function App() {
@@ -905,7 +915,20 @@ function App() {
      <Route path="/SR4_40G_Products" element={<SR4_40G_Products/>}/>
      <Route path="/SR4_40G_Products/SR4_X1D" element={<SR4_X1D/>}/>
      <Route path="/SR4_40G_Products/SR4_X1Di" element={<SR4_X1Di/>}/>
+
+     <Route path="/G200_QSFP56_SR4" element={<G200_QSFP56_SR4/>}/>
+     <Route path="/G200_QSFP_DD_ER4" element={<G200_QSFP_DD_ER4/>}/>
+     <Route path="/G200QSFP_DD_LR4" element={<G200QSFP_DD_LR4/>}/>
+
+     {/* 400G QSPF Products */}
+     <Route path="/400G-QSPF/QSFP_SR8/" element={<QSFP_SR8/>}/>
+     <Route path="/400G-QSPF/QSFP-DD-DR4/" element={<QSFP_DD_DR4/>}/>
+     <Route path="/400G-QSPF/QSFP-DD-FR4/" element={<QSFP_DD_FR4/>}/>
+     <Route path="/400G-QSPF/QSFP-DD-LR4/" element={<QSFP_DD_LR4/>}/>
+     <Route path="/400G-QSPF/QSFP-DD-EDR4/" element={<QSFP_DD_EDR4/>}/>
      
+     
+
 
      <Route path="/Product_40G_SRBD" element={<Product_40G_SRBD/>}/>
      <Route path="/IR4_40G" element={<IR4_40G/>}/>
@@ -1774,6 +1797,8 @@ function App() {
 <Route path="/Dashboard/CategoryProductpage" element={<CategoryProductpage/>}/>
 <Route path="/Dashboard/SubCategoryProductpage" element={<SubCategoryProductpage/>}/>
 <Route path="/Dashboard/CategoryItemProductpage" element={<CategoryItemProductpage/>}/>
+<Route path="/MegaMenu" element={<MegaMenu/>}/>
+<Route path="/Thankyou" element={<Thankyou/>}/>
 
     </Routes>
 

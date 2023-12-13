@@ -18,12 +18,6 @@ import bannerImg5 from '../img/banner5.jpg'
 import bannerImg6 from '../img/banner6.jpg'
 import bannerImg7 from '../img/banner7.jpg'
 
-
-
-import {  MdOutlineAssuredWorkload, MdOutlineSwitchAccessShortcutAdd} from 'react-icons/md';
-import { BiPurchaseTag } from 'react-icons/bi';
-import { GrUserExpert } from 'react-icons/gr';
-import { TbTruckDelivery, TbMessageChatbot, TbMessage2 } from 'react-icons/tb';
 // import NavbarTwo from '../NavbarTwo';
 
 
@@ -131,7 +125,7 @@ import ProductSwiper from './ProductSwiper';
 
 {/* Why Us Section Start */}
 
-<section className='container pt-lg-5 pb-lg-5 pt-3 pb-3'>
+{/* <section className='container pt-lg-5 pb-lg-5 pt-3 pb-3'>
   <h3 className='text-center section-heading pt-4 pb-4'>Why Us?</h3>
 
   <div className='row'>
@@ -149,7 +143,7 @@ import ProductSwiper from './ProductSwiper';
 that make optical operations easier, 
 faster and more reliable.</p>
       </div>
-    </div> */}
+    </div> 
   
 
     <div className='col-lg-6 col-md-6 col-sm-12 mt-2 pb-2'>
@@ -231,11 +225,11 @@ allow you to enjoy worry-free experience.</p>
 
  
   </div>
-</section>
+</section> */}
 
 
 
-<section className='bg-dif'>
+{/* <section className='bg-dif'>
 <div className='container'>
   <div className='row align-items-center' >
     
@@ -266,7 +260,7 @@ allow you to enjoy worry-free experience.</p>
 
   </div>
 </div>
-</section>
+</section> */}
 
 {/* Question Section End */}
 

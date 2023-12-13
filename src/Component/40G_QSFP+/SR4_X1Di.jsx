@@ -4,7 +4,7 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/40G_eSR4/eSR4_1.jpg'
+import loopbackImg1 from '../../img/products/40GQSFP+/200G-DD-SR8.jpeg';
 import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
 import mchdimensionImg from '../../img/products/40G_eSR4/eSR4_3.jpg'
 import Transceiverimg from "../../img/products/40G_eSR4/eSR4_4.jpg"

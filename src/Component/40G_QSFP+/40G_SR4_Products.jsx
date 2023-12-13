@@ -6,7 +6,7 @@ import bannerImg from '../../img/products/productbanner.jpg'
 import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
-import EnquireForm from '../EnquireForm';
+
 import { Link } from 'react-router-dom';
 
 import 'swiper/css';
@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/40G_eSR4/eSR4_1.jpg'
+import productImg1 from '../../img/products/40GQSFP+/200G-DD-SR8.jpeg'
 
 
 
@@ -25,37 +25,9 @@ const SR4_40G_Products = () => {
 <Navbar/>
 
 <div className='container leave-navbar'>
-<Swiper
-        spaceBetween={30}
-        effect={'fade'}
-        navigation={false}
-
-        pagination={{
-          clickable: true,
-        }}
-
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-
-        modules={[EffectFade, Navigation, Pagination, Autoplay]}
-        className="mySwiper pt-lg-5" style={{borderRadius:"10px"}}
-      >
-        <SwiperSlide>
-          <img src={bannerImg} className='banner_img2' alt='img-not-found'/>
-          <p className='banner-heading'>Find the Right Product Quicker</p>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <img src={bannerImg2} className='banner_img2' alt='img-not-found'/>
-          <p className='banner-heading'>Revolute Your Wireless Experience with Wi-Fi Solution</p>
-        </SwiperSlide>
-      
-      </Swiper>
 
 
-<h2 className='pt-5'>QSFP+ 40G-SR4</h2>
+<h2 className='pt-5'>200G  QSFP-DD SR8</h2>
 
       <div className='row pt-5  pb-5'>
 
@@ -129,7 +101,6 @@ const SR4_40G_Products = () => {
       </div>
 </div>
 
-<EnquireForm/>
 
 <Footer/>
     </>

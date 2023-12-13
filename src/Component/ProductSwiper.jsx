@@ -26,212 +26,49 @@ const ProductSwiper = () => {
   const [formData, setFormData] = useState({
       selectcat: '',
       qty: '',
-      companyname: '',
+      companyName: '',
       location: '',
-      mobilenumber: '',
-      emailid: '',
+      phone: '',
+      email: '',
       msg: '',
     });
-
-    
-
-    const [name, setName] = useState("");
-    const [selectcat, setSelectcat] = useState("");
-    const [qtynum, setQtynum] = useState("");
-    const [mobilenum, setMobilenum] = useState("");
-    const [address, setAddress] = useState("");
-    const [emailad, setEmailad] = useState("");
-
-    // alertmessage
-    // const [alertname, setalertName] = useState("");
-    // const [alertselectcat, setalertSelectcat] = useState("");
-    // const [alertqtynum, setalertqtynum] = useState("");
-    // const [alertMobilenum, setalertMobilenum] = useState("");
-    // const [alertaddress, setalertAddress] = useState("");
-    // const [alertemailad, setalertEmailad] = useState("");
-
-    const [alertselectcat, setAlertSelectcat] = useState('');
-    const [alertqtynum, setAlertQtynum] = useState('');
-    const [alertname, setAlertName] = useState('');
-    const [alertaddress, setAlertAddress] = useState('');
-    const [alertMobilenum, setAlertMobilenum] = useState('');
-    const [alertemailad, setAlertEmailad] = useState('');
-
-
-const handleSubmit = async (e)=>{
-    e.preventDefault();
-
-    // const regqty = /^[A-Za-z0-9.,\s]+$/;
-    // if (regqty.test(qtynum)) {
-    //   setAlertQtynum("");
-
-    // } else if (!regqty.test(qtynum) && qtynum === "") {
-    //   setAlertQtynum("Enter Qty");
-    //   e.preventDefault();
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormData({ ...formData, [name]: value });
+    };
+    const handleSubmit = async (e) => {
+      e.preventDefault();
   
-    // } else {
-    //   setAlertQtynum("Invalid value");
-    //   e.preventDefault();
+      try {
+        const response = await fetch("https://nxoptics.com/nx-email/product.php", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
   
-    // }
-
-    // const regname = /^[A-Za-z0-9.,\s]+$/;
-    // if (regname.test(name)) {
-    //     setAlertName("");
-
-    // } else if (!regname.test(name) && name === "") {
-    //     setAlertName("Please enter name");
-    //   e.preventDefault();
+        if (response.ok) {
+          // Handle successful email sending, e.g., show a success message.
+          // window.location.href = '/thankyou';
   
-    // } else {
-    //     setAlertName("Invalid value");
-    //   e.preventDefault();
+          window.location.href = '/Thankyou';
+          console.log("Email Sent Successfully");
+          
   
-    // }
-
-    // const selectoption = /^[A-Za-z0-9\s-.,'"]+$/;
-    // if (selectoption.test(selectcat)) {
-    //   setAlertSelectcat("");
-
-    // } else if (!selectoption.test(selectcat) && selectcat === "") {
-    //   setAlertSelectcat("Please select categories");
-    //   e.preventDefault();
-  
-    // } else {
-    //   setAlertSelectcat("Invalid value");
-    //   e.preventDefault();
-  
-    // }
-
-    // const regphonenumber = /^\d{10}$/;
-    // if (regphonenumber.test(mobilenum)) {
-    //   setAlertMobilenum("");
-
-    // } else if (!regphonenumber.test(mobilenum) && mobilenum === "") {
-    //   setAlertMobilenum("Please enter mobile number");
-    //   e.preventDefault();
-  
-    // } else {
-    //   setAlertMobilenum("Please enter 10 digit mobile number");
-    //   e.preventDefault();
-  
-    // }
-
-    // const reglocation = /^[A-Za-z0-9\s#/,.-]+$/;
-    // if (reglocation.test(address)) {
-    //   setAlertAddress("");
-
-    // } else if (!reglocation.test(address) && address === "") {
-    //   setAlertAddress("Please enter your address");
-    //   e.preventDefault();
-  
-    // } else {
-    //   setAlertAddress("Invalid Address");
-    //   e.preventDefault();
-  
-    // }
-
-    
-    // const regemailad = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2-8}])?/g;
-    // if (regemailad.test(emailad)) {
-    //   setAlertEmailad("");
-
-    // } else if (!regemailad.test(emailad) && emailad === "") {
-    //   setAlertEmailad("Please enter your Email-id");
-    //   e.preventDefault();
-  
-    // } else {
-    //   setAlertEmailad("Invalid Email-id");
-    //   e.preventDefault();
-  
-    // }
-
-    if (!formData.selectcat || !formData.qty || !formData.companyname || !formData.emailid) {
-      // Display appropriate alerts for missing fields
-      setAlertSelectcat(!formData.selectcat ? 'Please select a category' : '');
-      setAlertQtynum(!formData.qty ? 'Quantity is required' : '');
-      setAlertName(!formData.companyname ? 'Company name is required' : '');
-      setAlertEmailad(!formData.emailid ? 'Email is required' : '');
-      
-      return; // Do not proceed with the submission
-    }
-    try {
-      const response = await fetch("https://yourchoicewebsites.com/nxopt/nx/email.php", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-        // Handle successful email sending, e.g., show a success message.
-        console.error('success');
-        const successMsgElement = document.getElementById("successMsg");
-        if (successMsgElement) {
-          successMsgElement.style.top = "0px";
+          
+        } else {
+          // Handle errors, e.g., show an error message.
+          console.error("Email sending failed");
         }
-        
-      } else {
-        // Handle errors, e.g., show an error message.
-        console.error("Email sending failed");
+      } catch (error) {
+        console.error("An error occurred:", error);
       }
-    } catch (error) {
-      console.error("An error occurred:", error);
-    }
-}
-
-const handleInputChange = (e) => {
-  const { name, value } = e.target;
-  setFormData({ ...formData, [name]: value });
-};
-
-const hidePop = ()=>{
-  document.getElementById("successMsg").style.top="-100%";
-     
-  setAlertQtynum('');
-    setAlertSelectcat('');
-    setAlertName('');
-    setAlertMobilenum('')
-    setAlertAddress('')
-    setAlertEmailad('')
-
-
-    setFormData({
-      selectcat: '',
-      qty: '',
-      companyname: '',
-      location: '',
-      mobilenumber: '',
-      emailid: '',
-      msg: '',
-    });
-    }
-
-const resetAll=()=>{
-    setAlertQtynum('');
-    setAlertSelectcat('');
-    setAlertName('');
-    setAlertMobilenum('')
-    setAlertAddress('')
-    setAlertEmailad('')
-
-
-    setFormData({
-      selectcat: '',
-      qty: '',
-      companyname: '',
-      location: '',
-      mobilenumber: '',
-      emailid: '',
-      msg: '',
-    });
-}
-
+    };
   return (
     <>
 
-<div className='container-fluid pt-5 pb-2'>
+<div className='container-fluid pt-5 pb-5'>
 
  <h2 className='text-center section-heading'>Products</h2>
 
@@ -409,7 +246,7 @@ const resetAll=()=>{
 
       <div class="modal-header">
         <h4 class="modal-title">Enquiry Your Product</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" onClick={resetAll}></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
       </div>
 
       <div class="modal-body p-1">
@@ -417,7 +254,7 @@ const resetAll=()=>{
           <div className='row px-4 py-2'>
 <div className='col-md-8 col-7 px-2 pt-4 position-relative'>
 <select  class="form-select form-innertext" id="sel2 " name="selectcat" value={formData.selectcat}  
-onChange={handleInputChange}>
+onChange={handleChange}>
       <option value='' className='form-innertext'>Select Product Catgory</option>
       <option value='transceiver' className='form-innertext'>Transceiver</option>
       <option value='Optical Cables / Patch Cords' className='form-innertext'>Optical Cables / Patch Cords</option>
@@ -426,52 +263,52 @@ onChange={handleInputChange}>
       <option value='server-storage' className='form-innertext'>Server & Storage</option>
       <option value='network-security' className='form-innertext'>Network & Security</option>
     </select>
-    <p className='alert-message'>{alertselectcat}</p>
+    <p className='alert-message'></p>
 </div>
 <div className='col-md-4 col-5 px-2 pt-4 position-relative'>
 <input type='number' className='form-control form-innertext' name='qty' id='quality'
  value={formData.qty}  
- onChange={handleInputChange} placeholder='Qty Required' min='1' autoComplete='autocomplete '/> 
-<p className='alert-message'>{alertqtynum}</p>
+ onChange={handleChange} placeholder='Qty Required' min='1' autoComplete='autocomplete '/> 
+<p className='alert-message'></p>
 </div>
 
 <div className='col-md-6 col-12 px-2 pt-4 position-relative'>
-<input type='text' className='form-control form-innertext' name='companyname' id='comName' placeholder='Enter Company Name' 
- value={formData.companyname}  
- onChange={handleInputChange} autoComplete='autocomplete '/>
-<p className='alert-message'>{alertname}</p>
+<input type='text' className='form-control form-innertext' name='companyName' id='comName' placeholder='Enter Company Name' 
+ value={formData.companyName}  
+ onChange={handleChange} autoComplete='autocomplete '/>
+<p className='alert-message'></p>
 </div>
 
 <div className='col-md-6 col-12 px-2 pt-4 position-relative'>
 <input type='text' className='form-control form-innertext' name='location' id='location' placeholder='Enter Delivery Location'  
 value={formData.location}  
-onChange={handleInputChange} autoComplete='autocomplete '/>
-<p className='alert-message'>{alertaddress}</p>
+onChange={handleChange} autoComplete='autocomplete '/>
+<p className='alert-message'></p>
 </div>
 
 <div className='col-md-6 col-12 px-2 pt-4 position-relative'>
-<input type='text' className='form-control form-innertext' name='mobilenumber' id='mobilenumber' placeholder='Enter Mobile Number'
- value={formData.mobilenumber}  
- onChange={handleInputChange} autoComplete='autocomplete '/>
-<p className='alert-message'>{alertMobilenum}</p>
+<input type='text' className='form-control form-innertext' name='phone' id='mobilenumber' placeholder='Enter Mobile Number'
+ value={formData.phone}  
+ onChange={handleChange} autoComplete='autocomplete '/>
+<p className='alert-message'></p>
 </div>
 
 <div className='col-md-6 col-12 px-2 pt-4 position-relative'>
-<input type='text' className='form-control form-innertext' name='emailid' id='email' placeholder='Enter Your Email'  
-value={formData.emailid}  
-onChange={handleInputChange} autoComplete='autocomplete '/>
-<p className='alert-message'>{alertemailad}</p>
+<input type='text' className='form-control form-innertext' name='email' id='email' placeholder='Enter Your Email'  
+value={formData.email}  
+onChange={handleChange} autoComplete='autocomplete '/>
+<p className='alert-message'></p>
 </div>
 
 <div className='col-md-12 col-12 px-2 pt-4 position-relative'>
-<textarea rows='3' cols='3' className='form-control form-innertext' value={formData.msg} onChange={handleInputChange} name='msg' id='message' placeholder='Enter Description ...' autoComplete='autocomplete'></textarea>
+<textarea rows='3' cols='3' className='form-control form-innertext' value={formData.msg} onChange={handleChange} name='msg' id='message' placeholder='Enter Description ...' autoComplete='autocomplete'></textarea>
 </div>
 
      </div>
 
      <div class="modal-footer">
         <input type="submit" class="btn btn-primary"  style={{width:"100px"}} value="Send"/>
-        <input type="reset" class="btn btn-danger" onClick={resetAll} data-bs-dismiss="modal" style={{width:"100px"}} value="Close"/>
+        <input type="reset" class="btn btn-danger"  data-bs-dismiss="modal" style={{width:"100px"}} value="Close"/>
       </div>
 
     </form>
@@ -493,7 +330,7 @@ onChange={handleInputChange} autoComplete='autocomplete '/>
   Your inquiry is valuable to us, and our team shall get back to you soon.</p>
 
   <div className="d-flex justify-content-center pt-5 pb-1">
-    <button type="button" className="btn btn-danger" onClick={hidePop}>Go Back</button>
+    <button type="button" className="btn btn-danger" >Go Back</button>
   </div>
 
 </div>
